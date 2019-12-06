@@ -1,0 +1,3254 @@
+root: INFO: Config:
+root: INFO: embedding_file: resource/embedding/pre_trained_100dim.model
+root: INFO: embedding_dim: 100
+root: INFO: batch_size: 128
+root: INFO: hidden_dim: 200
+root: INFO: epochs: 800
+root: INFO: learning_rate: 0.001
+root: INFO: optimizer: RMSprop
+root: INFO: use_iobes: True
+root: INFO: from_begin: True
+root: INFO: dataset: ec
+root: INFO: use_pa: False
+root: INFO: no_distant: False
+root: INFO: 
+root: INFO: num of tags: 24: 
+root: INFO: [1816 / 1865] chars has corresponding pre-trained embeddings.
+root: INFO: number of pre-trained embeddings: 4370
+root: INFO: [Epoch 1 / 800] [Loss: 33496.510376] [Time: 9.174292]
+root: INFO: [Dev set] [precision 32.228916] [recall 22.526316] [fscore 26.517968]
+root: INFO: [test set] [precision 30.914826] [recall 21.350763] [fscore 25.257732]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 2 / 800] [Loss: 21172.391846] [Time: 7.759684]
+root: INFO: [Dev set] [precision 40.689655] [recall 24.842105] [fscore 30.849673]
+root: INFO: [test set] [precision 38.917090] [recall 25.054466] [fscore 30.483764]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 3 / 800] [Loss: 17760.105133] [Time: 7.308542]
+root: INFO: [Dev set] [precision 44.946809] [recall 35.578947] [fscore 39.717979]
+root: INFO: [test set] [precision 40.983607] [recall 32.679739] [fscore 36.363636]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 4 / 800] [Loss: 15598.823334] [Time: 7.342869]
+root: INFO: [Dev set] [precision 48.476454] [recall 36.842105] [fscore 41.866029]
+root: INFO: [test set] [precision 45.238095] [recall 35.185185] [fscore 39.583333]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 5 / 800] [Loss: 13685.894653] [Time: 7.244883]
+root: INFO: [Dev set] [precision 52.661064] [recall 39.578947] [fscore 45.192308]
+root: INFO: [test set] [precision 46.657382] [recall 36.492375] [fscore 40.953545]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 6 / 800] [Loss: 12334.994934] [Time: 7.463068]
+root: INFO: [Dev set] [precision 53.571429] [recall 41.052632] [fscore 46.483909]
+root: INFO: [test set] [precision 47.967480] [recall 38.562092] [fscore 42.753623]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 7 / 800] [Loss: 11140.768265] [Time: 7.327100]
+root: INFO: [Dev set] [precision 55.291005] [recall 44.000000] [fscore 49.003517]
+root: INFO: [test set] [precision 50.000000] [recall 39.978214] [fscore 44.430993]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 8 / 800] [Loss: 10126.854553] [Time: 7.319091]
+root: INFO: [Dev set] [precision 56.216216] [recall 43.789474] [fscore 49.230769]
+root: INFO: [test set] [precision 51.662050] [recall 40.631808] [fscore 45.487805]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 9 / 800] [Loss: 9297.714752] [Time: 7.327541]
+root: INFO: [Dev set] [precision 58.959538] [recall 42.947368] [fscore 49.695493]
+root: INFO: [test set] [precision 53.800298] [recall 39.324619] [fscore 45.437382]
+root: INFO: 
+root: INFO: [Epoch 10 / 800] [Loss: 8686.097412] [Time: 7.317597]
+root: INFO: [Dev set] [precision 61.781609] [recall 45.263158] [fscore 52.247874]
+root: INFO: [test set] [precision 54.232425] [recall 41.176471] [fscore 46.811146]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 11 / 800] [Loss: 7784.966827] [Time: 7.360038]
+root: INFO: [Dev set] [precision 60.117302] [recall 43.157895] [fscore 50.245098]
+root: INFO: [test set] [precision 55.421687] [recall 40.087146] [fscore 46.523388]
+root: INFO: 
+root: INFO: [Epoch 12 / 800] [Loss: 7246.903976] [Time: 7.293596]
+root: INFO: [Dev set] [precision 61.627907] [recall 44.631579] [fscore 51.770452]
+root: INFO: [test set] [precision 56.437126] [recall 41.067538] [fscore 47.540984]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 13 / 800] [Loss: 6835.865509] [Time: 7.253437]
+root: INFO: [Dev set] [precision 61.452514] [recall 46.315789] [fscore 52.821128]
+root: INFO: [test set] [precision 55.144033] [recall 43.790850] [fscore 48.816029]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 14 / 800] [Loss: 6156.735107] [Time: 7.299464]
+root: INFO: [Dev set] [precision 61.707989] [recall 47.157895] [fscore 53.460621]
+root: INFO: [test set] [precision 56.361149] [recall 44.880174] [fscore 49.969679]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 15 / 800] [Loss: 5806.634758] [Time: 7.334642]
+root: INFO: [Dev set] [precision 59.733333] [recall 47.157895] [fscore 52.705882]
+root: INFO: [test set] [precision 56.666667] [recall 44.444444] [fscore 49.816850]
+root: INFO: 
+root: INFO: [Epoch 16 / 800] [Loss: 5355.986603] [Time: 7.337080]
+root: INFO: [Dev set] [precision 59.840426] [recall 47.368421] [fscore 52.878966]
+root: INFO: [test set] [precision 56.793478] [recall 45.533769] [fscore 50.544135]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 17 / 800] [Loss: 4974.939369] [Time: 7.373526]
+root: INFO: [Dev set] [precision 60.555556] [recall 45.894737] [fscore 52.215569]
+root: INFO: [test set] [precision 58.380682] [recall 44.771242] [fscore 50.678175]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 18 / 800] [Loss: 4681.444000] [Time: 7.337373]
+root: INFO: [Dev set] [precision 59.610028] [recall 45.052632] [fscore 51.318945]
+root: INFO: [test set] [precision 59.201141] [recall 45.206972] [fscore 51.266214]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 19 / 800] [Loss: 4460.905365] [Time: 7.278224]
+root: INFO: [Dev set] [precision 63.392857] [recall 44.842105] [fscore 52.527744]
+root: INFO: [test set] [precision 59.672619] [recall 43.681917] [fscore 50.440252]
+root: INFO: 
+root: INFO: [Epoch 20 / 800] [Loss: 4029.119183] [Time: 7.273306]
+root: INFO: [Dev set] [precision 60.217984] [recall 46.526316] [fscore 52.494062]
+root: INFO: [test set] [precision 59.305556] [recall 46.514161] [fscore 52.136752]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 21 / 800] [Loss: 3790.416294] [Time: 7.352106]
+root: INFO: [Dev set] [precision 61.624650] [recall 46.315789] [fscore 52.884615]
+root: INFO: [test set] [precision 61.009818] [recall 47.385621] [fscore 53.341508]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 22 / 800] [Loss: 3622.673199] [Time: 7.282357]
+root: INFO: [Dev set] [precision 62.571429] [recall 46.105263] [fscore 53.090909]
+root: INFO: [test set] [precision 61.206897] [recall 46.405229] [fscore 52.788104]
+root: INFO: 
+root: INFO: [Epoch 23 / 800] [Loss: 3333.134350] [Time: 7.325487]
+root: INFO: [Dev set] [precision 63.719512] [recall 44.000000] [fscore 52.054795]
+root: INFO: [test set] [precision 62.826421] [recall 44.553377] [fscore 52.135118]
+root: INFO: 
+root: INFO: [Epoch 24 / 800] [Loss: 3062.443909] [Time: 7.360188]
+root: INFO: [Dev set] [precision 62.500000] [recall 48.421053] [fscore 54.567023]
+root: INFO: [test set] [precision 60.899183] [recall 48.692810] [fscore 54.116223]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 25 / 800] [Loss: 2932.312706] [Time: 7.303353]
+root: INFO: [Dev set] [precision 63.128492] [recall 47.578947] [fscore 54.261705]
+root: INFO: [test set] [precision 59.310345] [recall 46.840959] [fscore 52.343274]
+root: INFO: 
+root: INFO: [Epoch 26 / 800] [Loss: 2710.335667] [Time: 7.291775]
+root: INFO: [Dev set] [precision 64.406780] [recall 48.000000] [fscore 55.006031]
+root: INFO: [test set] [precision 61.571429] [recall 46.949891] [fscore 53.275649]
+root: INFO: 
+root: INFO: [Epoch 27 / 800] [Loss: 2523.326168] [Time: 7.330626]
+root: INFO: [Dev set] [precision 63.988095] [recall 45.263158] [fscore 53.020962]
+root: INFO: [test set] [precision 61.492537] [recall 44.880174] [fscore 51.889169]
+root: INFO: 
+root: INFO: [Epoch 28 / 800] [Loss: 2485.386822] [Time: 7.361914]
+root: INFO: [Dev set] [precision 63.380282] [recall 47.368421] [fscore 54.216867]
+root: INFO: [test set] [precision 60.948396] [recall 47.603486] [fscore 53.455657]
+root: INFO: 
+root: INFO: [Epoch 29 / 800] [Loss: 2363.010395] [Time: 7.319494]
+root: INFO: [Dev set] [precision 61.559140] [recall 48.210526] [fscore 54.073200]
+root: INFO: [test set] [precision 61.173184] [recall 47.712418] [fscore 53.610771]
+root: INFO: 
+root: INFO: [Epoch 30 / 800] [Loss: 2118.712933] [Time: 7.333481]
+root: INFO: [Dev set] [precision 64.497041] [recall 45.894737] [fscore 53.628536]
+root: INFO: [test set] [precision 61.290323] [recall 45.533769] [fscore 52.250000]
+root: INFO: 
+root: INFO: [Epoch 31 / 800] [Loss: 1994.330982] [Time: 7.405183]
+root: INFO: [Dev set] [precision 63.157895] [recall 48.000000] [fscore 54.545455]
+root: INFO: [test set] [precision 60.887656] [recall 47.821351] [fscore 53.569250]
+root: INFO: 
+root: INFO: [Epoch 32 / 800] [Loss: 1878.480621] [Time: 7.317161]
+root: INFO: [Dev set] [precision 63.714286] [recall 46.947368] [fscore 54.060606]
+root: INFO: [test set] [precision 62.241888] [recall 45.969499] [fscore 52.882206]
+root: INFO: 
+root: INFO: [Epoch 33 / 800] [Loss: 1809.914356] [Time: 7.497825]
+root: INFO: [Dev set] [precision 65.706052] [recall 48.000000] [fscore 55.474453]
+root: INFO: [test set] [precision 62.103746] [recall 46.949891] [fscore 53.473945]
+root: INFO: 
+root: INFO: [Epoch 34 / 800] [Loss: 1721.759384] [Time: 7.354320]
+root: INFO: [Dev set] [precision 65.028902] [recall 47.368421] [fscore 54.811206]
+root: INFO: [test set] [precision 62.500000] [recall 46.840959] [fscore 53.549191]
+root: INFO: 
+root: INFO: [Epoch 35 / 800] [Loss: 1623.886639] [Time: 7.390746]
+root: INFO: [Dev set] [precision 64.623955] [recall 48.842105] [fscore 55.635492]
+root: INFO: [test set] [precision 61.891117] [recall 47.058824] [fscore 53.465347]
+root: INFO: 
+root: INFO: [Epoch 36 / 800] [Loss: 1605.681070] [Time: 7.460876]
+root: INFO: [Dev set] [precision 63.865546] [recall 48.000000] [fscore 54.807692]
+root: INFO: [test set] [precision 61.230329] [recall 46.623094] [fscore 52.937539]
+root: INFO: 
+root: INFO: [Epoch 37 / 800] [Loss: 1451.356176] [Time: 7.379804]
+root: INFO: [Dev set] [precision 64.406780] [recall 48.000000] [fscore 55.006031]
+root: INFO: [test set] [precision 62.626263] [recall 47.276688] [fscore 53.879578]
+root: INFO: 
+root: INFO: [Epoch 38 / 800] [Loss: 1327.856592] [Time: 7.588225]
+root: INFO: [Dev set] [precision 62.834225] [recall 49.473684] [fscore 55.359246]
+root: INFO: [test set] [precision 62.324930] [recall 48.474946] [fscore 54.534314]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 39 / 800] [Loss: 1316.746174] [Time: 8.964312]
+root: INFO: [Dev set] [precision 63.287671] [recall 48.631579] [fscore 55.000000]
+root: INFO: [test set] [precision 62.957746] [recall 48.692810] [fscore 54.914005]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 40 / 800] [Loss: 1275.982885] [Time: 7.281349]
+root: INFO: [Dev set] [precision 63.865546] [recall 48.000000] [fscore 54.807692]
+root: INFO: [test set] [precision 62.898551] [recall 47.276688] [fscore 53.980100]
+root: INFO: 
+root: INFO: [Epoch 41 / 800] [Loss: 1114.483454] [Time: 7.240127]
+root: INFO: [Dev set] [precision 64.825581] [recall 46.947368] [fscore 54.456654]
+root: INFO: [test set] [precision 63.204748] [recall 46.405229] [fscore 53.517588]
+root: INFO: 
+root: INFO: [Epoch 42 / 800] [Loss: 1120.390257] [Time: 7.293673]
+root: INFO: [Dev set] [precision 63.224181] [recall 52.842105] [fscore 57.568807]
+root: INFO: [test set] [precision 61.861075] [recall 51.416122] [fscore 56.157049]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 43 / 800] [Loss: 1042.800272] [Time: 7.343350]
+root: INFO: [Dev set] [precision 63.739377] [recall 47.368421] [fscore 54.347826]
+root: INFO: [test set] [precision 62.535211] [recall 48.366013] [fscore 54.545455]
+root: INFO: 
+root: INFO: [Epoch 44 / 800] [Loss: 1016.676638] [Time: 7.225546]
+root: INFO: [Dev set] [precision 66.369048] [recall 46.947368] [fscore 54.993835]
+root: INFO: [test set] [precision 64.583333] [recall 47.276688] [fscore 54.591195]
+root: INFO: 
+root: INFO: [Epoch 45 / 800] [Loss: 1008.965940] [Time: 7.233760]
+root: INFO: [Dev set] [precision 63.733333] [recall 50.315789] [fscore 56.235294]
+root: INFO: [test set] [precision 63.451087] [recall 50.871460] [fscore 56.469166]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 46 / 800] [Loss: 1029.680941] [Time: 7.187064]
+root: INFO: [Dev set] [precision 62.568306] [recall 48.210526] [fscore 54.458977]
+root: INFO: [test set] [precision 62.988827] [recall 49.128540] [fscore 55.201958]
+root: INFO: 
+root: INFO: [Epoch 47 / 800] [Loss: 930.644151] [Time: 7.251606]
+root: INFO: [Dev set] [precision 64.542936] [recall 49.052632] [fscore 55.741627]
+root: INFO: [test set] [precision 64.689266] [recall 49.891068] [fscore 56.334563]
+root: INFO: 
+root: INFO: [Epoch 48 / 800] [Loss: 812.890624] [Time: 7.195014]
+root: INFO: [Dev set] [precision 65.277778] [recall 49.473684] [fscore 56.287425]
+root: INFO: [test set] [precision 64.739884] [recall 48.801743] [fscore 55.652174]
+root: INFO: 
+root: INFO: [Epoch 49 / 800] [Loss: 811.476730] [Time: 7.212528]
+root: INFO: [Dev set] [precision 64.343164] [recall 50.526316] [fscore 56.603774]
+root: INFO: [test set] [precision 64.397163] [recall 49.455338] [fscore 55.945779]
+root: INFO: 
+root: INFO: [Epoch 50 / 800] [Loss: 732.410574] [Time: 7.165115]
+root: INFO: [Dev set] [precision 63.060686] [recall 50.315789] [fscore 55.971897]
+root: INFO: [test set] [precision 63.877266] [recall 49.891068] [fscore 56.024465]
+root: INFO: 
+root: INFO: [Epoch 51 / 800] [Loss: 762.175703] [Time: 7.304391]
+root: INFO: [Dev set] [precision 64.864865] [recall 50.526316] [fscore 56.804734]
+root: INFO: [test set] [precision 64.113475] [recall 49.237473] [fscore 55.699322]
+root: INFO: 
+root: INFO: [Epoch 52 / 800] [Loss: 734.582807] [Time: 7.266324]
+root: INFO: [Dev set] [precision 65.240642] [recall 51.368421] [fscore 57.479388]
+root: INFO: [test set] [precision 63.150492] [recall 48.910675] [fscore 55.125844]
+root: INFO: 
+root: INFO: [Epoch 53 / 800] [Loss: 698.465047] [Time: 7.236637]
+root: INFO: [Dev set] [precision 63.730570] [recall 51.789474] [fscore 57.142857]
+root: INFO: [test set] [precision 63.823934] [recall 50.544662] [fscore 56.413374]
+root: INFO: 
+root: INFO: [Epoch 54 / 800] [Loss: 629.358447] [Time: 7.242671]
+root: INFO: [Dev set] [precision 65.573770] [recall 50.526316] [fscore 57.074911]
+root: INFO: [test set] [precision 64.680233] [recall 48.474946] [fscore 55.417186]
+root: INFO: 
+root: INFO: [Epoch 55 / 800] [Loss: 639.846956] [Time: 7.154596]
+root: INFO: [Dev set] [precision 64.150943] [recall 50.105263] [fscore 56.264775]
+root: INFO: [test set] [precision 64.073550] [recall 49.346405] [fscore 55.753846]
+root: INFO: 
+root: INFO: [Epoch 56 / 800] [Loss: 649.937092] [Time: 7.232923]
+root: INFO: [Dev set] [precision 64.516129] [recall 50.526316] [fscore 56.670602]
+root: INFO: [test set] [precision 64.005602] [recall 49.782135] [fscore 56.004902]
+root: INFO: 
+root: INFO: [Epoch 57 / 800] [Loss: 591.439728] [Time: 7.224802]
+root: INFO: [Dev set] [precision 64.041995] [recall 51.368421] [fscore 57.009346]
+root: INFO: [test set] [precision 64.016736] [recall 50.000000] [fscore 56.146789]
+root: INFO: 
+root: INFO: [Epoch 58 / 800] [Loss: 542.946157] [Time: 7.213837]
+root: INFO: [Dev set] [precision 65.040650] [recall 50.526316] [fscore 56.872038]
+root: INFO: [test set] [precision 63.713080] [recall 49.346405] [fscore 55.616943]
+root: INFO: 
+root: INFO: [Epoch 59 / 800] [Loss: 583.455955] [Time: 7.296489]
+root: INFO: [Dev set] [precision 65.760870] [recall 50.947368] [fscore 57.413998]
+root: INFO: [test set] [precision 64.571429] [recall 49.237473] [fscore 55.871446]
+root: INFO: 
+root: INFO: [Epoch 60 / 800] [Loss: 577.422067] [Time: 7.226386]
+root: INFO: [Dev set] [precision 66.393443] [recall 51.157895] [fscore 57.788347]
+root: INFO: [test set] [precision 64.087591] [recall 47.821351] [fscore 54.772302]
+root: INFO: 
+root: INFO: [Epoch 61 / 800] [Loss: 498.895930] [Time: 7.213608]
+root: INFO: [Dev set] [precision 65.053763] [recall 50.947368] [fscore 57.142857]
+root: INFO: [test set] [precision 63.507779] [recall 48.910675] [fscore 55.261538]
+root: INFO: 
+root: INFO: [Epoch 62 / 800] [Loss: 522.927280] [Time: 7.289418]
+root: INFO: [Dev set] [precision 67.045455] [recall 49.684211] [fscore 57.073761]
+root: INFO: [test set] [precision 64.697194] [recall 47.712418] [fscore 54.921630]
+root: INFO: 
+root: INFO: [Epoch 63 / 800] [Loss: 562.689829] [Time: 7.267112]
+root: INFO: [Dev set] [precision 66.395664] [recall 51.578947] [fscore 58.056872]
+root: INFO: [test set] [precision 63.052782] [recall 48.148148] [fscore 54.601606]
+root: INFO: 
+root: INFO: [Epoch 64 / 800] [Loss: 475.663809] [Time: 7.204800]
+root: INFO: [Dev set] [precision 67.195767] [recall 53.473684] [fscore 59.554513]
+root: INFO: [test set] [precision 63.407821] [recall 49.455338] [fscore 55.569155]
+root: INFO: 
+root: INFO: [Epoch 65 / 800] [Loss: 448.899349] [Time: 7.247685]
+root: INFO: [Dev set] [precision 66.489362] [recall 52.631579] [fscore 58.754407]
+root: INFO: [test set] [precision 63.920455] [recall 49.019608] [fscore 55.487053]
+root: INFO: 
+root: INFO: [Epoch 66 / 800] [Loss: 463.286467] [Time: 7.179886]
+root: INFO: [Dev set] [precision 66.391185] [recall 50.736842] [fscore 57.517900]
+root: INFO: [test set] [precision 65.306122] [recall 48.801743] [fscore 55.860349]
+root: INFO: 
+root: INFO: [Epoch 67 / 800] [Loss: 429.753610] [Time: 7.185324]
+root: INFO: [Dev set] [precision 65.616798] [recall 52.631579] [fscore 58.411215]
+root: INFO: [test set] [precision 63.994374] [recall 49.564270] [fscore 55.862492]
+root: INFO: 
+root: INFO: [Epoch 68 / 800] [Loss: 440.492175] [Time: 7.319529]
+root: INFO: [Dev set] [precision 66.129032] [recall 51.789474] [fscore 58.087367]
+root: INFO: [test set] [precision 64.748201] [recall 49.019608] [fscore 55.796652]
+root: INFO: 
+root: INFO: [Epoch 69 / 800] [Loss: 427.333475] [Time: 7.269534]
+root: INFO: [Dev set] [precision 65.833333] [recall 49.894737] [fscore 56.766467]
+root: INFO: [test set] [precision 64.792899] [recall 47.712418] [fscore 54.956085]
+root: INFO: 
+root: INFO: [Epoch 70 / 800] [Loss: 384.943195] [Time: 7.220055]
+root: INFO: [Dev set] [precision 65.311653] [recall 50.736842] [fscore 57.109005]
+root: INFO: [test set] [precision 64.121037] [recall 48.474946] [fscore 55.210918]
+root: INFO: 
+root: INFO: [Epoch 71 / 800] [Loss: 387.936313] [Time: 7.258070]
+root: INFO: [Dev set] [precision 65.753425] [recall 50.526316] [fscore 57.142857]
+root: INFO: [test set] [precision 65.166909] [recall 48.910675] [fscore 55.880523]
+root: INFO: 
+root: INFO: [Epoch 72 / 800] [Loss: 386.618884] [Time: 7.314134]
+root: INFO: [Dev set] [precision 64.267352] [recall 52.631579] [fscore 57.870370]
+root: INFO: [test set] [precision 63.797814] [recall 50.871460] [fscore 56.606061]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 73 / 800] [Loss: 353.189253] [Time: 7.460618]
+root: INFO: [Dev set] [precision 65.217391] [recall 50.526316] [fscore 56.939502]
+root: INFO: [test set] [precision 65.049929] [recall 49.673203] [fscore 56.331069]
+root: INFO: 
+root: INFO: [Epoch 74 / 800] [Loss: 386.628510] [Time: 7.456797]
+root: INFO: [Dev set] [precision 65.229111] [recall 50.947368] [fscore 57.210402]
+root: INFO: [test set] [precision 64.022663] [recall 49.237473] [fscore 55.665025]
+root: INFO: 
+root: INFO: [Epoch 75 / 800] [Loss: 343.529547] [Time: 7.214494]
+root: INFO: [Dev set] [precision 66.666667] [recall 51.368421] [fscore 58.026159]
+root: INFO: [test set] [precision 65.072464] [recall 48.910675] [fscore 55.845771]
+root: INFO: 
+root: INFO: [Epoch 76 / 800] [Loss: 330.479348] [Time: 7.237622]
+root: INFO: [Dev set] [precision 64.643799] [recall 51.578947] [fscore 57.377049]
+root: INFO: [test set] [precision 63.812155] [recall 50.326797] [fscore 56.272838]
+root: INFO: 
+root: INFO: [Epoch 77 / 800] [Loss: 331.748935] [Time: 7.242170]
+root: INFO: [Dev set] [precision 66.298343] [recall 50.526316] [fscore 57.347670]
+root: INFO: [test set] [precision 64.080460] [recall 48.583878] [fscore 55.266419]
+root: INFO: 
+root: INFO: [Epoch 78 / 800] [Loss: 338.391254] [Time: 7.280984]
+root: INFO: [Dev set] [precision 65.425532] [recall 51.789474] [fscore 57.814336]
+root: INFO: [test set] [precision 64.245810] [recall 50.108932] [fscore 56.303550]
+root: INFO: 
+root: INFO: [Epoch 79 / 800] [Loss: 335.748220] [Time: 7.205813]
+root: INFO: [Dev set] [precision 67.705382] [recall 50.315789] [fscore 57.729469]
+root: INFO: [test set] [precision 65.634218] [recall 48.474946] [fscore 55.764411]
+root: INFO: 
+root: INFO: [Epoch 80 / 800] [Loss: 306.031931] [Time: 7.351299]
+root: INFO: [Dev set] [precision 65.240642] [recall 51.368421] [fscore 57.479388]
+root: INFO: [test set] [precision 63.522885] [recall 49.891068] [fscore 55.887736]
+root: INFO: 
+root: INFO: [Epoch 81 / 800] [Loss: 283.370972] [Time: 7.317516]
+root: INFO: [Dev set] [precision 65.840220] [recall 50.315789] [fscore 57.040573]
+root: INFO: [test set] [precision 64.571429] [recall 49.237473] [fscore 55.871446]
+root: INFO: 
+root: INFO: [Epoch 82 / 800] [Loss: 285.379819] [Time: 7.254740]
+root: INFO: [Dev set] [precision 67.877095] [recall 51.157895] [fscore 58.343337]
+root: INFO: [test set] [precision 65.147059] [recall 48.257081] [fscore 55.444305]
+root: INFO: 
+root: INFO: [Epoch 83 / 800] [Loss: 267.761186] [Time: 7.210523]
+root: INFO: [Dev set] [precision 66.850829] [recall 50.947368] [fscore 57.825568]
+root: INFO: [test set] [precision 64.202899] [recall 48.257081] [fscore 55.099502]
+root: INFO: 
+root: INFO: [Epoch 84 / 800] [Loss: 270.613110] [Time: 7.280450]
+root: INFO: [Dev set] [precision 65.526316] [recall 52.421053] [fscore 58.245614]
+root: INFO: [test set] [precision 63.013699] [recall 50.108932] [fscore 55.825243]
+root: INFO: 
+root: INFO: [Epoch 85 / 800] [Loss: 272.292790] [Time: 7.253764]
+root: INFO: [Dev set] [precision 67.039106] [recall 50.526316] [fscore 57.623049]
+root: INFO: [test set] [precision 64.723468] [recall 47.167756] [fscore 54.568368]
+root: INFO: 
+root: INFO: [Epoch 86 / 800] [Loss: 281.048314] [Time: 7.236180]
+root: INFO: [Dev set] [precision 65.240642] [recall 51.368421] [fscore 57.479388]
+root: INFO: [test set] [precision 64.589235] [recall 49.673203] [fscore 56.157635]
+root: INFO: 
+root: INFO: [Epoch 87 / 800] [Loss: 291.195974] [Time: 7.441173]
+root: INFO: [Dev set] [precision 66.301370] [recall 50.947368] [fscore 57.619048]
+root: INFO: [test set] [precision 64.697406] [recall 48.910675] [fscore 55.707196]
+root: INFO: 
+root: INFO: [Epoch 88 / 800] [Loss: 243.537492] [Time: 7.710008]
+root: INFO: [Dev set] [precision 65.300546] [recall 50.315789] [fscore 56.837099]
+root: INFO: [test set] [precision 64.367816] [recall 48.801743] [fscore 55.514250]
+root: INFO: 
+root: INFO: [Epoch 89 / 800] [Loss: 226.861275] [Time: 7.293878]
+root: INFO: [Dev set] [precision 67.213115] [recall 51.789474] [fscore 58.501784]
+root: INFO: [test set] [precision 63.483146] [recall 49.237473] [fscore 55.460123]
+root: INFO: 
+root: INFO: [Epoch 90 / 800] [Loss: 289.504361] [Time: 7.247692]
+root: INFO: [Dev set] [precision 66.759003] [recall 50.736842] [fscore 57.655502]
+root: INFO: [test set] [precision 65.689150] [recall 48.801743] [fscore 56.000000]
+root: INFO: 
+root: INFO: [Epoch 91 / 800] [Loss: 238.922450] [Time: 7.406996]
+root: INFO: [Dev set] [precision 64.973262] [recall 51.157895] [fscore 57.243816]
+root: INFO: [test set] [precision 64.027778] [recall 50.217865] [fscore 56.288156]
+root: INFO: 
+root: INFO: [Epoch 92 / 800] [Loss: 237.889535] [Time: 7.216967]
+root: INFO: [Dev set] [precision 65.363128] [recall 49.263158] [fscore 56.182473]
+root: INFO: [test set] [precision 64.069264] [recall 48.366013] [fscore 55.121043]
+root: INFO: 
+root: INFO: [Epoch 93 / 800] [Loss: 244.253627] [Time: 7.236193]
+root: INFO: [Dev set] [precision 66.756757] [recall 52.000000] [fscore 58.461538]
+root: INFO: [test set] [precision 63.776224] [recall 49.673203] [fscore 55.848132]
+root: INFO: 
+root: INFO: [Epoch 94 / 800] [Loss: 207.306266] [Time: 7.301358]
+root: INFO: [Dev set] [precision 66.666667] [recall 50.947368] [fscore 57.756563]
+root: INFO: [test set] [precision 66.422287] [recall 49.346405] [fscore 56.625000]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 95 / 800] [Loss: 265.886915] [Time: 7.188039]
+root: INFO: [Dev set] [precision 69.208211] [recall 49.684211] [fscore 57.843137]
+root: INFO: [test set] [precision 65.919283] [recall 48.039216] [fscore 55.576560]
+root: INFO: 
+root: INFO: [Epoch 96 / 800] [Loss: 212.444331] [Time: 7.252653]
+root: INFO: [Dev set] [precision 67.213115] [recall 51.789474] [fscore 58.501784]
+root: INFO: [test set] [precision 64.790765] [recall 48.910675] [fscore 55.741775]
+root: INFO: 
+root: INFO: [Epoch 97 / 800] [Loss: 201.490364] [Time: 7.219308]
+root: INFO: [Dev set] [precision 66.223404] [recall 52.421053] [fscore 58.519389]
+root: INFO: [test set] [precision 65.077139] [recall 50.544662] [fscore 56.897609]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 98 / 800] [Loss: 214.942215] [Time: 7.176710]
+root: INFO: [Dev set] [precision 66.756032] [recall 52.421053] [fscore 58.726415]
+root: INFO: [test set] [precision 64.055944] [recall 49.891068] [fscore 56.093080]
+root: INFO: 
+root: INFO: [Epoch 99 / 800] [Loss: 212.577536] [Time: 7.145392]
+root: INFO: [Dev set] [precision 68.587896] [recall 50.105263] [fscore 57.907543]
+root: INFO: [test set] [precision 65.919283] [recall 48.039216] [fscore 55.576560]
+root: INFO: 
+root: INFO: [Epoch 100 / 800] [Loss: 188.204073] [Time: 7.142014]
+root: INFO: [Dev set] [precision 67.466667] [recall 53.263158] [fscore 59.529412]
+root: INFO: [test set] [precision 64.156206] [recall 50.108932] [fscore 56.269113]
+root: INFO: 
+root: INFO: [Epoch 101 / 800] [Loss: 222.187617] [Time: 7.195532]
+root: INFO: [Dev set] [precision 67.493113] [recall 51.578947] [fscore 58.472554]
+root: INFO: [test set] [precision 64.275466] [recall 48.801743] [fscore 55.479876]
+root: INFO: 
+root: INFO: [Epoch 102 / 800] [Loss: 187.912694] [Time: 7.666789]
+root: INFO: [Dev set] [precision 67.924528] [recall 53.052632] [fscore 59.574468]
+root: INFO: [test set] [precision 63.916084] [recall 49.782135] [fscore 55.970606]
+root: INFO: 
+root: INFO: [Epoch 103 / 800] [Loss: 164.479527] [Time: 7.647322]
+root: INFO: [Dev set] [precision 69.529086] [recall 52.842105] [fscore 60.047847]
+root: INFO: [test set] [precision 65.116279] [recall 48.801743] [fscore 55.790785]
+root: INFO: 
+root: INFO: [Epoch 104 / 800] [Loss: 209.131240] [Time: 7.386403]
+root: INFO: [Dev set] [precision 66.666667] [recall 53.473684] [fscore 59.345794]
+root: INFO: [test set] [precision 64.334705] [recall 51.089325] [fscore 56.952034]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 105 / 800] [Loss: 209.130709] [Time: 7.258834]
+root: INFO: [Dev set] [precision 67.654987] [recall 52.842105] [fscore 59.338061]
+root: INFO: [test set] [precision 64.475524] [recall 50.217865] [fscore 56.460502]
+root: INFO: 
+root: INFO: [Epoch 106 / 800] [Loss: 205.791779] [Time: 7.211786]
+root: INFO: [Dev set] [precision 67.115903] [recall 52.421053] [fscore 58.865248]
+root: INFO: [test set] [precision 64.993026] [recall 50.762527] [fscore 57.003058]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 107 / 800] [Loss: 187.056293] [Time: 7.202209]
+root: INFO: [Dev set] [precision 67.977528] [recall 50.947368] [fscore 58.243081]
+root: INFO: [test set] [precision 65.014577] [recall 48.583878] [fscore 55.610973]
+root: INFO: 
+root: INFO: [Epoch 108 / 800] [Loss: 202.655349] [Time: 7.356157]
+root: INFO: [Dev set] [precision 67.200000] [recall 53.052632] [fscore 59.294118]
+root: INFO: [test set] [precision 64.255911] [recall 50.326797] [fscore 56.444716]
+root: INFO: 
+root: INFO: [Epoch 109 / 800] [Loss: 169.728062] [Time: 7.414384]
+root: INFO: [Dev set] [precision 66.756757] [recall 52.000000] [fscore 58.461538]
+root: INFO: [test set] [precision 64.814815] [recall 49.564270] [fscore 56.172840]
+root: INFO: 
+root: INFO: [Epoch 110 / 800] [Loss: 187.878521] [Time: 7.303511]
+root: INFO: [Dev set] [precision 67.115903] [recall 52.421053] [fscore 58.865248]
+root: INFO: [test set] [precision 64.493759] [recall 50.653595] [fscore 56.741916]
+root: INFO: 
+root: INFO: [Epoch 111 / 800] [Loss: 172.590472] [Time: 7.389572]
+root: INFO: [Dev set] [precision 67.204301] [recall 52.631579] [fscore 59.031877]
+root: INFO: [test set] [precision 65.522175] [recall 49.891068] [fscore 56.648114]
+root: INFO: 
+root: INFO: [Epoch 112 / 800] [Loss: 182.149668] [Time: 7.492313]
+root: INFO: [Dev set] [precision 67.500000] [recall 51.157895] [fscore 58.203593]
+root: INFO: [test set] [precision 65.793304] [recall 49.237473] [fscore 56.323988]
+root: INFO: 
+root: INFO: [Epoch 113 / 800] [Loss: 153.898406] [Time: 7.420829]
+root: INFO: [Dev set] [precision 65.934066] [recall 50.526316] [fscore 57.210965]
+root: INFO: [test set] [precision 65.697674] [recall 49.237473] [fscore 56.288917]
+root: INFO: 
+root: INFO: [Epoch 114 / 800] [Loss: 169.462923] [Time: 7.333070]
+root: INFO: [Dev set] [precision 69.121813] [recall 51.368421] [fscore 58.937198]
+root: INFO: [test set] [precision 65.785609] [recall 48.801743] [fscore 56.035022]
+root: INFO: 
+root: INFO: [Epoch 115 / 800] [Loss: 150.364845] [Time: 7.413480]
+root: INFO: [Dev set] [precision 68.838527] [recall 51.157895] [fscore 58.695652]
+root: INFO: [test set] [precision 65.007321] [recall 48.366013] [fscore 55.465334]
+root: INFO: 
+root: INFO: [Epoch 116 / 800] [Loss: 164.014812] [Time: 7.497387]
+root: INFO: [Dev set] [precision 66.397849] [recall 52.000000] [fscore 58.323495]
+root: INFO: [test set] [precision 64.084507] [recall 49.564270] [fscore 55.896806]
+root: INFO: 
+root: INFO: [Epoch 117 / 800] [Loss: 156.587185] [Time: 7.331382]
+root: INFO: [Dev set] [precision 64.986737] [recall 51.578947] [fscore 57.511737]
+root: INFO: [test set] [precision 63.231198] [recall 49.455338] [fscore 55.501222]
+root: INFO: 
+root: INFO: [Epoch 118 / 800] [Loss: 153.892757] [Time: 7.367220]
+root: INFO: [Dev set] [precision 66.857143] [recall 49.263158] [fscore 56.727273]
+root: INFO: [test set] [precision 65.088757] [recall 47.930283] [fscore 55.207026]
+root: INFO: 
+root: INFO: [Epoch 119 / 800] [Loss: 186.311693] [Time: 7.663323]
+root: INFO: [Dev set] [precision 66.022099] [recall 50.315789] [fscore 57.108722]
+root: INFO: [test set] [precision 64.841499] [recall 49.019608] [fscore 55.831266]
+root: INFO: 
+root: INFO: [Epoch 120 / 800] [Loss: 174.183308] [Time: 7.372455]
+root: INFO: [Dev set] [precision 63.756614] [recall 50.736842] [fscore 56.506448]
+root: INFO: [test set] [precision 64.385475] [recall 50.217865] [fscore 56.425949]
+root: INFO: 
+root: INFO: [Epoch 121 / 800] [Loss: 150.053322] [Time: 7.395370]
+root: INFO: [Dev set] [precision 66.573034] [recall 49.894737] [fscore 57.039711]
+root: INFO: [test set] [precision 66.328012] [recall 49.782135] [fscore 56.876167]
+root: INFO: 
+root: INFO: [Epoch 122 / 800] [Loss: 149.703481] [Time: 7.401425]
+root: INFO: [Dev set] [precision 67.039106] [recall 50.526316] [fscore 57.623049]
+root: INFO: [test set] [precision 65.991317] [recall 49.673203] [fscore 56.681168]
+root: INFO: 
+root: INFO: [Epoch 123 / 800] [Loss: 154.329991] [Time: 7.411297]
+root: INFO: [Dev set] [precision 66.759777] [recall 50.315789] [fscore 57.382953]
+root: INFO: [test set] [precision 66.374269] [recall 49.455338] [fscore 56.679151]
+root: INFO: 
+root: INFO: [Epoch 124 / 800] [Loss: 157.470693] [Time: 7.350974]
+root: INFO: [Dev set] [precision 69.501466] [recall 49.894737] [fscore 58.088235]
+root: INFO: [test set] [precision 67.013373] [recall 49.128540] [fscore 56.693903]
+root: INFO: 
+root: INFO: [Epoch 125 / 800] [Loss: 165.170013] [Time: 7.386591]
+root: INFO: [Dev set] [precision 66.576087] [recall 51.578947] [fscore 58.125741]
+root: INFO: [test set] [precision 65.155807] [recall 50.108932] [fscore 56.650246]
+root: INFO: 
+root: INFO: [Epoch 126 / 800] [Loss: 125.312934] [Time: 7.852408]
+root: INFO: [Dev set] [precision 67.231638] [recall 50.105263] [fscore 57.418577]
+root: INFO: [test set] [precision 66.182874] [recall 49.673203] [fscore 56.751711]
+root: INFO: 
+root: INFO: [Epoch 127 / 800] [Loss: 154.277375] [Time: 7.516789]
+root: INFO: [Dev set] [precision 67.887324] [recall 50.736842] [fscore 58.072289]
+root: INFO: [test set] [precision 66.282421] [recall 50.108932] [fscore 57.071960]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 128 / 800] [Loss: 136.311051] [Time: 7.465586]
+root: INFO: [Dev set] [precision 68.914956] [recall 49.473684] [fscore 57.598039]
+root: INFO: [test set] [precision 65.773810] [recall 48.148148] [fscore 55.597484]
+root: INFO: 
+root: INFO: [Epoch 129 / 800] [Loss: 143.906321] [Time: 7.416838]
+root: INFO: [Dev set] [precision 66.391185] [recall 50.736842] [fscore 57.517900]
+root: INFO: [test set] [precision 65.472779] [recall 49.782135] [fscore 56.559406]
+root: INFO: 
+root: INFO: [Epoch 130 / 800] [Loss: 139.397304] [Time: 7.453114]
+root: INFO: [Dev set] [precision 66.388889] [recall 50.315789] [fscore 57.245509]
+root: INFO: [test set] [precision 65.267728] [recall 49.128540] [fscore 56.059664]
+root: INFO: 
+root: INFO: [Epoch 131 / 800] [Loss: 125.429356] [Time: 7.350792]
+root: INFO: [Dev set] [precision 67.039106] [recall 50.526316] [fscore 57.623049]
+root: INFO: [test set] [precision 65.065502] [recall 48.692810] [fscore 55.700935]
+root: INFO: 
+root: INFO: [Epoch 132 / 800] [Loss: 141.721473] [Time: 7.488926]
+root: INFO: [Dev set] [precision 68.011527] [recall 49.684211] [fscore 57.420925]
+root: INFO: [test set] [precision 65.929204] [recall 48.692810] [fscore 56.015038]
+root: INFO: 
+root: INFO: [Epoch 133 / 800] [Loss: 113.102704] [Time: 7.980872]
+root: INFO: [Dev set] [precision 68.055556] [recall 51.578947] [fscore 58.682635]
+root: INFO: [test set] [precision 65.843023] [recall 49.346405] [fscore 56.413450]
+root: INFO: 
+root: INFO: [Epoch 134 / 800] [Loss: 144.052505] [Time: 7.467689]
+root: INFO: [Dev set] [precision 68.644068] [recall 51.157895] [fscore 58.624849]
+root: INFO: [test set] [precision 65.000000] [recall 49.564270] [fscore 56.242274]
+root: INFO: 
+root: INFO: [Epoch 135 / 800] [Loss: 111.815644] [Time: 7.436177]
+root: INFO: [Dev set] [precision 68.732394] [recall 51.368421] [fscore 58.795181]
+root: INFO: [test set] [precision 65.142857] [recall 49.673203] [fscore 56.365884]
+root: INFO: 
+root: INFO: [Epoch 136 / 800] [Loss: 131.154622] [Time: 7.483463]
+root: INFO: [Dev set] [precision 67.567568] [recall 52.631579] [fscore 59.171598]
+root: INFO: [test set] [precision 64.861111] [recall 50.871460] [fscore 57.020757]
+root: INFO: 
+root: INFO: [Epoch 137 / 800] [Loss: 121.421736] [Time: 7.420686]
+root: INFO: [Dev set] [precision 67.123288] [recall 51.578947] [fscore 58.333333]
+root: INFO: [test set] [precision 65.028090] [recall 50.435730] [fscore 56.809816]
+root: INFO: 
+root: INFO: [Epoch 138 / 800] [Loss: 133.382020] [Time: 7.355884]
+root: INFO: [Dev set] [precision 68.194842] [recall 50.105263] [fscore 57.766990]
+root: INFO: [test set] [precision 65.895954] [recall 49.673203] [fscore 56.645963]
+root: INFO: 
+root: INFO: [Epoch 139 / 800] [Loss: 122.992188] [Time: 7.320723]
+root: INFO: [Dev set] [precision 67.574932] [recall 52.210526] [fscore 58.907363]
+root: INFO: [test set] [precision 64.493759] [recall 50.653595] [fscore 56.741916]
+root: INFO: 
+root: INFO: [Epoch 140 / 800] [Loss: 123.943344] [Time: 7.916699]
+root: INFO: [Dev set] [precision 69.405099] [recall 51.578947] [fscore 59.178744]
+root: INFO: [test set] [precision 65.502183] [recall 49.019608] [fscore 56.074766]
+root: INFO: 
+root: INFO: [Epoch 141 / 800] [Loss: 132.304529] [Time: 7.557484]
+root: INFO: [Dev set] [precision 68.194842] [recall 50.105263] [fscore 57.766990]
+root: INFO: [test set] [precision 66.015038] [recall 47.821351] [fscore 55.464308]
+root: INFO: 
+root: INFO: [Epoch 142 / 800] [Loss: 110.240762] [Time: 7.403878]
+root: INFO: [Dev set] [precision 69.364162] [recall 50.526316] [fscore 58.465286]
+root: INFO: [test set] [precision 65.491924] [recall 48.583878] [fscore 55.784866]
+root: INFO: 
+root: INFO: [Epoch 143 / 800] [Loss: 149.492126] [Time: 7.558442]
+root: INFO: [Dev set] [precision 69.714286] [recall 51.368421] [fscore 59.151515]
+root: INFO: [test set] [precision 65.451895] [recall 48.910675] [fscore 55.985037]
+root: INFO: 
+root: INFO: [Epoch 144 / 800] [Loss: 132.975266] [Time: 7.341337]
+root: INFO: [Dev set] [precision 65.860215] [recall 51.578947] [fscore 57.851240]
+root: INFO: [test set] [precision 64.394993] [recall 50.435730] [fscore 56.566891]
+root: INFO: 
+root: INFO: [Epoch 145 / 800] [Loss: 120.474010] [Time: 7.304564]
+root: INFO: [Dev set] [precision 68.169014] [recall 50.947368] [fscore 58.313253]
+root: INFO: [test set] [precision 65.892598] [recall 49.455338] [fscore 56.502800]
+root: INFO: 
+root: INFO: [Epoch 146 / 800] [Loss: 105.581001] [Time: 7.321900]
+root: INFO: [Dev set] [precision 68.555241] [recall 50.947368] [fscore 58.454106]
+root: INFO: [test set] [precision 65.843023] [recall 49.346405] [fscore 56.413450]
+root: INFO: 
+root: INFO: [Epoch 147 / 800] [Loss: 116.901094] [Time: 7.843860]
+root: INFO: [Dev set] [precision 69.794721] [recall 50.105263] [fscore 58.333333]
+root: INFO: [test set] [precision 65.060241] [recall 47.058824] [fscore 54.614412]
+root: INFO: 
+root: INFO: [Epoch 148 / 800] [Loss: 120.689064] [Time: 7.374752]
+root: INFO: [Dev set] [precision 67.222222] [recall 50.947368] [fscore 57.964072]
+root: INFO: [test set] [precision 65.192582] [recall 49.782135] [fscore 56.454602]
+root: INFO: 
+root: INFO: [Epoch 149 / 800] [Loss: 118.485019] [Time: 7.374250]
+root: INFO: [Dev set] [precision 67.816092] [recall 49.684211] [fscore 57.351154]
+root: INFO: [test set] [precision 66.226138] [recall 49.128540] [fscore 56.410256]
+root: INFO: 
+root: INFO: [Epoch 150 / 800] [Loss: 140.660537] [Time: 7.394609]
+root: INFO: [Dev set] [precision 67.514124] [recall 50.315789] [fscore 57.659831]
+root: INFO: [test set] [precision 65.517241] [recall 49.673203] [fscore 56.505576]
+root: INFO: 
+root: INFO: [Epoch 151 / 800] [Loss: 99.658071] [Time: 7.388288]
+root: INFO: [Dev set] [precision 67.138810] [recall 49.894737] [fscore 57.246377]
+root: INFO: [test set] [precision 65.042980] [recall 49.455338] [fscore 56.188119]
+root: INFO: 
+root: INFO: [Epoch 152 / 800] [Loss: 115.173635] [Time: 7.756208]
+root: INFO: [Dev set] [precision 68.055556] [recall 51.578947] [fscore 58.682635]
+root: INFO: [test set] [precision 64.714286] [recall 49.346405] [fscore 55.995056]
+root: INFO: 
+root: INFO: [Epoch 153 / 800] [Loss: 121.244824] [Time: 7.372730]
+root: INFO: [Dev set] [precision 68.478261] [recall 53.052632] [fscore 59.786477]
+root: INFO: [test set] [precision 63.674614] [recall 49.455338] [fscore 55.671367]
+root: INFO: 
+root: INFO: [Epoch 154 / 800] [Loss: 99.448047] [Time: 7.754935]
+root: INFO: [Dev set] [precision 67.493113] [recall 51.578947] [fscore 58.472554]
+root: INFO: [test set] [precision 65.329513] [recall 49.673203] [fscore 56.435644]
+root: INFO: 
+root: INFO: [Epoch 155 / 800] [Loss: 133.674318] [Time: 7.353253]
+root: INFO: [Dev set] [precision 66.754617] [recall 53.263158] [fscore 59.250585]
+root: INFO: [test set] [precision 63.245492] [recall 49.673203] [fscore 55.643685]
+root: INFO: 
+root: INFO: [Epoch 156 / 800] [Loss: 127.310072] [Time: 7.328718]
+root: INFO: [Dev set] [precision 66.944444] [recall 50.736842] [fscore 57.724551]
+root: INFO: [test set] [precision 64.562410] [recall 49.019608] [fscore 55.727554]
+root: INFO: 
+root: INFO: [Epoch 157 / 800] [Loss: 111.858362] [Time: 7.332142]
+root: INFO: [Dev set] [precision 66.397849] [recall 52.000000] [fscore 58.323495]
+root: INFO: [test set] [precision 63.483146] [recall 49.237473] [fscore 55.460123]
+root: INFO: 
+root: INFO: [Epoch 158 / 800] [Loss: 103.863436] [Time: 7.331746]
+root: INFO: [Dev set] [precision 65.853659] [recall 51.157895] [fscore 57.582938]
+root: INFO: [test set] [precision 63.407821] [recall 49.455338] [fscore 55.569155]
+root: INFO: 
+root: INFO: [Epoch 159 / 800] [Loss: 112.501398] [Time: 7.339217]
+root: INFO: [Dev set] [precision 66.850829] [recall 50.947368] [fscore 57.825568]
+root: INFO: [test set] [precision 63.725490] [recall 49.564270] [fscore 55.759804]
+root: INFO: 
+root: INFO: [Epoch 160 / 800] [Loss: 116.375587] [Time: 7.338325]
+root: INFO: [Dev set] [precision 68.838527] [recall 51.157895] [fscore 58.695652]
+root: INFO: [test set] [precision 64.571429] [recall 49.237473] [fscore 55.871446]
+root: INFO: 
+root: INFO: [Epoch 161 / 800] [Loss: 99.760653] [Time: 7.586739]
+root: INFO: [Dev set] [precision 67.663043] [recall 52.421053] [fscore 59.074733]
+root: INFO: [test set] [precision 64.084507] [recall 49.564270] [fscore 55.896806]
+root: INFO: 
+root: INFO: [Epoch 162 / 800] [Loss: 113.332690] [Time: 7.382646]
+root: INFO: [Dev set] [precision 68.571429] [recall 50.526316] [fscore 58.181818]
+root: INFO: [test set] [precision 65.362319] [recall 49.128540] [fscore 56.094527]
+root: INFO: 
+root: INFO: [Epoch 163 / 800] [Loss: 94.136532] [Time: 7.328180]
+root: INFO: [Dev set] [precision 66.219839] [recall 52.000000] [fscore 58.254717]
+root: INFO: [test set] [precision 63.194444] [recall 49.564270] [fscore 55.555556]
+root: INFO: 
+root: INFO: [Epoch 164 / 800] [Loss: 101.494050] [Time: 7.359644]
+root: INFO: [Dev set] [precision 68.131868] [recall 52.210526] [fscore 59.117998]
+root: INFO: [test set] [precision 63.338088] [recall 48.366013] [fscore 54.848672]
+root: INFO: 
+root: INFO: [Epoch 165 / 800] [Loss: 104.201397] [Time: 7.412264]
+root: INFO: [Dev set] [precision 68.333333] [recall 51.789474] [fscore 58.922156]
+root: INFO: [test set] [precision 64.346591] [recall 49.346405] [fscore 55.856967]
+root: INFO: 
+root: INFO: [Epoch 166 / 800] [Loss: 112.602732] [Time: 7.383394]
+root: INFO: [Dev set] [precision 68.421053] [recall 52.000000] [fscore 59.090909]
+root: INFO: [test set] [precision 64.562410] [recall 49.019608] [fscore 55.727554]
+root: INFO: 
+root: INFO: [Epoch 167 / 800] [Loss: 85.345923] [Time: 7.312338]
+root: INFO: [Dev set] [precision 69.637883] [recall 52.631579] [fscore 59.952038]
+root: INFO: [test set] [precision 64.927536] [recall 48.801743] [fscore 55.721393]
+root: INFO: 
+root: INFO: [Epoch 168 / 800] [Loss: 94.104405] [Time: 7.311852]
+root: INFO: [Dev set] [precision 67.977528] [recall 50.947368] [fscore 58.243081]
+root: INFO: [test set] [precision 65.186246] [recall 49.564270] [fscore 56.311881]
+root: INFO: 
+root: INFO: [Epoch 169 / 800] [Loss: 126.453068] [Time: 7.638960]
+root: INFO: [Dev set] [precision 67.714286] [recall 49.894737] [fscore 57.454545]
+root: INFO: [test set] [precision 64.492754] [recall 48.474946] [fscore 55.348259]
+root: INFO: 
+root: INFO: [Epoch 170 / 800] [Loss: 110.907746] [Time: 7.358078]
+root: INFO: [Dev set] [precision 68.023256] [recall 49.263158] [fscore 57.142857]
+root: INFO: [test set] [precision 64.876633] [recall 48.692810] [fscore 55.631612]
+root: INFO: 
+root: INFO: [Epoch 171 / 800] [Loss: 76.511571] [Time: 7.699649]
+root: INFO: [Dev set] [precision 67.621777] [recall 49.684211] [fscore 57.281553]
+root: INFO: [test set] [precision 64.483261] [recall 48.257081] [fscore 55.202492]
+root: INFO: 
+root: INFO: [Epoch 172 / 800] [Loss: 83.861780] [Time: 7.388586]
+root: INFO: [Dev set] [precision 67.768595] [recall 51.789474] [fscore 58.711217]
+root: INFO: [test set] [precision 63.713080] [recall 49.346405] [fscore 55.616943]
+root: INFO: 
+root: INFO: [Epoch 173 / 800] [Loss: 78.466794] [Time: 7.386847]
+root: INFO: [Dev set] [precision 66.935484] [recall 52.421053] [fscore 58.795750]
+root: INFO: [test set] [precision 64.016736] [recall 50.000000] [fscore 56.146789]
+root: INFO: 
+root: INFO: [Epoch 174 / 800] [Loss: 115.608277] [Time: 7.410649]
+root: INFO: [Dev set] [precision 67.582418] [recall 51.789474] [fscore 58.641240]
+root: INFO: [test set] [precision 64.011380] [recall 49.019608] [fscore 55.521283]
+root: INFO: 
+root: INFO: [Epoch 175 / 800] [Loss: 108.806398] [Time: 7.403886]
+root: INFO: [Dev set] [precision 68.169014] [recall 50.947368] [fscore 58.313253]
+root: INFO: [test set] [precision 64.316547] [recall 48.692810] [fscore 55.424675]
+root: INFO: 
+root: INFO: [Epoch 176 / 800] [Loss: 84.905555] [Time: 7.830257]
+root: INFO: [Dev set] [precision 67.029973] [recall 51.789474] [fscore 58.432304]
+root: INFO: [test set] [precision 64.963504] [recall 48.474946] [fscore 55.520898]
+root: INFO: 
+root: INFO: [Epoch 177 / 800] [Loss: 89.882740] [Time: 7.390056]
+root: INFO: [Dev set] [precision 67.024129] [recall 52.631579] [fscore 58.962264]
+root: INFO: [test set] [precision 64.387464] [recall 49.237473] [fscore 55.802469]
+root: INFO: 
+root: INFO: [Epoch 178 / 800] [Loss: 95.385972] [Time: 7.355669]
+root: INFO: [Dev set] [precision 68.044077] [recall 52.000000] [fscore 58.949881]
+root: INFO: [test set] [precision 64.450867] [recall 48.583878] [fscore 55.403727]
+root: INFO: 
+root: INFO: [Epoch 179 / 800] [Loss: 86.867112] [Time: 7.389530]
+root: INFO: [Dev set] [precision 68.611111] [recall 52.000000] [fscore 59.161677]
+root: INFO: [test set] [precision 64.637681] [recall 48.583878] [fscore 55.472637]
+root: INFO: 
+root: INFO: [Epoch 180 / 800] [Loss: 98.096523] [Time: 7.414307]
+root: INFO: [Dev set] [precision 68.390805] [recall 50.105263] [fscore 57.837181]
+root: INFO: [test set] [precision 64.232489] [recall 46.949891] [fscore 54.247955]
+root: INFO: 
+root: INFO: [Epoch 181 / 800] [Loss: 81.203173] [Time: 7.303412]
+root: INFO: [Dev set] [precision 67.307692] [recall 51.578947] [fscore 58.402861]
+root: INFO: [test set] [precision 62.885154] [recall 48.910675] [fscore 55.024510]
+root: INFO: 
+root: INFO: [Epoch 182 / 800] [Loss: 74.144486] [Time: 7.386492]
+root: INFO: [Dev set] [precision 68.481375] [recall 50.315789] [fscore 58.009709]
+root: INFO: [test set] [precision 65.074627] [recall 47.494553] [fscore 54.911839]
+root: INFO: 
+root: INFO: [Epoch 183 / 800] [Loss: 86.168254] [Time: 7.844188]
+root: INFO: [Dev set] [precision 66.759003] [recall 50.736842] [fscore 57.655502]
+root: INFO: [test set] [precision 64.244186] [recall 48.148148] [fscore 55.043587]
+root: INFO: 
+root: INFO: [Epoch 184 / 800] [Loss: 74.619736] [Time: 7.327435]
+root: INFO: [Dev set] [precision 68.079096] [recall 50.736842] [fscore 58.142340]
+root: INFO: [test set] [precision 66.765140] [recall 49.237473] [fscore 56.677116]
+root: INFO: 
+root: INFO: [Epoch 185 / 800] [Loss: 86.174414] [Time: 7.350060]
+root: INFO: [Dev set] [precision 66.037736] [recall 51.578947] [fscore 57.919622]
+root: INFO: [test set] [precision 63.700565] [recall 49.128540] [fscore 55.473555]
+root: INFO: 
+root: INFO: [Epoch 186 / 800] [Loss: 75.729311] [Time: 7.363698]
+root: INFO: [Dev set] [precision 67.142857] [recall 49.473684] [fscore 56.969697]
+root: INFO: [test set] [precision 66.017964] [recall 48.039216] [fscore 55.611602]
+root: INFO: 
+root: INFO: [Epoch 187 / 800] [Loss: 109.404170] [Time: 7.398892]
+root: INFO: [Dev set] [precision 65.469613] [recall 49.894737] [fscore 56.630824]
+root: INFO: [test set] [precision 65.273775] [recall 49.346405] [fscore 56.203474]
+root: INFO: 
+root: INFO: [Epoch 188 / 800] [Loss: 93.121708] [Time: 7.347443]
+root: INFO: [Dev set] [precision 67.042254] [recall 50.105263] [fscore 57.349398]
+root: INFO: [test set] [precision 65.991317] [recall 49.673203] [fscore 56.681168]
+root: INFO: 
+root: INFO: [Epoch 189 / 800] [Loss: 90.852462] [Time: 7.569913]
+root: INFO: [Dev set] [precision 67.528736] [recall 49.473684] [fscore 57.108141]
+root: INFO: [test set] [precision 66.816143] [recall 48.692810] [fscore 56.332703]
+root: INFO: 
+root: INFO: [Epoch 190 / 800] [Loss: 104.890751] [Time: 7.545882]
+root: INFO: [Dev set] [precision 67.138810] [recall 49.894737] [fscore 57.246377]
+root: INFO: [test set] [precision 65.789474] [recall 49.019608] [fscore 56.179775]
+root: INFO: 
+root: INFO: [Epoch 191 / 800] [Loss: 92.833466] [Time: 7.484028]
+root: INFO: [Dev set] [precision 68.258427] [recall 51.157895] [fscore 58.483755]
+root: INFO: [test set] [precision 66.182874] [recall 49.673203] [fscore 56.751711]
+root: INFO: 
+root: INFO: [Epoch 192 / 800] [Loss: 73.288568] [Time: 7.353307]
+root: INFO: [Dev set] [precision 66.846361] [recall 52.210526] [fscore 58.628842]
+root: INFO: [test set] [precision 63.762102] [recall 50.217865] [fscore 56.185253]
+root: INFO: 
+root: INFO: [Epoch 193 / 800] [Loss: 111.748483] [Time: 7.360819]
+root: INFO: [Dev set] [precision 66.124661] [recall 51.368421] [fscore 57.819905]
+root: INFO: [test set] [precision 63.547486] [recall 49.564270] [fscore 55.691554]
+root: INFO: 
+root: INFO: [Epoch 194 / 800] [Loss: 106.662169] [Time: 7.340386]
+root: INFO: [Dev set] [precision 67.409471] [recall 50.947368] [fscore 58.033573]
+root: INFO: [test set] [precision 64.595376] [recall 48.692810] [fscore 55.527950]
+root: INFO: 
+root: INFO: [Epoch 195 / 800] [Loss: 85.791835] [Time: 7.405890]
+root: INFO: [Dev set] [precision 67.966574] [recall 51.368421] [fscore 58.513189]
+root: INFO: [test set] [precision 64.849354] [recall 49.237473] [fscore 55.975232]
+root: INFO: 
+root: INFO: [Epoch 196 / 800] [Loss: 103.913713] [Time: 7.352197]
+root: INFO: [Dev set] [precision 67.514124] [recall 50.315789] [fscore 57.659831]
+root: INFO: [test set] [precision 65.412446] [recall 49.237473] [fscore 56.183965]
+root: INFO: 
+root: INFO: [Epoch 197 / 800] [Loss: 85.625274] [Time: 7.967236]
+root: INFO: [Dev set] [precision 67.597765] [recall 50.947368] [fscore 58.103241]
+root: INFO: [test set] [precision 63.971631] [recall 49.128540] [fscore 55.576094]
+root: INFO: 
+root: INFO: [Epoch 198 / 800] [Loss: 79.449807] [Time: 7.418318]
+root: INFO: [Dev set] [precision 67.966574] [recall 51.368421] [fscore 58.513189]
+root: INFO: [test set] [precision 64.204545] [recall 49.237473] [fscore 55.733662]
+root: INFO: 
+root: INFO: [Epoch 199 / 800] [Loss: 82.918488] [Time: 7.322734]
+root: INFO: [Dev set] [precision 68.245125] [recall 51.578947] [fscore 58.752998]
+root: INFO: [test set] [precision 65.592972] [recall 48.801743] [fscore 55.965022]
+root: INFO: 
+root: INFO: [Epoch 200 / 800] [Loss: 88.746875] [Time: 7.328247]
+root: INFO: [Dev set] [precision 66.942149] [recall 51.157895] [fscore 57.995227]
+root: INFO: [test set] [precision 63.253857] [recall 49.128540] [fscore 55.303495]
+root: INFO: 
+root: INFO: [Epoch 201 / 800] [Loss: 96.776237] [Time: 7.288433]
+root: INFO: [Dev set] [precision 67.582418] [recall 51.789474] [fscore 58.641240]
+root: INFO: [test set] [precision 64.748201] [recall 49.019608] [fscore 55.796652]
+root: INFO: 
+root: INFO: [Epoch 202 / 800] [Loss: 99.174568] [Time: 7.407367]
+root: INFO: [Dev set] [precision 66.120219] [recall 50.947368] [fscore 57.550535]
+root: INFO: [test set] [precision 64.265130] [recall 48.583878] [fscore 55.334988]
+root: INFO: 
+root: INFO: [Epoch 203 / 800] [Loss: 83.534650] [Time: 7.390370]
+root: INFO: [Dev set] [precision 67.521368] [recall 49.894737] [fscore 57.384988]
+root: INFO: [test set] [precision 66.467066] [recall 48.366013] [fscore 55.989912]
+root: INFO: 
+root: INFO: [Epoch 204 / 800] [Loss: 77.071083] [Time: 7.739738]
+root: INFO: [Dev set] [precision 68.750000] [recall 50.947368] [fscore 58.524788]
+root: INFO: [test set] [precision 65.191740] [recall 48.148148] [fscore 55.388471]
+root: INFO: 
+root: INFO: [Epoch 205 / 800] [Loss: 79.169384] [Time: 7.361380]
+root: INFO: [Dev set] [precision 66.576819] [recall 52.000000] [fscore 58.392435]
+root: INFO: [test set] [precision 64.356436] [recall 49.564270] [fscore 56.000000]
+root: INFO: 
+root: INFO: [Epoch 206 / 800] [Loss: 101.928155] [Time: 7.400953]
+root: INFO: [Dev set] [precision 66.042781] [recall 52.000000] [fscore 58.186101]
+root: INFO: [test set] [precision 64.647887] [recall 50.000000] [fscore 56.388206]
+root: INFO: 
+root: INFO: [Epoch 207 / 800] [Loss: 94.946035] [Time: 9.004060]
+root: INFO: [Dev set] [precision 68.926554] [recall 51.368421] [fscore 58.866104]
+root: INFO: [test set] [precision 66.322009] [recall 48.910675] [fscore 56.300940]
+root: INFO: 
+root: INFO: [Epoch 208 / 800] [Loss: 71.258303] [Time: 7.416310]
+root: INFO: [Dev set] [precision 69.272237] [recall 54.105263] [fscore 60.756501]
+root: INFO: [test set] [precision 65.767045] [recall 50.435730] [fscore 57.090012]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 209 / 800] [Loss: 84.840954] [Time: 7.834110]
+root: INFO: [Dev set] [precision 69.943820] [recall 52.421053] [fscore 59.927798]
+root: INFO: [test set] [precision 65.557164] [recall 49.346405] [fscore 56.308266]
+root: INFO: 
+root: INFO: [Epoch 210 / 800] [Loss: 72.878790] [Time: 7.977603]
+root: INFO: [Dev set] [precision 67.200000] [recall 53.052632] [fscore 59.294118]
+root: INFO: [test set] [precision 64.853556] [recall 50.653595] [fscore 56.880734]
+root: INFO: 
+root: INFO: [Epoch 211 / 800] [Loss: 61.052853] [Time: 8.864410]
+root: INFO: [Dev set] [precision 70.231214] [recall 51.157895] [fscore 59.196102]
+root: INFO: [test set] [precision 67.368421] [recall 48.801743] [fscore 56.601390]
+root: INFO: 
+root: INFO: [Epoch 212 / 800] [Loss: 74.878551] [Time: 7.883450]
+root: INFO: [Dev set] [precision 68.820225] [recall 51.578947] [fscore 58.965102]
+root: INFO: [test set] [precision 65.166909] [recall 48.910675] [fscore 55.880523]
+root: INFO: 
+root: INFO: [Epoch 213 / 800] [Loss: 81.277514] [Time: 7.472466]
+root: INFO: [Dev set] [precision 68.888889] [recall 52.210526] [fscore 59.401198]
+root: INFO: [test set] [precision 65.217391] [recall 49.019608] [fscore 55.970149]
+root: INFO: 
+root: INFO: [Epoch 214 / 800] [Loss: 82.407817] [Time: 7.499400]
+root: INFO: [Dev set] [precision 70.114943] [recall 51.368421] [fscore 59.295261]
+root: INFO: [test set] [precision 65.430267] [recall 48.039216] [fscore 55.402010]
+root: INFO: 
+root: INFO: [Epoch 215 / 800] [Loss: 72.557858] [Time: 7.657509]
+root: INFO: [Dev set] [precision 69.230769] [recall 53.052632] [fscore 60.071514]
+root: INFO: [test set] [precision 65.173410] [recall 49.128540] [fscore 56.024845]
+root: INFO: 
+root: INFO: [Epoch 216 / 800] [Loss: 70.849849] [Time: 7.999110]
+root: INFO: [Dev set] [precision 69.780220] [recall 53.473684] [fscore 60.548272]
+root: INFO: [test set] [precision 64.914773] [recall 49.782135] [fscore 56.350185]
+root: INFO: 
+root: INFO: [Epoch 217 / 800] [Loss: 68.978356] [Time: 7.739958]
+root: INFO: [Dev set] [precision 69.714286] [recall 51.368421] [fscore 59.151515]
+root: INFO: [test set] [precision 66.766467] [recall 48.583878] [fscore 56.242119]
+root: INFO: 
+root: INFO: [Epoch 218 / 800] [Loss: 73.510188] [Time: 7.993496]
+root: INFO: [Dev set] [precision 68.876081] [recall 50.315789] [fscore 58.150852]
+root: INFO: [test set] [precision 65.102639] [recall 48.366013] [fscore 55.500000]
+root: INFO: 
+root: INFO: [Epoch 219 / 800] [Loss: 102.036161] [Time: 8.076585]
+root: INFO: [Dev set] [precision 68.306011] [recall 52.631579] [fscore 59.453032]
+root: INFO: [test set] [precision 64.102564] [recall 49.019608] [fscore 55.555556]
+root: INFO: 
+root: INFO: [Epoch 220 / 800] [Loss: 84.126416] [Time: 7.467560]
+root: INFO: [Dev set] [precision 66.850829] [recall 50.947368] [fscore 57.825568]
+root: INFO: [test set] [precision 64.295676] [recall 50.217865] [fscore 56.391437]
+root: INFO: 
+root: INFO: [Epoch 221 / 800] [Loss: 83.284380] [Time: 8.244793]
+root: INFO: [Dev set] [precision 66.849315] [recall 51.368421] [fscore 58.095238]
+root: INFO: [test set] [precision 63.268156] [recall 49.346405] [fscore 55.446756]
+root: INFO: 
+root: INFO: [Epoch 222 / 800] [Loss: 74.921483] [Time: 7.424415]
+root: INFO: [Dev set] [precision 68.144044] [recall 51.789474] [fscore 58.851675]
+root: INFO: [test set] [precision 64.244186] [recall 48.148148] [fscore 55.043587]
+root: INFO: 
+root: INFO: [Epoch 223 / 800] [Loss: 72.347569] [Time: 7.986952]
+root: INFO: [Dev set] [precision 66.052632] [recall 52.842105] [fscore 58.713450]
+root: INFO: [test set] [precision 62.243502] [recall 49.564270] [fscore 55.184961]
+root: INFO: 
+root: INFO: [Epoch 224 / 800] [Loss: 82.238854] [Time: 8.088570]
+root: INFO: [Dev set] [precision 67.036011] [recall 50.947368] [fscore 57.894737]
+root: INFO: [test set] [precision 65.273775] [recall 49.346405] [fscore 56.203474]
+root: INFO: 
+root: INFO: [Epoch 225 / 800] [Loss: 62.497177] [Time: 8.603365]
+root: INFO: [Dev set] [precision 68.156425] [recall 51.368421] [fscore 58.583433]
+root: INFO: [test set] [precision 64.739884] [recall 48.801743] [fscore 55.652174]
+root: INFO: 
+root: INFO: [Epoch 226 / 800] [Loss: 82.317807] [Time: 8.081728]
+root: INFO: [Dev set] [precision 69.714286] [recall 51.368421] [fscore 59.151515]
+root: INFO: [test set] [precision 64.389535] [recall 48.257081] [fscore 55.168120]
+root: INFO: 
+root: INFO: [Epoch 227 / 800] [Loss: 56.973384] [Time: 8.100003]
+root: INFO: [Dev set] [precision 67.705382] [recall 50.315789] [fscore 57.729469]
+root: INFO: [test set] [precision 63.276836] [recall 48.801743] [fscore 55.104551]
+root: INFO: 
+root: INFO: [Epoch 228 / 800] [Loss: 83.197777] [Time: 8.028225]
+root: INFO: [Dev set] [precision 67.307692] [recall 51.578947] [fscore 58.402861]
+root: INFO: [test set] [precision 61.904762] [recall 49.564270] [fscore 55.051422]
+root: INFO: 
+root: INFO: [Epoch 229 / 800] [Loss: 77.358742] [Time: 7.674141]
+root: INFO: [Dev set] [precision 67.605634] [recall 50.526316] [fscore 57.831325]
+root: INFO: [test set] [precision 62.994350] [recall 48.583878] [fscore 54.858549]
+root: INFO: 
+root: INFO: [Epoch 230 / 800] [Loss: 53.987240] [Time: 7.771884]
+root: INFO: [Dev set] [precision 66.022099] [recall 50.315789] [fscore 57.108722]
+root: INFO: [test set] [precision 63.790665] [recall 49.128540] [fscore 55.507692]
+root: INFO: 
+root: INFO: [Epoch 231 / 800] [Loss: 48.232114] [Time: 8.366508]
+root: INFO: [Dev set] [precision 68.481375] [recall 50.315789] [fscore 58.009709]
+root: INFO: [test set] [precision 64.825581] [recall 48.583878] [fscore 55.541719]
+root: INFO: 
+root: INFO: [Epoch 232 / 800] [Loss: 72.506125] [Time: 7.931697]
+root: INFO: [Dev set] [precision 67.318436] [recall 50.736842] [fscore 57.863145]
+root: INFO: [test set] [precision 63.877266] [recall 49.891068] [fscore 56.024465]
+root: INFO: 
+root: INFO: [Epoch 233 / 800] [Loss: 66.734311] [Time: 8.116290]
+root: INFO: [Dev set] [precision 67.977528] [recall 50.947368] [fscore 58.243081]
+root: INFO: [test set] [precision 63.366337] [recall 48.801743] [fscore 55.138462]
+root: INFO: 
+root: INFO: [Epoch 234 / 800] [Loss: 68.266617] [Time: 7.403666]
+root: INFO: [Dev set] [precision 67.493113] [recall 51.578947] [fscore 58.472554]
+root: INFO: [test set] [precision 63.121547] [recall 49.782135] [fscore 55.663825]
+root: INFO: 
+root: INFO: [Epoch 235 / 800] [Loss: 68.698464] [Time: 9.683338]
+root: INFO: [Dev set] [precision 67.313019] [recall 51.157895] [fscore 58.133971]
+root: INFO: [test set] [precision 63.955119] [recall 49.673203] [fscore 55.916616]
+root: INFO: 
+root: INFO: [Epoch 236 / 800] [Loss: 49.214729] [Time: 8.695698]
+root: INFO: [Dev set] [precision 68.436578] [recall 48.842105] [fscore 57.002457]
+root: INFO: [test set] [precision 65.401460] [recall 48.801743] [fscore 55.895197]
+root: INFO: 
+root: INFO: [Epoch 237 / 800] [Loss: 53.177333] [Time: 8.831849]
+root: INFO: [Dev set] [precision 66.666667] [recall 50.947368] [fscore 57.756563]
+root: INFO: [test set] [precision 63.636364] [recall 50.326797] [fscore 56.204380]
+root: INFO: 
+root: INFO: [Epoch 238 / 800] [Loss: 82.674356] [Time: 7.963201]
+root: INFO: [Dev set] [precision 68.555241] [recall 50.947368] [fscore 58.454106]
+root: INFO: [test set] [precision 63.725490] [recall 49.564270] [fscore 55.759804]
+root: INFO: 
+root: INFO: [Epoch 239 / 800] [Loss: 63.338445] [Time: 9.874774]
+root: INFO: [Dev set] [precision 67.493113] [recall 51.578947] [fscore 58.472554]
+root: INFO: [test set] [precision 64.739069] [recall 50.000000] [fscore 56.422864]
+root: INFO: 
+root: INFO: [Epoch 240 / 800] [Loss: 61.285830] [Time: 10.076578]
+root: INFO: [Dev set] [precision 69.491525] [recall 51.789474] [fscore 59.348613]
+root: INFO: [test set] [precision 65.356623] [recall 48.910675] [fscore 55.950156]
+root: INFO: 
+root: INFO: [Epoch 241 / 800] [Loss: 77.023079] [Time: 9.760499]
+root: INFO: [Dev set] [precision 68.319559] [recall 52.210526] [fscore 59.188544]
+root: INFO: [test set] [precision 64.621969] [recall 49.346405] [fscore 55.960469]
+root: INFO: 
+root: INFO: [Epoch 242 / 800] [Loss: 84.348584] [Time: 9.393611]
+root: INFO: [Dev set] [precision 68.144044] [recall 51.789474] [fscore 58.851675]
+root: INFO: [test set] [precision 64.680851] [recall 49.673203] [fscore 56.192237]
+root: INFO: 
+root: INFO: [Epoch 243 / 800] [Loss: 80.965014] [Time: 9.632035]
+root: INFO: [Dev set] [precision 71.554252] [recall 51.368421] [fscore 59.803922]
+root: INFO: [test set] [precision 66.023739] [recall 48.474946] [fscore 55.904523]
+root: INFO: 
+root: INFO: [Epoch 244 / 800] [Loss: 56.103616] [Time: 9.587172]
+root: INFO: [Dev set] [precision 69.230769] [recall 51.157895] [fscore 58.837772]
+root: INFO: [test set] [precision 65.647744] [recall 49.128540] [fscore 56.199377]
+root: INFO: 
+root: INFO: [Epoch 245 / 800] [Loss: 46.703137] [Time: 9.575670]
+root: INFO: [Dev set] [precision 68.660969] [recall 50.736842] [fscore 58.353511]
+root: INFO: [test set] [precision 64.748201] [recall 49.019608] [fscore 55.796652]
+root: INFO: 
+root: INFO: [Epoch 246 / 800] [Loss: 56.356123] [Time: 9.611840]
+root: INFO: [Dev set] [precision 68.523677] [recall 51.789474] [fscore 58.992806]
+root: INFO: [test set] [precision 64.245014] [recall 49.128540] [fscore 55.679012]
+root: INFO: 
+root: INFO: [Epoch 247 / 800] [Loss: 79.246172] [Time: 9.712617]
+root: INFO: [Dev set] [precision 66.935484] [recall 52.421053] [fscore 58.795750]
+root: INFO: [test set] [precision 62.793914] [recall 49.455338] [fscore 55.332115]
+root: INFO: 
+root: INFO: [Epoch 248 / 800] [Loss: 65.796103] [Time: 10.785422]
+root: INFO: [Dev set] [precision 67.329545] [recall 49.894737] [fscore 57.315599]
+root: INFO: [test set] [precision 65.204678] [recall 48.583878] [fscore 55.680400]
+root: INFO: 
+root: INFO: [Epoch 249 / 800] [Loss: 58.387203] [Time: 10.150072]
+root: INFO: [Dev set] [precision 65.846995] [recall 50.736842] [fscore 57.312723]
+root: INFO: [test set] [precision 63.356643] [recall 49.346405] [fscore 55.480710]
+root: INFO: 
+root: INFO: [Epoch 250 / 800] [Loss: 65.134280] [Time: 9.356897]
+root: INFO: [Dev set] [precision 66.937669] [recall 52.000000] [fscore 58.530806]
+root: INFO: [test set] [precision 63.509749] [recall 49.673203] [fscore 55.745721]
+root: INFO: 
+root: INFO: [Epoch 251 / 800] [Loss: 49.847211] [Time: 9.415958]
+root: INFO: [Dev set] [precision 66.212534] [recall 51.157895] [fscore 57.719715]
+root: INFO: [test set] [precision 63.120567] [recall 48.474946] [fscore 54.836722]
+root: INFO: 
+root: INFO: [Epoch 252 / 800] [Loss: 83.664811] [Time: 9.325771]
+root: INFO: [Dev set] [precision 66.301370] [recall 50.947368] [fscore 57.619048]
+root: INFO: [test set] [precision 63.442390] [recall 48.583878] [fscore 55.027761]
+root: INFO: 
+root: INFO: [Epoch 253 / 800] [Loss: 70.623564] [Time: 9.212461]
+root: INFO: [Dev set] [precision 68.067227] [recall 51.157895] [fscore 58.413462]
+root: INFO: [test set] [precision 64.772727] [recall 49.673203] [fscore 56.226880]
+root: INFO: 
+root: INFO: [Epoch 254 / 800] [Loss: 44.510880] [Time: 9.216619]
+root: INFO: [Dev set] [precision 69.653179] [recall 50.736842] [fscore 58.708892]
+root: INFO: [test set] [precision 65.486726] [recall 48.366013] [fscore 55.639098]
+root: INFO: 
+root: INFO: [Epoch 255 / 800] [Loss: 78.163229] [Time: 9.267662]
+root: INFO: [Dev set] [precision 66.758242] [recall 51.157895] [fscore 57.926103]
+root: INFO: [test set] [precision 64.534075] [recall 50.544662] [fscore 56.689065]
+root: INFO: 
+root: INFO: [Epoch 256 / 800] [Loss: 63.035013] [Time: 9.308712]
+root: INFO: [Dev set] [precision 66.216216] [recall 51.578947] [fscore 57.988166]
+root: INFO: [test set] [precision 63.724138] [recall 50.326797] [fscore 56.238588]
+root: INFO: 
+root: INFO: [Epoch 257 / 800] [Loss: 76.092115] [Time: 9.316875]
+root: INFO: [Dev set] [precision 67.750678] [recall 52.631579] [fscore 59.241706]
+root: INFO: [test set] [precision 64.185393] [recall 49.782135] [fscore 56.073620]
+root: INFO: 
+root: INFO: [Epoch 258 / 800] [Loss: 63.368355] [Time: 9.310930]
+root: INFO: [Dev set] [precision 67.574932] [recall 52.210526] [fscore 58.907363]
+root: INFO: [test set] [precision 63.509749] [recall 49.673203] [fscore 55.745721]
+root: INFO: 
+root: INFO: [Epoch 259 / 800] [Loss: 54.874689] [Time: 9.348465]
+root: INFO: [Dev set] [precision 67.507003] [recall 50.736842] [fscore 57.932692]
+root: INFO: [test set] [precision 65.000000] [recall 49.564270] [fscore 56.242274]
+root: INFO: 
+root: INFO: [Epoch 260 / 800] [Loss: 66.912278] [Time: 9.445872]
+root: INFO: [Dev set] [precision 66.666667] [recall 50.947368] [fscore 57.756563]
+root: INFO: [test set] [precision 64.235624] [recall 49.891068] [fscore 56.161864]
+root: INFO: 
+root: INFO: [Epoch 261 / 800] [Loss: 75.857851] [Time: 9.306699]
+root: INFO: [Dev set] [precision 68.838527] [recall 51.157895] [fscore 58.695652]
+root: INFO: [test set] [precision 65.379113] [recall 49.782135] [fscore 56.524428]
+root: INFO: 
+root: INFO: [Epoch 262 / 800] [Loss: 69.670424] [Time: 9.434596]
+root: INFO: [Dev set] [precision 67.887324] [recall 50.736842] [fscore 58.072289]
+root: INFO: [test set] [precision 65.991317] [recall 49.673203] [fscore 56.681168]
+root: INFO: 
+root: INFO: [Epoch 263 / 800] [Loss: 61.028545] [Time: 9.476181]
+root: INFO: [Dev set] [precision 67.119565] [recall 52.000000] [fscore 58.600237]
+root: INFO: [test set] [precision 64.060357] [recall 50.871460] [fscore 56.709168]
+root: INFO: 
+root: INFO: [Epoch 264 / 800] [Loss: 56.305153] [Time: 9.437357]
+root: INFO: [Dev set] [precision 67.323944] [recall 50.315789] [fscore 57.590361]
+root: INFO: [test set] [precision 64.714286] [recall 49.346405] [fscore 55.995056]
+root: INFO: 
+root: INFO: [Epoch 265 / 800] [Loss: 67.247665] [Time: 9.454815]
+root: INFO: [Dev set] [precision 66.666667] [recall 50.947368] [fscore 57.756563]
+root: INFO: [test set] [precision 65.335235] [recall 49.891068] [fscore 56.578135]
+root: INFO: 
+root: INFO: [Epoch 266 / 800] [Loss: 47.658347] [Time: 9.350838]
+root: INFO: [Dev set] [precision 66.574586] [recall 50.736842] [fscore 57.586619]
+root: INFO: [test set] [precision 66.189112] [recall 50.326797] [fscore 57.178218]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 267 / 800] [Loss: 52.209589] [Time: 9.294529]
+root: INFO: [Dev set] [precision 67.528736] [recall 49.473684] [fscore 57.108141]
+root: INFO: [test set] [precision 66.029412] [recall 48.910675] [fscore 56.195244]
+root: INFO: 
+root: INFO: [Epoch 268 / 800] [Loss: 38.179561] [Time: 9.352383]
+root: INFO: [Dev set] [precision 67.435159] [recall 49.263158] [fscore 56.934307]
+root: INFO: [test set] [precision 66.129032] [recall 49.128540] [fscore 56.375000]
+root: INFO: 
+root: INFO: [Epoch 269 / 800] [Loss: 80.894358] [Time: 9.404857]
+root: INFO: [Dev set] [precision 67.142857] [recall 49.473684] [fscore 56.969697]
+root: INFO: [test set] [precision 65.166909] [recall 48.910675] [fscore 55.880523]
+root: INFO: 
+root: INFO: [Epoch 270 / 800] [Loss: 59.006820] [Time: 9.507826]
+root: INFO: [Dev set] [precision 65.459610] [recall 49.473684] [fscore 56.354916]
+root: INFO: [test set] [precision 64.548023] [recall 49.782135] [fscore 56.211562]
+root: INFO: 
+root: INFO: [Epoch 271 / 800] [Loss: 70.988568] [Time: 9.549869]
+root: INFO: [Dev set] [precision 65.517241] [recall 48.000000] [fscore 55.407047]
+root: INFO: [test set] [precision 64.356436] [recall 49.564270] [fscore 56.000000]
+root: INFO: 
+root: INFO: [Epoch 272 / 800] [Loss: 46.211775] [Time: 9.509308]
+root: INFO: [Dev set] [precision 67.359050] [recall 47.789474] [fscore 55.911330]
+root: INFO: [test set] [precision 65.592972] [recall 48.801743] [fscore 55.965022]
+root: INFO: 
+root: INFO: [Epoch 273 / 800] [Loss: 67.101580] [Time: 9.487153]
+root: INFO: [Dev set] [precision 67.241379] [recall 49.263158] [fscore 56.865128]
+root: INFO: [test set] [precision 66.231884] [recall 49.782135] [fscore 56.840796]
+root: INFO: 
+root: INFO: [Epoch 274 / 800] [Loss: 60.454366] [Time: 9.363513]
+root: INFO: [Dev set] [precision 68.000000] [recall 50.105263] [fscore 57.696970]
+root: INFO: [test set] [precision 66.520468] [recall 49.564270] [fscore 56.803995]
+root: INFO: 
+root: INFO: [Epoch 275 / 800] [Loss: 55.181169] [Time: 9.354753]
+root: INFO: [Dev set] [precision 65.096953] [recall 49.473684] [fscore 56.220096]
+root: INFO: [test set] [precision 65.423242] [recall 49.673203] [fscore 56.470588]
+root: INFO: 
+root: INFO: [Epoch 276 / 800] [Loss: 69.943360] [Time: 9.540926]
+root: INFO: [Dev set] [precision 67.796610] [recall 50.526316] [fscore 57.901086]
+root: INFO: [test set] [precision 64.949928] [recall 49.455338] [fscore 56.153370]
+root: INFO: 
+root: INFO: [Epoch 277 / 800] [Loss: 62.323613] [Time: 9.309174]
+root: INFO: [Dev set] [precision 68.695652] [recall 49.894737] [fscore 57.804878]
+root: INFO: [test set] [precision 65.982405] [recall 49.019608] [fscore 56.250000]
+root: INFO: 
+root: INFO: [Epoch 278 / 800] [Loss: 68.771748] [Time: 9.295141]
+root: INFO: [Dev set] [precision 68.421053] [recall 49.263158] [fscore 57.282742]
+root: INFO: [test set] [precision 66.071429] [recall 48.366013] [fscore 55.849057]
+root: INFO: 
+root: INFO: [Epoch 279 / 800] [Loss: 79.733629] [Time: 9.381779]
+root: INFO: [Dev set] [precision 66.949153] [recall 49.894737] [fscore 57.177322]
+root: INFO: [test set] [precision 64.172662] [recall 48.583878] [fscore 55.300682]
+root: INFO: 
+root: INFO: [Epoch 280 / 800] [Loss: 60.110085] [Time: 9.572036]
+root: INFO: [Dev set] [precision 68.513120] [recall 49.473684] [fscore 57.457213]
+root: INFO: [test set] [precision 66.363636] [recall 47.712418] [fscore 55.513308]
+root: INFO: 
+root: INFO: [Epoch 281 / 800] [Loss: 63.936335] [Time: 9.414476]
+root: INFO: [Dev set] [precision 67.988669] [recall 50.526316] [fscore 57.971014]
+root: INFO: [test set] [precision 65.037037] [recall 47.821351] [fscore 55.116133]
+root: INFO: 
+root: INFO: [Epoch 282 / 800] [Loss: 59.412706] [Time: 9.410956]
+root: INFO: [Dev set] [precision 68.695652] [recall 49.894737] [fscore 57.804878]
+root: INFO: [test set] [precision 65.671642] [recall 47.930283] [fscore 55.415617]
+root: INFO: 
+root: INFO: [Epoch 283 / 800] [Loss: 50.883018] [Time: 9.623387]
+root: INFO: [Dev set] [precision 69.428571] [recall 51.157895] [fscore 58.909091]
+root: INFO: [test set] [precision 64.825581] [recall 48.583878] [fscore 55.541719]
+root: INFO: 
+root: INFO: [Epoch 284 / 800] [Loss: 85.640674] [Time: 9.762405]
+root: INFO: [Dev set] [precision 69.515670] [recall 51.368421] [fscore 59.079903]
+root: INFO: [test set] [precision 65.312046] [recall 49.019608] [fscore 56.004978]
+root: INFO: 
+root: INFO: [Epoch 285 / 800] [Loss: 66.458103] [Time: 9.931334]
+root: INFO: [Dev set] [precision 70.535714] [recall 49.894737] [fscore 58.446363]
+root: INFO: [test set] [precision 66.165414] [recall 47.930283] [fscore 55.590651]
+root: INFO: 
+root: INFO: [Epoch 286 / 800] [Loss: 42.902657] [Time: 9.749630]
+root: INFO: [Dev set] [precision 67.806268] [recall 50.105263] [fscore 57.627119]
+root: INFO: [test set] [precision 65.109489] [recall 48.583878] [fscore 55.645664]
+root: INFO: 
+root: INFO: [Epoch 287 / 800] [Loss: 53.019447] [Time: 9.735335]
+root: INFO: [Dev set] [precision 67.032967] [recall 51.368421] [fscore 58.164482]
+root: INFO: [test set] [precision 64.164306] [recall 49.346405] [fscore 55.788177]
+root: INFO: 
+root: INFO: [Epoch 288 / 800] [Loss: 52.464785] [Time: 9.654883]
+root: INFO: [Dev set] [precision 67.816092] [recall 49.684211] [fscore 57.351154]
+root: INFO: [test set] [precision 65.747460] [recall 49.346405] [fscore 56.378345]
+root: INFO: 
+root: INFO: [Epoch 289 / 800] [Loss: 57.793157] [Time: 9.436248]
+root: INFO: [Dev set] [precision 68.523677] [recall 51.789474] [fscore 58.992806]
+root: INFO: [test set] [precision 64.722617] [recall 49.564270] [fscore 56.138186]
+root: INFO: 
+root: INFO: [Epoch 290 / 800] [Loss: 40.962461] [Time: 9.193676]
+root: INFO: [Dev set] [precision 68.361582] [recall 50.947368] [fscore 58.383595]
+root: INFO: [test set] [precision 64.772727] [recall 49.673203] [fscore 56.226880]
+root: INFO: 
+root: INFO: [Epoch 291 / 800] [Loss: 58.249214] [Time: 9.449190]
+root: INFO: [Dev set] [precision 69.705882] [recall 49.894737] [fscore 58.159509]
+root: INFO: [test set] [precision 65.832106] [recall 48.692810] [fscore 55.979962]
+root: INFO: 
+root: INFO: [Epoch 292 / 800] [Loss: 76.193854] [Time: 9.422662]
+root: INFO: [Dev set] [precision 67.826087] [recall 49.263158] [fscore 57.073171]
+root: INFO: [test set] [precision 65.294118] [recall 48.366013] [fscore 55.569462]
+root: INFO: 
+root: INFO: [Epoch 293 / 800] [Loss: 48.780169] [Time: 9.516650]
+root: INFO: [Dev set] [precision 64.971751] [recall 48.421053] [fscore 55.488540]
+root: INFO: [test set] [precision 64.073550] [recall 49.346405] [fscore 55.753846]
+root: INFO: 
+root: INFO: [Epoch 294 / 800] [Loss: 59.662554] [Time: 9.551986]
+root: INFO: [Dev set] [precision 66.666667] [recall 49.684211] [fscore 56.936068]
+root: INFO: [test set] [precision 65.502183] [recall 49.019608] [fscore 56.074766]
+root: INFO: 
+root: INFO: [Epoch 295 / 800] [Loss: 69.826456] [Time: 9.482684]
+root: INFO: [Dev set] [precision 66.201117] [recall 49.894737] [fscore 56.902761]
+root: INFO: [test set] [precision 63.300142] [recall 48.474946] [fscore 54.904380]
+root: INFO: 
+root: INFO: [Epoch 296 / 800] [Loss: 68.876060] [Time: 9.498525]
+root: INFO: [Dev set] [precision 65.722380] [recall 48.842105] [fscore 56.038647]
+root: INFO: [test set] [precision 64.080460] [recall 48.583878] [fscore 55.266419]
+root: INFO: 
+root: INFO: [Epoch 297 / 800] [Loss: 50.105031] [Time: 9.414374]
+root: INFO: [Dev set] [precision 65.722380] [recall 48.842105] [fscore 56.038647]
+root: INFO: [test set] [precision 64.935065] [recall 49.019608] [fscore 55.865922]
+root: INFO: 
+root: INFO: [Epoch 298 / 800] [Loss: 39.653537] [Time: 9.363645]
+root: INFO: [Dev set] [precision 66.115702] [recall 50.526316] [fscore 57.279236]
+root: INFO: [test set] [precision 63.977747] [recall 50.108932] [fscore 56.200367]
+root: INFO: 
+root: INFO: [Epoch 299 / 800] [Loss: 41.261039] [Time: 9.348097]
+root: INFO: [Dev set] [precision 66.571429] [recall 49.052632] [fscore 56.484848]
+root: INFO: [test set] [precision 65.267728] [recall 49.128540] [fscore 56.059664]
+root: INFO: 
+root: INFO: [Epoch 300 / 800] [Loss: 47.189183] [Time: 9.395197]
+root: INFO: [Dev set] [precision 67.528736] [recall 49.473684] [fscore 57.108141]
+root: INFO: [test set] [precision 64.051355] [recall 48.910675] [fscore 55.466337]
+root: INFO: 
+root: INFO: [Epoch 301 / 800] [Loss: 57.473484] [Time: 9.392525]
+root: INFO: [Dev set] [precision 67.528736] [recall 49.473684] [fscore 57.108141]
+root: INFO: [test set] [precision 64.483261] [recall 48.257081] [fscore 55.202492]
+root: INFO: 
+root: INFO: [Epoch 302 / 800] [Loss: 58.905392] [Time: 9.473766]
+root: INFO: [Dev set] [precision 67.130919] [recall 50.736842] [fscore 57.793765]
+root: INFO: [test set] [precision 62.983425] [recall 49.673203] [fscore 55.542022]
+root: INFO: 
+root: INFO: [Epoch 303 / 800] [Loss: 60.261115] [Time: 9.572501]
+root: INFO: [Dev set] [precision 68.128655] [recall 49.052632] [fscore 57.037944]
+root: INFO: [test set] [precision 65.878877] [recall 48.583878] [fscore 55.924765]
+root: INFO: 
+root: INFO: [Epoch 304 / 800] [Loss: 64.385324] [Time: 9.465468]
+root: INFO: [Dev set] [precision 67.507003] [recall 50.736842] [fscore 57.932692]
+root: INFO: [test set] [precision 65.034965] [recall 50.653595] [fscore 56.950398]
+root: INFO: 
+root: INFO: [Epoch 305 / 800] [Loss: 74.085760] [Time: 9.524135]
+root: INFO: [Dev set] [precision 67.415730] [recall 50.526316] [fscore 57.761733]
+root: INFO: [test set] [precision 64.992826] [recall 49.346405] [fscore 56.099071]
+root: INFO: 
+root: INFO: [Epoch 306 / 800] [Loss: 67.627268] [Time: 9.572528]
+root: INFO: [Dev set] [precision 67.415730] [recall 50.526316] [fscore 57.761733]
+root: INFO: [test set] [precision 64.864865] [recall 49.673203] [fscore 56.261567]
+root: INFO: 
+root: INFO: [Epoch 307 / 800] [Loss: 54.955595] [Time: 9.459053]
+root: INFO: [Dev set] [precision 68.876081] [recall 50.315789] [fscore 58.150852]
+root: INFO: [test set] [precision 65.895954] [recall 49.673203] [fscore 56.645963]
+root: INFO: 
+root: INFO: [Epoch 308 / 800] [Loss: 56.059996] [Time: 9.460497]
+root: INFO: [Dev set] [precision 68.376068] [recall 50.526316] [fscore 58.111380]
+root: INFO: [test set] [precision 65.997131] [recall 50.108932] [fscore 56.965944]
+root: INFO: 
+root: INFO: [Epoch 309 / 800] [Loss: 58.872887] [Time: 9.213601]
+root: INFO: [Dev set] [precision 68.319559] [recall 52.210526] [fscore 59.188544]
+root: INFO: [test set] [precision 64.255911] [recall 50.326797] [fscore 56.444716]
+root: INFO: 
+root: INFO: [Epoch 310 / 800] [Loss: 64.398721] [Time: 9.314001]
+root: INFO: [Dev set] [precision 68.767908] [recall 50.526316] [fscore 58.252427]
+root: INFO: [test set] [precision 66.666667] [recall 49.673203] [fscore 56.928839]
+root: INFO: 
+root: INFO: [Epoch 311 / 800] [Loss: 40.914813] [Time: 9.505317]
+root: INFO: [Dev set] [precision 68.194842] [recall 50.105263] [fscore 57.766990]
+root: INFO: [test set] [precision 65.142857] [recall 49.673203] [fscore 56.365884]
+root: INFO: 
+root: INFO: [Epoch 312 / 800] [Loss: 60.111928] [Time: 9.482643]
+root: INFO: [Dev set] [precision 67.977528] [recall 50.947368] [fscore 58.243081]
+root: INFO: [test set] [precision 64.142857] [recall 48.910675] [fscore 55.500618]
+root: INFO: 
+root: INFO: [Epoch 313 / 800] [Loss: 54.727534] [Time: 9.444655]
+root: INFO: [Dev set] [precision 68.079096] [recall 50.736842] [fscore 58.142340]
+root: INFO: [test set] [precision 64.822695] [recall 49.782135] [fscore 56.315465]
+root: INFO: 
+root: INFO: [Epoch 314 / 800] [Loss: 44.381321] [Time: 9.293909]
+root: INFO: [Dev set] [precision 67.887324] [recall 50.736842] [fscore 58.072289]
+root: INFO: [test set] [precision 64.935065] [recall 49.019608] [fscore 55.865922]
+root: INFO: 
+root: INFO: [Epoch 315 / 800] [Loss: 55.450462] [Time: 9.367866]
+root: INFO: [Dev set] [precision 68.328446] [recall 49.052632] [fscore 57.107843]
+root: INFO: [test set] [precision 65.976331] [recall 48.583878] [fscore 55.959849]
+root: INFO: 
+root: INFO: [Epoch 316 / 800] [Loss: 55.668861] [Time: 9.478078]
+root: INFO: [Dev set] [precision 67.952522] [recall 48.210526] [fscore 56.403941]
+root: INFO: [test set] [precision 65.861027] [recall 47.494553] [fscore 55.189873]
+root: INFO: 
+root: INFO: [Epoch 317 / 800] [Loss: 51.746100] [Time: 9.443864]
+root: INFO: [Dev set] [precision 69.911504] [recall 49.894737] [fscore 58.230958]
+root: INFO: [test set] [precision 64.766082] [recall 48.257081] [fscore 55.305868]
+root: INFO: 
+root: INFO: [Epoch 318 / 800] [Loss: 43.679554] [Time: 9.569189]
+root: INFO: [Dev set] [precision 69.369369] [recall 48.631579] [fscore 57.178218]
+root: INFO: [test set] [precision 65.676077] [recall 48.148148] [fscore 55.562539]
+root: INFO: 
+root: INFO: [Epoch 319 / 800] [Loss: 45.944715] [Time: 9.891812]
+root: INFO: [Dev set] [precision 68.555241] [recall 50.947368] [fscore 58.454106]
+root: INFO: [test set] [precision 64.887640] [recall 50.326797] [fscore 56.687117]
+root: INFO: 
+root: INFO: [Epoch 320 / 800] [Loss: 48.911725] [Time: 9.890308]
+root: INFO: [Dev set] [precision 69.486405] [recall 48.421053] [fscore 57.071960]
+root: INFO: [test set] [precision 66.666667] [recall 48.583878] [fscore 56.206679]
+root: INFO: 
+root: INFO: [Epoch 321 / 800] [Loss: 43.535728] [Time: 9.627962]
+root: INFO: [Dev set] [precision 69.827586] [recall 51.157895] [fscore 59.052248]
+root: INFO: [test set] [precision 64.942529] [recall 49.237473] [fscore 56.009913]
+root: INFO: 
+root: INFO: [Epoch 322 / 800] [Loss: 42.442460] [Time: 9.646303]
+root: INFO: [Dev set] [precision 69.428571] [recall 51.157895] [fscore 58.909091]
+root: INFO: [test set] [precision 65.576102] [recall 50.217865] [fscore 56.878470]
+root: INFO: 
+root: INFO: [Epoch 323 / 800] [Loss: 73.937844] [Time: 9.488708]
+root: INFO: [Dev set] [precision 68.644068] [recall 51.157895] [fscore 58.624849]
+root: INFO: [test set] [precision 64.672365] [recall 49.455338] [fscore 56.049383]
+root: INFO: 
+root: INFO: [Epoch 324 / 800] [Loss: 64.090512] [Time: 9.488445]
+root: INFO: [Dev set] [precision 71.084337] [recall 49.684211] [fscore 58.488228]
+root: INFO: [test set] [precision 67.233385] [recall 47.385621] [fscore 55.591054]
+root: INFO: 
+root: INFO: [Epoch 325 / 800] [Loss: 62.099633] [Time: 9.432173]
+root: INFO: [Dev set] [precision 67.977528] [recall 50.947368] [fscore 58.243081]
+root: INFO: [test set] [precision 64.655172] [recall 49.019608] [fscore 55.762082]
+root: INFO: 
+root: INFO: [Epoch 326 / 800] [Loss: 61.992082] [Time: 9.662005]
+root: INFO: [Dev set] [precision 67.897727] [recall 50.315789] [fscore 57.799274]
+root: INFO: [test set] [precision 64.285714] [recall 49.019608] [fscore 55.624227]
+root: INFO: 
+root: INFO: [Epoch 327 / 800] [Loss: 47.237569] [Time: 9.619653]
+root: INFO: [Dev set] [precision 67.514124] [recall 50.315789] [fscore 57.659831]
+root: INFO: [test set] [precision 63.920455] [recall 49.019608] [fscore 55.487053]
+root: INFO: 
+root: INFO: [Epoch 328 / 800] [Loss: 58.803716] [Time: 9.666249]
+root: INFO: [Dev set] [precision 69.940476] [recall 49.473684] [fscore 57.953144]
+root: INFO: [test set] [precision 65.714286] [recall 47.603486] [fscore 55.211623]
+root: INFO: 
+root: INFO: [Epoch 329 / 800] [Loss: 43.656959] [Time: 9.677505]
+root: INFO: [Dev set] [precision 66.849315] [recall 51.368421] [fscore 58.095238]
+root: INFO: [test set] [precision 64.225352] [recall 49.673203] [fscore 56.019656]
+root: INFO: 
+root: INFO: [Epoch 330 / 800] [Loss: 38.404085] [Time: 9.716496]
+root: INFO: [Dev set] [precision 66.307278] [recall 51.789474] [fscore 58.156028]
+root: INFO: [test set] [precision 63.019391] [recall 49.564270] [fscore 55.487805]
+root: INFO: 
+root: INFO: [Epoch 331 / 800] [Loss: 45.373302] [Time: 9.679910]
+root: INFO: [Dev set] [precision 68.376068] [recall 50.526316] [fscore 58.111380]
+root: INFO: [test set] [precision 64.040115] [recall 48.692810] [fscore 55.321782]
+root: INFO: 
+root: INFO: [Epoch 332 / 800] [Loss: 45.971453] [Time: 9.451380]
+root: INFO: [Dev set] [precision 69.164265] [recall 50.526316] [fscore 58.394161]
+root: INFO: [test set] [precision 64.790765] [recall 48.910675] [fscore 55.741775]
+root: INFO: 
+root: INFO: [Epoch 333 / 800] [Loss: 63.940407] [Time: 9.445880]
+root: INFO: [Dev set] [precision 69.321534] [recall 49.473684] [fscore 57.739558]
+root: INFO: [test set] [precision 65.119760] [recall 47.385621] [fscore 54.854981]
+root: INFO: 
+root: INFO: [Epoch 334 / 800] [Loss: 43.502948] [Time: 9.380278]
+root: INFO: [Dev set] [precision 68.347339] [recall 51.368421] [fscore 58.653846]
+root: INFO: [test set] [precision 64.091559] [recall 48.801743] [fscore 55.411255]
+root: INFO: 
+root: INFO: [Epoch 335 / 800] [Loss: 46.318338] [Time: 9.438888]
+root: INFO: [Dev set] [precision 68.313953] [recall 49.473684] [fscore 57.387057]
+root: INFO: [test set] [precision 65.345081] [recall 48.474946] [fscore 55.659787]
+root: INFO: 
+root: INFO: [Epoch 336 / 800] [Loss: 50.935540] [Time: 9.499922]
+root: INFO: [Dev set] [precision 68.604651] [recall 49.684211] [fscore 57.631258]
+root: INFO: [test set] [precision 65.727003] [recall 48.257081] [fscore 55.653266]
+root: INFO: 
+root: INFO: [Epoch 337 / 800] [Loss: 41.194413] [Time: 9.428482]
+root: INFO: [Dev set] [precision 68.390805] [recall 50.105263] [fscore 57.837181]
+root: INFO: [test set] [precision 64.389535] [recall 48.257081] [fscore 55.168120]
+root: INFO: 
+root: INFO: [Epoch 338 / 800] [Loss: 55.012552] [Time: 9.644345]
+root: INFO: [Dev set] [precision 68.695652] [recall 49.894737] [fscore 57.804878]
+root: INFO: [test set] [precision 65.109489] [recall 48.583878] [fscore 55.645664]
+root: INFO: 
+root: INFO: [Epoch 339 / 800] [Loss: 56.738417] [Time: 9.449970]
+root: INFO: [Dev set] [precision 68.571429] [recall 50.526316] [fscore 58.181818]
+root: INFO: [test set] [precision 65.350877] [recall 48.692810] [fscore 55.805243]
+root: INFO: 
+root: INFO: [Epoch 340 / 800] [Loss: 41.366030] [Time: 9.350713]
+root: INFO: [Dev set] [precision 69.590643] [recall 50.105263] [fscore 58.261934]
+root: INFO: [test set] [precision 66.167665] [recall 48.148148] [fscore 55.737705]
+root: INFO: 
+root: INFO: [Epoch 341 / 800] [Loss: 44.963706] [Time: 9.547402]
+root: INFO: [Dev set] [precision 66.666667] [recall 49.263158] [fscore 56.658596]
+root: INFO: [test set] [precision 64.790765] [recall 48.910675] [fscore 55.741775]
+root: INFO: 
+root: INFO: [Epoch 342 / 800] [Loss: 48.179976] [Time: 9.602653]
+root: INFO: [Dev set] [precision 66.120219] [recall 50.947368] [fscore 57.550535]
+root: INFO: [test set] [precision 63.800277] [recall 50.108932] [fscore 56.131788]
+root: INFO: 
+root: INFO: [Epoch 343 / 800] [Loss: 47.409883] [Time: 9.507087]
+root: INFO: [Dev set] [precision 67.988669] [recall 50.526316] [fscore 57.971014]
+root: INFO: [test set] [precision 64.586357] [recall 48.474946] [fscore 55.382701]
+root: INFO: 
+root: INFO: [Epoch 344 / 800] [Loss: 45.407665] [Time: 9.516572]
+root: INFO: [Dev set] [precision 68.555241] [recall 50.947368] [fscore 58.454106]
+root: INFO: [test set] [precision 65.037037] [recall 47.821351] [fscore 55.116133]
+root: INFO: 
+root: INFO: [Epoch 345 / 800] [Loss: 63.432959] [Time: 9.425817]
+root: INFO: [Dev set] [precision 65.921788] [recall 49.684211] [fscore 56.662665]
+root: INFO: [test set] [precision 64.697406] [recall 48.910675] [fscore 55.707196]
+root: INFO: 
+root: INFO: [Epoch 346 / 800] [Loss: 40.961926] [Time: 9.477591]
+root: INFO: [Dev set] [precision 67.323944] [recall 50.315789] [fscore 57.590361]
+root: INFO: [test set] [precision 63.544669] [recall 48.039216] [fscore 54.714640]
+root: INFO: 
+root: INFO: [Epoch 347 / 800] [Loss: 51.396513] [Time: 9.398530]
+root: INFO: [Dev set] [precision 68.945869] [recall 50.947368] [fscore 58.595642]
+root: INFO: [test set] [precision 65.542522] [recall 48.692810] [fscore 55.875000]
+root: INFO: 
+root: INFO: [Epoch 348 / 800] [Loss: 48.481827] [Time: 9.846305]
+root: INFO: [Dev set] [precision 67.688022] [recall 51.157895] [fscore 58.273381]
+root: INFO: [test set] [precision 62.957746] [recall 48.692810] [fscore 54.914005]
+root: INFO: 
+root: INFO: [Epoch 349 / 800] [Loss: 49.247067] [Time: 9.759904]
+root: INFO: [Dev set] [precision 69.164265] [recall 50.526316] [fscore 58.394161]
+root: INFO: [test set] [precision 63.165468] [recall 47.821351] [fscore 54.432734]
+root: INFO: 
+root: INFO: [Epoch 350 / 800] [Loss: 39.882807] [Time: 10.161118]
+root: INFO: [Dev set] [precision 68.208092] [recall 49.684211] [fscore 57.490865]
+root: INFO: [test set] [precision 63.314448] [recall 48.692810] [fscore 55.049261]
+root: INFO: 
+root: INFO: [Epoch 351 / 800] [Loss: 45.323248] [Time: 9.778771]
+root: INFO: [Dev set] [precision 68.194842] [recall 50.105263] [fscore 57.766990]
+root: INFO: [test set] [precision 63.610315] [recall 48.366013] [fscore 54.950495]
+root: INFO: 
+root: INFO: [Epoch 352 / 800] [Loss: 53.043262] [Time: 10.247556]
+root: INFO: [Dev set] [precision 69.387755] [recall 50.105263] [fscore 58.190709]
+root: INFO: [test set] [precision 64.868805] [recall 48.474946] [fscore 55.486284]
+root: INFO: 
+root: INFO: [Epoch 353 / 800] [Loss: 47.331477] [Time: 8.129326]
+root: INFO: [Dev set] [precision 67.919075] [recall 49.473684] [fscore 57.247259]
+root: INFO: [test set] [precision 64.224138] [recall 48.692810] [fscore 55.390335]
+root: INFO: 
+root: INFO: [Epoch 354 / 800] [Loss: 36.159244] [Time: 10.043680]
+root: INFO: [Dev set] [precision 67.528736] [recall 49.473684] [fscore 57.108141]
+root: INFO: [test set] [precision 64.418938] [recall 48.910675] [fscore 55.603715]
+root: INFO: 
+root: INFO: [Epoch 355 / 800] [Loss: 48.409308] [Time: 7.594993]
+root: INFO: [Dev set] [precision 66.951567] [recall 49.473684] [fscore 56.900726]
+root: INFO: [test set] [precision 64.963504] [recall 48.474946] [fscore 55.520898]
+root: INFO: 
+root: INFO: [Epoch 356 / 800] [Loss: 41.080011] [Time: 7.796691]
+root: INFO: [Dev set] [precision 66.849315] [recall 51.368421] [fscore 58.095238]
+root: INFO: [test set] [precision 63.888889] [recall 50.108932] [fscore 56.166056]
+root: INFO: 
+root: INFO: [Epoch 357 / 800] [Loss: 46.105339] [Time: 7.437552]
+root: INFO: [Dev set] [precision 67.507003] [recall 50.736842] [fscore 57.932692]
+root: INFO: [test set] [precision 64.225352] [recall 49.673203] [fscore 56.019656]
+root: INFO: 
+root: INFO: [Epoch 358 / 800] [Loss: 40.823048] [Time: 7.436502]
+root: INFO: [Dev set] [precision 68.715084] [recall 51.789474] [fscore 59.063625]
+root: INFO: [test set] [precision 63.778409] [recall 48.910675] [fscore 55.363748]
+root: INFO: 
+root: INFO: [Epoch 359 / 800] [Loss: 40.743237] [Time: 7.342009]
+root: INFO: [Dev set] [precision 67.409471] [recall 50.947368] [fscore 58.033573]
+root: INFO: [test set] [precision 63.282337] [recall 49.564270] [fscore 55.589493]
+root: INFO: 
+root: INFO: [Epoch 360 / 800] [Loss: 45.232787] [Time: 7.892233]
+root: INFO: [Dev set] [precision 68.523677] [recall 51.789474] [fscore 58.992806]
+root: INFO: [test set] [precision 63.534362] [recall 49.346405] [fscore 55.548743]
+root: INFO: 
+root: INFO: [Epoch 361 / 800] [Loss: 37.875896] [Time: 7.407505]
+root: INFO: [Dev set] [precision 68.347339] [recall 51.368421] [fscore 58.653846]
+root: INFO: [test set] [precision 62.900976] [recall 49.128540] [fscore 55.168196]
+root: INFO: 
+root: INFO: [Epoch 362 / 800] [Loss: 50.484087] [Time: 7.476022]
+root: INFO: [Dev set] [precision 68.245125] [recall 51.578947] [fscore 58.752998]
+root: INFO: [test set] [precision 63.687943] [recall 48.910675] [fscore 55.329636]
+root: INFO: 
+root: INFO: [Epoch 363 / 800] [Loss: 43.635184] [Time: 9.472432]
+root: INFO: [Dev set] [precision 67.671233] [recall 52.000000] [fscore 58.809524]
+root: INFO: [test set] [precision 63.598326] [recall 49.673203] [fscore 55.779817]
+root: INFO: 
+root: INFO: [Epoch 364 / 800] [Loss: 72.717425] [Time: 9.815211]
+root: INFO: [Dev set] [precision 68.219178] [recall 52.421053] [fscore 59.285714]
+root: INFO: [test set] [precision 63.421419] [recall 49.673203] [fscore 55.711668]
+root: INFO: 
+root: INFO: [Epoch 365 / 800] [Loss: 43.012815] [Time: 7.733462]
+root: INFO: [Dev set] [precision 66.666667] [recall 51.368421] [fscore 58.026159]
+root: INFO: [test set] [precision 63.511660] [recall 50.435730] [fscore 56.223437]
+root: INFO: 
+root: INFO: [Epoch 366 / 800] [Loss: 37.881145] [Time: 7.750569]
+root: INFO: [Dev set] [precision 67.514124] [recall 50.315789] [fscore 57.659831]
+root: INFO: [test set] [precision 64.113475] [recall 49.237473] [fscore 55.699322]
+root: INFO: 
+root: INFO: [Epoch 367 / 800] [Loss: 54.298192] [Time: 8.352181]
+root: INFO: [Dev set] [precision 65.753425] [recall 50.526316] [fscore 57.142857]
+root: INFO: [test set] [precision 63.522885] [recall 49.891068] [fscore 55.887736]
+root: INFO: 
+root: INFO: [Epoch 368 / 800] [Loss: 88.112494] [Time: 7.758050]
+root: INFO: [Dev set] [precision 65.527066] [recall 48.421053] [fscore 55.690073]
+root: INFO: [test set] [precision 64.387464] [recall 49.237473] [fscore 55.802469]
+root: INFO: 
+root: INFO: [Epoch 369 / 800] [Loss: 47.674321] [Time: 7.838670]
+root: INFO: [Dev set] [precision 66.091954] [recall 48.421053] [fscore 55.893074]
+root: INFO: [test set] [precision 64.756447] [recall 49.237473] [fscore 55.940594]
+root: INFO: 
+root: INFO: [Epoch 370 / 800] [Loss: 39.907323] [Time: 7.873113]
+root: INFO: [Dev set] [precision 66.956522] [recall 48.631579] [fscore 56.341463]
+root: INFO: [test set] [precision 64.586357] [recall 48.474946] [fscore 55.382701]
+root: INFO: 
+root: INFO: [Epoch 371 / 800] [Loss: 51.024058] [Time: 7.242621]
+root: INFO: [Dev set] [precision 66.288952] [recall 49.263158] [fscore 56.521739]
+root: INFO: [test set] [precision 63.725490] [recall 49.564270] [fscore 55.759804]
+root: INFO: 
+root: INFO: [Epoch 372 / 800] [Loss: 42.988571] [Time: 7.273305]
+root: INFO: [Dev set] [precision 67.151163] [recall 48.631579] [fscore 56.410256]
+root: INFO: [test set] [precision 65.014577] [recall 48.583878] [fscore 55.610973]
+root: INFO: 
+root: INFO: [Epoch 373 / 800] [Loss: 61.549320] [Time: 10.468061]
+root: INFO: [Dev set] [precision 67.448680] [recall 48.421053] [fscore 56.372549]
+root: INFO: [test set] [precision 64.296081] [recall 48.257081] [fscore 55.133790]
+root: INFO: 
+root: INFO: [Epoch 374 / 800] [Loss: 43.512720] [Time: 7.665914]
+root: INFO: [Dev set] [precision 67.164179] [recall 47.368421] [fscore 55.555556]
+root: INFO: [test set] [precision 64.265130] [recall 48.583878] [fscore 55.334988]
+root: INFO: 
+root: INFO: [Epoch 375 / 800] [Loss: 37.578785] [Time: 7.440568]
+root: INFO: [Dev set] [precision 67.987805] [recall 46.947368] [fscore 55.541719]
+root: INFO: [test set] [precision 63.970588] [recall 47.385621] [fscore 54.443054]
+root: INFO: 
+root: INFO: [Epoch 376 / 800] [Loss: 66.306867] [Time: 8.450492]
+root: INFO: [Dev set] [precision 66.574586] [recall 50.736842] [fscore 57.586619]
+root: INFO: [test set] [precision 62.620690] [recall 49.455338] [fscore 55.264760]
+root: INFO: 
+root: INFO: [Epoch 377 / 800] [Loss: 51.428651] [Time: 9.805835]
+root: INFO: [Dev set] [precision 66.573034] [recall 49.894737] [fscore 57.039711]
+root: INFO: [test set] [precision 62.926136] [recall 48.257081] [fscore 54.623921]
+root: INFO: 
+root: INFO: [Epoch 378 / 800] [Loss: 55.662209] [Time: 11.097960]
+root: INFO: [Dev set] [precision 67.217631] [recall 51.368421] [fscore 58.233890]
+root: INFO: [test set] [precision 63.829787] [recall 49.019608] [fscore 55.452865]
+root: INFO: 
+root: INFO: [Epoch 379 / 800] [Loss: 40.913049] [Time: 7.922194]
+root: INFO: [Dev set] [precision 67.217631] [recall 51.368421] [fscore 58.233890]
+root: INFO: [test set] [precision 64.106145] [recall 50.000000] [fscore 56.181151]
+root: INFO: 
+root: INFO: [Epoch 380 / 800] [Loss: 33.422664] [Time: 17.589738]
+root: INFO: [Dev set] [precision 66.208791] [recall 50.736842] [fscore 57.449344]
+root: INFO: [test set] [precision 64.325843] [recall 49.891068] [fscore 56.196319]
+root: INFO: 
+root: INFO: [Epoch 381 / 800] [Loss: 31.938268] [Time: 16.347505]
+root: INFO: [Dev set] [precision 67.613636] [recall 50.105263] [fscore 57.557437]
+root: INFO: [test set] [precision 65.173410] [recall 49.128540] [fscore 56.024845]
+root: INFO: 
+root: INFO: [Epoch 382 / 800] [Loss: 33.661171] [Time: 15.307446]
+root: INFO: [Dev set] [precision 66.288952] [recall 49.263158] [fscore 56.521739]
+root: INFO: [test set] [precision 64.739884] [recall 48.801743] [fscore 55.652174]
+root: INFO: 
+root: INFO: [Epoch 383 / 800] [Loss: 51.154856] [Time: 15.175682]
+root: INFO: [Dev set] [precision 66.849315] [recall 51.368421] [fscore 58.095238]
+root: INFO: [test set] [precision 63.380282] [recall 49.019608] [fscore 55.282555]
+root: INFO: 
+root: INFO: [Epoch 384 / 800] [Loss: 45.404568] [Time: 15.172024]
+root: INFO: [Dev set] [precision 66.666667] [recall 51.789474] [fscore 58.293839]
+root: INFO: [test set] [precision 63.461538] [recall 50.326797] [fscore 56.136087]
+root: INFO: 
+root: INFO: [Epoch 385 / 800] [Loss: 58.290723] [Time: 15.142664]
+root: INFO: [Dev set] [precision 68.857143] [recall 50.736842] [fscore 58.424242]
+root: INFO: [test set] [precision 64.817518] [recall 48.366013] [fscore 55.396132]
+root: INFO: 
+root: INFO: [Epoch 386 / 800] [Loss: 41.929996] [Time: 15.549725]
+root: INFO: [Dev set] [precision 69.295775] [recall 51.789474] [fscore 59.277108]
+root: INFO: [test set] [precision 64.507042] [recall 49.891068] [fscore 56.265356]
+root: INFO: 
+root: INFO: [Epoch 387 / 800] [Loss: 46.793202] [Time: 15.459900]
+root: INFO: [Dev set] [precision 69.318182] [recall 51.368421] [fscore 59.008464]
+root: INFO: [test set] [precision 64.586357] [recall 48.474946] [fscore 55.382701]
+root: INFO: 
+root: INFO: [Epoch 388 / 800] [Loss: 43.601566] [Time: 15.128785]
+root: INFO: [Dev set] [precision 69.121813] [recall 51.368421] [fscore 58.937198]
+root: INFO: [test set] [precision 64.080460] [recall 48.583878] [fscore 55.266419]
+root: INFO: 
+root: INFO: [Epoch 389 / 800] [Loss: 31.163493] [Time: 15.272690]
+root: INFO: [Dev set] [precision 69.515670] [recall 51.368421] [fscore 59.079903]
+root: INFO: [test set] [precision 63.492063] [recall 47.930283] [fscore 54.624457]
+root: INFO: 
+root: INFO: [Epoch 390 / 800] [Loss: 24.986213] [Time: 15.271559]
+root: INFO: [Dev set] [precision 69.034091] [recall 51.157895] [fscore 58.766626]
+root: INFO: [test set] [precision 63.741007] [recall 48.257081] [fscore 54.928704]
+root: INFO: 
+root: INFO: [Epoch 391 / 800] [Loss: 36.334622] [Time: 15.089901]
+root: INFO: [Dev set] [precision 68.208092] [recall 49.684211] [fscore 57.490865]
+root: INFO: [test set] [precision 65.676077] [recall 48.148148] [fscore 55.562539]
+root: INFO: 
+root: INFO: [Epoch 392 / 800] [Loss: 55.712364] [Time: 15.092448]
+root: INFO: [Dev set] [precision 69.794721] [recall 50.105263] [fscore 58.333333]
+root: INFO: [test set] [precision 66.816817] [recall 48.474946] [fscore 56.186869]
+root: INFO: 
+root: INFO: [Epoch 393 / 800] [Loss: 46.565840] [Time: 15.180762]
+root: INFO: [Dev set] [precision 68.539326] [recall 51.368421] [fscore 58.724428]
+root: INFO: [test set] [precision 64.022663] [recall 49.237473] [fscore 55.665025]
+root: INFO: 
+root: INFO: [Epoch 394 / 800] [Loss: 24.726452] [Time: 15.741243]
+root: INFO: [Dev set] [precision 68.361582] [recall 50.947368] [fscore 58.383595]
+root: INFO: [test set] [precision 64.562410] [recall 49.019608] [fscore 55.727554]
+root: INFO: 
+root: INFO: [Epoch 395 / 800] [Loss: 44.772220] [Time: 15.052480]
+root: INFO: [Dev set] [precision 68.000000] [recall 50.105263] [fscore 57.696970]
+root: INFO: [test set] [precision 65.042980] [recall 49.455338] [fscore 56.188119]
+root: INFO: 
+root: INFO: [Epoch 396 / 800] [Loss: 55.993434] [Time: 15.309986]
+root: INFO: [Dev set] [precision 68.713450] [recall 49.473684] [fscore 57.527540]
+root: INFO: [test set] [precision 64.296081] [recall 48.257081] [fscore 55.133790]
+root: INFO: 
+root: INFO: [Epoch 397 / 800] [Loss: 50.119042] [Time: 15.152882]
+root: INFO: [Dev set] [precision 67.507003] [recall 50.736842] [fscore 57.932692]
+root: INFO: [test set] [precision 63.469676] [recall 49.019608] [fscore 55.316533]
+root: INFO: 
+root: INFO: [Epoch 398 / 800] [Loss: 48.440678] [Time: 15.402292]
+root: INFO: [Dev set] [precision 68.497110] [recall 49.894737] [fscore 57.734470]
+root: INFO: [test set] [precision 64.234621] [recall 48.910675] [fscore 55.534941]
+root: INFO: 
+root: INFO: [Epoch 399 / 800] [Loss: 34.012681] [Time: 17.136118]
+root: INFO: [Dev set] [precision 67.897727] [recall 50.315789] [fscore 57.799274]
+root: INFO: [test set] [precision 65.223665] [recall 49.237473] [fscore 56.114215]
+root: INFO: 
+root: INFO: [Epoch 400 / 800] [Loss: 35.944883] [Time: 16.936329]
+root: INFO: [Dev set] [precision 67.732558] [recall 49.052632] [fscore 56.898657]
+root: INFO: [test set] [precision 65.689150] [recall 48.801743] [fscore 56.000000]
+root: INFO: 
+root: INFO: [Epoch 401 / 800] [Loss: 42.654601] [Time: 14.761938]
+root: INFO: [Dev set] [precision 68.562874] [recall 48.210526] [fscore 56.613103]
+root: INFO: [test set] [precision 66.767830] [recall 47.930283] [fscore 55.802156]
+root: INFO: 
+root: INFO: [Epoch 402 / 800] [Loss: 54.784694] [Time: 18.090257]
+root: INFO: [Dev set] [precision 67.415730] [recall 50.526316] [fscore 57.761733]
+root: INFO: [test set] [precision 66.086957] [recall 49.673203] [fscore 56.716418]
+root: INFO: 
+root: INFO: [Epoch 403 / 800] [Loss: 43.257766] [Time: 19.445637]
+root: INFO: [Dev set] [precision 66.395664] [recall 51.578947] [fscore 58.056872]
+root: INFO: [test set] [precision 64.598025] [recall 49.891068] [fscore 56.299939]
+root: INFO: 
+root: INFO: [Epoch 404 / 800] [Loss: 36.266554] [Time: 18.227779]
+root: INFO: [Dev set] [precision 67.521368] [recall 49.894737] [fscore 57.384988]
+root: INFO: [test set] [precision 64.492754] [recall 48.474946] [fscore 55.348259]
+root: INFO: 
+root: INFO: [Epoch 405 / 800] [Loss: 32.579521] [Time: 15.989842]
+root: INFO: [Dev set] [precision 68.108108] [recall 53.052632] [fscore 59.644970]
+root: INFO: [test set] [precision 65.028090] [recall 50.435730] [fscore 56.809816]
+root: INFO: 
+root: INFO: [Epoch 406 / 800] [Loss: 50.491739] [Time: 16.891166]
+root: INFO: [Dev set] [precision 69.969970] [recall 49.052632] [fscore 57.673267]
+root: INFO: [test set] [precision 66.517857] [recall 48.692810] [fscore 56.226415]
+root: INFO: 
+root: INFO: [Epoch 407 / 800] [Loss: 35.750905] [Time: 9.419281]
+root: INFO: [Dev set] [precision 69.080780] [recall 52.210526] [fscore 59.472422]
+root: INFO: [test set] [precision 64.598025] [recall 49.891068] [fscore 56.299939]
+root: INFO: 
+root: INFO: [Epoch 408 / 800] [Loss: 43.149846] [Time: 9.487225]
+root: INFO: [Dev set] [precision 68.128655] [recall 49.052632] [fscore 57.037944]
+root: INFO: [test set] [precision 65.970149] [recall 48.148148] [fscore 55.667506]
+root: INFO: 
+root: INFO: [Epoch 409 / 800] [Loss: 50.755849] [Time: 7.135625]
+root: INFO: [Dev set] [precision 68.695652] [recall 49.894737] [fscore 57.804878]
+root: INFO: [test set] [precision 65.350877] [recall 48.692810] [fscore 55.805243]
+root: INFO: 
+root: INFO: [Epoch 410 / 800] [Loss: 51.175687] [Time: 7.410264]
+root: INFO: [Dev set] [precision 67.422096] [recall 50.105263] [fscore 57.487923]
+root: INFO: [test set] [precision 64.978292] [recall 48.910675] [fscore 55.811063]
+root: INFO: 
+root: INFO: [Epoch 411 / 800] [Loss: 38.523775] [Time: 7.796632]
+root: INFO: [Dev set] [precision 66.949153] [recall 49.894737] [fscore 57.177322]
+root: INFO: [test set] [precision 65.129683] [recall 49.237473] [fscore 56.079404]
+root: INFO: 
+root: INFO: [Epoch 412 / 800] [Loss: 42.466778] [Time: 7.717155]
+root: INFO: [Dev set] [precision 65.109890] [recall 49.894737] [fscore 56.495828]
+root: INFO: [test set] [precision 64.630682] [recall 49.564270] [fscore 56.103576]
+root: INFO: 
+root: INFO: [Epoch 413 / 800] [Loss: 43.105786] [Time: 7.687711]
+root: INFO: [Dev set] [precision 66.288952] [recall 49.263158] [fscore 56.521739]
+root: INFO: [test set] [precision 64.912281] [recall 48.366013] [fscore 55.430712]
+root: INFO: 
+root: INFO: [Epoch 414 / 800] [Loss: 57.093452] [Time: 7.451586]
+root: INFO: [Dev set] [precision 65.616046] [recall 48.210526] [fscore 55.582524]
+root: INFO: [test set] [precision 64.571429] [recall 49.237473] [fscore 55.871446]
+root: INFO: 
+root: INFO: [Epoch 415 / 800] [Loss: 34.140312] [Time: 7.479051]
+root: INFO: [Dev set] [precision 67.559524] [recall 47.789474] [fscore 55.980271]
+root: INFO: [test set] [precision 65.820896] [recall 48.039216] [fscore 55.541562]
+root: INFO: 
+root: INFO: [Epoch 416 / 800] [Loss: 45.630248] [Time: 7.594405]
+root: INFO: [Dev set] [precision 66.857143] [recall 49.263158] [fscore 56.727273]
+root: INFO: [test set] [precision 65.985401] [recall 49.237473] [fscore 56.394261]
+root: INFO: 
+root: INFO: [Epoch 417 / 800] [Loss: 48.528893] [Time: 8.055161]
+root: INFO: [Dev set] [precision 66.951567] [recall 49.473684] [fscore 56.900726]
+root: INFO: [test set] [precision 65.261628] [recall 48.910675] [fscore 55.915318]
+root: INFO: 
+root: INFO: [Epoch 418 / 800] [Loss: 45.155615] [Time: 7.373756]
+root: INFO: [Dev set] [precision 65.927978] [recall 50.105263] [fscore 56.937799]
+root: INFO: [test set] [precision 64.073550] [recall 49.346405] [fscore 55.753846]
+root: INFO: 
+root: INFO: [Epoch 419 / 800] [Loss: 43.941106] [Time: 7.244710]
+root: INFO: [Dev set] [precision 66.091954] [recall 48.421053] [fscore 55.893074]
+root: INFO: [test set] [precision 63.808140] [recall 47.821351] [fscore 54.669988]
+root: INFO: 
+root: INFO: [Epoch 420 / 800] [Loss: 37.989810] [Time: 7.586014]
+root: INFO: [Dev set] [precision 67.062315] [recall 47.578947] [fscore 55.665025]
+root: INFO: [test set] [precision 65.769806] [recall 47.930283] [fscore 55.450536]
+root: INFO: 
+root: INFO: [Epoch 421 / 800] [Loss: 39.855069] [Time: 7.201256]
+root: INFO: [Dev set] [precision 67.455621] [recall 48.000000] [fscore 56.088561]
+root: INFO: [test set] [precision 65.022422] [recall 47.385621] [fscore 54.820416]
+root: INFO: 
+root: INFO: [Epoch 422 / 800] [Loss: 44.746081] [Time: 7.170404]
+root: INFO: [Dev set] [precision 67.142857] [recall 49.473684] [fscore 56.969697]
+root: INFO: [test set] [precision 64.876633] [recall 48.692810] [fscore 55.631612]
+root: INFO: 
+root: INFO: [Epoch 423 / 800] [Loss: 42.143393] [Time: 7.286924]
+root: INFO: [Dev set] [precision 68.035191] [recall 48.842105] [fscore 56.862745]
+root: INFO: [test set] [precision 65.300146] [recall 48.583878] [fscore 55.715178]
+root: INFO: 
+root: INFO: [Epoch 424 / 800] [Loss: 45.425266] [Time: 7.806580]
+root: INFO: [Dev set] [precision 66.568915] [recall 47.789474] [fscore 55.637255]
+root: INFO: [test set] [precision 64.359352] [recall 47.603486] [fscore 54.727614]
+root: INFO: 
+root: INFO: [Epoch 425 / 800] [Loss: 60.265148] [Time: 9.414212]
+root: INFO: [Dev set] [precision 67.941176] [recall 48.631579] [fscore 56.687117]
+root: INFO: [test set] [precision 65.777778] [recall 48.366013] [fscore 55.743879]
+root: INFO: 
+root: INFO: [Epoch 426 / 800] [Loss: 39.645142] [Time: 7.438105]
+root: INFO: [Dev set] [precision 67.462687] [recall 47.578947] [fscore 55.802469]
+root: INFO: [test set] [precision 66.109422] [recall 47.385621] [fscore 55.203046]
+root: INFO: 
+root: INFO: [Epoch 427 / 800] [Loss: 37.780927] [Time: 7.600098]
+root: INFO: [Dev set] [precision 67.551622] [recall 48.210526] [fscore 56.265356]
+root: INFO: [test set] [precision 65.714286] [recall 47.603486] [fscore 55.211623]
+root: INFO: 
+root: INFO: [Epoch 428 / 800] [Loss: 48.575776] [Time: 7.281181]
+root: INFO: [Dev set] [precision 66.949153] [recall 49.894737] [fscore 57.177322]
+root: INFO: [test set] [precision 64.529915] [recall 49.346405] [fscore 55.925926]
+root: INFO: 
+root: INFO: [Epoch 429 / 800] [Loss: 37.002239] [Time: 7.341562]
+root: INFO: [Dev set] [precision 67.246377] [recall 48.842105] [fscore 56.585366]
+root: INFO: [test set] [precision 65.976331] [recall 48.583878] [fscore 55.959849]
+root: INFO: 
+root: INFO: [Epoch 430 / 800] [Loss: 44.940169] [Time: 7.250970]
+root: INFO: [Dev set] [precision 67.352941] [recall 48.210526] [fscore 56.196319]
+root: INFO: [test set] [precision 64.483261] [recall 48.257081] [fscore 55.202492]
+root: INFO: 
+root: INFO: [Epoch 431 / 800] [Loss: 43.896589] [Time: 7.229771]
+root: INFO: [Dev set] [precision 66.762178] [recall 49.052632] [fscore 56.553398]
+root: INFO: [test set] [precision 65.739385] [recall 48.910675] [fscore 56.089944]
+root: INFO: 
+root: INFO: [Epoch 432 / 800] [Loss: 36.716091] [Time: 7.296806]
+root: INFO: [Dev set] [precision 68.000000] [recall 50.105263] [fscore 57.696970]
+root: INFO: [test set] [precision 66.275660] [recall 49.237473] [fscore 56.500000]
+root: INFO: 
+root: INFO: [Epoch 433 / 800] [Loss: 53.157952] [Time: 7.262975]
+root: INFO: [Dev set] [precision 66.568047] [recall 47.368421] [fscore 55.350554]
+root: INFO: [test set] [precision 65.558912] [recall 47.276688] [fscore 54.936709]
+root: INFO: 
+root: INFO: [Epoch 434 / 800] [Loss: 23.384036] [Time: 7.246296]
+root: INFO: [Dev set] [precision 65.507246] [recall 47.578947] [fscore 55.121951]
+root: INFO: [test set] [precision 65.309201] [recall 47.167756] [fscore 54.775459]
+root: INFO: 
+root: INFO: [Epoch 435 / 800] [Loss: 40.927542] [Time: 7.198944]
+root: INFO: [Dev set] [precision 66.091954] [recall 48.421053] [fscore 55.893074]
+root: INFO: [test set] [precision 65.970149] [recall 48.148148] [fscore 55.667506]
+root: INFO: 
+root: INFO: [Epoch 436 / 800] [Loss: 50.123717] [Time: 7.256715]
+root: INFO: [Dev set] [precision 66.566265] [recall 46.526316] [fscore 54.770756]
+root: INFO: [test set] [precision 66.253870] [recall 46.623094] [fscore 54.731458]
+root: INFO: 
+root: INFO: [Epoch 437 / 800] [Loss: 48.808084] [Time: 7.217882]
+root: INFO: [Dev set] [precision 66.472303] [recall 48.000000] [fscore 55.745721]
+root: INFO: [test set] [precision 65.809380] [recall 47.385621] [fscore 55.098163]
+root: INFO: 
+root: INFO: [Epoch 438 / 800] [Loss: 48.279876] [Time: 7.251524]
+root: INFO: [Dev set] [precision 66.288952] [recall 49.263158] [fscore 56.521739]
+root: INFO: [test set] [precision 65.578635] [recall 48.148148] [fscore 55.527638]
+root: INFO: 
+root: INFO: [Epoch 439 / 800] [Loss: 35.070468] [Time: 7.178363]
+root: INFO: [Dev set] [precision 66.288952] [recall 49.263158] [fscore 56.521739]
+root: INFO: [test set] [precision 65.832106] [recall 48.692810] [fscore 55.979962]
+root: INFO: 
+root: INFO: [Epoch 440 / 800] [Loss: 58.694017] [Time: 7.394636]
+root: INFO: [Dev set] [precision 66.857143] [recall 49.263158] [fscore 56.727273]
+root: INFO: [test set] [precision 65.395894] [recall 48.583878] [fscore 55.750000]
+root: INFO: 
+root: INFO: [Epoch 441 / 800] [Loss: 45.208628] [Time: 7.291873]
+root: INFO: [Dev set] [precision 66.760563] [recall 49.894737] [fscore 57.108434]
+root: INFO: [test set] [precision 64.586357] [recall 48.474946] [fscore 55.382701]
+root: INFO: 
+root: INFO: [Epoch 442 / 800] [Loss: 36.872567] [Time: 7.258424]
+root: INFO: [Dev set] [precision 67.521368] [recall 49.894737] [fscore 57.384988]
+root: INFO: [test set] [precision 65.007321] [recall 48.366013] [fscore 55.465334]
+root: INFO: 
+root: INFO: [Epoch 443 / 800] [Loss: 40.167025] [Time: 7.225411]
+root: INFO: [Dev set] [precision 68.011527] [recall 49.684211] [fscore 57.420925]
+root: INFO: [test set] [precision 65.718563] [recall 47.821351] [fscore 55.359395]
+root: INFO: 
+root: INFO: [Epoch 444 / 800] [Loss: 26.241323] [Time: 7.226793]
+root: INFO: [Dev set] [precision 66.961652] [recall 47.789474] [fscore 55.773956]
+root: INFO: [test set] [precision 64.696970] [recall 46.514161] [fscore 54.119138]
+root: INFO: 
+root: INFO: [Epoch 445 / 800] [Loss: 37.791733] [Time: 7.209223]
+root: INFO: [Dev set] [precision 66.666667] [recall 48.421053] [fscore 56.097561]
+root: INFO: [test set] [precision 64.940828] [recall 47.821351] [fscore 55.081556]
+root: INFO: 
+root: INFO: [Epoch 446 / 800] [Loss: 35.480418] [Time: 7.184756]
+root: INFO: [Dev set] [precision 66.388889] [recall 50.315789] [fscore 57.245509]
+root: INFO: [test set] [precision 64.748201] [recall 49.019608] [fscore 55.796652]
+root: INFO: 
+root: INFO: [Epoch 447 / 800] [Loss: 58.920705] [Time: 7.223284]
+root: INFO: [Dev set] [precision 67.045455] [recall 49.684211] [fscore 57.073761]
+root: INFO: [test set] [precision 64.610866] [recall 47.930283] [fscore 55.034396]
+root: INFO: 
+root: INFO: [Epoch 448 / 800] [Loss: 33.843125] [Time: 7.278824]
+root: INFO: [Dev set] [precision 66.011236] [recall 49.473684] [fscore 56.558363]
+root: INFO: [test set] [precision 64.409222] [recall 48.692810] [fscore 55.459057]
+root: INFO: 
+root: INFO: [Epoch 449 / 800] [Loss: 40.178579] [Time: 7.269164]
+root: INFO: [Dev set] [precision 66.573034] [recall 49.894737] [fscore 57.039711]
+root: INFO: [test set] [precision 64.073550] [recall 49.346405] [fscore 55.753846]
+root: INFO: 
+root: INFO: [Epoch 450 / 800] [Loss: 54.382356] [Time: 7.217756]
+root: INFO: [Dev set] [precision 66.381766] [recall 49.052632] [fscore 56.416465]
+root: INFO: [test set] [precision 65.261628] [recall 48.910675] [fscore 55.915318]
+root: INFO: 
+root: INFO: [Epoch 451 / 800] [Loss: 38.136555] [Time: 7.269607]
+root: INFO: [Dev set] [precision 66.574586] [recall 50.736842] [fscore 57.586619]
+root: INFO: [test set] [precision 65.077139] [recall 50.544662] [fscore 56.897609]
+root: INFO: 
+root: INFO: [Epoch 452 / 800] [Loss: 44.983150] [Time: 7.217075]
+root: INFO: [Dev set] [precision 67.045455] [recall 49.684211] [fscore 57.073761]
+root: INFO: [test set] [precision 65.335235] [recall 49.891068] [fscore 56.578135]
+root: INFO: 
+root: INFO: [Epoch 453 / 800] [Loss: 43.743871] [Time: 7.248121]
+root: INFO: [Dev set] [precision 65.934066] [recall 50.526316] [fscore 57.210965]
+root: INFO: [test set] [precision 64.466292] [recall 50.000000] [fscore 56.319018]
+root: INFO: 
+root: INFO: [Epoch 454 / 800] [Loss: 41.996346] [Time: 7.229305]
+root: INFO: [Dev set] [precision 67.714286] [recall 49.894737] [fscore 57.454545]
+root: INFO: [test set] [precision 65.571429] [recall 50.000000] [fscore 56.736712]
+root: INFO: 
+root: INFO: [Epoch 455 / 800] [Loss: 41.624368] [Time: 7.265662]
+root: INFO: [Dev set] [precision 67.732558] [recall 49.052632] [fscore 56.898657]
+root: INFO: [test set] [precision 66.176471] [recall 49.019608] [fscore 56.320401]
+root: INFO: 
+root: INFO: [Epoch 456 / 800] [Loss: 49.399237] [Time: 7.208557]
+root: INFO: [Dev set] [precision 67.036011] [recall 50.947368] [fscore 57.894737]
+root: INFO: [test set] [precision 64.598025] [recall 49.891068] [fscore 56.299939]
+root: INFO: 
+root: INFO: [Epoch 457 / 800] [Loss: 52.207607] [Time: 7.193303]
+root: INFO: [Dev set] [precision 67.705382] [recall 50.315789] [fscore 57.729469]
+root: INFO: [test set] [precision 65.885798] [recall 49.019608] [fscore 56.214866]
+root: INFO: 
+root: INFO: [Epoch 458 / 800] [Loss: 38.604756] [Time: 7.253447]
+root: INFO: [Dev set] [precision 66.853933] [recall 50.105263] [fscore 57.280385]
+root: INFO: [test set] [precision 64.841499] [recall 49.019608] [fscore 55.831266]
+root: INFO: 
+root: INFO: [Epoch 459 / 800] [Loss: 41.172613] [Time: 7.179632]
+root: INFO: [Dev set] [precision 66.005666] [recall 49.052632] [fscore 56.280193]
+root: INFO: [test set] [precision 65.267728] [recall 49.128540] [fscore 56.059664]
+root: INFO: 
+root: INFO: [Epoch 460 / 800] [Loss: 44.968351] [Time: 7.272784]
+root: INFO: [Dev set] [precision 67.251462] [recall 48.421053] [fscore 56.303550]
+root: INFO: [test set] [precision 65.236686] [recall 48.039216] [fscore 55.332497]
+root: INFO: 
+root: INFO: [Epoch 461 / 800] [Loss: 30.663898] [Time: 7.286094]
+root: INFO: [Dev set] [precision 66.193182] [recall 49.052632] [fscore 56.348247]
+root: INFO: [test set] [precision 65.552326] [recall 49.128540] [fscore 56.164384]
+root: INFO: 
+root: INFO: [Epoch 462 / 800] [Loss: 43.929643] [Time: 7.273479]
+root: INFO: [Dev set] [precision 66.115702] [recall 50.526316] [fscore 57.279236]
+root: INFO: [test set] [precision 64.697802] [recall 51.307190] [fscore 57.229648]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 463 / 800] [Loss: 52.635409] [Time: 7.243443]
+root: INFO: [Dev set] [precision 66.855524] [recall 49.684211] [fscore 57.004831]
+root: INFO: [test set] [precision 64.598025] [recall 49.891068] [fscore 56.299939]
+root: INFO: 
+root: INFO: [Epoch 464 / 800] [Loss: 33.277342] [Time: 7.222729]
+root: INFO: [Dev set] [precision 67.521368] [recall 49.894737] [fscore 57.384988]
+root: INFO: [test set] [precision 65.211063] [recall 48.801743] [fscore 55.825545]
+root: INFO: 
+root: INFO: [Epoch 465 / 800] [Loss: 57.046712] [Time: 7.266880]
+root: INFO: [Dev set] [precision 68.945869] [recall 50.947368] [fscore 58.595642]
+root: INFO: [test set] [precision 63.713080] [recall 49.346405] [fscore 55.616943]
+root: INFO: 
+root: INFO: [Epoch 466 / 800] [Loss: 30.325805] [Time: 7.267542]
+root: INFO: [Dev set] [precision 68.895349] [recall 49.894737] [fscore 57.875458]
+root: INFO: [test set] [precision 64.399421] [recall 48.474946] [fscore 55.313860]
+root: INFO: 
+root: INFO: [Epoch 467 / 800] [Loss: 44.954473] [Time: 7.204234]
+root: INFO: [Dev set] [precision 69.476744] [recall 50.315789] [fscore 58.363858]
+root: INFO: [test set] [precision 64.534884] [recall 48.366013] [fscore 55.292653]
+root: INFO: 
+root: INFO: [Epoch 468 / 800] [Loss: 41.680085] [Time: 7.240035]
+root: INFO: [Dev set] [precision 67.897727] [recall 50.315789] [fscore 57.799274]
+root: INFO: [test set] [precision 64.822695] [recall 49.782135] [fscore 56.315465]
+root: INFO: 
+root: INFO: [Epoch 469 / 800] [Loss: 40.793694] [Time: 7.382406]
+root: INFO: [Dev set] [precision 68.621701] [recall 49.263158] [fscore 57.352941]
+root: INFO: [test set] [precision 64.662757] [recall 48.039216] [fscore 55.125000]
+root: INFO: 
+root: INFO: [Epoch 470 / 800] [Loss: 28.934896] [Time: 7.554466]
+root: INFO: [Dev set] [precision 68.644068] [recall 51.157895] [fscore 58.624849]
+root: INFO: [test set] [precision 64.574616] [recall 50.435730] [fscore 56.636086]
+root: INFO: 
+root: INFO: [Epoch 471 / 800] [Loss: 41.811564] [Time: 7.512312]
+root: INFO: [Dev set] [precision 69.318182] [recall 51.368421] [fscore 59.008464]
+root: INFO: [test set] [precision 64.520744] [recall 49.128540] [fscore 55.782313]
+root: INFO: 
+root: INFO: [Epoch 472 / 800] [Loss: 32.624002] [Time: 7.286308]
+root: INFO: [Dev set] [precision 67.688022] [recall 51.157895] [fscore 58.273381]
+root: INFO: [test set] [precision 64.964539] [recall 49.891068] [fscore 56.438694]
+root: INFO: 
+root: INFO: [Epoch 473 / 800] [Loss: 35.703745] [Time: 7.278523]
+root: INFO: [Dev set] [precision 69.794721] [recall 50.105263] [fscore 58.333333]
+root: INFO: [test set] [precision 66.266867] [recall 48.148148] [fscore 55.772871]
+root: INFO: 
+root: INFO: [Epoch 474 / 800] [Loss: 41.719337] [Time: 7.217393]
+root: INFO: [Dev set] [precision 69.034091] [recall 51.157895] [fscore 58.766626]
+root: INFO: [test set] [precision 65.697674] [recall 49.237473] [fscore 56.288917]
+root: INFO: 
+root: INFO: [Epoch 475 / 800] [Loss: 56.262477] [Time: 7.230796]
+root: INFO: [Dev set] [precision 67.955801] [recall 51.789474] [fscore 58.781362]
+root: INFO: [test set] [precision 66.335227] [recall 50.871460] [fscore 57.583231]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 476 / 800] [Loss: 33.644658] [Time: 7.265231]
+root: INFO: [Dev set] [precision 68.750000] [recall 50.947368] [fscore 58.524788]
+root: INFO: [test set] [precision 65.832106] [recall 48.692810] [fscore 55.979962]
+root: INFO: 
+root: INFO: [Epoch 477 / 800] [Loss: 34.647304] [Time: 8.616026]
+root: INFO: [Dev set] [precision 68.660969] [recall 50.736842] [fscore 58.353511]
+root: INFO: [test set] [precision 66.273932] [recall 49.019608] [fscore 56.355667]
+root: INFO: 
+root: INFO: [Epoch 478 / 800] [Loss: 36.140666] [Time: 8.053283]
+root: INFO: [Dev set] [precision 69.186047] [recall 50.105263] [fscore 58.119658]
+root: INFO: [test set] [precision 66.366366] [recall 48.148148] [fscore 55.808081]
+root: INFO: 
+root: INFO: [Epoch 479 / 800] [Loss: 46.679935] [Time: 7.249390]
+root: INFO: [Dev set] [precision 67.213115] [recall 51.789474] [fscore 58.501784]
+root: INFO: [test set] [precision 65.007112] [recall 49.782135] [fscore 56.384948]
+root: INFO: 
+root: INFO: [Epoch 480 / 800] [Loss: 32.550817] [Time: 7.263935]
+root: INFO: [Dev set] [precision 68.169014] [recall 50.947368] [fscore 58.313253]
+root: INFO: [test set] [precision 66.129032] [recall 49.128540] [fscore 56.375000]
+root: INFO: 
+root: INFO: [Epoch 481 / 800] [Loss: 33.376752] [Time: 7.276548]
+root: INFO: [Dev set] [precision 67.222222] [recall 50.947368] [fscore 57.964072]
+root: INFO: [test set] [precision 65.718350] [recall 50.326797] [fscore 57.001851]
+root: INFO: 
+root: INFO: [Epoch 482 / 800] [Loss: 35.141984] [Time: 7.245775]
+root: INFO: [Dev set] [precision 67.142857] [recall 49.473684] [fscore 56.969697]
+root: INFO: [test set] [precision 68.036530] [recall 48.692810] [fscore 56.761905]
+root: INFO: 
+root: INFO: [Epoch 483 / 800] [Loss: 53.814763] [Time: 7.224351]
+root: INFO: [Dev set] [precision 67.590028] [recall 51.368421] [fscore 58.373206]
+root: INFO: [test set] [precision 66.138329] [recall 50.000000] [fscore 56.947891]
+root: INFO: 
+root: INFO: [Epoch 484 / 800] [Loss: 34.921910] [Time: 7.248885]
+root: INFO: [Dev set] [precision 68.208092] [recall 49.684211] [fscore 57.490865]
+root: INFO: [test set] [precision 66.220238] [recall 48.474946] [fscore 55.974843]
+root: INFO: 
+root: INFO: [Epoch 485 / 800] [Loss: 32.852166] [Time: 7.250131]
+root: INFO: [Dev set] [precision 68.405797] [recall 49.684211] [fscore 57.560976]
+root: INFO: [test set] [precision 65.722802] [recall 48.039216] [fscore 55.506608]
+root: INFO: 
+root: INFO: [Epoch 486 / 800] [Loss: 59.211150] [Time: 7.220688]
+root: INFO: [Dev set] [precision 67.787115] [recall 50.947368] [fscore 58.173077]
+root: INFO: [test set] [precision 65.566714] [recall 49.782135] [fscore 56.594427]
+root: INFO: 
+root: INFO: [Epoch 487 / 800] [Loss: 38.946376] [Time: 7.220775]
+root: INFO: [Dev set] [precision 67.621777] [recall 49.684211] [fscore 57.281553]
+root: INFO: [test set] [precision 66.180758] [recall 49.455338] [fscore 56.608479]
+root: INFO: 
+root: INFO: [Epoch 488 / 800] [Loss: 53.993168] [Time: 8.059554]
+root: INFO: [Dev set] [precision 66.760563] [recall 49.894737] [fscore 57.108434]
+root: INFO: [test set] [precision 66.473988] [recall 50.108932] [fscore 57.142857]
+root: INFO: 
+root: INFO: [Epoch 489 / 800] [Loss: 35.530595] [Time: 7.303711]
+root: INFO: [Dev set] [precision 68.000000] [recall 50.105263] [fscore 57.696970]
+root: INFO: [test set] [precision 66.277372] [recall 49.455338] [fscore 56.643793]
+root: INFO: 
+root: INFO: [Epoch 490 / 800] [Loss: 32.091050] [Time: 7.325026]
+root: INFO: [Dev set] [precision 67.977528] [recall 50.947368] [fscore 58.243081]
+root: INFO: [test set] [precision 65.808298] [recall 50.108932] [fscore 56.895485]
+root: INFO: 
+root: INFO: [Epoch 491 / 800] [Loss: 34.483829] [Time: 7.320507]
+root: INFO: [Dev set] [precision 69.096210] [recall 49.894737] [fscore 57.946210]
+root: INFO: [test set] [precision 66.076696] [recall 48.801743] [fscore 56.140351]
+root: INFO: 
+root: INFO: [Epoch 492 / 800] [Loss: 32.318489] [Time: 7.406418]
+root: INFO: [Dev set] [precision 66.480447] [recall 50.105263] [fscore 57.142857]
+root: INFO: [test set] [precision 65.236052] [recall 49.673203] [fscore 56.400742]
+root: INFO: 
+root: INFO: [Epoch 493 / 800] [Loss: 31.435106] [Time: 7.305667]
+root: INFO: [Dev set] [precision 66.761364] [recall 49.473684] [fscore 56.831923]
+root: INFO: [test set] [precision 65.072464] [recall 48.910675] [fscore 55.845771]
+root: INFO: 
+root: INFO: [Epoch 494 / 800] [Loss: 35.875131] [Time: 7.301723]
+root: INFO: [Dev set] [precision 66.571429] [recall 49.052632] [fscore 56.484848]
+root: INFO: [test set] [precision 64.806867] [recall 49.346405] [fscore 56.029685]
+root: INFO: 
+root: INFO: [Epoch 495 / 800] [Loss: 39.653728] [Time: 7.280724]
+root: INFO: [Dev set] [precision 67.806268] [recall 50.105263] [fscore 57.627119]
+root: INFO: [test set] [precision 65.362319] [recall 49.128540] [fscore 56.094527]
+root: INFO: 
+root: INFO: [Epoch 496 / 800] [Loss: 31.533913] [Time: 7.370756]
+root: INFO: [Dev set] [precision 67.142857] [recall 49.473684] [fscore 56.969697]
+root: INFO: [test set] [precision 65.785609] [recall 48.801743] [fscore 56.035022]
+root: INFO: 
+root: INFO: [Epoch 497 / 800] [Loss: 35.645976] [Time: 7.260919]
+root: INFO: [Dev set] [precision 67.816092] [recall 49.684211] [fscore 57.351154]
+root: INFO: [test set] [precision 65.362319] [recall 49.128540] [fscore 56.094527]
+root: INFO: 
+root: INFO: [Epoch 498 / 800] [Loss: 46.689036] [Time: 7.371375]
+root: INFO: [Dev set] [precision 66.574586] [recall 50.736842] [fscore 57.586619]
+root: INFO: [test set] [precision 64.428571] [recall 49.128540] [fscore 55.747837]
+root: INFO: 
+root: INFO: [Epoch 499 / 800] [Loss: 52.669622] [Time: 7.166767]
+root: INFO: [Dev set] [precision 67.714286] [recall 49.894737] [fscore 57.454545]
+root: INFO: [test set] [precision 65.350877] [recall 48.692810] [fscore 55.805243]
+root: INFO: 
+root: INFO: [Epoch 500 / 800] [Loss: 39.213820] [Time: 7.178217]
+root: INFO: [Dev set] [precision 67.231638] [recall 50.105263] [fscore 57.418577]
+root: INFO: [test set] [precision 65.356623] [recall 48.910675] [fscore 55.950156]
+root: INFO: 
+root: INFO: [Epoch 501 / 800] [Loss: 41.000477] [Time: 7.264079]
+root: INFO: [Dev set] [precision 68.497110] [recall 49.894737] [fscore 57.734470]
+root: INFO: [test set] [precision 66.521106] [recall 49.782135] [fscore 56.947040]
+root: INFO: 
+root: INFO: [Epoch 502 / 800] [Loss: 35.021875] [Time: 7.279445]
+root: INFO: [Dev set] [precision 67.048711] [recall 49.263158] [fscore 56.796117]
+root: INFO: [test set] [precision 65.166909] [recall 48.910675] [fscore 55.880523]
+root: INFO: 
+root: INFO: [Epoch 503 / 800] [Loss: 47.130167] [Time: 7.269694]
+root: INFO: [Dev set] [precision 66.759003] [recall 50.736842] [fscore 57.655502]
+root: INFO: [test set] [precision 66.043165] [recall 50.000000] [fscore 56.912585]
+root: INFO: 
+root: INFO: [Epoch 504 / 800] [Loss: 36.255882] [Time: 7.206686]
+root: INFO: [Dev set] [precision 69.075145] [recall 50.315789] [fscore 58.221681]
+root: INFO: [test set] [precision 66.076696] [recall 48.801743] [fscore 56.140351]
+root: INFO: 
+root: INFO: [Epoch 505 / 800] [Loss: 31.113980] [Time: 7.256972]
+root: INFO: [Dev set] [precision 67.138810] [recall 49.894737] [fscore 57.246377]
+root: INFO: [test set] [precision 65.451895] [recall 48.910675] [fscore 55.985037]
+root: INFO: 
+root: INFO: [Epoch 506 / 800] [Loss: 29.113082] [Time: 7.378930]
+root: INFO: [Dev set] [precision 66.939891] [recall 51.578947] [fscore 58.263971]
+root: INFO: [test set] [precision 63.971631] [recall 49.128540] [fscore 55.576094]
+root: INFO: 
+root: INFO: [Epoch 507 / 800] [Loss: 33.187229] [Time: 7.273726]
+root: INFO: [Dev set] [precision 67.039106] [recall 50.526316] [fscore 57.623049]
+root: INFO: [test set] [precision 65.249267] [recall 48.474946] [fscore 55.625000]
+root: INFO: 
+root: INFO: [Epoch 508 / 800] [Loss: 32.481657] [Time: 7.230025]
+root: INFO: [Dev set] [precision 68.221574] [recall 49.263158] [fscore 57.212714]
+root: INFO: [test set] [precision 66.362253] [recall 47.494553] [fscore 55.365079]
+root: INFO: 
+root: INFO: [Epoch 509 / 800] [Loss: 31.303087] [Time: 7.126750]
+root: INFO: [Dev set] [precision 66.477273] [recall 49.263158] [fscore 56.590085]
+root: INFO: [test set] [precision 65.288035] [recall 48.148148] [fscore 55.423197]
+root: INFO: 
+root: INFO: [Epoch 510 / 800] [Loss: 29.616178] [Time: 7.218750]
+root: INFO: [Dev set] [precision 66.951567] [recall 49.473684] [fscore 56.900726]
+root: INFO: [test set] [precision 65.109489] [recall 48.583878] [fscore 55.645664]
+root: INFO: 
+root: INFO: [Epoch 511 / 800] [Loss: 42.839944] [Time: 7.164838]
+root: INFO: [Dev set] [precision 69.096210] [recall 49.894737] [fscore 57.946210]
+root: INFO: [test set] [precision 65.878877] [recall 48.583878] [fscore 55.924765]
+root: INFO: 
+root: INFO: [Epoch 512 / 800] [Loss: 39.914444] [Time: 7.247917]
+root: INFO: [Dev set] [precision 68.194842] [recall 50.105263] [fscore 57.766990]
+root: INFO: [test set] [precision 65.173410] [recall 49.128540] [fscore 56.024845]
+root: INFO: 
+root: INFO: [Epoch 513 / 800] [Loss: 39.458723] [Time: 7.303779]
+root: INFO: [Dev set] [precision 67.329545] [recall 49.894737] [fscore 57.315599]
+root: INFO: [test set] [precision 65.602322] [recall 49.237473] [fscore 56.253889]
+root: INFO: 
+root: INFO: [Epoch 514 / 800] [Loss: 26.414260] [Time: 7.239165]
+root: INFO: [Dev set] [precision 68.141593] [recall 48.631579] [fscore 56.756757]
+root: INFO: [test set] [precision 65.909091] [recall 47.385621] [fscore 55.133080]
+root: INFO: 
+root: INFO: [Epoch 515 / 800] [Loss: 27.994686] [Time: 7.275028]
+root: INFO: [Dev set] [precision 67.521368] [recall 49.894737] [fscore 57.384988]
+root: INFO: [test set] [precision 64.194009] [recall 49.019608] [fscore 55.589870]
+root: INFO: 
+root: INFO: [Epoch 516 / 800] [Loss: 32.535591] [Time: 7.264104]
+root: INFO: [Dev set] [precision 68.786127] [recall 50.105263] [fscore 57.978076]
+root: INFO: [test set] [precision 64.919942] [recall 48.583878] [fscore 55.576324]
+root: INFO: 
+root: INFO: [Epoch 517 / 800] [Loss: 38.333742] [Time: 7.216347]
+root: INFO: [Dev set] [precision 71.597633] [recall 50.947368] [fscore 59.532595]
+root: INFO: [test set] [precision 65.979381] [recall 48.801743] [fscore 56.105197]
+root: INFO: 
+root: INFO: [Epoch 518 / 800] [Loss: 55.741752] [Time: 7.216001]
+root: INFO: [Dev set] [precision 70.359281] [recall 49.473684] [fscore 58.096415]
+root: INFO: [test set] [precision 65.671642] [recall 47.930283] [fscore 55.415617]
+root: INFO: 
+root: INFO: [Epoch 519 / 800] [Loss: 51.000984] [Time: 7.256552]
+root: INFO: [Dev set] [precision 70.535714] [recall 49.894737] [fscore 58.446363]
+root: INFO: [test set] [precision 65.680473] [recall 48.366013] [fscore 55.708908]
+root: INFO: 
+root: INFO: [Epoch 520 / 800] [Loss: 43.465837] [Time: 7.271171]
+root: INFO: [Dev set] [precision 68.571429] [recall 50.526316] [fscore 58.181818]
+root: INFO: [test set] [precision 66.376812] [recall 49.891068] [fscore 56.965174]
+root: INFO: 
+root: INFO: [Epoch 521 / 800] [Loss: 48.031484] [Time: 7.248115]
+root: INFO: [Dev set] [precision 67.605634] [recall 50.526316] [fscore 57.831325]
+root: INFO: [test set] [precision 65.633803] [recall 50.762527] [fscore 57.248157]
+root: INFO: 
+root: INFO: [Epoch 522 / 800] [Loss: 40.916461] [Time: 7.291633]
+root: INFO: [Dev set] [precision 69.117647] [recall 49.473684] [fscore 57.668712]
+root: INFO: [test set] [precision 66.176471] [recall 49.019608] [fscore 56.320401]
+root: INFO: 
+root: INFO: [Epoch 523 / 800] [Loss: 36.115355] [Time: 7.228486]
+root: INFO: [Dev set] [precision 69.501466] [recall 49.894737] [fscore 58.088235]
+root: INFO: [test set] [precision 65.333333] [recall 48.039216] [fscore 55.367232]
+root: INFO: 
+root: INFO: [Epoch 524 / 800] [Loss: 38.225074] [Time: 7.210430]
+root: INFO: [Dev set] [precision 68.587896] [recall 50.105263] [fscore 57.907543]
+root: INFO: [test set] [precision 65.647744] [recall 49.128540] [fscore 56.199377]
+root: INFO: 
+root: INFO: [Epoch 525 / 800] [Loss: 30.345621] [Time: 7.248975]
+root: INFO: [Dev set] [precision 68.695652] [recall 49.894737] [fscore 57.804878]
+root: INFO: [test set] [precision 66.224189] [recall 48.910675] [fscore 56.265664]
+root: INFO: 
+root: INFO: [Epoch 526 / 800] [Loss: 30.529261] [Time: 7.151872]
+root: INFO: [Dev set] [precision 69.501466] [recall 49.894737] [fscore 58.088235]
+root: INFO: [test set] [precision 66.068759] [recall 48.148148] [fscore 55.702583]
+root: INFO: 
+root: INFO: [Epoch 527 / 800] [Loss: 40.978580] [Time: 7.234672]
+root: INFO: [Dev set] [precision 69.298246] [recall 49.894737] [fscore 58.017136]
+root: INFO: [test set] [precision 66.468843] [recall 48.801743] [fscore 56.281407]
+root: INFO: 
+root: INFO: [Epoch 528 / 800] [Loss: 29.297668] [Time: 7.271922]
+root: INFO: [Dev set] [precision 69.774011] [recall 52.000000] [fscore 59.589867]
+root: INFO: [test set] [precision 65.557164] [recall 49.346405] [fscore 56.308266]
+root: INFO: 
+root: INFO: [Epoch 529 / 800] [Loss: 54.725376] [Time: 7.282164]
+root: INFO: [Dev set] [precision 70.238095] [recall 49.684211] [fscore 58.199753]
+root: INFO: [test set] [precision 68.049155] [recall 48.257081] [fscore 56.469089]
+root: INFO: 
+root: INFO: [Epoch 530 / 800] [Loss: 36.056069] [Time: 7.535825]
+root: INFO: [Dev set] [precision 69.669670] [recall 48.842105] [fscore 57.425743]
+root: INFO: [test set] [precision 68.018721] [recall 47.494553] [fscore 55.933291]
+root: INFO: 
+root: INFO: [Epoch 531 / 800] [Loss: 29.250180] [Time: 7.312659]
+root: INFO: [Dev set] [precision 69.034091] [recall 51.157895] [fscore 58.766626]
+root: INFO: [test set] [precision 67.571644] [recall 48.801743] [fscore 56.672992]
+root: INFO: 
+root: INFO: [Epoch 532 / 800] [Loss: 30.138656] [Time: 7.220555]
+root: INFO: [Dev set] [precision 70.553936] [recall 50.947368] [fscore 59.168704]
+root: INFO: [test set] [precision 67.571644] [recall 48.801743] [fscore 56.672992]
+root: INFO: 
+root: INFO: [Epoch 533 / 800] [Loss: 39.639139] [Time: 7.230809]
+root: INFO: [Dev set] [precision 69.800570] [recall 51.578947] [fscore 59.322034]
+root: INFO: [test set] [precision 66.133721] [recall 49.564270] [fscore 56.662516]
+root: INFO: 
+root: INFO: [Epoch 534 / 800] [Loss: 37.689328] [Time: 7.222022]
+root: INFO: [Dev set] [precision 69.705882] [recall 49.894737] [fscore 58.159509]
+root: INFO: [test set] [precision 67.123288] [recall 48.039216] [fscore 56.000000]
+root: INFO: 
+root: INFO: [Epoch 535 / 800] [Loss: 30.297571] [Time: 7.374177]
+root: INFO: [Dev set] [precision 70.434783] [recall 51.157895] [fscore 59.268293]
+root: INFO: [test set] [precision 67.319277] [recall 48.692810] [fscore 56.510746]
+root: INFO: 
+root: INFO: [Epoch 536 / 800] [Loss: 26.073792] [Time: 7.199535]
+root: INFO: [Dev set] [precision 68.945869] [recall 50.947368] [fscore 58.595642]
+root: INFO: [test set] [precision 67.058824] [recall 49.673203] [fscore 57.071339]
+root: INFO: 
+root: INFO: [Epoch 537 / 800] [Loss: 20.844658] [Time: 7.292577]
+root: INFO: [Dev set] [precision 68.421053] [recall 52.000000] [fscore 59.090909]
+root: INFO: [test set] [precision 65.673759] [recall 50.435730] [fscore 57.054837]
+root: INFO: 
+root: INFO: [Epoch 538 / 800] [Loss: 39.396932] [Time: 7.217269]
+root: INFO: [Dev set] [precision 68.481375] [recall 50.315789] [fscore 58.009709]
+root: INFO: [test set] [precision 66.084425] [recall 49.455338] [fscore 56.573209]
+root: INFO: 
+root: INFO: [Epoch 539 / 800] [Loss: 27.207688] [Time: 7.265044]
+root: INFO: [Dev set] [precision 69.387755] [recall 50.105263] [fscore 58.190709]
+root: INFO: [test set] [precision 66.370370] [recall 48.801743] [fscore 56.246077]
+root: INFO: 
+root: INFO: [Epoch 540 / 800] [Loss: 36.035556] [Time: 7.235094]
+root: INFO: [Dev set] [precision 67.313019] [recall 51.157895] [fscore 58.133971]
+root: INFO: [test set] [precision 64.295875] [recall 49.237473] [fscore 55.768044]
+root: INFO: 
+root: INFO: [Epoch 541 / 800] [Loss: 43.246609] [Time: 7.268374]
+root: INFO: [Dev set] [precision 67.605634] [recall 50.526316] [fscore 57.831325]
+root: INFO: [test set] [precision 65.689150] [recall 48.801743] [fscore 56.000000]
+root: INFO: 
+root: INFO: [Epoch 542 / 800] [Loss: 24.104512] [Time: 7.333014]
+root: INFO: [Dev set] [precision 67.045455] [recall 49.684211] [fscore 57.073761]
+root: INFO: [test set] [precision 64.628821] [recall 48.366013] [fscore 55.327103]
+root: INFO: 
+root: INFO: [Epoch 543 / 800] [Loss: 33.389662] [Time: 7.241833]
+root: INFO: [Dev set] [precision 67.816092] [recall 49.684211] [fscore 57.351154]
+root: INFO: [test set] [precision 66.017964] [recall 48.039216] [fscore 55.611602]
+root: INFO: 
+root: INFO: [Epoch 544 / 800] [Loss: 40.487670] [Time: 7.198543]
+root: INFO: [Dev set] [precision 69.411765] [recall 49.684211] [fscore 57.914110]
+root: INFO: [test set] [precision 66.867470] [recall 48.366013] [fscore 56.131479]
+root: INFO: 
+root: INFO: [Epoch 545 / 800] [Loss: 39.239500] [Time: 7.304596]
+root: INFO: [Dev set] [precision 69.096210] [recall 49.894737] [fscore 57.946210]
+root: INFO: [test set] [precision 66.516517] [recall 48.257081] [fscore 55.934343]
+root: INFO: 
+root: INFO: [Epoch 546 / 800] [Loss: 34.954379] [Time: 7.242342]
+root: INFO: [Dev set] [precision 69.275362] [recall 50.315789] [fscore 58.292683]
+root: INFO: [test set] [precision 66.568915] [recall 49.455338] [fscore 56.750000]
+root: INFO: 
+root: INFO: [Epoch 547 / 800] [Loss: 33.919199] [Time: 7.227854]
+root: INFO: [Dev set] [precision 69.005848] [recall 49.684211] [fscore 57.772338]
+root: INFO: [test set] [precision 66.915052] [recall 48.910675] [fscore 56.513531]
+root: INFO: 
+root: INFO: [Epoch 548 / 800] [Loss: 33.118412] [Time: 7.316166]
+root: INFO: [Dev set] [precision 70.694864] [recall 49.263158] [fscore 58.064516]
+root: INFO: [test set] [precision 68.217054] [recall 47.930283] [fscore 56.301983]
+root: INFO: 
+root: INFO: [Epoch 549 / 800] [Loss: 33.543243] [Time: 7.328177]
+root: INFO: [Dev set] [precision 69.364162] [recall 50.526316] [fscore 58.465286]
+root: INFO: [test set] [precision 67.507418] [recall 49.564270] [fscore 57.160804]
+root: INFO: 
+root: INFO: [Epoch 550 / 800] [Loss: 22.508577] [Time: 7.224858]
+root: INFO: [Dev set] [precision 68.767908] [recall 50.526316] [fscore 58.252427]
+root: INFO: [test set] [precision 66.956522] [recall 50.326797] [fscore 57.462687]
+root: INFO: 
+root: INFO: [Epoch 551 / 800] [Loss: 34.600041] [Time: 7.282634]
+root: INFO: [Dev set] [precision 69.794721] [recall 50.105263] [fscore 58.333333]
+root: INFO: [test set] [precision 67.466267] [recall 49.019608] [fscore 56.782334]
+root: INFO: 
+root: INFO: [Epoch 552 / 800] [Loss: 46.561965] [Time: 7.250036]
+root: INFO: [Dev set] [precision 69.767442] [recall 50.526316] [fscore 58.608059]
+root: INFO: [test set] [precision 66.169896] [recall 48.366013] [fscore 55.884204]
+root: INFO: 
+root: INFO: [Epoch 553 / 800] [Loss: 44.743293] [Time: 7.200938]
+root: INFO: [Dev set] [precision 67.955801] [recall 51.789474] [fscore 58.781362]
+root: INFO: [test set] [precision 65.751445] [recall 49.564270] [fscore 56.521739]
+root: INFO: 
+root: INFO: [Epoch 554 / 800] [Loss: 29.192861] [Time: 7.224426]
+root: INFO: [Dev set] [precision 67.415730] [recall 50.526316] [fscore 57.761733]
+root: INFO: [test set] [precision 66.126657] [recall 48.910675] [fscore 56.230432]
+root: INFO: 
+root: INFO: [Epoch 555 / 800] [Loss: 43.602720] [Time: 7.219206]
+root: INFO: [Dev set] [precision 68.571429] [recall 50.526316] [fscore 58.181818]
+root: INFO: [test set] [precision 66.815476] [recall 48.910675] [fscore 56.477987]
+root: INFO: 
+root: INFO: [Epoch 556 / 800] [Loss: 25.241094] [Time: 7.219526]
+root: INFO: [Dev set] [precision 68.497110] [recall 49.894737] [fscore 57.734470]
+root: INFO: [test set] [precision 67.069486] [recall 48.366013] [fscore 56.202532]
+root: INFO: 
+root: INFO: [Epoch 557 / 800] [Loss: 18.491257] [Time: 7.267598]
+root: INFO: [Dev set] [precision 66.951567] [recall 49.473684] [fscore 56.900726]
+root: INFO: [test set] [precision 66.419019] [recall 48.692810] [fscore 56.191075]
+root: INFO: 
+root: INFO: [Epoch 558 / 800] [Loss: 31.789383] [Time: 7.235042]
+root: INFO: [Dev set] [precision 66.855524] [recall 49.684211] [fscore 57.004831]
+root: INFO: [test set] [precision 65.868263] [recall 47.930283] [fscore 55.485498]
+root: INFO: 
+root: INFO: [Epoch 559 / 800] [Loss: 23.461524] [Time: 7.185572]
+root: INFO: [Dev set] [precision 67.663043] [recall 52.421053] [fscore 59.074733]
+root: INFO: [test set] [precision 64.255319] [recall 49.346405] [fscore 55.822551]
+root: INFO: 
+root: INFO: [Epoch 560 / 800] [Loss: 22.421034] [Time: 7.333589]
+root: INFO: [Dev set] [precision 68.079096] [recall 50.736842] [fscore 58.142340]
+root: INFO: [test set] [precision 65.676077] [recall 48.148148] [fscore 55.562539]
+root: INFO: 
+root: INFO: [Epoch 561 / 800] [Loss: 31.117206] [Time: 7.246764]
+root: INFO: [Dev set] [precision 67.313019] [recall 51.157895] [fscore 58.133971]
+root: INFO: [test set] [precision 65.406977] [recall 49.019608] [fscore 56.039851]
+root: INFO: 
+root: INFO: [Epoch 562 / 800] [Loss: 54.901150] [Time: 7.207269]
+root: INFO: [Dev set] [precision 68.621701] [recall 49.263158] [fscore 57.352941]
+root: INFO: [test set] [precision 65.861027] [recall 47.494553] [fscore 55.189873]
+root: INFO: 
+root: INFO: [Epoch 563 / 800] [Loss: 30.490935] [Time: 7.207113]
+root: INFO: [Dev set] [precision 68.695652] [recall 49.894737] [fscore 57.804878]
+root: INFO: [test set] [precision 66.212121] [recall 47.603486] [fscore 55.386565]
+root: INFO: 
+root: INFO: [Epoch 564 / 800] [Loss: 35.340781] [Time: 7.258551]
+root: INFO: [Dev set] [precision 68.767908] [recall 50.526316] [fscore 58.252427]
+root: INFO: [test set] [precision 66.370370] [recall 48.801743] [fscore 56.246077]
+root: INFO: 
+root: INFO: [Epoch 565 / 800] [Loss: 32.345564] [Time: 7.208806]
+root: INFO: [Dev set] [precision 67.919075] [recall 49.473684] [fscore 57.247259]
+root: INFO: [test set] [precision 66.766021] [recall 48.801743] [fscore 56.387665]
+root: INFO: 
+root: INFO: [Epoch 566 / 800] [Loss: 24.851680] [Time: 7.192433]
+root: INFO: [Dev set] [precision 69.298246] [recall 49.894737] [fscore 58.017136]
+root: INFO: [test set] [precision 67.218045] [recall 48.692810] [fscore 56.475047]
+root: INFO: 
+root: INFO: [Epoch 567 / 800] [Loss: 36.077014] [Time: 7.284924]
+root: INFO: [Dev set] [precision 67.988669] [recall 50.526316] [fscore 57.971014]
+root: INFO: [test set] [precision 66.915052] [recall 48.910675] [fscore 56.513531]
+root: INFO: 
+root: INFO: [Epoch 568 / 800] [Loss: 38.766350] [Time: 8.642308]
+root: INFO: [Dev set] [precision 66.480447] [recall 50.105263] [fscore 57.142857]
+root: INFO: [test set] [precision 65.785609] [recall 48.801743] [fscore 56.035022]
+root: INFO: 
+root: INFO: [Epoch 569 / 800] [Loss: 44.241372] [Time: 9.085912]
+root: INFO: [Dev set] [precision 67.318436] [recall 50.736842] [fscore 57.863145]
+root: INFO: [test set] [precision 65.871833] [recall 48.148148] [fscore 55.632473]
+root: INFO: 
+root: INFO: [Epoch 570 / 800] [Loss: 37.574929] [Time: 9.266376]
+root: INFO: [Dev set] [precision 66.486486] [recall 51.789474] [fscore 58.224852]
+root: INFO: [test set] [precision 65.751445] [recall 49.564270] [fscore 56.521739]
+root: INFO: 
+root: INFO: [Epoch 571 / 800] [Loss: 36.683976] [Time: 8.183252]
+root: INFO: [Dev set] [precision 66.301370] [recall 50.947368] [fscore 57.619048]
+root: INFO: [test set] [precision 65.300146] [recall 48.583878] [fscore 55.715178]
+root: INFO: 
+root: INFO: [Epoch 572 / 800] [Loss: 28.607173] [Time: 8.048644]
+root: INFO: [Dev set] [precision 66.956522] [recall 48.631579] [fscore 56.341463]
+root: INFO: [test set] [precision 65.714286] [recall 47.603486] [fscore 55.211623]
+root: INFO: 
+root: INFO: [Epoch 573 / 800] [Loss: 30.630554] [Time: 8.282115]
+root: INFO: [Dev set] [precision 67.318436] [recall 50.736842] [fscore 57.863145]
+root: INFO: [test set] [precision 65.588235] [recall 48.583878] [fscore 55.819775]
+root: INFO: 
+root: INFO: [Epoch 574 / 800] [Loss: 38.574305] [Time: 8.273104]
+root: INFO: [Dev set] [precision 67.318436] [recall 50.736842] [fscore 57.863145]
+root: INFO: [test set] [precision 65.739385] [recall 48.910675] [fscore 56.089944]
+root: INFO: 
+root: INFO: [Epoch 575 / 800] [Loss: 35.002616] [Time: 8.112418]
+root: INFO: [Dev set] [precision 66.397849] [recall 52.000000] [fscore 58.323495]
+root: INFO: [test set] [precision 64.887640] [recall 50.326797] [fscore 56.687117]
+root: INFO: 
+root: INFO: [Epoch 576 / 800] [Loss: 41.898667] [Time: 8.159387]
+root: INFO: [Dev set] [precision 67.231638] [recall 50.105263] [fscore 57.418577]
+root: INFO: [test set] [precision 66.280753] [recall 49.891068] [fscore 56.929770]
+root: INFO: 
+root: INFO: [Epoch 577 / 800] [Loss: 39.600389] [Time: 8.256731]
+root: INFO: [Dev set] [precision 68.914956] [recall 49.473684] [fscore 57.598039]
+root: INFO: [test set] [precision 67.225610] [recall 48.039216] [fscore 56.035578]
+root: INFO: 
+root: INFO: [Epoch 578 / 800] [Loss: 27.189012] [Time: 8.232969]
+root: INFO: [Dev set] [precision 68.786127] [recall 50.105263] [fscore 57.978076]
+root: INFO: [test set] [precision 66.666667] [recall 48.366013] [fscore 56.060606]
+root: INFO: 
+root: INFO: [Epoch 579 / 800] [Loss: 26.131587] [Time: 8.101434]
+root: INFO: [Dev set] [precision 66.949153] [recall 49.894737] [fscore 57.177322]
+root: INFO: [test set] [precision 66.124260] [recall 48.692810] [fscore 56.085320]
+root: INFO: 
+root: INFO: [Epoch 580 / 800] [Loss: 34.565086] [Time: 8.124714]
+root: INFO: [Dev set] [precision 66.120219] [recall 50.947368] [fscore 57.550535]
+root: INFO: [test set] [precision 63.904494] [recall 49.564270] [fscore 55.828221]
+root: INFO: 
+root: INFO: [Epoch 581 / 800] [Loss: 34.373832] [Time: 8.238252]
+root: INFO: [Dev set] [precision 66.027397] [recall 50.736842] [fscore 57.380952]
+root: INFO: [test set] [precision 64.539007] [recall 49.564270] [fscore 56.069008]
+root: INFO: 
+root: INFO: [Epoch 582 / 800] [Loss: 35.331799] [Time: 8.134761]
+root: INFO: [Dev set] [precision 66.855524] [recall 49.684211] [fscore 57.004831]
+root: INFO: [test set] [precision 65.327381] [recall 47.821351] [fscore 55.220126]
+root: INFO: 
+root: INFO: [Epoch 583 / 800] [Loss: 47.079124] [Time: 8.090852]
+root: INFO: [Dev set] [precision 66.197183] [recall 49.473684] [fscore 56.626506]
+root: INFO: [test set] [precision 65.401460] [recall 48.801743] [fscore 55.895197]
+root: INFO: 
+root: INFO: [Epoch 584 / 800] [Loss: 55.679851] [Time: 8.149756]
+root: INFO: [Dev set] [precision 66.478873] [recall 49.684211] [fscore 56.867470]
+root: INFO: [test set] [precision 66.026588] [recall 48.692810] [fscore 56.050157]
+root: INFO: 
+root: INFO: [Epoch 585 / 800] [Loss: 33.343243] [Time: 8.028934]
+root: INFO: [Dev set] [precision 67.134831] [recall 50.315789] [fscore 57.521059]
+root: INFO: [test set] [precision 65.173410] [recall 49.128540] [fscore 56.024845]
+root: INFO: 
+root: INFO: [Epoch 586 / 800] [Loss: 29.012071] [Time: 8.140170]
+root: INFO: [Dev set] [precision 67.723343] [recall 49.473684] [fscore 57.177616]
+root: INFO: [test set] [precision 66.464340] [recall 47.712418] [fscore 55.548510]
+root: INFO: 
+root: INFO: [Epoch 587 / 800] [Loss: 32.399742] [Time: 8.298034]
+root: INFO: [Dev set] [precision 66.666667] [recall 50.105263] [fscore 57.211538]
+root: INFO: [test set] [precision 64.604317] [recall 48.910675] [fscore 55.672660]
+root: INFO: 
+root: INFO: [Epoch 588 / 800] [Loss: 25.201196] [Time: 8.221587]
+root: INFO: [Dev set] [precision 67.816092] [recall 49.684211] [fscore 57.351154]
+root: INFO: [test set] [precision 66.666667] [recall 49.237473] [fscore 56.641604]
+root: INFO: 
+root: INFO: [Epoch 589 / 800] [Loss: 42.044025] [Time: 8.053869]
+root: INFO: [Dev set] [precision 68.067227] [recall 51.157895] [fscore 58.413462]
+root: INFO: [test set] [precision 66.666667] [recall 49.891068] [fscore 57.071651]
+root: INFO: 
+root: INFO: [Epoch 590 / 800] [Loss: 20.537538] [Time: 8.108368]
+root: INFO: [Dev set] [precision 68.926554] [recall 51.368421] [fscore 58.866104]
+root: INFO: [test set] [precision 65.892598] [recall 49.455338] [fscore 56.502800]
+root: INFO: 
+root: INFO: [Epoch 591 / 800] [Loss: 34.450375] [Time: 8.129539]
+root: INFO: [Dev set] [precision 67.768595] [recall 51.789474] [fscore 58.711217]
+root: INFO: [test set] [precision 65.279770] [recall 49.564270] [fscore 56.346749]
+root: INFO: 
+root: INFO: [Epoch 592 / 800] [Loss: 30.454550] [Time: 8.200072]
+root: INFO: [Dev set] [precision 68.376068] [recall 50.526316] [fscore 58.111380]
+root: INFO: [test set] [precision 66.815476] [recall 48.910675] [fscore 56.477987]
+root: INFO: 
+root: INFO: [Epoch 593 / 800] [Loss: 31.347364] [Time: 8.027600]
+root: INFO: [Dev set] [precision 67.688022] [recall 51.157895] [fscore 58.273381]
+root: INFO: [test set] [precision 65.507246] [recall 49.237473] [fscore 56.218905]
+root: INFO: 
+root: INFO: [Epoch 594 / 800] [Loss: 33.249811] [Time: 7.964026]
+root: INFO: [Dev set] [precision 67.521368] [recall 49.894737] [fscore 57.384988]
+root: INFO: [test set] [precision 66.915052] [recall 48.910675] [fscore 56.513531]
+root: INFO: 
+root: INFO: [Epoch 595 / 800] [Loss: 25.847544] [Time: 8.357002]
+root: INFO: [Dev set] [precision 66.480447] [recall 50.105263] [fscore 57.142857]
+root: INFO: [test set] [precision 66.471449] [recall 49.455338] [fscore 56.714553]
+root: INFO: 
+root: INFO: [Epoch 596 / 800] [Loss: 43.154277] [Time: 8.124806]
+root: INFO: [Dev set] [precision 68.091168] [recall 50.315789] [fscore 57.869249]
+root: INFO: [test set] [precision 66.369048] [recall 48.583878] [fscore 56.100629]
+root: INFO: 
+root: INFO: [Epoch 597 / 800] [Loss: 37.685213] [Time: 8.058006]
+root: INFO: [Dev set] [precision 67.213115] [recall 51.789474] [fscore 58.501784]
+root: INFO: [test set] [precision 65.660920] [recall 49.782135] [fscore 56.629492]
+root: INFO: 
+root: INFO: [Epoch 598 / 800] [Loss: 23.343012] [Time: 8.085475]
+root: INFO: [Dev set] [precision 66.574586] [recall 50.736842] [fscore 57.586619]
+root: INFO: [test set] [precision 65.846599] [recall 49.564270] [fscore 56.556868]
+root: INFO: 
+root: INFO: [Epoch 599 / 800] [Loss: 38.459253] [Time: 8.219773]
+root: INFO: [Dev set] [precision 66.037736] [recall 51.578947] [fscore 57.919622]
+root: INFO: [test set] [precision 65.155807] [recall 50.108932] [fscore 56.650246]
+root: INFO: 
+root: INFO: [Epoch 600 / 800] [Loss: 40.294436] [Time: 8.266740]
+root: INFO: [Dev set] [precision 67.039106] [recall 50.526316] [fscore 57.623049]
+root: INFO: [test set] [precision 65.217391] [recall 49.019608] [fscore 55.970149]
+root: INFO: 
+root: INFO: [Epoch 601 / 800] [Loss: 31.560684] [Time: 8.277869]
+root: INFO: [Dev set] [precision 66.574586] [recall 50.736842] [fscore 57.586619]
+root: INFO: [test set] [precision 64.774381] [recall 48.474946] [fscore 55.451713]
+root: INFO: 
+root: INFO: [Epoch 602 / 800] [Loss: 30.937710] [Time: 8.091439]
+root: INFO: [Dev set] [precision 66.852368] [recall 50.526316] [fscore 57.553957]
+root: INFO: [test set] [precision 65.843023] [recall 49.346405] [fscore 56.413450]
+root: INFO: 
+root: INFO: [Epoch 603 / 800] [Loss: 26.850357] [Time: 8.202343]
+root: INFO: [Dev set] [precision 67.323944] [recall 50.315789] [fscore 57.590361]
+root: INFO: [test set] [precision 65.401460] [recall 48.801743] [fscore 55.895197]
+root: INFO: 
+root: INFO: [Epoch 604 / 800] [Loss: 23.561829] [Time: 8.216452]
+root: INFO: [Dev set] [precision 67.590028] [recall 51.368421] [fscore 58.373206]
+root: INFO: [test set] [precision 65.895954] [recall 49.673203] [fscore 56.645963]
+root: INFO: 
+root: INFO: [Epoch 605 / 800] [Loss: 31.079428] [Time: 8.153330]
+root: INFO: [Dev set] [precision 66.576087] [recall 51.578947] [fscore 58.125741]
+root: INFO: [test set] [precision 66.089466] [recall 49.891068] [fscore 56.859094]
+root: INFO: 
+root: INFO: [Epoch 606 / 800] [Loss: 34.762436] [Time: 8.329953]
+root: INFO: [Dev set] [precision 67.226891] [recall 50.526316] [fscore 57.692308]
+root: INFO: [test set] [precision 66.715328] [recall 49.782135] [fscore 57.018091]
+root: INFO: 
+root: INFO: [Epoch 607 / 800] [Loss: 35.302367] [Time: 8.011292]
+root: INFO: [Dev set] [precision 67.313019] [recall 51.157895] [fscore 58.133971]
+root: INFO: [test set] [precision 66.911765] [recall 49.564270] [fscore 56.946183]
+root: INFO: 
+root: INFO: [Epoch 608 / 800] [Loss: 19.439144] [Time: 8.306200]
+root: INFO: [Dev set] [precision 66.849315] [recall 51.368421] [fscore 58.095238]
+root: INFO: [test set] [precision 65.853659] [recall 50.000000] [fscore 56.842105]
+root: INFO: 
+root: INFO: [Epoch 609 / 800] [Loss: 31.868947] [Time: 8.200838]
+root: INFO: [Dev set] [precision 66.212534] [recall 51.157895] [fscore 57.719715]
+root: INFO: [test set] [precision 65.482955] [recall 50.217865] [fscore 56.843403]
+root: INFO: 
+root: INFO: [Epoch 610 / 800] [Loss: 20.183626] [Time: 8.136288]
+root: INFO: [Dev set] [precision 66.666667] [recall 51.789474] [fscore 58.293839]
+root: INFO: [test set] [precision 65.168539] [recall 50.544662] [fscore 56.932515]
+root: INFO: 
+root: INFO: [Epoch 611 / 800] [Loss: 19.722638] [Time: 8.296756]
+root: INFO: [Dev set] [precision 67.032967] [recall 51.368421] [fscore 58.164482]
+root: INFO: [test set] [precision 64.922207] [recall 50.000000] [fscore 56.492308]
+root: INFO: 
+root: INFO: [Epoch 612 / 800] [Loss: 28.518864] [Time: 8.209336]
+root: INFO: [Dev set] [precision 67.988669] [recall 50.526316] [fscore 57.971014]
+root: INFO: [test set] [precision 67.809240] [recall 49.564270] [fscore 57.268722]
+root: INFO: 
+root: INFO: [Epoch 613 / 800] [Loss: 17.899257] [Time: 8.161138]
+root: INFO: [Dev set] [precision 66.944444] [recall 50.736842] [fscore 57.724551]
+root: INFO: [test set] [precision 66.812865] [recall 49.782135] [fscore 57.053683]
+root: INFO: 
+root: INFO: [Epoch 614 / 800] [Loss: 25.577659] [Time: 8.114885]
+root: INFO: [Dev set] [precision 66.483516] [recall 50.947368] [fscore 57.687723]
+root: INFO: [test set] [precision 66.329480] [recall 50.000000] [fscore 57.018634]
+root: INFO: 
+root: INFO: [Epoch 615 / 800] [Loss: 32.689531] [Time: 8.046743]
+root: INFO: [Dev set] [precision 67.826087] [recall 49.263158] [fscore 57.073171]
+root: INFO: [test set] [precision 67.571644] [recall 48.801743] [fscore 56.672992]
+root: INFO: 
+root: INFO: [Epoch 616 / 800] [Loss: 29.330195] [Time: 8.168940]
+root: INFO: [Dev set] [precision 67.222222] [recall 50.947368] [fscore 57.964072]
+root: INFO: [test set] [precision 66.228070] [recall 49.346405] [fscore 56.554307]
+root: INFO: 
+root: INFO: [Epoch 617 / 800] [Loss: 29.389086] [Time: 8.040769]
+root: INFO: [Dev set] [precision 67.217631] [recall 51.368421] [fscore 58.233890]
+root: INFO: [test set] [precision 64.224138] [recall 48.692810] [fscore 55.390335]
+root: INFO: 
+root: INFO: [Epoch 618 / 800] [Loss: 42.896825] [Time: 8.127307]
+root: INFO: [Dev set] [precision 69.411765] [recall 49.684211] [fscore 57.914110]
+root: INFO: [test set] [precision 67.071320] [recall 48.148148] [fscore 56.055802]
+root: INFO: 
+root: INFO: [Epoch 619 / 800] [Loss: 33.879029] [Time: 8.372364]
+root: INFO: [Dev set] [precision 67.226891] [recall 50.526316] [fscore 57.692308]
+root: INFO: [test set] [precision 65.979381] [recall 48.801743] [fscore 56.105197]
+root: INFO: 
+root: INFO: [Epoch 620 / 800] [Loss: 28.621216] [Time: 8.168072]
+root: INFO: [Dev set] [precision 66.486486] [recall 51.789474] [fscore 58.224852]
+root: INFO: [test set] [precision 65.042980] [recall 49.455338] [fscore 56.188119]
+root: INFO: 
+root: INFO: [Epoch 621 / 800] [Loss: 32.616554] [Time: 8.023935]
+root: INFO: [Dev set] [precision 67.621777] [recall 49.684211] [fscore 57.281553]
+root: INFO: [test set] [precision 65.878877] [recall 48.583878] [fscore 55.924765]
+root: INFO: 
+root: INFO: [Epoch 622 / 800] [Loss: 28.307823] [Time: 8.148648]
+root: INFO: [Dev set] [precision 67.787115] [recall 50.947368] [fscore 58.173077]
+root: INFO: [test set] [precision 64.833575] [recall 48.801743] [fscore 55.686762]
+root: INFO: 
+root: INFO: [Epoch 623 / 800] [Loss: 34.476511] [Time: 8.123735]
+root: INFO: [Dev set] [precision 66.666667] [recall 51.789474] [fscore 58.293839]
+root: INFO: [test set] [precision 64.604317] [recall 48.910675] [fscore 55.672660]
+root: INFO: 
+root: INFO: [Epoch 624 / 800] [Loss: 37.582952] [Time: 8.235970]
+root: INFO: [Dev set] [precision 68.508287] [recall 52.210526] [fscore 59.259259]
+root: INFO: [test set] [precision 64.739884] [recall 48.801743] [fscore 55.652174]
+root: INFO: 
+root: INFO: [Epoch 625 / 800] [Loss: 42.257285] [Time: 8.105066]
+root: INFO: [Dev set] [precision 65.885417] [recall 53.263158] [fscore 58.905704]
+root: INFO: [test set] [precision 63.711911] [recall 50.108932] [fscore 56.097561]
+root: INFO: 
+root: INFO: [Epoch 626 / 800] [Loss: 44.330769] [Time: 8.292979]
+root: INFO: [Dev set] [precision 67.671233] [recall 52.000000] [fscore 58.809524]
+root: INFO: [test set] [precision 63.751763] [recall 49.237473] [fscore 55.562385]
+root: INFO: 
+root: INFO: [Epoch 627 / 800] [Loss: 25.850367] [Time: 8.351967]
+root: INFO: [Dev set] [precision 68.660969] [recall 50.736842] [fscore 58.353511]
+root: INFO: [test set] [precision 64.912281] [recall 48.366013] [fscore 55.430712]
+root: INFO: 
+root: INFO: [Epoch 628 / 800] [Loss: 37.860092] [Time: 8.313589]
+root: INFO: [Dev set] [precision 67.036011] [recall 50.947368] [fscore 57.894737]
+root: INFO: [test set] [precision 65.166909] [recall 48.910675] [fscore 55.880523]
+root: INFO: 
+root: INFO: [Epoch 629 / 800] [Loss: 18.930562] [Time: 8.416137]
+root: INFO: [Dev set] [precision 66.391185] [recall 50.736842] [fscore 57.517900]
+root: INFO: [test set] [precision 64.326648] [recall 48.910675] [fscore 55.569307]
+root: INFO: 
+root: INFO: [Epoch 630 / 800] [Loss: 27.203631] [Time: 8.512073]
+root: INFO: [Dev set] [precision 67.857143] [recall 52.000000] [fscore 58.879619]
+root: INFO: [test set] [precision 64.377682] [recall 49.019608] [fscore 55.658627]
+root: INFO: 
+root: INFO: [Epoch 631 / 800] [Loss: 30.537675] [Time: 8.191910]
+root: INFO: [Dev set] [precision 69.034091] [recall 51.157895] [fscore 58.766626]
+root: INFO: [test set] [precision 64.749263] [recall 47.821351] [fscore 55.012531]
+root: INFO: 
+root: INFO: [Epoch 632 / 800] [Loss: 34.898594] [Time: 8.141079]
+root: INFO: [Dev set] [precision 68.820225] [recall 51.578947] [fscore 58.965102]
+root: INFO: [test set] [precision 65.022422] [recall 47.385621] [fscore 54.820416]
+root: INFO: 
+root: INFO: [Epoch 633 / 800] [Loss: 21.229719] [Time: 8.373106]
+root: INFO: [Dev set] [precision 67.777778] [recall 51.368421] [fscore 58.443114]
+root: INFO: [test set] [precision 65.620329] [recall 47.821351] [fscore 55.324512]
+root: INFO: 
+root: INFO: [Epoch 634 / 800] [Loss: 32.130980] [Time: 8.121281]
+root: INFO: [Dev set] [precision 68.319559] [recall 52.210526] [fscore 59.188544]
+root: INFO: [test set] [precision 64.544139] [recall 48.583878] [fscore 55.438160]
+root: INFO: 
+root: INFO: [Epoch 635 / 800] [Loss: 28.181080] [Time: 8.453377]
+root: INFO: [Dev set] [precision 68.169761] [recall 54.105263] [fscore 60.328638]
+root: INFO: [test set] [precision 63.472222] [recall 49.782135] [fscore 55.799756]
+root: INFO: 
+root: INFO: [Epoch 636 / 800] [Loss: 25.373683] [Time: 8.231614]
+root: INFO: [Dev set] [precision 68.681319] [recall 52.631579] [fscore 59.594756]
+root: INFO: [test set] [precision 64.295875] [recall 49.237473] [fscore 55.768044]
+root: INFO: 
+root: INFO: [Epoch 637 / 800] [Loss: 31.376698] [Time: 8.606478]
+root: INFO: [Dev set] [precision 68.181818] [recall 50.526316] [fscore 58.041112]
+root: INFO: [test set] [precision 65.065502] [recall 48.692810] [fscore 55.700935]
+root: INFO: 
+root: INFO: [Epoch 638 / 800] [Loss: 41.447412] [Time: 8.316025]
+root: INFO: [Dev set] [precision 66.666667] [recall 50.947368] [fscore 57.756563]
+root: INFO: [test set] [precision 63.496503] [recall 49.455338] [fscore 55.603184]
+root: INFO: 
+root: INFO: [Epoch 639 / 800] [Loss: 34.042656] [Time: 8.260071]
+root: INFO: [Dev set] [precision 67.123288] [recall 51.578947] [fscore 58.333333]
+root: INFO: [test set] [precision 63.814867] [recall 49.564270] [fscore 55.793991]
+root: INFO: 
+root: INFO: [Epoch 640 / 800] [Loss: 43.179287] [Time: 8.384874]
+root: INFO: [Dev set] [precision 69.590643] [recall 50.105263] [fscore 58.261934]
+root: INFO: [test set] [precision 64.809384] [recall 48.148148] [fscore 55.250000]
+root: INFO: 
+root: INFO: [Epoch 641 / 800] [Loss: 29.118504] [Time: 8.195246]
+root: INFO: [Dev set] [precision 68.644068] [recall 51.157895] [fscore 58.624849]
+root: INFO: [test set] [precision 64.646465] [recall 48.801743] [fscore 55.617629]
+root: INFO: 
+root: INFO: [Epoch 642 / 800] [Loss: 29.564073] [Time: 8.263077]
+root: INFO: [Dev set] [precision 67.302452] [recall 52.000000] [fscore 58.669834]
+root: INFO: [test set] [precision 64.325843] [recall 49.891068] [fscore 56.196319]
+root: INFO: 
+root: INFO: [Epoch 643 / 800] [Loss: 47.596549] [Time: 8.325125]
+root: INFO: [Dev set] [precision 69.940476] [recall 49.473684] [fscore 57.953144]
+root: INFO: [test set] [precision 66.363636] [recall 47.712418] [fscore 55.513308]
+root: INFO: 
+root: INFO: [Epoch 644 / 800] [Loss: 27.636227] [Time: 8.267415]
+root: INFO: [Dev set] [precision 67.313019] [recall 51.157895] [fscore 58.133971]
+root: INFO: [test set] [precision 63.884892] [recall 48.366013] [fscore 55.052697]
+root: INFO: 
+root: INFO: [Epoch 645 / 800] [Loss: 24.008868] [Time: 8.128444]
+root: INFO: [Dev set] [precision 69.075145] [recall 50.315789] [fscore 58.221681]
+root: INFO: [test set] [precision 65.367316] [recall 47.494553] [fscore 55.015773]
+root: INFO: 
+root: INFO: [Epoch 646 / 800] [Loss: 46.634119] [Time: 8.327396]
+root: INFO: [Dev set] [precision 68.208092] [recall 49.684211] [fscore 57.490865]
+root: INFO: [test set] [precision 65.773810] [recall 48.148148] [fscore 55.597484]
+root: INFO: 
+root: INFO: [Epoch 647 / 800] [Loss: 36.076815] [Time: 8.505852]
+root: INFO: [Dev set] [precision 68.313953] [recall 49.473684] [fscore 57.387057]
+root: INFO: [test set] [precision 67.215569] [recall 48.910675] [fscore 56.620429]
+root: INFO: 
+root: INFO: [Epoch 648 / 800] [Loss: 36.052805] [Time: 8.227815]
+root: INFO: [Dev set] [precision 68.587896] [recall 50.105263] [fscore 57.907543]
+root: INFO: [test set] [precision 66.517190] [recall 48.474946] [fscore 56.080655]
+root: INFO: 
+root: INFO: [Epoch 649 / 800] [Loss: 30.651231] [Time: 8.360791]
+root: INFO: [Dev set] [precision 67.409471] [recall 50.947368] [fscore 58.033573]
+root: INFO: [test set] [precision 65.329513] [recall 49.673203] [fscore 56.435644]
+root: INFO: 
+root: INFO: [Epoch 650 / 800] [Loss: 32.018646] [Time: 8.283975]
+root: INFO: [Dev set] [precision 69.117647] [recall 49.473684] [fscore 57.668712]
+root: INFO: [test set] [precision 67.121212] [recall 48.257081] [fscore 56.147022]
+root: INFO: 
+root: INFO: [Epoch 651 / 800] [Loss: 22.387503] [Time: 8.107178]
+root: INFO: [Dev set] [precision 69.616519] [recall 49.684211] [fscore 57.985258]
+root: INFO: [test set] [precision 67.575758] [recall 48.583878] [fscore 56.527250]
+root: INFO: 
+root: INFO: [Epoch 652 / 800] [Loss: 42.739585] [Time: 8.050634]
+root: INFO: [Dev set] [precision 69.186047] [recall 50.105263] [fscore 58.119658]
+root: INFO: [test set] [precision 66.063348] [recall 47.712418] [fscore 55.407970]
+root: INFO: 
+root: INFO: [Epoch 653 / 800] [Loss: 21.096820] [Time: 8.286638]
+root: INFO: [Dev set] [precision 67.155425] [recall 48.210526] [fscore 56.127451]
+root: INFO: [test set] [precision 66.416792] [recall 48.257081] [fscore 55.899054]
+root: INFO: 
+root: INFO: [Epoch 654 / 800] [Loss: 38.310397] [Time: 8.092837]
+root: INFO: [Dev set] [precision 65.753425] [recall 50.526316] [fscore 57.142857]
+root: INFO: [test set] [precision 65.329513] [recall 49.673203] [fscore 56.435644]
+root: INFO: 
+root: INFO: [Epoch 655 / 800] [Loss: 37.245839] [Time: 8.226655]
+root: INFO: [Dev set] [precision 67.042254] [recall 50.105263] [fscore 57.349398]
+root: INFO: [test set] [precision 66.467958] [recall 48.583878] [fscore 56.135935]
+root: INFO: 
+root: INFO: [Epoch 656 / 800] [Loss: 24.651196] [Time: 8.145669]
+root: INFO: [Dev set] [precision 66.857143] [recall 49.263158] [fscore 56.727273]
+root: INFO: [test set] [precision 66.023739] [recall 48.474946] [fscore 55.904523]
+root: INFO: 
+root: INFO: [Epoch 657 / 800] [Loss: 23.299143] [Time: 7.973295]
+root: INFO: [Dev set] [precision 67.048711] [recall 49.263158] [fscore 56.796117]
+root: INFO: [test set] [precision 65.976331] [recall 48.583878] [fscore 55.959849]
+root: INFO: 
+root: INFO: [Epoch 658 / 800] [Loss: 39.442895] [Time: 8.144672]
+root: INFO: [Dev set] [precision 68.103448] [recall 49.894737] [fscore 57.594168]
+root: INFO: [test set] [precision 66.365008] [recall 47.930283] [fscore 55.660974]
+root: INFO: 
+root: INFO: [Epoch 659 / 800] [Loss: 30.237720] [Time: 8.087204]
+root: INFO: [Dev set] [precision 65.667575] [recall 50.736842] [fscore 57.244656]
+root: INFO: [test set] [precision 66.763006] [recall 50.326797] [fscore 57.391304]
+root: INFO: 
+root: INFO: [Epoch 660 / 800] [Loss: 17.476879] [Time: 8.040959]
+root: INFO: [Dev set] [precision 66.115702] [recall 50.526316] [fscore 57.279236]
+root: INFO: [test set] [precision 66.666667] [recall 50.326797] [fscore 57.355680]
+root: INFO: 
+root: INFO: [Epoch 661 / 800] [Loss: 23.594381] [Time: 8.055748]
+root: INFO: [Dev set] [precision 65.840220] [recall 50.315789] [fscore 57.040573]
+root: INFO: [test set] [precision 65.899281] [recall 49.891068] [fscore 56.788593]
+root: INFO: 
+root: INFO: [Epoch 662 / 800] [Loss: 23.783485] [Time: 8.046493]
+root: INFO: [Dev set] [precision 67.409471] [recall 50.947368] [fscore 58.033573]
+root: INFO: [test set] [precision 66.569343] [recall 49.673203] [fscore 56.893325]
+root: INFO: 
+root: INFO: [Epoch 663 / 800] [Loss: 18.719543] [Time: 8.237321]
+root: INFO: [Dev set] [precision 66.483516] [recall 50.947368] [fscore 57.687723]
+root: INFO: [test set] [precision 65.800866] [recall 49.673203] [fscore 56.610801]
+root: INFO: 
+root: INFO: [Epoch 664 / 800] [Loss: 20.538690] [Time: 8.266229]
+root: INFO: [Dev set] [precision 66.852368] [recall 50.526316] [fscore 57.553957]
+root: INFO: [test set] [precision 66.521739] [recall 50.000000] [fscore 57.089552]
+root: INFO: 
+root: INFO: [Epoch 665 / 800] [Loss: 36.375507] [Time: 8.175710]
+root: INFO: [Dev set] [precision 66.388889] [recall 50.315789] [fscore 57.245509]
+root: INFO: [test set] [precision 65.988372] [recall 49.455338] [fscore 56.537983]
+root: INFO: 
+root: INFO: [Epoch 666 / 800] [Loss: 25.981489] [Time: 8.199572]
+root: INFO: [Dev set] [precision 67.422096] [recall 50.105263] [fscore 57.487923]
+root: INFO: [test set] [precision 65.441176] [recall 48.474946] [fscore 55.694618]
+root: INFO: 
+root: INFO: [Epoch 667 / 800] [Loss: 32.784556] [Time: 8.231822]
+root: INFO: [Dev set] [precision 68.115942] [recall 49.473684] [fscore 57.317073]
+root: INFO: [test set] [precision 65.963855] [recall 47.712418] [fscore 55.372946]
+root: INFO: 
+root: INFO: [Epoch 668 / 800] [Loss: 38.796120] [Time: 8.213238]
+root: INFO: [Dev set] [precision 67.039106] [recall 50.526316] [fscore 57.623049]
+root: INFO: [test set] [precision 66.017964] [recall 48.039216] [fscore 55.611602]
+root: INFO: 
+root: INFO: [Epoch 669 / 800] [Loss: 29.691217] [Time: 8.177224]
+root: INFO: [Dev set] [precision 68.926554] [recall 51.368421] [fscore 58.866104]
+root: INFO: [test set] [precision 66.616766] [recall 48.474946] [fscore 56.116015]
+root: INFO: 
+root: INFO: [Epoch 670 / 800] [Loss: 27.844646] [Time: 8.291955]
+root: INFO: [Dev set] [precision 67.507003] [recall 50.736842] [fscore 57.932692]
+root: INFO: [test set] [precision 66.174298] [recall 48.801743] [fscore 56.175549]
+root: INFO: 
+root: INFO: [Epoch 671 / 800] [Loss: 30.207567] [Time: 7.956167]
+root: INFO: [Dev set] [precision 65.866667] [recall 52.000000] [fscore 58.117647]
+root: INFO: [test set] [precision 65.860597] [recall 50.435730] [fscore 57.125231]
+root: INFO: 
+root: INFO: [Epoch 672 / 800] [Loss: 28.962515] [Time: 7.146819]
+root: INFO: [Dev set] [precision 66.578249] [recall 52.842105] [fscore 58.920188]
+root: INFO: [test set] [precision 64.985994] [recall 50.544662] [fscore 56.862745]
+root: INFO: 
+root: INFO: [Epoch 673 / 800] [Loss: 36.491969] [Time: 7.201403]
+root: INFO: [Dev set] [precision 68.055556] [recall 51.578947] [fscore 58.682635]
+root: INFO: [test set] [precision 66.812865] [recall 49.782135] [fscore 57.053683]
+root: INFO: 
+root: INFO: [Epoch 674 / 800] [Loss: 27.831231] [Time: 7.425945]
+root: INFO: [Dev set] [precision 67.777778] [recall 51.368421] [fscore 58.443114]
+root: INFO: [test set] [precision 65.317919] [recall 49.237473] [fscore 56.149068]
+root: INFO: 
+root: INFO: [Epoch 675 / 800] [Loss: 33.723930] [Time: 7.273330]
+root: INFO: [Dev set] [precision 68.258427] [recall 51.157895] [fscore 58.483755]
+root: INFO: [test set] [precision 66.568915] [recall 49.455338] [fscore 56.750000]
+root: INFO: 
+root: INFO: [Epoch 676 / 800] [Loss: 22.238712] [Time: 7.276357]
+root: INFO: [Dev set] [precision 67.705382] [recall 50.315789] [fscore 57.729469]
+root: INFO: [test set] [precision 66.716418] [recall 48.692810] [fscore 56.297229]
+root: INFO: 
+root: INFO: [Epoch 677 / 800] [Loss: 29.003959] [Time: 7.261916]
+root: INFO: [Dev set] [precision 68.347339] [recall 51.368421] [fscore 58.653846]
+root: INFO: [test set] [precision 65.882353] [recall 48.801743] [fscore 56.070088]
+root: INFO: 
+root: INFO: [Epoch 678 / 800] [Loss: 43.938909] [Time: 7.203151]
+root: INFO: [Dev set] [precision 69.096210] [recall 49.894737] [fscore 57.946210]
+root: INFO: [test set] [precision 66.564885] [recall 47.494553] [fscore 55.435474]
+root: INFO: 
+root: INFO: [Epoch 679 / 800] [Loss: 27.272795] [Time: 7.222791]
+root: INFO: [Dev set] [precision 67.768595] [recall 51.789474] [fscore 58.711217]
+root: INFO: [test set] [precision 64.884393] [recall 48.910675] [fscore 55.776398]
+root: INFO: 
+root: INFO: [Epoch 680 / 800] [Loss: 34.117965] [Time: 7.206314]
+root: INFO: [Dev set] [precision 68.450704] [recall 51.157895] [fscore 58.554217]
+root: INFO: [test set] [precision 66.617647] [recall 49.346405] [fscore 56.695870]
+root: INFO: 
+root: INFO: [Epoch 681 / 800] [Loss: 24.104621] [Time: 7.213042]
+root: INFO: [Dev set] [precision 69.101124] [recall 51.789474] [fscore 59.205776]
+root: INFO: [test set] [precision 65.689150] [recall 48.801743] [fscore 56.000000]
+root: INFO: 
+root: INFO: [Epoch 682 / 800] [Loss: 33.376115] [Time: 7.191690]
+root: INFO: [Dev set] [precision 68.508287] [recall 52.210526] [fscore 59.259259]
+root: INFO: [test set] [precision 66.520468] [recall 49.564270] [fscore 56.803995]
+root: INFO: 
+root: INFO: [Epoch 683 / 800] [Loss: 26.185835] [Time: 7.152274]
+root: INFO: [Dev set] [precision 66.578249] [recall 52.842105] [fscore 58.920188]
+root: INFO: [test set] [precision 64.265537] [recall 49.564270] [fscore 55.965560]
+root: INFO: 
+root: INFO: [Epoch 684 / 800] [Loss: 23.460430] [Time: 7.181882]
+root: INFO: [Dev set] [precision 67.759563] [recall 52.210526] [fscore 58.977408]
+root: INFO: [test set] [precision 65.938865] [recall 49.346405] [fscore 56.448598]
+root: INFO: 
+root: INFO: [Epoch 685 / 800] [Loss: 16.618670] [Time: 7.289524]
+root: INFO: [Dev set] [precision 68.508287] [recall 52.210526] [fscore 59.259259]
+root: INFO: [test set] [precision 66.228070] [recall 49.346405] [fscore 56.554307]
+root: INFO: 
+root: INFO: [Epoch 686 / 800] [Loss: 27.955574] [Time: 7.265127]
+root: INFO: [Dev set] [precision 69.014085] [recall 51.578947] [fscore 59.036145]
+root: INFO: [test set] [precision 66.224189] [recall 48.910675] [fscore 56.265664]
+root: INFO: 
+root: INFO: [Epoch 687 / 800] [Loss: 22.416640] [Time: 7.170434]
+root: INFO: [Dev set] [precision 68.975069] [recall 52.421053] [fscore 59.569378]
+root: INFO: [test set] [precision 65.979381] [recall 48.801743] [fscore 56.105197]
+root: INFO: 
+root: INFO: [Epoch 688 / 800] [Loss: 24.264394] [Time: 7.140832]
+root: INFO: [Dev set] [precision 67.500000] [recall 51.157895] [fscore 58.203593]
+root: INFO: [test set] [precision 65.294118] [recall 48.366013] [fscore 55.569462]
+root: INFO: 
+root: INFO: [Epoch 689 / 800] [Loss: 34.083084] [Time: 7.210577]
+root: INFO: [Dev set] [precision 68.450704] [recall 51.157895] [fscore 58.554217]
+root: INFO: [test set] [precision 65.497076] [recall 48.801743] [fscore 55.930087]
+root: INFO: 
+root: INFO: [Epoch 690 / 800] [Loss: 27.616603] [Time: 7.271451]
+root: INFO: [Dev set] [precision 68.258427] [recall 51.157895] [fscore 58.483755]
+root: INFO: [test set] [precision 65.191740] [recall 48.148148] [fscore 55.388471]
+root: INFO: 
+root: INFO: [Epoch 691 / 800] [Loss: 36.326180] [Time: 7.224760]
+root: INFO: [Dev set] [precision 67.777778] [recall 51.368421] [fscore 58.443114]
+root: INFO: [test set] [precision 66.131387] [recall 49.346405] [fscore 56.519027]
+root: INFO: 
+root: INFO: [Epoch 692 / 800] [Loss: 25.521930] [Time: 7.283326]
+root: INFO: [Dev set] [precision 67.705382] [recall 50.315789] [fscore 57.729469]
+root: INFO: [test set] [precision 65.345081] [recall 48.474946] [fscore 55.659787]
+root: INFO: 
+root: INFO: [Epoch 693 / 800] [Loss: 31.783532] [Time: 7.226360]
+root: INFO: [Dev set] [precision 66.937669] [recall 52.000000] [fscore 58.530806]
+root: INFO: [test set] [precision 64.456982] [recall 49.782135] [fscore 56.177013]
+root: INFO: 
+root: INFO: [Epoch 694 / 800] [Loss: 28.885357] [Time: 7.234462]
+root: INFO: [Dev set] [precision 67.977528] [recall 50.947368] [fscore 58.243081]
+root: INFO: [test set] [precision 64.956012] [recall 48.257081] [fscore 55.375000]
+root: INFO: 
+root: INFO: [Epoch 695 / 800] [Loss: 27.645744] [Time: 7.214714]
+root: INFO: [Dev set] [precision 67.123288] [recall 51.578947] [fscore 58.333333]
+root: INFO: [test set] [precision 65.000000] [recall 49.564270] [fscore 56.242274]
+root: INFO: 
+root: INFO: [Epoch 696 / 800] [Loss: 36.335134] [Time: 7.249249]
+root: INFO: [Dev set] [precision 68.497110] [recall 49.894737] [fscore 57.734470]
+root: INFO: [test set] [precision 65.430267] [recall 48.039216] [fscore 55.402010]
+root: INFO: 
+root: INFO: [Epoch 697 / 800] [Loss: 19.705540] [Time: 7.198376]
+root: INFO: [Dev set] [precision 66.942149] [recall 51.157895] [fscore 57.995227]
+root: INFO: [test set] [precision 65.056818] [recall 49.891068] [fscore 56.473490]
+root: INFO: 
+root: INFO: [Epoch 698 / 800] [Loss: 28.324678] [Time: 7.226202]
+root: INFO: [Dev set] [precision 67.977528] [recall 50.947368] [fscore 58.243081]
+root: INFO: [test set] [precision 65.985401] [recall 49.237473] [fscore 56.394261]
+root: INFO: 
+root: INFO: [Epoch 699 / 800] [Loss: 28.585217] [Time: 7.283546]
+root: INFO: [Dev set] [precision 67.966574] [recall 51.368421] [fscore 58.513189]
+root: INFO: [test set] [precision 65.706052] [recall 49.673203] [fscore 56.575682]
+root: INFO: 
+root: INFO: [Epoch 700 / 800] [Loss: 17.350697] [Time: 7.243208]
+root: INFO: [Dev set] [precision 69.121813] [recall 51.368421] [fscore 58.937198]
+root: INFO: [test set] [precision 65.785609] [recall 48.801743] [fscore 56.035022]
+root: INFO: 
+root: INFO: [Epoch 701 / 800] [Loss: 20.651666] [Time: 7.267448]
+root: INFO: [Dev set] [precision 68.465909] [recall 50.736842] [fscore 58.282950]
+root: INFO: [test set] [precision 66.275660] [recall 49.237473] [fscore 56.500000]
+root: INFO: 
+root: INFO: [Epoch 702 / 800] [Loss: 39.035621] [Time: 7.336501]
+root: INFO: [Dev set] [precision 67.887324] [recall 50.736842] [fscore 58.072289]
+root: INFO: [test set] [precision 65.638767] [recall 48.692810] [fscore 55.909944]
+root: INFO: 
+root: INFO: [Epoch 703 / 800] [Loss: 37.591260] [Time: 7.329380]
+root: INFO: [Dev set] [precision 68.156425] [recall 51.368421] [fscore 58.583433]
+root: INFO: [test set] [precision 65.300146] [recall 48.583878] [fscore 55.715178]
+root: INFO: 
+root: INFO: [Epoch 704 / 800] [Loss: 29.680507] [Time: 7.233411]
+root: INFO: [Dev set] [precision 69.914040] [recall 51.368421] [fscore 59.223301]
+root: INFO: [test set] [precision 65.236686] [recall 48.039216] [fscore 55.332497]
+root: INFO: 
+root: INFO: [Epoch 705 / 800] [Loss: 38.229432] [Time: 7.195120]
+root: INFO: [Dev set] [precision 69.444444] [recall 52.631579] [fscore 59.880240]
+root: INFO: [test set] [precision 65.660920] [recall 49.782135] [fscore 56.629492]
+root: INFO: 
+root: INFO: [Epoch 706 / 800] [Loss: 39.230497] [Time: 7.254787]
+root: INFO: [Dev set] [precision 69.971671] [recall 52.000000] [fscore 59.661836]
+root: INFO: [test set] [precision 66.419019] [recall 48.692810] [fscore 56.191075]
+root: INFO: 
+root: INFO: [Epoch 707 / 800] [Loss: 34.235442] [Time: 7.247735]
+root: INFO: [Dev set] [precision 68.698061] [recall 52.210526] [fscore 59.330144]
+root: INFO: [test set] [precision 64.927536] [recall 48.801743] [fscore 55.721393]
+root: INFO: 
+root: INFO: [Epoch 708 / 800] [Loss: 30.680741] [Time: 7.321954]
+root: INFO: [Dev set] [precision 70.000000] [recall 51.578947] [fscore 59.393939]
+root: INFO: [test set] [precision 66.964286] [recall 49.019608] [fscore 56.603774]
+root: INFO: 
+root: INFO: [Epoch 709 / 800] [Loss: 45.024147] [Time: 7.199135]
+root: INFO: [Dev set] [precision 68.870523] [recall 52.631579] [fscore 59.665871]
+root: INFO: [test set] [precision 65.905849] [recall 50.326797] [fscore 57.072267]
+root: INFO: 
+root: INFO: [Epoch 710 / 800] [Loss: 20.729712] [Time: 7.233122]
+root: INFO: [Dev set] [precision 69.273743] [recall 52.210526] [fscore 59.543818]
+root: INFO: [test set] [precision 66.180758] [recall 49.455338] [fscore 56.608479]
+root: INFO: 
+root: INFO: [Epoch 711 / 800] [Loss: 38.817496] [Time: 7.226125]
+root: INFO: [Dev set] [precision 68.648649] [recall 53.473684] [fscore 60.118343]
+root: INFO: [test set] [precision 65.034965] [recall 50.653595] [fscore 56.950398]
+root: INFO: 
+root: INFO: [Epoch 712 / 800] [Loss: 36.943954] [Time: 7.221190]
+root: INFO: [Dev set] [precision 67.590028] [recall 51.368421] [fscore 58.373206]
+root: INFO: [test set] [precision 65.755396] [recall 49.782135] [fscore 56.664600]
+root: INFO: 
+root: INFO: [Epoch 713 / 800] [Loss: 27.648636] [Time: 7.228538]
+root: INFO: [Dev set] [precision 67.582418] [recall 51.789474] [fscore 58.641240]
+root: INFO: [test set] [precision 65.477889] [recall 50.000000] [fscore 56.701668]
+root: INFO: 
+root: INFO: [Epoch 714 / 800] [Loss: 32.327051] [Time: 7.216482]
+root: INFO: [Dev set] [precision 68.820225] [recall 51.578947] [fscore 58.965102]
+root: INFO: [test set] [precision 65.571429] [recall 50.000000] [fscore 56.736712]
+root: INFO: 
+root: INFO: [Epoch 715 / 800] [Loss: 31.988997] [Time: 7.277345]
+root: INFO: [Dev set] [precision 69.515670] [recall 51.368421] [fscore 59.079903]
+root: INFO: [test set] [precision 66.618076] [recall 49.782135] [fscore 56.982544]
+root: INFO: 
+root: INFO: [Epoch 716 / 800] [Loss: 23.940743] [Time: 7.169468]
+root: INFO: [Dev set] [precision 69.855072] [recall 50.736842] [fscore 58.780488]
+root: INFO: [test set] [precision 66.715758] [recall 49.346405] [fscore 56.731371]
+root: INFO: 
+root: INFO: [Epoch 717 / 800] [Loss: 23.365191] [Time: 7.194002]
+root: INFO: [Dev set] [precision 68.784530] [recall 52.421053] [fscore 59.498208]
+root: INFO: [test set] [precision 64.739069] [recall 50.000000] [fscore 56.422864]
+root: INFO: 
+root: INFO: [Epoch 718 / 800] [Loss: 33.339302] [Time: 7.192593]
+root: INFO: [Dev set] [precision 68.032787] [recall 52.421053] [fscore 59.215220]
+root: INFO: [test set] [precision 64.853556] [recall 50.653595] [fscore 56.880734]
+root: INFO: 
+root: INFO: [Epoch 719 / 800] [Loss: 24.277233] [Time: 7.197213]
+root: INFO: [Dev set] [precision 69.794721] [recall 50.105263] [fscore 58.333333]
+root: INFO: [test set] [precision 66.371681] [recall 49.019608] [fscore 56.390977]
+root: INFO: 
+root: INFO: [Epoch 720 / 800] [Loss: 15.220194] [Time: 7.173146]
+root: INFO: [Dev set] [precision 67.966574] [recall 51.368421] [fscore 58.513189]
+root: INFO: [test set] [precision 65.620542] [recall 50.108932] [fscore 56.825201]
+root: INFO: 
+root: INFO: [Epoch 721 / 800] [Loss: 20.316417] [Time: 7.222143]
+root: INFO: [Dev set] [precision 69.491525] [recall 51.789474] [fscore 59.348613]
+root: INFO: [test set] [precision 65.832106] [recall 48.692810] [fscore 55.979962]
+root: INFO: 
+root: INFO: [Epoch 722 / 800] [Loss: 33.839634] [Time: 7.241997]
+root: INFO: [Dev set] [precision 68.985507] [recall 50.105263] [fscore 58.048780]
+root: INFO: [test set] [precision 66.617647] [recall 49.346405] [fscore 56.695870]
+root: INFO: 
+root: INFO: [Epoch 723 / 800] [Loss: 29.693817] [Time: 7.183434]
+root: INFO: [Dev set] [precision 68.450704] [recall 51.157895] [fscore 58.554217]
+root: INFO: [test set] [precision 66.280753] [recall 49.891068] [fscore 56.929770]
+root: INFO: 
+root: INFO: [Epoch 724 / 800] [Loss: 34.081227] [Time: 7.270011]
+root: INFO: [Dev set] [precision 68.660969] [recall 50.736842] [fscore 58.353511]
+root: INFO: [test set] [precision 65.647744] [recall 49.128540] [fscore 56.199377]
+root: INFO: 
+root: INFO: [Epoch 725 / 800] [Loss: 36.055569] [Time: 7.255458]
+root: INFO: [Dev set] [precision 69.117647] [recall 49.473684] [fscore 57.668712]
+root: INFO: [test set] [precision 67.065868] [recall 48.801743] [fscore 56.494325]
+root: INFO: 
+root: INFO: [Epoch 726 / 800] [Loss: 31.122826] [Time: 7.257226]
+root: INFO: [Dev set] [precision 69.501466] [recall 49.894737] [fscore 58.088235]
+root: INFO: [test set] [precision 66.865672] [recall 48.801743] [fscore 56.423174]
+root: INFO: 
+root: INFO: [Epoch 727 / 800] [Loss: 43.276628] [Time: 7.236265]
+root: INFO: [Dev set] [precision 69.096210] [recall 49.894737] [fscore 57.946210]
+root: INFO: [test set] [precision 66.764706] [recall 49.455338] [fscore 56.821026]
+root: INFO: 
+root: INFO: [Epoch 728 / 800] [Loss: 35.536085] [Time: 7.210997]
+root: INFO: [Dev set] [precision 70.919881] [recall 50.315789] [fscore 58.866995]
+root: INFO: [test set] [precision 67.878788] [recall 48.801743] [fscore 56.780735]
+root: INFO: 
+root: INFO: [Epoch 729 / 800] [Loss: 43.218743] [Time: 7.199332]
+root: INFO: [Dev set] [precision 69.565217] [recall 50.526316] [fscore 58.536585]
+root: INFO: [test set] [precision 66.617647] [recall 49.346405] [fscore 56.695870]
+root: INFO: 
+root: INFO: [Epoch 730 / 800] [Loss: 39.365345] [Time: 7.186575]
+root: INFO: [Dev set] [precision 68.067227] [recall 51.157895] [fscore 58.413462]
+root: INFO: [test set] [precision 66.764275] [recall 49.673203] [fscore 56.964397]
+root: INFO: 
+root: INFO: [Epoch 731 / 800] [Loss: 27.823270] [Time: 7.241865]
+root: INFO: [Dev set] [precision 68.347339] [recall 51.368421] [fscore 58.653846]
+root: INFO: [test set] [precision 67.492711] [recall 50.435730] [fscore 57.730673]
+root: INFO: 
+root: INFO: Save the best model.
+root: INFO: [Epoch 732 / 800] [Loss: 43.936978] [Time: 7.258833]
+root: INFO: [Dev set] [precision 67.397260] [recall 51.789474] [fscore 58.571429]
+root: INFO: [test set] [precision 66.378066] [recall 50.108932] [fscore 57.107387]
+root: INFO: 
+root: INFO: [Epoch 733 / 800] [Loss: 41.144439] [Time: 7.165691]
+root: INFO: [Dev set] [precision 68.465909] [recall 50.736842] [fscore 58.282950]
+root: INFO: [test set] [precision 66.133721] [recall 49.564270] [fscore 56.662516]
+root: INFO: 
+root: INFO: [Epoch 734 / 800] [Loss: 24.266994] [Time: 7.227655]
+root: INFO: [Dev set] [precision 68.245125] [recall 51.578947] [fscore 58.752998]
+root: INFO: [test set] [precision 65.580737] [recall 50.435730] [fscore 57.019704]
+root: INFO: 
+root: INFO: [Epoch 735 / 800] [Loss: 39.281012] [Time: 7.217377]
+root: INFO: [Dev set] [precision 70.114943] [recall 51.368421] [fscore 59.295261]
+root: INFO: [test set] [precision 66.618076] [recall 49.782135] [fscore 56.982544]
+root: INFO: 
+root: INFO: [Epoch 736 / 800] [Loss: 43.831489] [Time: 7.185870]
+root: INFO: [Dev set] [precision 70.200573] [recall 51.578947] [fscore 59.466019]
+root: INFO: [test set] [precision 66.763848] [recall 49.891068] [fscore 57.107232]
+root: INFO: 
+root: INFO: [Epoch 737 / 800] [Loss: 35.212738] [Time: 7.207758]
+root: INFO: [Dev set] [precision 68.888889] [recall 52.210526] [fscore 59.401198]
+root: INFO: [test set] [precision 66.375546] [recall 49.673203] [fscore 56.822430]
+root: INFO: 
+root: INFO: [Epoch 738 / 800] [Loss: 28.348205] [Time: 7.605867]
+root: INFO: [Dev set] [precision 68.698061] [recall 52.210526] [fscore 59.330144]
+root: INFO: [test set] [precision 66.084425] [recall 49.455338] [fscore 56.573209]
+root: INFO: 
+root: INFO: [Epoch 739 / 800] [Loss: 26.517963] [Time: 7.198231]
+root: INFO: [Dev set] [precision 68.571429] [recall 50.526316] [fscore 58.181818]
+root: INFO: [test set] [precision 66.469719] [recall 49.019608] [fscore 56.426332]
+root: INFO: 
+root: INFO: [Epoch 740 / 800] [Loss: 39.352127] [Time: 7.267933]
+root: INFO: [Dev set] [precision 68.895349] [recall 49.894737] [fscore 57.875458]
+root: INFO: [test set] [precision 65.925926] [recall 48.474946] [fscore 55.869429]
+root: INFO: 
+root: INFO: [Epoch 741 / 800] [Loss: 21.346961] [Time: 7.232542]
+root: INFO: [Dev set] [precision 68.481375] [recall 50.315789] [fscore 58.009709]
+root: INFO: [test set] [precision 66.325037] [recall 49.346405] [fscore 56.589631]
+root: INFO: 
+root: INFO: [Epoch 742 / 800] [Loss: 37.162024] [Time: 7.185754]
+root: INFO: [Dev set] [precision 69.411765] [recall 49.684211] [fscore 57.914110]
+root: INFO: [test set] [precision 67.115097] [recall 48.910675] [fscore 56.584751]
+root: INFO: 
+root: INFO: [Epoch 743 / 800] [Loss: 26.233216] [Time: 7.173098]
+root: INFO: [Dev set] [precision 68.181818] [recall 50.526316] [fscore 58.041112]
+root: INFO: [test set] [precision 66.666667] [recall 49.673203] [fscore 56.928839]
+root: INFO: 
+root: INFO: [Epoch 744 / 800] [Loss: 21.427262] [Time: 7.190128]
+root: INFO: [Dev set] [precision 69.230769] [recall 49.263158] [fscore 57.564576]
+root: INFO: [test set] [precision 66.467958] [recall 48.583878] [fscore 56.135935]
+root: INFO: 
+root: INFO: [Epoch 745 / 800] [Loss: 38.008368] [Time: 7.154181]
+root: INFO: [Dev set] [precision 67.441860] [recall 48.842105] [fscore 56.654457]
+root: INFO: [test set] [precision 66.517857] [recall 48.692810] [fscore 56.226415]
+root: INFO: 
+root: INFO: [Epoch 746 / 800] [Loss: 26.250619] [Time: 7.131141]
+root: INFO: [Dev set] [precision 67.908309] [recall 49.894737] [fscore 57.524272]
+root: INFO: [test set] [precision 66.037736] [recall 49.564270] [fscore 56.627256]
+root: INFO: 
+root: INFO: [Epoch 747 / 800] [Loss: 21.896250] [Time: 7.159267]
+root: INFO: [Dev set] [precision 67.723343] [recall 49.473684] [fscore 57.177616]
+root: INFO: [test set] [precision 66.470588] [recall 49.237473] [fscore 56.570713]
+root: INFO: 
+root: INFO: [Epoch 748 / 800] [Loss: 19.169479] [Time: 7.196231]
+root: INFO: [Dev set] [precision 68.804665] [recall 49.684211] [fscore 57.701711]
+root: INFO: [test set] [precision 66.912851] [recall 49.346405] [fscore 56.802508]
+root: INFO: 
+root: INFO: [Epoch 749 / 800] [Loss: 39.138264] [Time: 7.156787]
+root: INFO: [Dev set] [precision 70.118343] [recall 49.894737] [fscore 58.302583]
+root: INFO: [test set] [precision 67.011834] [recall 49.346405] [fscore 56.838143]
+root: INFO: 
+root: INFO: [Epoch 750 / 800] [Loss: 24.235761] [Time: 7.126853]
+root: INFO: [Dev set] [precision 70.760234] [recall 50.947368] [fscore 59.241126]
+root: INFO: [test set] [precision 67.256637] [recall 49.673203] [fscore 57.142857]
+root: INFO: 
+root: INFO: [Epoch 751 / 800] [Loss: 22.489450] [Time: 7.175142]
+root: INFO: [Dev set] [precision 69.166667] [recall 52.421053] [fscore 59.640719]
+root: INFO: [test set] [precision 65.522175] [recall 49.891068] [fscore 56.648114]
+root: INFO: 
+root: INFO: [Epoch 752 / 800] [Loss: 28.005213] [Time: 7.201442]
+root: INFO: [Dev set] [precision 69.321534] [recall 49.473684] [fscore 57.739558]
+root: INFO: [test set] [precision 67.766117] [recall 49.237473] [fscore 57.034700]
+root: INFO: 
+root: INFO: [Epoch 753 / 800] [Loss: 23.915264] [Time: 7.131484]
+root: INFO: [Dev set] [precision 68.271955] [recall 50.736842] [fscore 58.212560]
+root: INFO: [test set] [precision 66.618076] [recall 49.782135] [fscore 56.982544]
+root: INFO: 
+root: INFO: [Epoch 754 / 800] [Loss: 30.253657] [Time: 7.155399]
+root: INFO: [Dev set] [precision 68.481375] [recall 50.315789] [fscore 58.009709]
+root: INFO: [test set] [precision 66.763848] [recall 49.891068] [fscore 57.107232]
+root: INFO: 
+root: INFO: [Epoch 755 / 800] [Loss: 30.859584] [Time: 7.186837]
+root: INFO: [Dev set] [precision 68.888889] [recall 52.210526] [fscore 59.401198]
+root: INFO: [test set] [precision 65.945166] [recall 49.782135] [fscore 56.734947]
+root: INFO: 
+root: INFO: [Epoch 756 / 800] [Loss: 18.748771] [Time: 7.162718]
+root: INFO: [Dev set] [precision 67.590028] [recall 51.368421] [fscore 58.373206]
+root: INFO: [test set] [precision 66.187050] [recall 50.108932] [fscore 57.036578]
+root: INFO: 
+root: INFO: [Epoch 757 / 800] [Loss: 28.608871] [Time: 7.139520]
+root: INFO: [Dev set] [precision 68.681319] [recall 52.631579] [fscore 59.594756]
+root: INFO: [test set] [precision 64.780764] [recall 49.891068] [fscore 56.369231]
+root: INFO: 
+root: INFO: [Epoch 758 / 800] [Loss: 32.532913] [Time: 7.167956]
+root: INFO: [Dev set] [precision 69.491525] [recall 51.789474] [fscore 59.348613]
+root: INFO: [test set] [precision 66.473149] [recall 49.891068] [fscore 57.000622]
+root: INFO: 
+root: INFO: [Epoch 759 / 800] [Loss: 25.472086] [Time: 7.207657]
+root: INFO: [Dev set] [precision 71.091445] [recall 50.736842] [fscore 59.213759]
+root: INFO: [test set] [precision 67.477204] [recall 48.366013] [fscore 56.345178]
+root: INFO: 
+root: INFO: [Epoch 760 / 800] [Loss: 17.672537] [Time: 7.135227]
+root: INFO: [Dev set] [precision 70.200573] [recall 51.578947] [fscore 59.466019]
+root: INFO: [test set] [precision 66.180758] [recall 49.455338] [fscore 56.608479]
+root: INFO: 
+root: INFO: [Epoch 761 / 800] [Loss: 38.003718] [Time: 7.137758]
+root: INFO: [Dev set] [precision 69.886364] [recall 51.789474] [fscore 59.492140]
+root: INFO: [test set] [precision 66.231884] [recall 49.782135] [fscore 56.840796]
+root: INFO: 
+root: INFO: [Epoch 762 / 800] [Loss: 29.875519] [Time: 7.178619]
+root: INFO: [Dev set] [precision 70.028818] [recall 51.157895] [fscore 59.124088]
+root: INFO: [test set] [precision 66.469719] [recall 49.019608] [fscore 56.426332]
+root: INFO: 
+root: INFO: [Epoch 763 / 800] [Loss: 34.351878] [Time: 7.182749]
+root: INFO: [Dev set] [precision 68.895349] [recall 49.894737] [fscore 57.875458]
+root: INFO: [test set] [precision 65.497076] [recall 48.801743] [fscore 55.930087]
+root: INFO: 
+root: INFO: [Epoch 764 / 800] [Loss: 18.818747] [Time: 7.120230]
+root: INFO: [Dev set] [precision 68.555241] [recall 50.947368] [fscore 58.454106]
+root: INFO: [test set] [precision 65.895954] [recall 49.673203] [fscore 56.645963]
+root: INFO: 
+root: INFO: [Epoch 765 / 800] [Loss: 27.458995] [Time: 7.113530]
+root: INFO: [Dev set] [precision 67.318436] [recall 50.736842] [fscore 57.863145]
+root: INFO: [test set] [precision 65.373563] [recall 49.564270] [fscore 56.381660]
+root: INFO: 
+root: INFO: [Epoch 766 / 800] [Loss: 20.407738] [Time: 7.273893]
+root: INFO: [Dev set] [precision 66.393443] [recall 51.157895] [fscore 57.788347]
+root: INFO: [test set] [precision 65.285714] [recall 49.782135] [fscore 56.489493]
+root: INFO: 
+root: INFO: [Epoch 767 / 800] [Loss: 22.061049] [Time: 7.174728]
+root: INFO: [Dev set] [precision 67.507003] [recall 50.736842] [fscore 57.932692]
+root: INFO: [test set] [precision 65.204678] [recall 48.583878] [fscore 55.680400]
+root: INFO: 
+root: INFO: [Epoch 768 / 800] [Loss: 32.553450] [Time: 7.133722]
+root: INFO: [Dev set] [precision 66.032609] [recall 51.157895] [fscore 57.651246]
+root: INFO: [test set] [precision 64.739069] [recall 50.000000] [fscore 56.422864]
+root: INFO: 
+root: INFO: [Epoch 769 / 800] [Loss: 20.383497] [Time: 7.224243]
+root: INFO: [Dev set] [precision 66.301370] [recall 50.947368] [fscore 57.619048]
+root: INFO: [test set] [precision 64.529915] [recall 49.346405] [fscore 55.925926]
+root: INFO: 
+root: INFO: [Epoch 770 / 800] [Loss: 47.831307] [Time: 7.238250]
+root: INFO: [Dev set] [precision 65.915493] [recall 49.263158] [fscore 56.385542]
+root: INFO: [test set] [precision 65.249267] [recall 48.474946] [fscore 55.625000]
+root: INFO: 
+root: INFO: [Epoch 771 / 800] [Loss: 31.772710] [Time: 7.251991]
+root: INFO: [Dev set] [precision 66.855524] [recall 49.684211] [fscore 57.004831]
+root: INFO: [test set] [precision 64.970930] [recall 48.692810] [fscore 55.666252]
+root: INFO: 
+root: INFO: [Epoch 772 / 800] [Loss: 19.421181] [Time: 7.185921]
+root: INFO: [Dev set] [precision 66.850829] [recall 50.947368] [fscore 57.825568]
+root: INFO: [test set] [precision 64.571429] [recall 49.237473] [fscore 55.871446]
+root: INFO: 
+root: INFO: [Epoch 773 / 800] [Loss: 29.036654] [Time: 7.166410]
+root: INFO: [Dev set] [precision 66.573816] [recall 50.315789] [fscore 57.314149]
+root: INFO: [test set] [precision 65.656566] [recall 49.564270] [fscore 56.486654]
+root: INFO: 
+root: INFO: [Epoch 774 / 800] [Loss: 27.389871] [Time: 7.538839]
+root: INFO: [Dev set] [precision 67.045455] [recall 49.684211] [fscore 57.073761]
+root: INFO: [test set] [precision 65.412446] [recall 49.237473] [fscore 56.183965]
+root: INFO: 
+root: INFO: [Epoch 775 / 800] [Loss: 20.397142] [Time: 7.631717]
+root: INFO: [Dev set] [precision 66.478873] [recall 49.684211] [fscore 56.867470]
+root: INFO: [test set] [precision 65.938865] [recall 49.346405] [fscore 56.448598]
+root: INFO: 
+root: INFO: [Epoch 776 / 800] [Loss: 23.688003] [Time: 7.220019]
+root: INFO: [Dev set] [precision 66.478873] [recall 49.684211] [fscore 56.867470]
+root: INFO: [test set] [precision 66.322009] [recall 48.910675] [fscore 56.300940]
+root: INFO: 
+root: INFO: [Epoch 777 / 800] [Loss: 25.135794] [Time: 7.341582]
+root: INFO: [Dev set] [precision 66.666667] [recall 49.263158] [fscore 56.658596]
+root: INFO: [test set] [precision 65.294118] [recall 48.366013] [fscore 55.569462]
+root: INFO: 
+root: INFO: [Epoch 778 / 800] [Loss: 25.992699] [Time: 7.267106]
+root: INFO: [Dev set] [precision 67.409471] [recall 50.947368] [fscore 58.033573]
+root: INFO: [test set] [precision 64.849354] [recall 49.237473] [fscore 55.975232]
+root: INFO: 
+root: INFO: [Epoch 779 / 800] [Loss: 27.042037] [Time: 7.243816]
+root: INFO: [Dev set] [precision 67.897727] [recall 50.315789] [fscore 57.799274]
+root: INFO: [test set] [precision 64.833575] [recall 48.801743] [fscore 55.686762]
+root: INFO: 
+root: INFO: [Epoch 780 / 800] [Loss: 32.304974] [Time: 7.265195]
+root: INFO: [Dev set] [precision 68.047337] [recall 48.421053] [fscore 56.580566]
+root: INFO: [test set] [precision 66.363636] [recall 47.712418] [fscore 55.513308]
+root: INFO: 
+root: INFO: [Epoch 781 / 800] [Loss: 30.507189] [Time: 7.183647]
+root: INFO: [Dev set] [precision 67.329545] [recall 49.894737] [fscore 57.315599]
+root: INFO: [test set] [precision 65.123010] [recall 49.019608] [fscore 55.935364]
+root: INFO: 
+root: INFO: [Epoch 782 / 800] [Loss: 24.742334] [Time: 7.254260]
+root: INFO: [Dev set] [precision 67.045455] [recall 49.684211] [fscore 57.073761]
+root: INFO: [test set] [precision 64.655172] [recall 49.019608] [fscore 55.762082]
+root: INFO: 
+root: INFO: [Epoch 783 / 800] [Loss: 23.291347] [Time: 7.215395]
+root: INFO: [Dev set] [precision 67.806268] [recall 50.105263] [fscore 57.627119]
+root: INFO: [test set] [precision 65.166909] [recall 48.910675] [fscore 55.880523]
+root: INFO: 
+root: INFO: [Epoch 784 / 800] [Loss: 22.116536] [Time: 7.347355]
+root: INFO: [Dev set] [precision 68.656716] [recall 48.421053] [fscore 56.790123]
+root: INFO: [test set] [precision 66.666667] [recall 47.494553] [fscore 55.470738]
+root: INFO: 
+root: INFO: [Epoch 785 / 800] [Loss: 26.266717] [Time: 7.253244]
+root: INFO: [Dev set] [precision 67.908309] [recall 49.894737] [fscore 57.524272]
+root: INFO: [test set] [precision 66.322009] [recall 48.910675] [fscore 56.300940]
+root: INFO: 
+root: INFO: [Epoch 786 / 800] [Loss: 24.564423] [Time: 7.349284]
+root: INFO: [Dev set] [precision 67.042254] [recall 50.105263] [fscore 57.349398]
+root: INFO: [test set] [precision 64.254703] [recall 48.366013] [fscore 55.189559]
+root: INFO: 
+root: INFO: [Epoch 787 / 800] [Loss: 42.283084] [Time: 7.457021]
+root: INFO: [Dev set] [precision 67.241379] [recall 49.263158] [fscore 56.865128]
+root: INFO: [test set] [precision 64.705882] [recall 47.930283] [fscore 55.068836]
+root: INFO: 
+root: INFO: [Epoch 788 / 800] [Loss: 35.675276] [Time: 7.105154]
+root: INFO: [Dev set] [precision 68.011527] [recall 49.684211] [fscore 57.420925]
+root: INFO: [test set] [precision 64.948454] [recall 48.039216] [fscore 55.228554]
+root: INFO: 
+root: INFO: [Epoch 789 / 800] [Loss: 32.817931] [Time: 7.182129]
+root: INFO: [Dev set] [precision 69.321534] [recall 49.473684] [fscore 57.739558]
+root: INFO: [test set] [precision 65.875371] [recall 48.366013] [fscore 55.778894]
+root: INFO: 
+root: INFO: [Epoch 790 / 800] [Loss: 27.534056] [Time: 7.205643]
+root: INFO: [Dev set] [precision 67.323944] [recall 50.315789] [fscore 57.590361]
+root: INFO: [test set] [precision 64.295875] [recall 49.237473] [fscore 55.768044]
+root: INFO: 
+root: INFO: [Epoch 791 / 800] [Loss: 22.935439] [Time: 7.447769]
+root: INFO: [Dev set] [precision 66.951567] [recall 49.473684] [fscore 56.900726]
+root: INFO: [test set] [precision 65.935673] [recall 49.128540] [fscore 56.304619]
+root: INFO: 
+root: INFO: [Epoch 792 / 800] [Loss: 29.397944] [Time: 7.259670]
+root: INFO: [Dev set] [precision 67.236467] [recall 49.684211] [fscore 57.142857]
+root: INFO: [test set] [precision 65.014577] [recall 48.583878] [fscore 55.610973]
+root: INFO: 
+root: INFO: [Epoch 793 / 800] [Loss: 26.014523] [Time: 7.223288]
+root: INFO: [Dev set] [precision 67.613636] [recall 50.105263] [fscore 57.557437]
+root: INFO: [test set] [precision 64.927536] [recall 48.801743] [fscore 55.721393]
+root: INFO: 
+root: INFO: [Epoch 794 / 800] [Loss: 31.033710] [Time: 7.220521]
+root: INFO: [Dev set] [precision 66.573034] [recall 49.894737] [fscore 57.039711]
+root: INFO: [test set] [precision 65.451895] [recall 48.910675] [fscore 55.985037]
+root: INFO: 
+root: INFO: [Epoch 795 / 800] [Loss: 16.712154] [Time: 7.229324]
+root: INFO: [Dev set] [precision 67.806268] [recall 50.105263] [fscore 57.627119]
+root: INFO: [test set] [precision 65.638767] [recall 48.692810] [fscore 55.909944]
+root: INFO: 
+root: INFO: [Epoch 796 / 800] [Loss: 25.607320] [Time: 7.177495]
+root: INFO: [Dev set] [precision 69.005848] [recall 49.684211] [fscore 57.772338]
+root: INFO: [test set] [precision 66.616541] [recall 48.257081] [fscore 55.969678]
+root: INFO: 
+root: INFO: [Epoch 797 / 800] [Loss: 24.871404] [Time: 7.223792]
+root: INFO: [Dev set] [precision 67.134831] [recall 50.315789] [fscore 57.521059]
+root: INFO: [test set] [precision 65.223665] [recall 49.237473] [fscore 56.114215]
+root: INFO: 
+root: INFO: [Epoch 798 / 800] [Loss: 25.900743] [Time: 7.271438]
+root: INFO: [Dev set] [precision 66.759777] [recall 50.315789] [fscore 57.382953]
+root: INFO: [test set] [precision 64.571429] [recall 49.237473] [fscore 55.871446]
+root: INFO: 
+root: INFO: [Epoch 799 / 800] [Loss: 26.723779] [Time: 7.232915]
+root: INFO: [Dev set] [precision 68.208092] [recall 49.684211] [fscore 57.490865]
+root: INFO: [test set] [precision 64.653903] [recall 47.821351] [fscore 54.978084]
+root: INFO: 
+root: INFO: [Epoch 800 / 800] [Loss: 32.280882] [Time: 7.225932]
+root: INFO: [Dev set] [precision 66.944444] [recall 50.736842] [fscore 57.724551]
+root: INFO: [test set] [precision 63.572433] [recall 49.237473] [fscore 55.494168]
+root: INFO: 
+root: INFO: The best:
+root: INFO: [Dev set] [precision 68.347339] [recall 51.368421] [fscore 58.653846]
+root: INFO: [test set] [precision 67.492711] [recall 50.435730] [fscore 57.730673]
+root: INFO: 
