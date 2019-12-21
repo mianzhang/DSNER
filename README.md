@@ -2,12 +2,12 @@
 
 Model|Training Data|Dataset|Precision|Recall|F1
 :-:|:-:|:-:|:-:|:-:|:-:
-LSTM-CRF|H|EC-Dev|63.78|61.26|62.49
+LSTM-CRF|H|EC-Dev|63.78|**61.26**|**62.49**
 This Implementation(LSTM-CRF)|H|EC-Dev|**65.14**|59.79|62.35
 
 Model|Training Data|Dataset|Precision|Recall|F1
 :-:|:-:|:-:|:-:|:-:|:-:
-LSTM-CRF|H|EC-Test|59.93|58.46|59.19
+LSTM-CRF|H|EC-Test|59.93|**58.46**|59.19
 This Implementation(LSTM-CRF)|H|EC-Test|**62.81**|57.41|**59.99**
 
 
@@ -38,7 +38,7 @@ This Implementation(LSTM-CRF-PA+SL)|H + A|EC-Dev|**64.29**|**66.32**|**65.28**
 
 Model|Training Data|Dataset|Precision|Recall|F1
 :-:|:-:|:-:|:-:|:-:|:-:
-LSTM-CRF-PA+SL|H + A|EC-Test|61.57|61.33|61.45
+LSTM-CRF-PA+SL|H + A|EC-Test|**61.57**|61.33|**61.45**
 This Implementation(LSTM-CRF-PA+SL)|H + A|EC-Test|59.33|61.33|60.31
 
 ---
@@ -50,13 +50,13 @@ This Implementation(LSTM-CRF)|H|NEWS-Dev|**89.72**|**79.17**|**84.11**
 
 Model|Training Data|Dataset|Precision|Recall|F1
 :-:|:-:|:-:|:-:|:-:|:-:
-LSTM-CRF|H|NEWS-Test|78.50|74.50|76.45
+LSTM-CRF|H|NEWS-Test|78.50|**74.50**|76.45
 This Implementation(LSTM-CRF)|H|NEWS-Test|**85.78**|73.90|**79.40**
 
 
 Model|Training Data|Dataset|Precision|Recall|F1
 :-:|:-:|:-:|:-:|:-:|:-:
-LSTM-CRF|H + A|NEWS-Dev|87.00|65.20|74.54
+LSTM-CRF|H + A|NEWS-Dev|**87.00**|65.20|74.54
 This Implementation(LSTM-CRF)|H + A|NEWS-Dev|86.70|**66.46**|**75.24**
 
 
