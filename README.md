@@ -1,6 +1,16 @@
 # Performance Comparision
 
-### Dataset: EC
+Model|Training Data|Dataset|Precision|Recall|F1
+:-:|:-:|:-:|:-:|:-:|:-:
+LSTM-CRF|H|EC-Dev|63.78|61.26|62.49
+This Implementation(LSTM-CRF)|H|EC-Dev|**65.14**|59.79|62.35
+
+Model|Training Data|Dataset|Precision|Recall|F1
+:-:|:-:|:-:|:-:|:-:|:-:
+LSTM-CRF|H|EC-Test|59.93|58.46|59.19
+This Implementation(LSTM-CRF)|H|EC-Test|**62.81**|57.41|**59.99**
+
+
 Model|Training Data|Dev|Test
 -|:-:|:-:|:-:
 LSTM-CRF|H|63.78(P) 61.26(R) 62.49(F1)|59.93(P) 58.46(R) 59.19(F1)
