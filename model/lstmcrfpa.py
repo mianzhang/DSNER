@@ -8,6 +8,7 @@ class Bilstm(nn.Module):
 
     def __init__(self, args, dicts, embedding_table):
         super(Bilstm, self).__init__()
+        self.device = args.device
         self.char_size = dicts['char_size']
         self.tag_size = dicts['tag_size']
         self.embedding_dim = args.embedding_dim
@@ -26,7 +27,7 @@ class Bilstm(nn.Module):
 
     def build_embed_layer(self, embedding_table):
         if embedding_table is not None:
-            embedding_table = torch.tensor(embedding_table, dtype=torch.float)
+            embedding_table = torch.tensor(embedding_table, dtype=torch.float).to(self.device)
             embed_layer = nn.Embedding.from_pretrained(
                 embedding_table,
                 freeze=False
@@ -58,6 +59,7 @@ class LstmCrfPa(nn.Module):
 
     def __init__(self, args, dicts, embedding_table):
         super(LstmCrfPa, self).__init__()
+        self.device = args.device
         self.tag_size = dicts['tag_size']
         self.tag_to_idx = dicts['tag_to_idx']
         self.PAD_IDX = self.tag_to_idx[PAD]
@@ -105,7 +107,7 @@ class LstmCrfPa(nn.Module):
             trans = self.trans.unsqueeze(0).expand(batch_size, tag_size, tag_size)  # [B x C x C]
             mask_pre_ = mask_pre.unsqueeze(1)  # [B x 1 x C]
             mask_cur_ = mask_cur.unsqueeze(2)  # [B x C x 1]
-            mask_all = torch.ones(batch_size, tag_size, tag_size) * mask_pre_ * mask_cur_
+            mask_all = torch.ones(batch_size, tag_size, tag_size).to(self.device) * mask_pre_ * mask_cur_
             trans = trans * mask_all  # [B x C x C]
             emit_t = emit_t.expand(batch_size, tag_size, tag_size) * mask_all
             before_logsumexp = gold_score.unsqueeze(1).expand(batch_size, tag_size, tag_size) * mask_all + \
@@ -137,9 +139,9 @@ class LstmCrfPa(nn.Module):
     def decode(self, lstm_out, mask):
         batch_size = lstm_out.size(0)
         max_seq_len = lstm_out.size(1)
-        score = torch.full((batch_size, self.tag_size), -10000, dtype=torch.float)
+        score = torch.full((batch_size, self.tag_size), -10000, dtype=torch.float).to(self.device)
         score[:, self.START_IDX] = 0
-        bptrs = torch.zeros((batch_size, max_seq_len, self.tag_size), dtype=torch.long)
+        bptrs = torch.zeros((batch_size, max_seq_len, self.tag_size), dtype=torch.long).to(self.device)
 
         trans = self.trans.unsqueeze(0)  # [1 x C x C]
         for t in range(max_seq_len):

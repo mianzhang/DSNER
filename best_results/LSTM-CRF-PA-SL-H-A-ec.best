@@ -1,0 +1,2 @@
+dev_precision: 64.285714	dev_recall: 66.315789	dev_fscore: 65.284974
+test_precision: 59.325606	test_recall: 61.328976	test_fscore: 60.310659

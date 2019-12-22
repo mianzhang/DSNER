@@ -16,14 +16,21 @@ from model.lstmcrfpa import LstmCrfPa
 from model.lstmcrfpasl import LstmCrfPaSl
 from model.selector import Selector
 
-random.seed(0)
-np.random.seed(0)
-torch.random.manual_seed(0)
+
+def set_seed(args, seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.random.manual_seed(seed)
+    if args.device.startswith('cuda'):
+        print("using GPU...", torch.cuda.current_device())
+        torch.cuda.manual_seed(seed)
+        torch.cuda.manual_seed_all(seed)
 
 
 parser = argparse.ArgumentParser(
     description='Pytorch implementation of Distant Supervised NER.'
 )
+parser.add_argument('--device', type=str, default='cuda:3', choices=['cpu', 'cuda:3'])
 parser.add_argument('--embedding_file', type=str,
                     default='resource/embedding/pre_trained_100dim.model')
 parser.add_argument('--embedding_dim', type=int,
@@ -157,7 +164,7 @@ def cal_metrics_iobes(pred_paths, gold_paths):
 
     def get_name_entities(path):
         name_entitis = set()
-        start = -1 
+        start = -1
         for i in range(len(path)):
             cur_tag = path[i]
             if cur_tag.startswith('B-'):
@@ -192,6 +199,9 @@ def evaluate(tagger, samples, args, dicts):
                 for path in gold_paths
             ]
             data = padding(batch, dicts)
+            for k, v in data.items():
+                data[k] = v.to(args.device)
+
             pred_paths = tagger(data)
             pred_paths = [
                 [idx_to_tag[idx] for idx in path]
@@ -246,12 +256,12 @@ def padding(samples, dicts):
         char_seq_tensor=char_seq_tensor,
         tag_seq_tensor=tag_seq_tensor,
         char_seq_lens=char_seq_lens,
-        batch_size=batch_size,
-        max_seq_len=max_seq_len,
     )
 
 
 def main(args):
+    set_seed(args, 0)
+
     # Prepare data
     train_file = '/'.join(['data', args.dataset, 'train'])
     dev_file = '/'.join(['data', args.dataset, 'dev'])
@@ -305,8 +315,8 @@ def main(args):
         # Training with selector
         logger.info('Using LstmCrfPaSl.')
         model_file = 'checkpoint-pa-sl-{}.pt'.format(args.dataset)
-        tagger = LstmCrfPaSl(args, dicts, embedding_table)
-        selector = Selector(args)
+        tagger = LstmCrfPaSl(args, dicts, embedding_table).to(args.device)
+        selector = Selector(args).to(args.device)
         opt = optim.RMSprop(tagger.parameters(), lr=args.learning_rate)
         opt_sl = optim.Adam(selector.parameters(), lr=args.learning_rate)
 
@@ -327,8 +337,8 @@ def main(args):
             start_time = time.time()
             batchs = []
             batch = []
-            action_batch = torch.FloatTensor()
-            alpha_batch = torch.FloatTensor()
+            action_batch = torch.FloatTensor().to(args.device)
+            alpha_batch = torch.FloatTensor().to(args.device)
             select_loss = 0
             # select batchs and update selector
             for idx in range(len(train_samples)):
@@ -337,7 +347,11 @@ def main(args):
                     batchs.append(batch)
                     if action_batch.size(0) > 0:
                         selector.train()
+
                         data = padding(batch, dicts)
+                        for k, v in data.items():
+                            data[k] = v.to(args.device)
+
                         with torch.no_grad():
                             nll = tagger.neg_log_likelihood(data, dicts)
                         mean_reward = -nll / batch_size  # reward should not substract all_path_score
@@ -349,28 +363,38 @@ def main(args):
                         selector.zero_grad()
 
                         batch = []
-                        action_batch = torch.FloatTensor()
-                        alpha_batch = torch.FloatTensor()
+                        action_batch = torch.FloatTensor().to(args.device)
+                        alpha_batch = torch.FloatTensor().to(args.device)
 
                 elif sample.sign == 0:
                     batch.append(sample)
                 else:
                     data = padding([sample], dicts)
+                    for k, v in data.items():
+                        data[k] = v.to(args.device)
+
                     with torch.no_grad():
                         state_rep = tagger.encode(data)
                     alpha = selector(state_rep).view(1)
                     alpha_batch = torch.cat([alpha_batch, alpha], dim=0)
                     if alpha > 0.5:
                         batch.append(sample)
-                        action_batch = torch.cat([action_batch, torch.tensor([1], dtype=torch.float)], dim=0)
+                        action_batch = torch.cat(
+                            [action_batch, torch.tensor([1], dtype=torch.float).to(args.device)], dim=0
+                        )
                     else:
-                        action_batch = torch.cat([action_batch, torch.tensor([0], dtype=torch.float)], dim=0)
+                        action_batch = torch.cat(
+                            [action_batch, torch.tensor([0], dtype=torch.float).to(args.device)], dim=0
+                        )
 
             if len(batch) > 0:
                 batchs.append(batch)
                 if action_batch.size(0) > 0:
                     selector.train()
                     data = padding(batch, dicts)
+                    for k, v in data.items():
+                        data[k] = v.to(args.device)
+
                     with torch.no_grad():
                         nll = tagger.neg_log_likelihood(data, dicts)
                     mean_reward = -nll / batch_size
@@ -389,6 +413,9 @@ def main(args):
                 tagger.train()
                 tagger.zero_grad()
                 data = padding(batchs[idx], dicts)
+                for k, v in data.items():
+                    data[k] = v.to(args.device)
+
                 nll = tagger.neg_log_likelihood(data, dicts)
                 epoch_loss += nll.item()
                 nll.backward()
@@ -404,11 +431,6 @@ def main(args):
                 '[Dev set] [precision %f] [recall %f] [fscore %f]' %
                 (precision, recall, f_score)
             )
-            precision, recall, f_score = evaluate(tagger, test_samples, args, dicts)
-            logger.info(
-                '[test set] [precision %f] [recall %f] [fscore %f]' %
-                (precision, recall, f_score))
-            logger.info("")
 
             if f_score > max_f_score:
                 torch.save({'tagger_state_dict': tagger.state_dict(),
@@ -420,10 +442,16 @@ def main(args):
                 max_f_score = f_score
                 logger.info('Save the best model.')
 
+            precision, recall, f_score = evaluate(tagger, test_samples, args, dicts)
+            logger.info(
+                '[test set] [precision %f] [recall %f] [fscore %f]' %
+                (precision, recall, f_score))
+            logger.info("")
+
         # the best model
         with torch.no_grad():
             checkpoint = torch.load(model_file)
-            tagger.load_state_dict(checkpoint['model_state_dict'])
+            tagger.load_state_dict(checkpoint['tagger_state_dict'])
 
             logger.info('The best:')
             precision, recall, f_score = evaluate(tagger, dev_samples, args, dicts)
@@ -438,7 +466,7 @@ def main(args):
             logger.info("")
     else:
         # Training without selector
-        tagger = LstmCrfPa(args, dicts, embedding_table)
+        tagger = LstmCrfPa(args, dicts, embedding_table).to(args.device)
 
         opt = optim.RMSprop(tagger.parameters(), lr=args.learning_rate)
 
@@ -454,8 +482,8 @@ def main(args):
 
         if not args.from_begin:
             checkpoint = torch.load(model_file)
-            tagger.load_state_dict(checkpoint['model_state_dict'])
-            opt.load_state_dict(checkpoint['optimizer_state_dict'])
+            tagger.load_state_dict(checkpoint['tagger_state_dict'])
+            opt.load_state_dict(checkpoint['opt_state_dict'])
             max_f_score = checkpoint['max_f_score']
 
         for i in range(1, args.epochs + 1):
@@ -465,6 +493,9 @@ def main(args):
                 tagger.train()
                 tagger.zero_grad()
                 data = padding(batchs[idx], dicts)
+                for k, v in data.items():
+                    data[k] = v.to(args.device)
+
                 nll = tagger.neg_log_likelihood(data, dicts)
                 epoch_loss += nll.item()
                 nll.backward()
@@ -480,24 +511,25 @@ def main(args):
                 '[Dev set] [precision %f] [recall %f] [fscore %f]' %
                 (precision, recall, f_score)
             )
+
+            if f_score > max_f_score:
+                torch.save({'tagger_state_dict': tagger.state_dict(),
+                            'opt_state_dict': opt.state_dict(),
+                            'max_f_score': max_f_score
+                            }, model_file)
+                max_f_score = f_score
+                logger.info('Save the best model.')
+
             precision, recall, f_score = evaluate(tagger, test_samples, args, dicts)
             logger.info(
                 '[test set] [precision %f] [recall %f] [fscore %f]' %
                 (precision, recall, f_score))
             logger.info("")
 
-            if f_score > max_f_score:
-                torch.save({'model_state_dict': tagger.state_dict(),
-                            'optimizer_state_dict': opt.state_dict(),
-                            'max_f_score': max_f_score
-                            }, model_file)
-                max_f_score = f_score
-                logger.info('Save the best model.')
-
         # the best model
         with torch.no_grad():
             checkpoint = torch.load(model_file)
-            tagger.load_state_dict(checkpoint['model_state_dict'])
+            tagger.load_state_dict(checkpoint['tagger_state_dict'])
 
             logger.info('The best:')
             precision, recall, f_score = evaluate(tagger, dev_samples, args, dicts)
