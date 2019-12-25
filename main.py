@@ -311,6 +311,9 @@ def main(args):
         random.shuffle(train_samples)
     print('number of samples:', len(train_samples))
 
+    for i, sample in enumerate(train_samples):
+        sample.id = i
+
     if args.use_selector:
         # Training with selector
         logger.info('Using LstmCrfPaSl.')
@@ -333,7 +336,9 @@ def main(args):
 
         batch_size = args.batch_size
         random.shuffle(train_samples)
+        select_track_all = dict()
         for epoch in range(1, args.epochs + 1):
+            select_track = dict()
             start_time = time.time()
             batchs = []
             batch = []
@@ -382,6 +387,10 @@ def main(args):
                         action_batch = torch.cat(
                             [action_batch, torch.tensor([1], dtype=torch.float).to(args.device)], dim=0
                         )
+                        if sample.id not in select_track:
+                            select_track[sample.id] = 1
+                        else:
+                            select_track[sample.id] += 1
                     else:
                         action_batch = torch.cat(
                             [action_batch, torch.tensor([0], dtype=torch.float).to(args.device)], dim=0
@@ -405,6 +414,7 @@ def main(args):
                     opt_sl.step()
                     selector.zero_grad()
             print('Select Loss: ', select_loss)
+            select_track_all[epoch] = select_track
 
             # Update tagger
             epoch_loss = 0
@@ -447,6 +457,9 @@ def main(args):
                 '[test set] [precision %f] [recall %f] [fscore %f]' %
                 (precision, recall, f_score))
             logger.info("")
+
+        with open("select_info", 'wb') as f:
+            pickle.dump(select_track_all, f)
 
         # the best model
         with torch.no_grad():

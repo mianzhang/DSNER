@@ -8,6 +8,7 @@ PAD_IDX = 0
 class Sample:
 
     def __init__(self, char_ids, tag_ids, dicts):
+        self.id = -1
         self.char_ids = char_ids
         self.tag_ids = tag_ids
         self.sign = 0

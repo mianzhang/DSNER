@@ -1,2 +1,3204 @@
+rank: 0
 dev_precision: 64.285714	dev_recall: 66.315789	dev_fscore: 65.284974
 test_precision: 59.325606	test_recall: 61.328976	test_fscore: 60.310659
+
+rank: 1
+dev_precision: 63.469388	dev_recall: 65.473684	dev_fscore: 64.455959
+test_precision: 59.786096	test_recall: 60.893246	test_fscore: 60.334593
+
+rank: 2
+dev_precision: 62.701613	dev_recall: 65.473684	dev_fscore: 64.057673
+test_precision: 60.952381	test_recall: 62.745098	test_fscore: 61.835749
+
+rank: 3
+dev_precision: 62.575453	dev_recall: 65.473684	dev_fscore: 63.99177
+test_precision: 58.297872	test_recall: 59.694989	test_fscore: 58.988159
+
+rank: 4
+dev_precision: 61.980198	dev_recall: 65.894737	dev_fscore: 63.877551
+test_precision: 59.042553	test_recall: 60.457516	test_fscore: 59.741658
+
+rank: 5
+dev_precision: 61.689587	dev_recall: 66.105263	dev_fscore: 63.821138
+test_precision: 58.368201	test_recall: 60.784314	test_fscore: 59.551761
+
+rank: 6
+dev_precision: 63.22314	dev_recall: 64.421053	dev_fscore: 63.816475
+test_precision: 59.956474	test_recall: 60.021786	test_fscore: 59.989113
+
+rank: 7
+dev_precision: 62.075848	dev_recall: 65.473684	dev_fscore: 63.729508
+test_precision: 59.60334	test_recall: 62.200436	test_fscore: 60.8742
+
+rank: 8
+dev_precision: 62.248996	dev_recall: 65.263158	dev_fscore: 63.720452
+test_precision: 59.498956	test_recall: 62.091503	test_fscore: 60.767591
+
+rank: 9
+dev_precision: 61.493124	dev_recall: 65.894737	dev_fscore: 63.617886
+test_precision: 58.098224	test_recall: 60.566449	test_fscore: 59.306667
+
+rank: 10
+dev_precision: 60.769231	dev_recall: 66.526316	dev_fscore: 63.517588
+test_precision: 57.959184	test_recall: 61.873638	test_fscore: 59.852476
+
+rank: 11
+dev_precision: 62.048193	dev_recall: 65.052632	dev_fscore: 63.514902
+test_precision: 60.864979	test_recall: 62.854031	test_fscore: 61.843516
+
+rank: 12
+dev_precision: 62.048193	dev_recall: 65.052632	dev_fscore: 63.514902
+test_precision: 61.011591	test_recall: 63.071895	test_fscore: 62.024638
+
+rank: 13
+dev_precision: 61.089494	dev_recall: 66.105263	dev_fscore: 63.498483
+test_precision: 57.505071	test_recall: 61.764706	test_fscore: 59.558824
+
+rank: 14
+dev_precision: 61.584158	dev_recall: 65.473684	dev_fscore: 63.469388
+test_precision: 58.350951	test_recall: 60.130719	test_fscore: 59.227468
+
+rank: 15
+dev_precision: 61.923848	dev_recall: 65.052632	dev_fscore: 63.449692
+test_precision: 56.907216	test_recall: 60.130719	test_fscore: 58.474576
+
+rank: 16
+dev_precision: 62.271805	dev_recall: 64.631579	dev_fscore: 63.429752
+test_precision: 58.244111	test_recall: 59.259259	test_fscore: 58.7473
+
+rank: 17
+dev_precision: 61.132812	dev_recall: 65.894737	dev_fscore: 63.424519
+test_precision: 60.227273	test_recall: 63.507625	test_fscore: 61.823966
+
+rank: 18
+dev_precision: 61.630219	dev_recall: 65.263158	dev_fscore: 63.394683
+test_precision: 59.62539	test_recall: 62.418301	test_fscore: 60.989888
+
+rank: 19
+dev_precision: 61.630219	dev_recall: 65.263158	dev_fscore: 63.394683
+test_precision: 59.414226	test_recall: 61.873638	test_fscore: 60.618997
+
+rank: 20
+dev_precision: 61.8	dev_recall: 65.052632	dev_fscore: 63.384615
+test_precision: 59.766454	test_recall: 61.328976	test_fscore: 60.537634
+
+rank: 21
+dev_precision: 61.8	dev_recall: 65.052632	dev_fscore: 63.384615
+test_precision: 58.638743	test_recall: 61.002179	test_fscore: 59.797117
+
+rank: 22
+dev_precision: 61.8	dev_recall: 65.052632	dev_fscore: 63.384615
+test_precision: 58.917197	test_recall: 60.457516	test_fscore: 59.677419
+
+rank: 23
+dev_precision: 61.676647	dev_recall: 65.052632	dev_fscore: 63.319672
+test_precision: 59.090909	test_recall: 60.893246	test_fscore: 59.978541
+
+rank: 24
+dev_precision: 61.84739	dev_recall: 64.842105	dev_fscore: 63.309353
+test_precision: 60.864979	test_recall: 62.854031	test_fscore: 61.843516
+
+rank: 25
+dev_precision: 62.020202	dev_recall: 64.631579	dev_fscore: 63.298969
+test_precision: 60.041841	test_recall: 62.527233	test_fscore: 61.259338
+
+rank: 26
+dev_precision: 62.195122	dev_recall: 64.421053	dev_fscore: 63.288521
+test_precision: 59.110629	test_recall: 59.368192	test_fscore: 59.23913
+
+rank: 27
+dev_precision: 61.056751	dev_recall: 65.684211	dev_fscore: 63.286004
+test_precision: 59.545924	test_recall: 62.854031	test_fscore: 61.155273
+
+rank: 28
+dev_precision: 62.068966	dev_recall: 64.421053	dev_fscore: 63.22314
+test_precision: 60.618997	test_recall: 61.873638	test_fscore: 61.239892
+
+rank: 29
+dev_precision: 61.100196	dev_recall: 65.473684	dev_fscore: 63.211382
+test_precision: 59.400826	test_recall: 62.636166	test_fscore: 60.97561
+
+rank: 30
+dev_precision: 61.100196	dev_recall: 65.473684	dev_fscore: 63.211382
+test_precision: 58.599382	test_recall: 61.982571	test_fscore: 60.243515
+
+rank: 31
+dev_precision: 62.422998	dev_recall: 64.0	dev_fscore: 63.201663
+test_precision: 59.199134	test_recall: 59.586057	test_fscore: 59.391965
+
+rank: 32
+dev_precision: 61.431412	dev_recall: 65.052632	dev_fscore: 63.190184
+test_precision: 60.125261	test_recall: 62.745098	test_fscore: 61.407249
+
+rank: 33
+dev_precision: 61.431412	dev_recall: 65.052632	dev_fscore: 63.190184
+test_precision: 57.613169	test_recall: 61.002179	test_fscore: 59.259259
+
+rank: 34
+dev_precision: 61.6	dev_recall: 64.842105	dev_fscore: 63.179487
+test_precision: 59.6875	test_recall: 62.418301	test_fscore: 61.022364
+
+rank: 35
+dev_precision: 61.6	dev_recall: 64.842105	dev_fscore: 63.179487
+test_precision: 60.438413	test_recall: 63.071895	test_fscore: 61.727079
+
+rank: 36
+dev_precision: 61.6	dev_recall: 64.842105	dev_fscore: 63.179487
+test_precision: 58.562368	test_recall: 60.348584	test_fscore: 59.44206
+
+rank: 37
+dev_precision: 61.770624	dev_recall: 64.631579	dev_fscore: 63.168724
+test_precision: 61.904762	test_recall: 62.309368	test_fscore: 62.106406
+
+rank: 38
+dev_precision: 61.770624	dev_recall: 64.631579	dev_fscore: 63.168724
+test_precision: 58.768267	test_recall: 61.328976	test_fscore: 60.021322
+
+rank: 39
+dev_precision: 60.658915	dev_recall: 65.894737	dev_fscore: 63.168517
+test_precision: 58.602711	test_recall: 61.220044	test_fscore: 59.882792
+
+rank: 40
+dev_precision: 60.980392	dev_recall: 65.473684	dev_fscore: 63.147208
+test_precision: 58.421053	test_recall: 60.457516	test_fscore: 59.421842
+
+rank: 41
+dev_precision: 60.980392	dev_recall: 65.473684	dev_fscore: 63.147208
+test_precision: 58.811262	test_recall: 61.437908	test_fscore: 60.095898
+
+rank: 42
+dev_precision: 60.980392	dev_recall: 65.473684	dev_fscore: 63.147208
+test_precision: 58.817318	test_recall: 60.675381	test_fscore: 59.731903
+
+rank: 43
+dev_precision: 62.118126	dev_recall: 64.210526	dev_fscore: 63.146998
+test_precision: 60.475162	test_recall: 61.002179	test_fscore: 60.737527
+
+rank: 44
+dev_precision: 61.646586	dev_recall: 64.631579	dev_fscore: 63.103803
+test_precision: 60.654008	test_recall: 62.636166	test_fscore: 61.629153
+
+rank: 45
+dev_precision: 61.646586	dev_recall: 64.631579	dev_fscore: 63.103803
+test_precision: 58.342189	test_recall: 59.803922	test_fscore: 59.064013
+
+rank: 46
+dev_precision: 61.818182	dev_recall: 64.421053	dev_fscore: 63.092784
+test_precision: 58.941799	test_recall: 60.675381	test_fscore: 59.796028
+
+rank: 47
+dev_precision: 60.861057	dev_recall: 65.473684	dev_fscore: 63.083164
+test_precision: 57.97546	test_recall: 61.764706	test_fscore: 59.810127
+
+rank: 48
+dev_precision: 61.023622	dev_recall: 65.263158	dev_fscore: 63.072228
+test_precision: 60.0	test_recall: 62.745098	test_fscore: 61.341853
+
+rank: 49
+dev_precision: 61.023622	dev_recall: 65.263158	dev_fscore: 63.072228
+test_precision: 57.426778	test_recall: 59.803922	test_fscore: 58.591249
+
+rank: 50
+dev_precision: 63.404255	dev_recall: 62.736842	dev_fscore: 63.068783
+test_precision: 59.576837	test_recall: 58.278867	test_fscore: 58.920705
+
+rank: 51
+dev_precision: 61.188119	dev_recall: 65.052632	dev_fscore: 63.061224
+test_precision: 58.90411	test_recall: 60.893246	test_fscore: 59.882164
+
+rank: 52
+dev_precision: 61.354582	dev_recall: 64.842105	dev_fscore: 63.050154
+test_precision: 60.146444	test_recall: 62.636166	test_fscore: 61.366062
+
+rank: 53
+dev_precision: 61.354582	dev_recall: 64.842105	dev_fscore: 63.050154
+test_precision: 60.91954	test_recall: 63.507625	test_fscore: 62.186667
+
+rank: 54
+dev_precision: 61.523046	dev_recall: 64.631579	dev_fscore: 63.039014
+test_precision: 58.660999	test_recall: 60.130719	test_fscore: 59.386767
+
+rank: 55
+dev_precision: 60.582524	dev_recall: 65.684211	dev_fscore: 63.030303
+test_precision: 59.526262	test_recall: 62.962963	test_fscore: 61.1964
+
+rank: 56
+dev_precision: 60.582524	dev_recall: 65.684211	dev_fscore: 63.030303
+test_precision: 57.81893	test_recall: 61.220044	test_fscore: 59.470899
+
+rank: 57
+dev_precision: 61.693548	dev_recall: 64.421053	dev_fscore: 63.027806
+test_precision: 60.40555	test_recall: 61.655773	test_fscore: 61.024259
+
+rank: 58
+dev_precision: 60.903733	dev_recall: 65.263158	dev_fscore: 63.00813
+test_precision: 58.031088	test_recall: 61.002179	test_fscore: 59.479554
+
+rank: 59
+dev_precision: 61.067194	dev_recall: 65.052632	dev_fscore: 62.996942
+test_precision: 60.767591	test_recall: 62.091503	test_fscore: 61.422414
+
+rank: 60
+dev_precision: 61.4	dev_recall: 64.631579	dev_fscore: 62.974359
+test_precision: 55.230126	test_recall: 57.51634	test_fscore: 56.350053
+
+rank: 61
+dev_precision: 60.465116	dev_recall: 65.684211	dev_fscore: 62.9667
+test_precision: 58.480749	test_recall: 61.220044	test_fscore: 59.819053
+
+rank: 62
+dev_precision: 61.569416	dev_recall: 64.421053	dev_fscore: 62.962963
+test_precision: 59.023355	test_recall: 60.566449	test_fscore: 59.784946
+
+rank: 63
+dev_precision: 60.946746	dev_recall: 65.052632	dev_fscore: 62.93279
+test_precision: 60.106383	test_recall: 61.546841	test_fscore: 60.818084
+
+rank: 64
+dev_precision: 60.946746	dev_recall: 65.052632	dev_fscore: 62.93279
+test_precision: 60.520833	test_recall: 63.28976	test_fscore: 61.874334
+
+rank: 65
+dev_precision: 61.111111	dev_recall: 64.842105	dev_fscore: 62.921348
+test_precision: 60.23085	test_recall: 62.527233	test_fscore: 61.357563
+
+rank: 66
+dev_precision: 61.111111	dev_recall: 64.842105	dev_fscore: 62.921348
+test_precision: 60.542797	test_recall: 63.180828	test_fscore: 61.833689
+
+rank: 67
+dev_precision: 61.111111	dev_recall: 64.842105	dev_fscore: 62.921348
+test_precision: 58.971668	test_recall: 61.220044	test_fscore: 60.074826
+
+rank: 68
+dev_precision: 61.111111	dev_recall: 64.842105	dev_fscore: 62.921348
+test_precision: 58.342078	test_recall: 60.566449	test_fscore: 59.433458
+
+rank: 69
+dev_precision: 61.277445	dev_recall: 64.631579	dev_fscore: 62.909836
+test_precision: 60.680128	test_recall: 62.200436	test_fscore: 61.430877
+
+rank: 70
+dev_precision: 61.277445	dev_recall: 64.631579	dev_fscore: 62.909836
+test_precision: 60.414508	test_recall: 63.507625	test_fscore: 61.922464
+
+rank: 71
+dev_precision: 61.445783	dev_recall: 64.421053	dev_fscore: 62.898253
+test_precision: 59.684211	test_recall: 61.764706	test_fscore: 60.706638
+
+rank: 72
+dev_precision: 61.445783	dev_recall: 64.421053	dev_fscore: 62.898253
+test_precision: 59.77131	test_recall: 62.636166	test_fscore: 61.170213
+
+rank: 73
+dev_precision: 60.505837	dev_recall: 65.473684	dev_fscore: 62.89181
+test_precision: 57.959184	test_recall: 61.873638	test_fscore: 59.852476
+
+rank: 74
+dev_precision: 61.616162	dev_recall: 64.210526	dev_fscore: 62.886598
+test_precision: 58.074866	test_recall: 59.150327	test_fscore: 58.607663
+
+rank: 75
+dev_precision: 60.665362	dev_recall: 65.263158	dev_fscore: 62.880325
+test_precision: 58.263598	test_recall: 60.675381	test_fscore: 59.445037
+
+rank: 76
+dev_precision: 61.788618	dev_recall: 64.0	dev_fscore: 62.874871
+test_precision: 60.0	test_recall: 60.457516	test_fscore: 60.227889
+
+rank: 77
+dev_precision: 61.788618	dev_recall: 64.0	dev_fscore: 62.874871
+test_precision: 59.485531	test_recall: 60.457516	test_fscore: 59.967585
+
+rank: 78
+dev_precision: 60.826772	dev_recall: 65.052632	dev_fscore: 62.868769
+test_precision: 58.410733	test_recall: 61.655773	test_fscore: 59.989401
+
+rank: 79
+dev_precision: 60.076775	dev_recall: 65.894737	dev_fscore: 62.851406
+test_precision: 56.521739	test_recall: 62.309368	test_fscore: 59.274611
+
+rank: 80
+dev_precision: 61.155378	dev_recall: 64.631579	dev_fscore: 62.845445
+test_precision: 60.401267	test_recall: 62.309368	test_fscore: 61.340483
+
+rank: 81
+dev_precision: 61.155378	dev_recall: 64.631579	dev_fscore: 62.845445
+test_precision: 60.188088	test_recall: 62.745098	test_fscore: 61.44
+
+rank: 82
+dev_precision: 61.155378	dev_recall: 64.631579	dev_fscore: 62.845445
+test_precision: 61.198738	test_recall: 63.398693	test_fscore: 62.279294
+
+rank: 83
+dev_precision: 61.322645	dev_recall: 64.421053	dev_fscore: 62.833676
+test_precision: 59.453782	test_recall: 61.655773	test_fscore: 60.534759
+
+rank: 84
+dev_precision: 61.322645	dev_recall: 64.421053	dev_fscore: 62.833676
+test_precision: 61.368653	test_recall: 60.566449	test_fscore: 60.964912
+
+rank: 85
+dev_precision: 61.322645	dev_recall: 64.421053	dev_fscore: 62.833676
+test_precision: 59.286464	test_recall: 61.546841	test_fscore: 60.39551
+
+rank: 86
+dev_precision: 60.38835	dev_recall: 65.473684	dev_fscore: 62.828283
+test_precision: 59.690722	test_recall: 63.071895	test_fscore: 61.334746
+
+rank: 87
+dev_precision: 61.491935	dev_recall: 64.210526	dev_fscore: 62.821833
+test_precision: 60.947368	test_recall: 63.071895	test_fscore: 61.991435
+
+rank: 88
+dev_precision: 60.707269	dev_recall: 65.052632	dev_fscore: 62.804878
+test_precision: 60.190074	test_recall: 62.091503	test_fscore: 61.126005
+
+rank: 89
+dev_precision: 60.707269	dev_recall: 65.052632	dev_fscore: 62.804878
+test_precision: 58.229167	test_recall: 60.893246	test_fscore: 59.531416
+
+rank: 90
+dev_precision: 61.033797	dev_recall: 64.631579	dev_fscore: 62.781186
+test_precision: 60.387513	test_recall: 61.111111	test_fscore: 60.747158
+
+rank: 91
+dev_precision: 61.033797	dev_recall: 64.631579	dev_fscore: 62.781186
+test_precision: 60.548523	test_recall: 62.527233	test_fscore: 61.521972
+
+rank: 92
+dev_precision: 61.033797	dev_recall: 64.631579	dev_fscore: 62.781186
+test_precision: 59.617428	test_recall: 61.111111	test_fscore: 60.35503
+
+rank: 93
+dev_precision: 61.2	dev_recall: 64.421053	dev_fscore: 62.769231
+test_precision: 59.895833	test_recall: 62.636166	test_fscore: 61.235357
+
+rank: 94
+dev_precision: 61.2	dev_recall: 64.421053	dev_fscore: 62.769231
+test_precision: 60.379347	test_recall: 62.418301	test_fscore: 61.381896
+
+rank: 95
+dev_precision: 61.2	dev_recall: 64.421053	dev_fscore: 62.769231
+test_precision: 58.057631	test_recall: 59.259259	test_fscore: 58.652291
+
+rank: 96
+dev_precision: 61.368209	dev_recall: 64.210526	dev_fscore: 62.757202
+test_precision: 59.957627	test_recall: 61.655773	test_fscore: 60.794844
+
+rank: 97
+dev_precision: 61.368209	dev_recall: 64.210526	dev_fscore: 62.757202
+test_precision: 60.576923	test_recall: 61.764706	test_fscore: 61.165049
+
+rank: 98
+dev_precision: 61.368209	dev_recall: 64.210526	dev_fscore: 62.757202
+test_precision: 59.516299	test_recall: 61.655773	test_fscore: 60.567148
+
+rank: 99
+dev_precision: 60.42885	dev_recall: 65.263158	dev_fscore: 62.753036
+test_precision: 59.501558	test_recall: 62.418301	test_fscore: 60.92504
+
+rank: 100
+dev_precision: 60.42885	dev_recall: 65.263158	dev_fscore: 62.753036
+test_precision: 58.480749	test_recall: 61.220044	test_fscore: 59.819053
+
+rank: 101
+dev_precision: 60.42885	dev_recall: 65.263158	dev_fscore: 62.753036
+test_precision: 57.664975	test_recall: 61.873638	test_fscore: 59.695218
+
+rank: 102
+dev_precision: 61.538462	dev_recall: 64.0	dev_fscore: 62.745098
+test_precision: 59.368192	test_recall: 59.368192	test_fscore: 59.368192
+
+rank: 103
+dev_precision: 60.749507	dev_recall: 64.842105	dev_fscore: 62.729124
+test_precision: 58.756477	test_recall: 61.764706	test_fscore: 60.223048
+
+rank: 104
+dev_precision: 60.749507	dev_recall: 64.842105	dev_fscore: 62.729124
+test_precision: 59.453782	test_recall: 61.655773	test_fscore: 60.534759
+
+rank: 105
+dev_precision: 60.749507	dev_recall: 64.842105	dev_fscore: 62.729124
+test_precision: 58.410733	test_recall: 61.655773	test_fscore: 59.989401
+
+rank: 106
+dev_precision: 60.912698	dev_recall: 64.631579	dev_fscore: 62.717058
+test_precision: 58.216971	test_recall: 59.041394	test_fscore: 58.626284
+
+rank: 107
+dev_precision: 60.154739	dev_recall: 65.473684	dev_fscore: 62.701613
+test_precision: 57.86802	test_recall: 62.091503	test_fscore: 59.905413
+
+rank: 108
+dev_precision: 60.311284	dev_recall: 65.263158	dev_fscore: 62.689585
+test_precision: 59.183673	test_recall: 63.180828	test_fscore: 61.116965
+
+rank: 109
+dev_precision: 60.311284	dev_recall: 65.263158	dev_fscore: 62.689585
+test_precision: 58.125	test_recall: 60.784314	test_fscore: 59.42492
+
+rank: 110
+dev_precision: 60.311284	dev_recall: 65.263158	dev_fscore: 62.689585
+test_precision: 57.099698	test_recall: 61.764706	test_fscore: 59.340659
+
+rank: 111
+dev_precision: 60.469667	dev_recall: 65.052632	dev_fscore: 62.677485
+test_precision: 60.718057	test_recall: 62.636166	test_fscore: 61.662198
+
+rank: 112
+dev_precision: 61.585366	dev_recall: 63.789474	dev_fscore: 62.668046
+test_precision: 59.803922	test_recall: 59.803922	test_fscore: 59.803922
+
+rank: 113
+dev_precision: 60.629921	dev_recall: 64.842105	dev_fscore: 62.66531
+test_precision: 59.565667	test_recall: 62.745098	test_fscore: 61.114058
+
+rank: 114
+dev_precision: 60.629921	dev_recall: 64.842105	dev_fscore: 62.66531
+test_precision: 60.418848	test_recall: 62.854031	test_fscore: 61.612387
+
+rank: 115
+dev_precision: 60.629921	dev_recall: 64.842105	dev_fscore: 62.66531
+test_precision: 59.875905	test_recall: 63.071895	test_fscore: 61.432361
+
+rank: 116
+dev_precision: 59.732824	dev_recall: 65.894737	dev_fscore: 62.662663
+test_precision: 57.603223	test_recall: 62.309368	test_fscore: 59.863946
+
+rank: 117
+dev_precision: 60.792079	dev_recall: 64.631579	dev_fscore: 62.653061
+test_precision: 60.986066	test_recall: 61.982571	test_fscore: 61.480281
+
+rank: 118
+dev_precision: 60.792079	dev_recall: 64.631579	dev_fscore: 62.653061
+test_precision: 58.010471	test_recall: 60.348584	test_fscore: 59.156434
+
+rank: 119
+dev_precision: 60.792079	dev_recall: 64.631579	dev_fscore: 62.653061
+test_precision: 59.411146	test_recall: 61.546841	test_fscore: 60.460139
+
+rank: 120
+dev_precision: 60.03861	dev_recall: 65.473684	dev_fscore: 62.638469
+test_precision: 59.278351	test_recall: 62.636166	test_fscore: 60.911017
+
+rank: 121
+dev_precision: 61.122244	dev_recall: 64.210526	dev_fscore: 62.628337
+test_precision: 59.978655	test_recall: 61.220044	test_fscore: 60.592992
+
+rank: 122
+dev_precision: 61.122244	dev_recall: 64.210526	dev_fscore: 62.628337
+test_precision: 60.48218	test_recall: 62.854031	test_fscore: 61.645299
+
+rank: 123
+dev_precision: 60.351562	dev_recall: 65.052632	dev_fscore: 62.613982
+test_precision: 60.42328	test_recall: 62.200436	test_fscore: 61.29898
+
+rank: 124
+dev_precision: 60.351562	dev_recall: 65.052632	dev_fscore: 62.613982
+test_precision: 61.170213	test_recall: 62.636166	test_fscore: 61.89451
+
+rank: 125
+dev_precision: 61.460446	dev_recall: 63.789474	dev_fscore: 62.603306
+test_precision: 60.897436	test_recall: 62.091503	test_fscore: 61.488673
+
+rank: 126
+dev_precision: 60.671937	dev_recall: 64.631579	dev_fscore: 62.589195
+test_precision: 58.324496	test_recall: 59.912854	test_fscore: 59.108006
+
+rank: 127
+dev_precision: 60.83499	dev_recall: 64.421053	dev_fscore: 62.576687
+test_precision: 60.23085	test_recall: 62.527233	test_fscore: 61.357563
+
+rank: 128
+dev_precision: 60.83499	dev_recall: 64.421053	dev_fscore: 62.576687
+test_precision: 59.481865	test_recall: 62.527233	test_fscore: 60.966543
+
+rank: 129
+dev_precision: 59.922929	dev_recall: 65.473684	dev_fscore: 62.575453
+test_precision: 58.010471	test_recall: 60.348584	test_fscore: 59.156434
+
+rank: 130
+dev_precision: 61.0	dev_recall: 64.210526	dev_fscore: 62.564103
+test_precision: 57.712487	test_recall: 59.912854	test_fscore: 58.79209
+
+rank: 131
+dev_precision: 61.167002	dev_recall: 64.0	dev_fscore: 62.55144
+test_precision: 60.339343	test_recall: 61.982571	test_fscore: 61.149919
+
+rank: 132
+dev_precision: 61.167002	dev_recall: 64.0	dev_fscore: 62.55144
+test_precision: 59.637913	test_recall: 61.002179	test_fscore: 60.312332
+
+rank: 133
+dev_precision: 61.167002	dev_recall: 64.0	dev_fscore: 62.55144
+test_precision: 60.492505	test_recall: 61.546841	test_fscore: 61.015119
+
+rank: 134
+dev_precision: 61.167002	dev_recall: 64.0	dev_fscore: 62.55144
+test_precision: 58.613445	test_recall: 60.784314	test_fscore: 59.679144
+
+rank: 135
+dev_precision: 61.167002	dev_recall: 64.0	dev_fscore: 62.55144
+test_precision: 59.658485	test_recall: 60.893246	test_fscore: 60.269542
+
+rank: 136
+dev_precision: 60.233918	dev_recall: 65.052632	dev_fscore: 62.550607
+test_precision: 58.368201	test_recall: 60.784314	test_fscore: 59.551761
+
+rank: 137
+dev_precision: 60.392157	dev_recall: 64.842105	dev_fscore: 62.538071
+test_precision: 60.125261	test_recall: 62.745098	test_fscore: 61.407249
+
+rank: 138
+dev_precision: 60.392157	dev_recall: 64.842105	dev_fscore: 62.538071
+test_precision: 59.297521	test_recall: 62.527233	test_fscore: 60.869565
+
+rank: 139
+dev_precision: 60.392157	dev_recall: 64.842105	dev_fscore: 62.538071
+test_precision: 59.853249	test_recall: 62.200436	test_fscore: 61.004274
+
+rank: 140
+dev_precision: 60.552268	dev_recall: 64.631579	dev_fscore: 62.525458
+test_precision: 58.915537	test_recall: 61.546841	test_fscore: 60.202451
+
+rank: 141
+dev_precision: 60.552268	dev_recall: 64.631579	dev_fscore: 62.525458
+test_precision: 60.16684	test_recall: 62.854031	test_fscore: 61.481087
+
+rank: 142
+dev_precision: 60.552268	dev_recall: 64.631579	dev_fscore: 62.525458
+test_precision: 58.617131	test_recall: 61.873638	test_fscore: 60.201378
+
+rank: 143
+dev_precision: 60.552268	dev_recall: 64.631579	dev_fscore: 62.525458
+test_precision: 57.688338	test_recall: 60.893246	test_fscore: 59.247483
+
+rank: 144
+dev_precision: 60.714286	dev_recall: 64.421053	dev_fscore: 62.512768
+test_precision: 59.935897	test_recall: 61.111111	test_fscore: 60.517799
+
+rank: 145
+dev_precision: 60.878244	dev_recall: 64.210526	dev_fscore: 62.5
+test_precision: 59.447983	test_recall: 61.002179	test_fscore: 60.215054
+
+rank: 146
+dev_precision: 59.961315	dev_recall: 65.263158	dev_fscore: 62.5
+test_precision: 59.979424	test_recall: 63.507625	test_fscore: 61.693122
+
+rank: 147
+dev_precision: 59.961315	dev_recall: 65.263158	dev_fscore: 62.5
+test_precision: 59.164969	test_recall: 63.28976	test_fscore: 61.157895
+
+rank: 148
+dev_precision: 60.878244	dev_recall: 64.210526	dev_fscore: 62.5
+test_precision: 60.150376	test_recall: 61.002179	test_fscore: 60.573283
+
+rank: 149
+dev_precision: 60.878244	dev_recall: 64.210526	dev_fscore: 62.5
+test_precision: 58.526316	test_recall: 60.566449	test_fscore: 59.528908
+
+rank: 150
+dev_precision: 60.878244	dev_recall: 64.210526	dev_fscore: 62.5
+test_precision: 58.430541	test_recall: 60.021786	test_fscore: 59.215476
+
+rank: 151
+dev_precision: 61.044177	dev_recall: 64.0	dev_fscore: 62.487153
+test_precision: 60.452586	test_recall: 61.111111	test_fscore: 60.780065
+
+rank: 152
+dev_precision: 60.273973	dev_recall: 64.842105	dev_fscore: 62.474645
+test_precision: 58.471074	test_recall: 61.655773	test_fscore: 60.021209
+
+rank: 153
+dev_precision: 60.273973	dev_recall: 64.842105	dev_fscore: 62.474645
+test_precision: 58.0	test_recall: 60.021786	test_fscore: 58.993576
+
+rank: 154
+dev_precision: 60.433071	dev_recall: 64.631579	dev_fscore: 62.461851
+test_precision: 60.721868	test_recall: 62.309368	test_fscore: 61.505376
+
+rank: 155
+dev_precision: 60.433071	dev_recall: 64.631579	dev_fscore: 62.461851
+test_precision: 59.194215	test_recall: 62.418301	test_fscore: 60.763521
+
+rank: 156
+dev_precision: 60.433071	dev_recall: 64.631579	dev_fscore: 62.461851
+test_precision: 57.948718	test_recall: 61.546841	test_fscore: 59.693608
+
+rank: 157
+dev_precision: 60.594059	dev_recall: 64.421053	dev_fscore: 62.44898
+test_precision: 60.086768	test_recall: 60.348584	test_fscore: 60.217391
+
+rank: 158
+dev_precision: 60.594059	dev_recall: 64.421053	dev_fscore: 62.44898
+test_precision: 58.480749	test_recall: 61.220044	test_fscore: 59.819053
+
+rank: 159
+dev_precision: 60.756972	dev_recall: 64.210526	dev_fscore: 62.436029
+test_precision: 60.695469	test_recall: 62.745098	test_fscore: 61.703267
+
+rank: 160
+dev_precision: 60.756972	dev_recall: 64.210526	dev_fscore: 62.436029
+test_precision: 57.262278	test_recall: 59.694989	test_fscore: 58.453333
+
+rank: 161
+dev_precision: 60.756972	dev_recall: 64.210526	dev_fscore: 62.436029
+test_precision: 58.668076	test_recall: 60.457516	test_fscore: 59.549356
+
+rank: 162
+dev_precision: 61.728395	dev_recall: 63.157895	dev_fscore: 62.434964
+test_precision: 59.110169	test_recall: 60.784314	test_fscore: 59.935553
+
+rank: 163
+dev_precision: 60.0	dev_recall: 65.052632	dev_fscore: 62.424242
+test_precision: 59.442724	test_recall: 62.745098	test_fscore: 61.049285
+
+rank: 164
+dev_precision: 60.0	dev_recall: 65.052632	dev_fscore: 62.424242
+test_precision: 59.772492	test_recall: 62.962963	test_fscore: 61.32626
+
+rank: 165
+dev_precision: 60.0	dev_recall: 65.052632	dev_fscore: 62.424242
+test_precision: 58.222676	test_recall: 62.091503	test_fscore: 60.094887
+
+rank: 166
+dev_precision: 60.0	dev_recall: 65.052632	dev_fscore: 62.424242
+test_precision: 57.525773	test_recall: 60.784314	test_fscore: 59.110169
+
+rank: 167
+dev_precision: 60.0	dev_recall: 65.052632	dev_fscore: 62.424242
+test_precision: 57.575758	test_recall: 60.021786	test_fscore: 58.773333
+
+rank: 168
+dev_precision: 60.921844	dev_recall: 64.0	dev_fscore: 62.422998
+test_precision: 58.848168	test_recall: 61.220044	test_fscore: 60.010678
+
+rank: 169
+dev_precision: 60.921844	dev_recall: 64.0	dev_fscore: 62.422998
+test_precision: 59.95785	test_recall: 61.982571	test_fscore: 60.953401
+
+rank: 170
+dev_precision: 60.921844	dev_recall: 64.0	dev_fscore: 62.422998
+test_precision: 59.979317	test_recall: 63.180828	test_fscore: 61.538462
+
+rank: 171
+dev_precision: 60.921844	dev_recall: 64.0	dev_fscore: 62.422998
+test_precision: 59.07173	test_recall: 61.002179	test_fscore: 60.021436
+
+rank: 172
+dev_precision: 60.15625	dev_recall: 64.842105	dev_fscore: 62.411348
+test_precision: 59.850905	test_recall: 61.220044	test_fscore: 60.527733
+
+rank: 173
+dev_precision: 60.15625	dev_recall: 64.842105	dev_fscore: 62.411348
+test_precision: 59.270833	test_recall: 61.982571	test_fscore: 60.596379
+
+rank: 174
+dev_precision: 61.08871	dev_recall: 63.789474	dev_fscore: 62.409887
+test_precision: 60.878885	test_recall: 61.873638	test_fscore: 61.372231
+
+rank: 175
+dev_precision: 60.474308	dev_recall: 64.421053	dev_fscore: 62.385321
+test_precision: 58.298755	test_recall: 61.220044	test_fscore: 59.723698
+
+rank: 176
+dev_precision: 60.474308	dev_recall: 64.421053	dev_fscore: 62.385321
+test_precision: 60.447761	test_recall: 61.764706	test_fscore: 61.099138
+
+rank: 177
+dev_precision: 60.474308	dev_recall: 64.421053	dev_fscore: 62.385321
+test_precision: 60.041408	test_recall: 63.180828	test_fscore: 61.571125
+
+rank: 178
+dev_precision: 60.474308	dev_recall: 64.421053	dev_fscore: 62.385321
+test_precision: 58.985201	test_recall: 60.784314	test_fscore: 59.871245
+
+rank: 179
+dev_precision: 60.474308	dev_recall: 64.421053	dev_fscore: 62.385321
+test_precision: 57.763975	test_recall: 60.784314	test_fscore: 59.235669
+
+rank: 180
+dev_precision: 60.474308	dev_recall: 64.421053	dev_fscore: 62.385321
+test_precision: 58.930481	test_recall: 60.021786	test_fscore: 59.471128
+
+rank: 181
+dev_precision: 59.73025	dev_recall: 65.263158	dev_fscore: 62.374245
+test_precision: 58.847737	test_recall: 62.309368	test_fscore: 60.529101
+
+rank: 182
+dev_precision: 60.636183	dev_recall: 64.210526	dev_fscore: 62.372188
+test_precision: 61.099366	test_recall: 62.962963	test_fscore: 62.017167
+
+rank: 183
+dev_precision: 60.636183	dev_recall: 64.210526	dev_fscore: 62.372188
+test_precision: 60.664523	test_recall: 61.655773	test_fscore: 61.156132
+
+rank: 184
+dev_precision: 60.636183	dev_recall: 64.210526	dev_fscore: 62.372188
+test_precision: 60.084926	test_recall: 61.655773	test_fscore: 60.860215
+
+rank: 185
+dev_precision: 60.636183	dev_recall: 64.210526	dev_fscore: 62.372188
+test_precision: 59.401709	test_recall: 60.566449	test_fscore: 59.978425
+
+rank: 186
+dev_precision: 60.8	dev_recall: 64.0	dev_fscore: 62.358974
+test_precision: 59.652928	test_recall: 59.912854	test_fscore: 59.782609
+
+rank: 187
+dev_precision: 60.038986	dev_recall: 64.842105	dev_fscore: 62.348178
+test_precision: 58.385093	test_recall: 61.437908	test_fscore: 59.872611
+
+rank: 188
+dev_precision: 60.038986	dev_recall: 64.842105	dev_fscore: 62.348178
+test_precision: 58.566978	test_recall: 61.437908	test_fscore: 59.968102
+
+rank: 189
+dev_precision: 60.196078	dev_recall: 64.631579	dev_fscore: 62.335025
+test_precision: 60.104712	test_recall: 62.527233	test_fscore: 61.292045
+
+rank: 190
+dev_precision: 60.196078	dev_recall: 64.631579	dev_fscore: 62.335025
+test_precision: 58.891213	test_recall: 61.328976	test_fscore: 60.085379
+
+rank: 191
+dev_precision: 60.35503	dev_recall: 64.421053	dev_fscore: 62.321792
+test_precision: 59.397715	test_recall: 62.309368	test_fscore: 60.818713
+
+rank: 192
+dev_precision: 60.35503	dev_recall: 64.421053	dev_fscore: 62.321792
+test_precision: 61.390374	test_recall: 62.527233	test_fscore: 61.953589
+
+rank: 193
+dev_precision: 60.35503	dev_recall: 64.421053	dev_fscore: 62.321792
+test_precision: 57.352941	test_recall: 59.477124	test_fscore: 58.395722
+
+rank: 194
+dev_precision: 60.35503	dev_recall: 64.421053	dev_fscore: 62.321792
+test_precision: 58.238342	test_recall: 61.220044	test_fscore: 59.691981
+
+rank: 195
+dev_precision: 61.303462	dev_recall: 63.368421	dev_fscore: 62.318841
+test_precision: 59.634015	test_recall: 60.348584	test_fscore: 59.989172
+
+rank: 196
+dev_precision: 59.615385	dev_recall: 65.263158	dev_fscore: 62.311558
+test_precision: 55.060729	test_recall: 59.259259	test_fscore: 57.082896
+
+rank: 197
+dev_precision: 60.515873	dev_recall: 64.210526	dev_fscore: 62.308478
+test_precision: 58.237146	test_recall: 60.457516	test_fscore: 59.326563
+
+rank: 198
+dev_precision: 60.678643	dev_recall: 64.0	dev_fscore: 62.295082
+test_precision: 59.639831	test_recall: 61.328976	test_fscore: 60.47261
+
+rank: 199
+dev_precision: 60.678643	dev_recall: 64.0	dev_fscore: 62.295082
+test_precision: 60.823654	test_recall: 62.745098	test_fscore: 61.769437
+
+rank: 200
+dev_precision: 60.678643	dev_recall: 64.0	dev_fscore: 62.295082
+test_precision: 59.081197	test_recall: 60.239651	test_fscore: 59.6548
+
+rank: 201
+dev_precision: 60.678643	dev_recall: 64.0	dev_fscore: 62.295082
+test_precision: 59.611231	test_recall: 60.130719	test_fscore: 59.869848
+
+rank: 202
+dev_precision: 60.843373	dev_recall: 63.789474	dev_fscore: 62.281603
+test_precision: 60.284464	test_recall: 60.021786	test_fscore: 60.152838
+
+rank: 203
+dev_precision: 60.078278	dev_recall: 64.631579	dev_fscore: 62.271805
+test_precision: 58.445596	test_recall: 61.437908	test_fscore: 59.904408
+
+rank: 204
+dev_precision: 60.078278	dev_recall: 64.631579	dev_fscore: 62.271805
+test_precision: 58.704883	test_recall: 60.239651	test_fscore: 59.462366
+
+rank: 205
+dev_precision: 60.078278	dev_recall: 64.631579	dev_fscore: 62.271805
+test_precision: 58.64263	test_recall: 60.239651	test_fscore: 59.430414
+
+rank: 206
+dev_precision: 61.010101	dev_recall: 63.578947	dev_fscore: 62.268041
+test_precision: 59.447983	test_recall: 61.002179	test_fscore: 60.215054
+
+rank: 207
+dev_precision: 60.23622	dev_recall: 64.421053	dev_fscore: 62.258393
+test_precision: 61.011591	test_recall: 63.071895	test_fscore: 62.024638
+
+rank: 208
+dev_precision: 60.39604	dev_recall: 64.210526	dev_fscore: 62.244898
+test_precision: 58.688866	test_recall: 61.437908	test_fscore: 60.031932
+
+rank: 209
+dev_precision: 60.39604	dev_recall: 64.210526	dev_fscore: 62.244898
+test_precision: 59.617428	test_recall: 61.111111	test_fscore: 60.35503
+
+rank: 210
+dev_precision: 60.39604	dev_recall: 64.210526	dev_fscore: 62.244898
+test_precision: 58.829676	test_recall: 61.328976	test_fscore: 60.053333
+
+rank: 211
+dev_precision: 60.39604	dev_recall: 64.210526	dev_fscore: 62.244898
+test_precision: 58.412698	test_recall: 60.130719	test_fscore: 59.259259
+
+rank: 212
+dev_precision: 60.39604	dev_recall: 64.210526	dev_fscore: 62.244898
+test_precision: 56.977964	test_recall: 59.150327	test_fscore: 58.043827
+
+rank: 213
+dev_precision: 61.349693	dev_recall: 63.157895	dev_fscore: 62.240664
+test_precision: 59.415584	test_recall: 59.803922	test_fscore: 59.609121
+
+rank: 214
+dev_precision: 59.65251	dev_recall: 65.052632	dev_fscore: 62.23565
+test_precision: 58.477157	test_recall: 62.745098	test_fscore: 60.535996
+
+rank: 215
+dev_precision: 59.65251	dev_recall: 65.052632	dev_fscore: 62.23565
+test_precision: 58.609959	test_recall: 61.546841	test_fscore: 60.042508
+
+rank: 216
+dev_precision: 60.557769	dev_recall: 64.0	dev_fscore: 62.23132
+test_precision: 60.465116	test_recall: 62.309368	test_fscore: 61.373391
+
+rank: 217
+dev_precision: 59.805825	dev_recall: 64.842105	dev_fscore: 62.222222
+test_precision: 60.06192	test_recall: 63.398693	test_fscore: 61.685215
+
+rank: 218
+dev_precision: 59.805825	dev_recall: 64.842105	dev_fscore: 62.222222
+test_precision: 59.221311	test_recall: 62.962963	test_fscore: 61.034847
+
+rank: 219
+dev_precision: 59.805825	dev_recall: 64.842105	dev_fscore: 62.222222
+test_precision: 58.756477	test_recall: 61.764706	test_fscore: 60.223048
+
+rank: 220
+dev_precision: 59.805825	dev_recall: 64.842105	dev_fscore: 62.222222
+test_precision: 58.817427	test_recall: 61.764706	test_fscore: 60.255048
+
+rank: 221
+dev_precision: 60.721443	dev_recall: 63.789474	dev_fscore: 62.217659
+test_precision: 59.220232	test_recall: 61.220044	test_fscore: 60.203535
+
+rank: 222
+dev_precision: 60.721443	dev_recall: 63.789474	dev_fscore: 62.217659
+test_precision: 60.740741	test_recall: 62.527233	test_fscore: 61.621041
+
+rank: 223
+dev_precision: 59.960938	dev_recall: 64.631579	dev_fscore: 62.208713
+test_precision: 57.770961	test_recall: 61.546841	test_fscore: 59.599156
+
+rank: 224
+dev_precision: 59.960938	dev_recall: 64.631579	dev_fscore: 62.208713
+test_precision: 57.668067	test_recall: 59.803922	test_fscore: 58.716578
+
+rank: 225
+dev_precision: 61.054767	dev_recall: 63.368421	dev_fscore: 62.190083
+test_precision: 61.200429	test_recall: 62.200436	test_fscore: 61.69638
+
+rank: 226
+dev_precision: 60.27668	dev_recall: 64.210526	dev_fscore: 62.181448
+test_precision: 57.365145	test_recall: 60.239651	test_fscore: 58.767269
+
+rank: 227
+dev_precision: 60.27668	dev_recall: 64.210526	dev_fscore: 62.181448
+test_precision: 60.39916	test_recall: 62.636166	test_fscore: 61.497326
+
+rank: 228
+dev_precision: 60.27668	dev_recall: 64.210526	dev_fscore: 62.181448
+test_precision: 57.569296	test_recall: 58.823529	test_fscore: 58.189655
+
+rank: 229
+dev_precision: 59.537572	dev_recall: 65.052632	dev_fscore: 62.173038
+test_precision: 58.773784	test_recall: 60.566449	test_fscore: 59.656652
+
+rank: 230
+dev_precision: 60.437376	dev_recall: 64.0	dev_fscore: 62.167689
+test_precision: 58.866737	test_recall: 61.111111	test_fscore: 59.967932
+
+rank: 231
+dev_precision: 61.396304	dev_recall: 62.947368	dev_fscore: 62.162162
+test_precision: 60.855615	test_recall: 61.982571	test_fscore: 61.413923
+
+rank: 232
+dev_precision: 59.689922	dev_recall: 64.842105	dev_fscore: 62.159435
+test_precision: 57.894737	test_recall: 61.111111	test_fscore: 59.459459
+
+rank: 233
+dev_precision: 60.6	dev_recall: 63.789474	dev_fscore: 62.153846
+test_precision: 60.125918	test_recall: 62.418301	test_fscore: 61.250668
+
+rank: 234
+dev_precision: 60.6	dev_recall: 63.789474	dev_fscore: 62.153846
+test_precision: 60.721868	test_recall: 62.309368	test_fscore: 61.505376
+
+rank: 235
+dev_precision: 60.6	dev_recall: 63.789474	dev_fscore: 62.153846
+test_precision: 58.067941	test_recall: 59.586057	test_fscore: 58.817204
+
+rank: 236
+dev_precision: 59.844055	dev_recall: 64.631579	dev_fscore: 62.145749
+test_precision: 58.290422	test_recall: 61.655773	test_fscore: 59.925887
+
+rank: 237
+dev_precision: 59.844055	dev_recall: 64.631579	dev_fscore: 62.145749
+test_precision: 58.471074	test_recall: 61.655773	test_fscore: 60.021209
+
+rank: 238
+dev_precision: 59.844055	dev_recall: 64.631579	dev_fscore: 62.145749
+test_precision: 59.462254	test_recall: 62.636166	test_fscore: 61.007958
+
+rank: 239
+dev_precision: 59.844055	dev_recall: 64.631579	dev_fscore: 62.145749
+test_precision: 58.841779	test_recall: 61.982571	test_fscore: 60.371353
+
+rank: 240
+dev_precision: 59.844055	dev_recall: 64.631579	dev_fscore: 62.145749
+test_precision: 58.020833	test_recall: 60.675381	test_fscore: 59.318424
+
+rank: 241
+dev_precision: 60.764588	dev_recall: 63.578947	dev_fscore: 62.139918
+test_precision: 62.214984	test_recall: 62.418301	test_fscore: 62.316476
+
+rank: 242
+dev_precision: 60.764588	dev_recall: 63.578947	dev_fscore: 62.139918
+test_precision: 61.027837	test_recall: 62.091503	test_fscore: 61.555076
+
+rank: 243
+dev_precision: 60.0	dev_recall: 64.421053	dev_fscore: 62.13198
+test_precision: 60.699153	test_recall: 62.418301	test_fscore: 61.546724
+
+rank: 244
+dev_precision: 60.0	dev_recall: 64.421053	dev_fscore: 62.13198
+test_precision: 59.766454	test_recall: 61.328976	test_fscore: 60.537634
+
+rank: 245
+dev_precision: 60.0	dev_recall: 64.421053	dev_fscore: 62.13198
+test_precision: 60.379347	test_recall: 62.418301	test_fscore: 61.381896
+
+rank: 246
+dev_precision: 60.0	dev_recall: 64.421053	dev_fscore: 62.13198
+test_precision: 57.995736	test_recall: 59.259259	test_fscore: 58.62069
+
+rank: 247
+dev_precision: 60.931174	dev_recall: 63.368421	dev_fscore: 62.125903
+test_precision: 60.215054	test_recall: 61.002179	test_fscore: 60.606061
+
+rank: 248
+dev_precision: 60.157791	dev_recall: 64.210526	dev_fscore: 62.118126
+test_precision: 60.169492	test_recall: 61.873638	test_fscore: 61.009667
+
+rank: 249
+dev_precision: 61.099796	dev_recall: 63.157895	dev_fscore: 62.111801
+test_precision: 60.401267	test_recall: 62.309368	test_fscore: 61.340483
+
+rank: 250
+dev_precision: 59.423077	dev_recall: 65.052632	dev_fscore: 62.110553
+test_precision: 58.438819	test_recall: 60.348584	test_fscore: 59.378349
+
+rank: 251
+dev_precision: 60.31746	dev_recall: 64.0	dev_fscore: 62.104188
+test_precision: 59.578947	test_recall: 61.655773	test_fscore: 60.599572
+
+rank: 252
+dev_precision: 60.31746	dev_recall: 64.0	dev_fscore: 62.104188
+test_precision: 59.275053	test_recall: 60.566449	test_fscore: 59.913793
+
+rank: 253
+dev_precision: 60.31746	dev_recall: 64.0	dev_fscore: 62.104188
+test_precision: 58.64263	test_recall: 60.239651	test_fscore: 59.430414
+
+rank: 254
+dev_precision: 60.31746	dev_recall: 64.0	dev_fscore: 62.104188
+test_precision: 58.016878	test_recall: 59.912854	test_fscore: 58.949625
+
+rank: 255
+dev_precision: 59.574468	dev_recall: 64.842105	dev_fscore: 62.096774
+test_precision: 57.563452	test_recall: 61.764706	test_fscore: 59.590121
+
+rank: 256
+dev_precision: 60.479042	dev_recall: 63.789474	dev_fscore: 62.090164
+test_precision: 59.896373	test_recall: 62.962963	test_fscore: 61.391397
+
+rank: 257
+dev_precision: 60.479042	dev_recall: 63.789474	dev_fscore: 62.090164
+test_precision: 60.062893	test_recall: 62.418301	test_fscore: 61.217949
+
+rank: 258
+dev_precision: 60.479042	dev_recall: 63.789474	dev_fscore: 62.090164
+test_precision: 58.523909	test_recall: 61.328976	test_fscore: 59.893617
+
+rank: 259
+dev_precision: 59.727626	dev_recall: 64.631579	dev_fscore: 62.082912
+test_precision: 59.0625	test_recall: 61.764706	test_fscore: 60.383387
+
+rank: 260
+dev_precision: 59.727626	dev_recall: 64.631579	dev_fscore: 62.082912
+test_precision: 59.467758	test_recall: 63.28976	test_fscore: 61.319261
+
+rank: 261
+dev_precision: 59.727626	dev_recall: 64.631579	dev_fscore: 62.082912
+test_precision: 59.689119	test_recall: 62.745098	test_fscore: 61.17897
+
+rank: 262
+dev_precision: 59.727626	dev_recall: 64.631579	dev_fscore: 62.082912
+test_precision: 57.780083	test_recall: 60.675381	test_fscore: 59.192349
+
+rank: 263
+dev_precision: 60.64257	dev_recall: 63.578947	dev_fscore: 62.076053
+test_precision: 59.615385	test_recall: 60.784314	test_fscore: 60.194175
+
+rank: 264
+dev_precision: 60.64257	dev_recall: 63.578947	dev_fscore: 62.076053
+test_precision: 60.339343	test_recall: 61.982571	test_fscore: 61.149919
+
+rank: 265
+dev_precision: 59.013283	dev_recall: 65.473684	dev_fscore: 62.075848
+test_precision: 57.943925	test_recall: 60.784314	test_fscore: 59.330144
+
+rank: 266
+dev_precision: 59.882583	dev_recall: 64.421053	dev_fscore: 62.068966
+test_precision: 59.207709	test_recall: 60.239651	test_fscore: 59.719222
+
+rank: 267
+dev_precision: 60.03937	dev_recall: 64.210526	dev_fscore: 62.054934
+test_precision: 58.324716	test_recall: 61.437908	test_fscore: 59.840849
+
+rank: 268
+dev_precision: 60.03937	dev_recall: 64.210526	dev_fscore: 62.054934
+test_precision: 59.417274	test_recall: 62.200436	test_fscore: 60.777009
+
+rank: 269
+dev_precision: 59.309021	dev_recall: 65.052632	dev_fscore: 62.048193
+test_precision: 57.716049	test_recall: 61.111111	test_fscore: 59.365079
+
+rank: 270
+dev_precision: 60.19802	dev_recall: 64.0	dev_fscore: 62.040816
+test_precision: 60.421053	test_recall: 62.527233	test_fscore: 61.456103
+
+rank: 271
+dev_precision: 60.19802	dev_recall: 64.0	dev_fscore: 62.040816
+test_precision: 59.744409	test_recall: 61.111111	test_fscore: 60.420032
+
+rank: 272
+dev_precision: 61.145194	dev_recall: 62.947368	dev_fscore: 62.033195
+test_precision: 60.210526	test_recall: 62.309368	test_fscore: 61.24197
+
+rank: 273
+dev_precision: 61.145194	dev_recall: 62.947368	dev_fscore: 62.033195
+test_precision: 58.711721	test_recall: 60.566449	test_fscore: 59.624665
+
+rank: 274
+dev_precision: 60.358566	dev_recall: 63.789474	dev_fscore: 62.026612
+test_precision: 59.791667	test_recall: 62.527233	test_fscore: 61.12886
+
+rank: 275
+dev_precision: 60.358566	dev_recall: 63.789474	dev_fscore: 62.026612
+test_precision: 60.063559	test_recall: 61.764706	test_fscore: 60.902256
+
+rank: 276
+dev_precision: 59.61165	dev_recall: 64.631579	dev_fscore: 62.020202
+test_precision: 59.631148	test_recall: 63.398693	test_fscore: 61.457233
+
+rank: 277
+dev_precision: 59.61165	dev_recall: 64.631579	dev_fscore: 62.020202
+test_precision: 59.442724	test_recall: 62.745098	test_fscore: 61.049285
+
+rank: 278
+dev_precision: 59.61165	dev_recall: 64.631579	dev_fscore: 62.020202
+test_precision: 58.120531	test_recall: 61.982571	test_fscore: 59.989457
+
+rank: 279
+dev_precision: 59.61165	dev_recall: 64.631579	dev_fscore: 62.020202
+test_precision: 59.43098	test_recall: 61.437908	test_fscore: 60.417783
+
+rank: 280
+dev_precision: 59.61165	dev_recall: 64.631579	dev_fscore: 62.020202
+test_precision: 58.195021	test_recall: 61.111111	test_fscore: 59.617428
+
+rank: 281
+dev_precision: 60.521042	dev_recall: 63.578947	dev_fscore: 62.01232
+test_precision: 60.0	test_recall: 60.457516	test_fscore: 60.227889
+
+rank: 282
+dev_precision: 59.765625	dev_recall: 64.421053	dev_fscore: 62.006079
+test_precision: 60.271116	test_recall: 62.962963	test_fscore: 61.58764
+
+rank: 283
+dev_precision: 59.765625	dev_recall: 64.421053	dev_fscore: 62.006079
+test_precision: 57.759507	test_recall: 61.220044	test_fscore: 59.43945
+
+rank: 284
+dev_precision: 60.685484	dev_recall: 63.368421	dev_fscore: 61.99794
+test_precision: 59.110169	test_recall: 60.784314	test_fscore: 59.935553
+
+rank: 285
+dev_precision: 60.685484	dev_recall: 63.368421	dev_fscore: 61.99794
+test_precision: 60.748663	test_recall: 61.873638	test_fscore: 61.30599
+
+rank: 286
+dev_precision: 59.921415	dev_recall: 64.210526	dev_fscore: 61.99187
+test_precision: 60.062893	test_recall: 62.418301	test_fscore: 61.217949
+
+rank: 287
+dev_precision: 59.921415	dev_recall: 64.210526	dev_fscore: 61.99187
+test_precision: 60.041623	test_recall: 62.854031	test_fscore: 61.415647
+
+rank: 288
+dev_precision: 59.921415	dev_recall: 64.210526	dev_fscore: 61.99187
+test_precision: 56.666667	test_recall: 59.259259	test_fscore: 57.933972
+
+rank: 289
+dev_precision: 60.851927	dev_recall: 63.157895	dev_fscore: 61.983471
+test_precision: 60.934183	test_recall: 62.527233	test_fscore: 61.72043
+
+rank: 290
+dev_precision: 60.079051	dev_recall: 64.0	dev_fscore: 61.977574
+test_precision: 60.148778	test_recall: 61.655773	test_fscore: 60.892953
+
+rank: 291
+dev_precision: 60.079051	dev_recall: 64.0	dev_fscore: 61.977574
+test_precision: 60.084926	test_recall: 61.655773	test_fscore: 60.860215
+
+rank: 292
+dev_precision: 59.344894	dev_recall: 64.842105	dev_fscore: 61.971831
+test_precision: 59.417274	test_recall: 62.200436	test_fscore: 60.777009
+
+rank: 293
+dev_precision: 59.344894	dev_recall: 64.842105	dev_fscore: 61.971831
+test_precision: 58.553971	test_recall: 62.636166	test_fscore: 60.526316
+
+rank: 294
+dev_precision: 61.020408	dev_recall: 62.947368	dev_fscore: 61.968912
+test_precision: 60.30205	test_recall: 60.893246	test_fscore: 60.596206
+
+rank: 295
+dev_precision: 61.020408	dev_recall: 62.947368	dev_fscore: 61.968912
+test_precision: 60.706638	test_recall: 61.764706	test_fscore: 61.231102
+
+rank: 296
+dev_precision: 60.238569	dev_recall: 63.789474	dev_fscore: 61.96319
+test_precision: 59.129512	test_recall: 60.675381	test_fscore: 59.892473
+
+rank: 297
+dev_precision: 60.238569	dev_recall: 63.789474	dev_fscore: 61.96319
+test_precision: 60.615711	test_recall: 62.200436	test_fscore: 61.397849
+
+rank: 298
+dev_precision: 60.238569	dev_recall: 63.789474	dev_fscore: 61.96319
+test_precision: 58.350731	test_recall: 60.893246	test_fscore: 59.594883
+
+rank: 299
+dev_precision: 59.496124	dev_recall: 64.631579	dev_fscore: 61.957619
+test_precision: 59.528689	test_recall: 63.28976	test_fscore: 61.351637
+
+rank: 300
+dev_precision: 61.190965	dev_recall: 62.736842	dev_fscore: 61.954262
+test_precision: 61.135371	test_recall: 61.002179	test_fscore: 61.068702
+
+rank: 301
+dev_precision: 59.649123	dev_recall: 64.421053	dev_fscore: 61.94332
+test_precision: 59.355509	test_recall: 62.200436	test_fscore: 60.744681
+
+rank: 302
+dev_precision: 60.56338	dev_recall: 63.368421	dev_fscore: 61.934156
+test_precision: 60.965373	test_recall: 63.28976	test_fscore: 62.105826
+
+rank: 303
+dev_precision: 60.56338	dev_recall: 63.368421	dev_fscore: 61.934156
+test_precision: 61.382979	test_recall: 62.854031	test_fscore: 62.109795
+
+rank: 304
+dev_precision: 59.803922	dev_recall: 64.210526	dev_fscore: 61.928934
+test_precision: 59.293873	test_recall: 62.200436	test_fscore: 60.712387
+
+rank: 305
+dev_precision: 59.803922	dev_recall: 64.210526	dev_fscore: 61.928934
+test_precision: 59.338314	test_recall: 60.566449	test_fscore: 59.946092
+
+rank: 306
+dev_precision: 59.082218	dev_recall: 65.052632	dev_fscore: 61.923848
+test_precision: 57.014028	test_recall: 61.982571	test_fscore: 59.394572
+
+rank: 307
+dev_precision: 60.728745	dev_recall: 63.157895	dev_fscore: 61.919505
+test_precision: 59.956943	test_recall: 60.675381	test_fscore: 60.314023
+
+rank: 308
+dev_precision: 60.728745	dev_recall: 63.157895	dev_fscore: 61.919505
+test_precision: 59.635974	test_recall: 60.675381	test_fscore: 60.151188
+
+rank: 309
+dev_precision: 59.960552	dev_recall: 64.0	dev_fscore: 61.91446
+test_precision: 59.162304	test_recall: 61.546841	test_fscore: 60.33102
+
+rank: 310
+dev_precision: 59.960552	dev_recall: 64.0	dev_fscore: 61.91446
+test_precision: 58.909853	test_recall: 61.220044	test_fscore: 60.042735
+
+rank: 311
+dev_precision: 59.960552	dev_recall: 64.0	dev_fscore: 61.91446
+test_precision: 60.104167	test_recall: 62.854031	test_fscore: 61.448349
+
+rank: 312
+dev_precision: 59.960552	dev_recall: 64.0	dev_fscore: 61.91446
+test_precision: 60.146444	test_recall: 62.636166	test_fscore: 61.366062
+
+rank: 313
+dev_precision: 59.960552	dev_recall: 64.0	dev_fscore: 61.91446
+test_precision: 60.084477	test_recall: 61.982571	test_fscore: 61.018767
+
+rank: 314
+dev_precision: 59.960552	dev_recall: 64.0	dev_fscore: 61.91446
+test_precision: 58.020833	test_recall: 60.675381	test_fscore: 59.318424
+
+rank: 315
+dev_precision: 59.960552	dev_recall: 64.0	dev_fscore: 61.91446
+test_precision: 59.251337	test_recall: 60.348584	test_fscore: 59.794927
+
+rank: 316
+dev_precision: 59.230769	dev_recall: 64.842105	dev_fscore: 61.909548
+test_precision: 59.690722	test_recall: 63.071895	test_fscore: 61.334746
+
+rank: 317
+dev_precision: 60.89613	dev_recall: 62.947368	dev_fscore: 61.904762
+test_precision: 59.913793	test_recall: 60.566449	test_fscore: 60.238353
+
+rank: 318
+dev_precision: 60.279441	dev_recall: 63.578947	dev_fscore: 61.885246
+test_precision: 60.778128	test_recall: 62.962963	test_fscore: 61.851257
+
+rank: 319
+dev_precision: 60.279441	dev_recall: 63.578947	dev_fscore: 61.885246
+test_precision: 60.780065	test_recall: 61.111111	test_fscore: 60.945139
+
+rank: 320
+dev_precision: 60.279441	dev_recall: 63.578947	dev_fscore: 61.885246
+test_precision: 58.430541	test_recall: 60.021786	test_fscore: 59.215476
+
+rank: 321
+dev_precision: 59.533074	dev_recall: 64.421053	dev_fscore: 61.880688
+test_precision: 58.609626	test_recall: 59.694989	test_fscore: 59.147329
+
+rank: 322
+dev_precision: 60.441767	dev_recall: 63.368421	dev_fscore: 61.870504
+test_precision: 60.691824	test_recall: 63.071895	test_fscore: 61.858974
+
+rank: 323
+dev_precision: 60.441767	dev_recall: 63.368421	dev_fscore: 61.870504
+test_precision: 60.970464	test_recall: 62.962963	test_fscore: 61.950697
+
+rank: 324
+dev_precision: 60.441767	dev_recall: 63.368421	dev_fscore: 61.870504
+test_precision: 60.021209	test_recall: 61.655773	test_fscore: 60.827512
+
+rank: 325
+dev_precision: 59.686888	dev_recall: 64.210526	dev_fscore: 61.866126
+test_precision: 59.090909	test_recall: 62.309368	test_fscore: 60.657476
+
+rank: 326
+dev_precision: 59.686888	dev_recall: 64.210526	dev_fscore: 61.866126
+test_precision: 59.286464	test_recall: 61.546841	test_fscore: 60.39551
+
+rank: 327
+dev_precision: 59.686888	dev_recall: 64.210526	dev_fscore: 61.866126
+test_precision: 58.854719	test_recall: 60.457516	test_fscore: 59.645352
+
+rank: 328
+dev_precision: 60.606061	dev_recall: 63.157895	dev_fscore: 61.85567
+test_precision: 60.887949	test_recall: 62.745098	test_fscore: 61.802575
+
+rank: 329
+dev_precision: 59.84252	dev_recall: 64.0	dev_fscore: 61.851475
+test_precision: 60.063224	test_recall: 62.091503	test_fscore: 61.060525
+
+rank: 330
+dev_precision: 59.84252	dev_recall: 64.0	dev_fscore: 61.851475
+test_precision: 60.443038	test_recall: 62.418301	test_fscore: 61.414791
+
+rank: 331
+dev_precision: 59.84252	dev_recall: 64.0	dev_fscore: 61.851475
+test_precision: 58.564103	test_recall: 62.200436	test_fscore: 60.327522
+
+rank: 332
+dev_precision: 59.117083	dev_recall: 64.842105	dev_fscore: 61.84739
+test_precision: 58.805355	test_recall: 62.200436	test_fscore: 60.455267
+
+rank: 333
+dev_precision: 60.0	dev_recall: 63.789474	dev_fscore: 61.836735
+test_precision: 60.147992	test_recall: 61.982571	test_fscore: 61.051502
+
+rank: 334
+dev_precision: 60.0	dev_recall: 63.789474	dev_fscore: 61.836735
+test_precision: 59.935553	test_recall: 60.784314	test_fscore: 60.35695
+
+rank: 335
+dev_precision: 59.266409	dev_recall: 64.631579	dev_fscore: 61.83283
+test_precision: 59.156379	test_recall: 62.636166	test_fscore: 60.846561
+
+rank: 336
+dev_precision: 59.266409	dev_recall: 64.631579	dev_fscore: 61.83283
+test_precision: 60.08273	test_recall: 63.28976	test_fscore: 61.644562
+
+rank: 337
+dev_precision: 60.940695	dev_recall: 62.736842	dev_fscore: 61.825726
+test_precision: 60.778128	test_recall: 62.962963	test_fscore: 61.851257
+
+rank: 338
+dev_precision: 60.159363	dev_recall: 63.578947	dev_fscore: 61.821904
+test_precision: 60.786397	test_recall: 62.309368	test_fscore: 61.538462
+
+rank: 339
+dev_precision: 60.159363	dev_recall: 63.578947	dev_fscore: 61.821904
+test_precision: 60.445387	test_recall: 62.091503	test_fscore: 61.257389
+
+rank: 340
+dev_precision: 60.159363	dev_recall: 63.578947	dev_fscore: 61.821904
+test_precision: 59.893617	test_recall: 61.328976	test_fscore: 60.602799
+
+rank: 341
+dev_precision: 60.159363	dev_recall: 63.578947	dev_fscore: 61.821904
+test_precision: 58.75	test_recall: 61.437908	test_fscore: 60.063898
+
+rank: 342
+dev_precision: 59.417476	dev_recall: 64.421053	dev_fscore: 61.818182
+test_precision: 59.790576	test_recall: 62.200436	test_fscore: 60.971703
+
+rank: 343
+dev_precision: 60.320641	dev_recall: 63.368421	dev_fscore: 61.806982
+test_precision: 61.373391	test_recall: 62.309368	test_fscore: 61.837838
+
+rank: 344
+dev_precision: 60.320641	dev_recall: 63.368421	dev_fscore: 61.806982
+test_precision: 61.513514	test_recall: 61.982571	test_fscore: 61.747151
+
+rank: 345
+dev_precision: 59.570312	dev_recall: 64.210526	dev_fscore: 61.803445
+test_precision: 58.998935	test_recall: 60.348584	test_fscore: 59.666128
+
+rank: 346
+dev_precision: 59.570312	dev_recall: 64.210526	dev_fscore: 61.803445
+test_precision: 59.427966	test_recall: 61.111111	test_fscore: 60.257787
+
+rank: 347
+dev_precision: 59.570312	dev_recall: 64.210526	dev_fscore: 61.803445
+test_precision: 57.927461	test_recall: 60.893246	test_fscore: 59.37334
+
+rank: 348
+dev_precision: 59.570312	dev_recall: 64.210526	dev_fscore: 61.803445
+test_precision: 56.889353	test_recall: 59.368192	test_fscore: 58.102345
+
+rank: 349
+dev_precision: 58.857143	dev_recall: 65.052632	dev_fscore: 61.8
+test_precision: 59.270517	test_recall: 63.72549	test_fscore: 61.417323
+
+rank: 350
+dev_precision: 61.283644	dev_recall: 62.315789	dev_fscore: 61.795407
+test_precision: 61.521972	test_recall: 62.527233	test_fscore: 62.020529
+
+rank: 351
+dev_precision: 60.483871	dev_recall: 63.157895	dev_fscore: 61.791967
+test_precision: 61.069519	test_recall: 62.200436	test_fscore: 61.62979
+
+rank: 352
+dev_precision: 60.483871	dev_recall: 63.157895	dev_fscore: 61.791967
+test_precision: 59.78836	test_recall: 61.546841	test_fscore: 60.654858
+
+rank: 353
+dev_precision: 59.724951	dev_recall: 64.0	dev_fscore: 61.788618
+test_precision: 60.272537	test_recall: 62.636166	test_fscore: 61.431624
+
+rank: 354
+dev_precision: 59.724951	dev_recall: 64.0	dev_fscore: 61.788618
+test_precision: 58.110883	test_recall: 61.655773	test_fscore: 59.830867
+
+rank: 355
+dev_precision: 59.003831	dev_recall: 64.842105	dev_fscore: 61.785356
+test_precision: 55.954825	test_recall: 59.368192	test_fscore: 57.610994
+
+rank: 356
+dev_precision: 59.881423	dev_recall: 63.789474	dev_fscore: 61.7737
+test_precision: 60.165975	test_recall: 63.180828	test_fscore: 61.636557
+
+rank: 357
+dev_precision: 59.881423	dev_recall: 63.789474	dev_fscore: 61.7737
+test_precision: 60.042061	test_recall: 62.200436	test_fscore: 61.102194
+
+rank: 358
+dev_precision: 59.881423	dev_recall: 63.789474	dev_fscore: 61.7737
+test_precision: 57.995736	test_recall: 59.259259	test_fscore: 58.62069
+
+rank: 359
+dev_precision: 60.039761	dev_recall: 63.578947	dev_fscore: 61.758691
+test_precision: 60.2537	test_recall: 62.091503	test_fscore: 61.158798
+
+rank: 360
+dev_precision: 60.039761	dev_recall: 63.578947	dev_fscore: 61.758691
+test_precision: 58.62069	test_recall: 59.259259	test_fscore: 58.938245
+
+rank: 361
+dev_precision: 60.2	dev_recall: 63.368421	dev_fscore: 61.74359
+test_precision: 60.567823	test_recall: 62.745098	test_fscore: 61.637239
+
+rank: 362
+dev_precision: 59.454191	dev_recall: 64.210526	dev_fscore: 61.740891
+test_precision: 59.874608	test_recall: 62.418301	test_fscore: 61.12
+
+rank: 363
+dev_precision: 59.454191	dev_recall: 64.210526	dev_fscore: 61.740891
+test_precision: 59.322034	test_recall: 61.002179	test_fscore: 60.150376
+
+rank: 364
+dev_precision: 59.454191	dev_recall: 64.210526	dev_fscore: 61.740891
+test_precision: 56.815817	test_recall: 59.477124	test_fscore: 58.116019
+
+rank: 365
+dev_precision: 58.745247	dev_recall: 65.052632	dev_fscore: 61.738262
+test_precision: 59.044715	test_recall: 63.28976	test_fscore: 61.093586
+
+rank: 366
+dev_precision: 60.362173	dev_recall: 63.157895	dev_fscore: 61.728395
+test_precision: 60.190074	test_recall: 62.091503	test_fscore: 61.126005
+
+rank: 367
+dev_precision: 60.362173	dev_recall: 63.157895	dev_fscore: 61.728395
+test_precision: 61.363636	test_recall: 61.764706	test_fscore: 61.563518
+
+rank: 368
+dev_precision: 59.607843	dev_recall: 64.0	dev_fscore: 61.725888
+test_precision: 60.171306	test_recall: 61.220044	test_fscore: 60.691145
+
+rank: 369
+dev_precision: 59.763314	dev_recall: 63.789474	dev_fscore: 61.710794
+test_precision: 61.24197	test_recall: 62.309368	test_fscore: 61.771058
+
+rank: 370
+dev_precision: 59.763314	dev_recall: 63.789474	dev_fscore: 61.710794
+test_precision: 59.572193	test_recall: 60.675381	test_fscore: 60.118726
+
+rank: 371
+dev_precision: 60.692464	dev_recall: 62.736842	dev_fscore: 61.697723
+test_precision: 60.281385	test_recall: 60.675381	test_fscore: 60.477742
+
+rank: 372
+dev_precision: 59.920635	dev_recall: 63.578947	dev_fscore: 61.695608
+test_precision: 60.063224	test_recall: 62.091503	test_fscore: 61.060525
+
+rank: 373
+dev_precision: 59.920635	dev_recall: 63.578947	dev_fscore: 61.695608
+test_precision: 61.022364	test_recall: 62.418301	test_fscore: 61.712439
+
+rank: 374
+dev_precision: 59.920635	dev_recall: 63.578947	dev_fscore: 61.695608
+test_precision: 57.569516	test_recall: 60.893246	test_fscore: 59.184754
+
+rank: 375
+dev_precision: 59.187621	dev_recall: 64.421053	dev_fscore: 61.693548
+test_precision: 58.428128	test_recall: 61.546841	test_fscore: 59.94695
+
+rank: 376
+dev_precision: 59.187621	dev_recall: 64.421053	dev_fscore: 61.693548
+test_precision: 58.474576	test_recall: 60.130719	test_fscore: 59.291085
+
+rank: 377
+dev_precision: 60.07984	dev_recall: 63.368421	dev_fscore: 61.680328
+test_precision: 60.828025	test_recall: 62.418301	test_fscore: 61.612903
+
+rank: 378
+dev_precision: 59.338521	dev_recall: 64.210526	dev_fscore: 61.678463
+test_precision: 58.486708	test_recall: 62.309368	test_fscore: 60.337553
+
+rank: 379
+dev_precision: 59.338521	dev_recall: 64.210526	dev_fscore: 61.678463
+test_precision: 59.32377	test_recall: 63.071895	test_fscore: 61.140444
+
+rank: 380
+dev_precision: 59.338521	dev_recall: 64.210526	dev_fscore: 61.678463
+test_precision: 59.835221	test_recall: 63.28976	test_fscore: 61.514029
+
+rank: 381
+dev_precision: 59.338521	dev_recall: 64.210526	dev_fscore: 61.678463
+test_precision: 58.686441	test_recall: 60.348584	test_fscore: 59.505908
+
+rank: 382
+dev_precision: 58.633776	dev_recall: 65.052632	dev_fscore: 61.676647
+test_precision: 57.273652	test_recall: 61.328976	test_fscore: 59.231983
+
+rank: 383
+dev_precision: 60.240964	dev_recall: 63.157895	dev_fscore: 61.664954
+test_precision: 58.516196	test_recall: 61.002179	test_fscore: 59.733333
+
+rank: 384
+dev_precision: 59.491194	dev_recall: 64.0	dev_fscore: 61.663286
+test_precision: 59.937565	test_recall: 62.745098	test_fscore: 61.309207
+
+rank: 385
+dev_precision: 59.491194	dev_recall: 64.0	dev_fscore: 61.663286
+test_precision: 58.401639	test_recall: 62.091503	test_fscore: 60.190074
+
+rank: 386
+dev_precision: 58.778626	dev_recall: 64.842105	dev_fscore: 61.661662
+test_precision: 58.384458	test_recall: 62.200436	test_fscore: 60.232068
+
+rank: 387
+dev_precision: 60.40404	dev_recall: 62.947368	dev_fscore: 61.649485
+test_precision: 60.986066	test_recall: 61.982571	test_fscore: 61.480281
+
+rank: 388
+dev_precision: 59.645669	dev_recall: 63.789474	dev_fscore: 61.648016
+test_precision: 60.606061	test_recall: 63.180828	test_fscore: 61.866667
+
+rank: 389
+dev_precision: 59.645669	dev_recall: 63.789474	dev_fscore: 61.648016
+test_precision: 60.61246	test_recall: 62.527233	test_fscore: 61.55496
+
+rank: 390
+dev_precision: 59.645669	dev_recall: 63.789474	dev_fscore: 61.648016
+test_precision: 59.391396	test_recall: 61.655773	test_fscore: 60.502405
+
+rank: 391
+dev_precision: 59.645669	dev_recall: 63.789474	dev_fscore: 61.648016
+test_precision: 60.104712	test_recall: 62.527233	test_fscore: 61.292045
+
+rank: 392
+dev_precision: 59.645669	dev_recall: 63.789474	dev_fscore: 61.648016
+test_precision: 59.665622	test_recall: 62.200436	test_fscore: 60.906667
+
+rank: 393
+dev_precision: 59.80198	dev_recall: 63.578947	dev_fscore: 61.632653
+test_precision: 59.143156	test_recall: 61.655773	test_fscore: 60.373333
+
+rank: 394
+dev_precision: 59.80198	dev_recall: 63.578947	dev_fscore: 61.632653
+test_precision: 60.809372	test_recall: 62.200436	test_fscore: 61.497038
+
+rank: 395
+dev_precision: 59.073359	dev_recall: 64.421053	dev_fscore: 61.63142
+test_precision: 59.345301	test_recall: 61.220044	test_fscore: 60.268097
+
+rank: 396
+dev_precision: 59.073359	dev_recall: 64.421053	dev_fscore: 61.63142
+test_precision: 57.680251	test_recall: 60.130719	test_fscore: 58.88
+
+rank: 397
+dev_precision: 59.223301	dev_recall: 64.210526	dev_fscore: 61.616162
+test_precision: 58.958333	test_recall: 61.655773	test_fscore: 60.27689
+
+rank: 398
+dev_precision: 60.90535	dev_recall: 62.315789	dev_fscore: 61.602497
+test_precision: 60.447761	test_recall: 61.764706	test_fscore: 61.099138
+
+rank: 399
+dev_precision: 60.12024	dev_recall: 63.157895	dev_fscore: 61.601643
+test_precision: 60.06424	test_recall: 61.111111	test_fscore: 60.583153
+
+rank: 400
+dev_precision: 60.12024	dev_recall: 63.157895	dev_fscore: 61.601643
+test_precision: 59.665622	test_recall: 62.200436	test_fscore: 60.906667
+
+rank: 401
+dev_precision: 60.12024	dev_recall: 63.157895	dev_fscore: 61.601643
+test_precision: 58.682008	test_recall: 61.111111	test_fscore: 59.871932
+
+rank: 402
+dev_precision: 59.375	dev_recall: 64.0	dev_fscore: 61.600811
+test_precision: 60.729167	test_recall: 63.507625	test_fscore: 62.087327
+
+rank: 403
+dev_precision: 59.375	dev_recall: 64.0	dev_fscore: 61.600811
+test_precision: 57.727738	test_recall: 61.437908	test_fscore: 59.525066
+
+rank: 404
+dev_precision: 59.375	dev_recall: 64.0	dev_fscore: 61.600811
+test_precision: 59.473684	test_recall: 61.546841	test_fscore: 60.492505
+
+rank: 405
+dev_precision: 60.282258	dev_recall: 62.947368	dev_fscore: 61.585994
+test_precision: 59.47644	test_recall: 61.873638	test_fscore: 60.651361
+
+rank: 406
+dev_precision: 59.528487	dev_recall: 63.789474	dev_fscore: 61.585366
+test_precision: 61.041667	test_recall: 63.834423	test_fscore: 62.406816
+
+rank: 407
+dev_precision: 59.528487	dev_recall: 63.789474	dev_fscore: 61.585366
+test_precision: 58.428128	test_recall: 61.546841	test_fscore: 59.94695
+
+rank: 408
+dev_precision: 59.528487	dev_recall: 63.789474	dev_fscore: 61.585366
+test_precision: 59.749739	test_recall: 62.418301	test_fscore: 61.054875
+
+rank: 409
+dev_precision: 59.528487	dev_recall: 63.789474	dev_fscore: 61.585366
+test_precision: 55.578728	test_recall: 58.061002	test_fscore: 56.792754
+
+rank: 410
+dev_precision: 60.446247	dev_recall: 62.736842	dev_fscore: 61.570248
+test_precision: 60.596379	test_recall: 61.982571	test_fscore: 61.281637
+
+rank: 411
+dev_precision: 60.446247	dev_recall: 62.736842	dev_fscore: 61.570248
+test_precision: 59.832636	test_recall: 62.309368	test_fscore: 61.045891
+
+rank: 412
+dev_precision: 59.683794	dev_recall: 63.578947	dev_fscore: 61.569827
+test_precision: 58.602711	test_recall: 61.220044	test_fscore: 59.882792
+
+rank: 413
+dev_precision: 59.683794	dev_recall: 63.578947	dev_fscore: 61.569827
+test_precision: 58.037578	test_recall: 60.566449	test_fscore: 59.275053
+
+rank: 414
+dev_precision: 60.612245	dev_recall: 62.526316	dev_fscore: 61.554404
+test_precision: 61.200429	test_recall: 62.200436	test_fscore: 61.69638
+
+rank: 415
+dev_precision: 60.612245	dev_recall: 62.526316	dev_fscore: 61.554404
+test_precision: 59.847661	test_recall: 59.912854	test_fscore: 59.88024
+
+rank: 416
+dev_precision: 59.840954	dev_recall: 63.368421	dev_fscore: 61.554192
+test_precision: 60.438413	test_recall: 63.071895	test_fscore: 61.727079
+
+rank: 417
+dev_precision: 59.840954	dev_recall: 63.368421	dev_fscore: 61.554192
+test_precision: 59.348739	test_recall: 61.546841	test_fscore: 60.427807
+
+rank: 418
+dev_precision: 59.108527	dev_recall: 64.210526	dev_fscore: 61.553986
+test_precision: 57.927461	test_recall: 60.893246	test_fscore: 59.37334
+
+rank: 419
+dev_precision: 59.259259	dev_recall: 64.0	dev_fscore: 61.538462
+test_precision: 59.937888	test_recall: 63.071895	test_fscore: 61.464968
+
+rank: 420
+dev_precision: 59.259259	dev_recall: 64.0	dev_fscore: 61.538462
+test_precision: 59.958506	test_recall: 62.962963	test_fscore: 61.424017
+
+rank: 421
+dev_precision: 60.0	dev_recall: 63.157895	dev_fscore: 61.538462
+test_precision: 59.95829	test_recall: 62.636166	test_fscore: 61.267981
+
+rank: 422
+dev_precision: 59.259259	dev_recall: 64.0	dev_fscore: 61.538462
+test_precision: 59.293873	test_recall: 62.200436	test_fscore: 60.712387
+
+rank: 423
+dev_precision: 59.259259	dev_recall: 64.0	dev_fscore: 61.538462
+test_precision: 58.341863	test_recall: 62.091503	test_fscore: 60.158311
+
+rank: 424
+dev_precision: 59.259259	dev_recall: 64.0	dev_fscore: 61.538462
+test_precision: 59.473684	test_recall: 61.546841	test_fscore: 60.492505
+
+rank: 425
+dev_precision: 59.411765	dev_recall: 63.789474	dev_fscore: 61.522843
+test_precision: 60.462671	test_recall: 62.636166	test_fscore: 61.53023
+
+rank: 426
+dev_precision: 59.411765	dev_recall: 63.789474	dev_fscore: 61.522843
+test_precision: 59.251559	test_recall: 62.091503	test_fscore: 60.638298
+
+rank: 427
+dev_precision: 59.411765	dev_recall: 63.789474	dev_fscore: 61.522843
+test_precision: 58.663883	test_recall: 61.220044	test_fscore: 59.914712
+
+rank: 428
+dev_precision: 59.411765	dev_recall: 63.789474	dev_fscore: 61.522843
+test_precision: 59.685864	test_recall: 62.091503	test_fscore: 60.864923
+
+rank: 429
+dev_precision: 59.411765	dev_recall: 63.789474	dev_fscore: 61.522843
+test_precision: 59.516299	test_recall: 61.655773	test_fscore: 60.567148
+
+rank: 430
+dev_precision: 60.160966	dev_recall: 62.947368	dev_fscore: 61.522634
+test_precision: 60.495156	test_recall: 61.220044	test_fscore: 60.855441
+
+rank: 431
+dev_precision: 60.160966	dev_recall: 62.947368	dev_fscore: 61.522634
+test_precision: 60.084926	test_recall: 61.655773	test_fscore: 60.860215
+
+rank: 432
+dev_precision: 60.160966	dev_recall: 62.947368	dev_fscore: 61.522634
+test_precision: 60.171306	test_recall: 61.220044	test_fscore: 60.691145
+
+rank: 433
+dev_precision: 60.160966	dev_recall: 62.947368	dev_fscore: 61.522634
+test_precision: 59.239704	test_recall: 61.111111	test_fscore: 60.160858
+
+rank: 434
+dev_precision: 58.846154	dev_recall: 64.421053	dev_fscore: 61.507538
+test_precision: 58.028455	test_recall: 62.200436	test_fscore: 60.042061
+
+rank: 435
+dev_precision: 59.566075	dev_recall: 63.578947	dev_fscore: 61.507128
+test_precision: 60.346696	test_recall: 60.675381	test_fscore: 60.510592
+
+rank: 436
+dev_precision: 59.566075	dev_recall: 63.578947	dev_fscore: 61.507128
+test_precision: 58.841779	test_recall: 61.982571	test_fscore: 60.371353
+
+rank: 437
+dev_precision: 59.566075	dev_recall: 63.578947	dev_fscore: 61.507128
+test_precision: 57.807653	test_recall: 60.893246	test_fscore: 59.310345
+
+rank: 438
+dev_precision: 60.323887	dev_recall: 62.736842	dev_fscore: 61.506708
+test_precision: 58.913043	test_recall: 59.041394	test_fscore: 58.977149
+
+rank: 439
+dev_precision: 58.994197	dev_recall: 64.210526	dev_fscore: 61.491935
+test_precision: 58.463136	test_recall: 61.328976	test_fscore: 59.861776
+
+rank: 440
+dev_precision: 58.994197	dev_recall: 64.210526	dev_fscore: 61.491935
+test_precision: 59.937888	test_recall: 63.071895	test_fscore: 61.464968
+
+rank: 441
+dev_precision: 58.994197	dev_recall: 64.210526	dev_fscore: 61.491935
+test_precision: 58.977035	test_recall: 61.546841	test_fscore: 60.234542
+
+rank: 442
+dev_precision: 58.994197	dev_recall: 64.210526	dev_fscore: 61.491935
+test_precision: 56.27572	test_recall: 59.586057	test_fscore: 57.883598
+
+rank: 443
+dev_precision: 59.722222	dev_recall: 63.368421	dev_fscore: 61.491318
+test_precision: 60.657476	test_recall: 62.309368	test_fscore: 61.472327
+
+rank: 444
+dev_precision: 59.722222	dev_recall: 63.368421	dev_fscore: 61.491318
+test_precision: 59.77131	test_recall: 62.636166	test_fscore: 61.170213
+
+rank: 445
+dev_precision: 59.722222	dev_recall: 63.368421	dev_fscore: 61.491318
+test_precision: 58.210526	test_recall: 60.239651	test_fscore: 59.207709
+
+rank: 446
+dev_precision: 59.143969	dev_recall: 64.0	dev_fscore: 61.476239
+test_precision: 58.725183	test_recall: 61.220044	test_fscore: 59.946667
+
+rank: 447
+dev_precision: 59.143969	dev_recall: 64.0	dev_fscore: 61.476239
+test_precision: 58.584807	test_recall: 61.328976	test_fscore: 59.925492
+
+rank: 448
+dev_precision: 59.88024	dev_recall: 63.157895	dev_fscore: 61.47541
+test_precision: 60.796646	test_recall: 63.180828	test_fscore: 61.965812
+
+rank: 449
+dev_precision: 59.88024	dev_recall: 63.157895	dev_fscore: 61.47541
+test_precision: 60.98081	test_recall: 62.309368	test_fscore: 61.637931
+
+rank: 450
+dev_precision: 59.88024	dev_recall: 63.157895	dev_fscore: 61.47541
+test_precision: 60.520607	test_recall: 60.784314	test_fscore: 60.652174
+
+rank: 451
+dev_precision: 59.88024	dev_recall: 63.157895	dev_fscore: 61.47541
+test_precision: 60.2537	test_recall: 62.091503	test_fscore: 61.158798
+
+rank: 452
+dev_precision: 60.655738	dev_recall: 62.315789	dev_fscore: 61.474559
+test_precision: 58.955224	test_recall: 60.239651	test_fscore: 59.590517
+
+rank: 453
+dev_precision: 58.733205	dev_recall: 64.421053	dev_fscore: 61.445783
+test_precision: 57.548126	test_recall: 61.873638	test_fscore: 59.632546
+
+rank: 454
+dev_precision: 58.733205	dev_recall: 64.421053	dev_fscore: 61.445783
+test_precision: 58.902692	test_recall: 61.982571	test_fscore: 60.403397
+
+rank: 455
+dev_precision: 58.733205	dev_recall: 64.421053	dev_fscore: 61.445783
+test_precision: 57.747934	test_recall: 60.893246	test_fscore: 59.278897
+
+rank: 456
+dev_precision: 59.448819	dev_recall: 63.578947	dev_fscore: 61.444557
+test_precision: 60.083595	test_recall: 62.636166	test_fscore: 61.333333
+
+rank: 457
+dev_precision: 59.448819	dev_recall: 63.578947	dev_fscore: 61.444557
+test_precision: 59.978881	test_recall: 61.873638	test_fscore: 60.911528
+
+rank: 458
+dev_precision: 59.448819	dev_recall: 63.578947	dev_fscore: 61.444557
+test_precision: 58.982347	test_recall: 61.873638	test_fscore: 60.393408
+
+rank: 459
+dev_precision: 59.448819	dev_recall: 63.578947	dev_fscore: 61.444557
+test_precision: 59.433962	test_recall: 61.764706	test_fscore: 60.576923
+
+rank: 460
+dev_precision: 60.20202	dev_recall: 62.736842	dev_fscore: 61.443299
+test_precision: 59.056806	test_recall: 60.021786	test_fscore: 59.535386
+
+rank: 461
+dev_precision: 58.880309	dev_recall: 64.210526	dev_fscore: 61.43001
+test_precision: 58.561297	test_recall: 62.962963	test_fscore: 60.682415
+
+rank: 462
+dev_precision: 58.880309	dev_recall: 64.210526	dev_fscore: 61.43001
+test_precision: 58.955988	test_recall: 62.745098	test_fscore: 60.791557
+
+rank: 463
+dev_precision: 58.880309	dev_recall: 64.210526	dev_fscore: 61.43001
+test_precision: 58.40249	test_recall: 61.328976	test_fscore: 59.829968
+
+rank: 464
+dev_precision: 58.880309	dev_recall: 64.210526	dev_fscore: 61.43001
+test_precision: 57.766497	test_recall: 61.982571	test_fscore: 59.800315
+
+rank: 465
+dev_precision: 59.60396	dev_recall: 63.368421	dev_fscore: 61.428571
+test_precision: 60.168599	test_recall: 62.200436	test_fscore: 61.167649
+
+rank: 466
+dev_precision: 59.60396	dev_recall: 63.368421	dev_fscore: 61.428571
+test_precision: 59.462254	test_recall: 62.636166	test_fscore: 61.007958
+
+rank: 467
+dev_precision: 59.60396	dev_recall: 63.368421	dev_fscore: 61.428571
+test_precision: 59.224319	test_recall: 61.546841	test_fscore: 60.363248
+
+rank: 468
+dev_precision: 59.029126	dev_recall: 64.0	dev_fscore: 61.414141
+test_precision: 58.57438	test_recall: 61.764706	test_fscore: 60.127253
+
+rank: 469
+dev_precision: 59.760956	dev_recall: 63.157895	dev_fscore: 61.412487
+test_precision: 61.141012	test_recall: 61.873638	test_fscore: 61.505143
+
+rank: 470
+dev_precision: 59.760956	dev_recall: 63.157895	dev_fscore: 61.412487
+test_precision: 59.090909	test_recall: 60.893246	test_fscore: 59.978541
+
+rank: 471
+dev_precision: 59.179688	dev_recall: 63.789474	dev_fscore: 61.398176
+test_precision: 59.578947	test_recall: 61.655773	test_fscore: 60.599572
+
+rank: 472
+dev_precision: 59.91984	dev_recall: 62.947368	dev_fscore: 61.396304
+test_precision: 58.602711	test_recall: 61.220044	test_fscore: 59.882792
+
+rank: 473
+dev_precision: 59.91984	dev_recall: 62.947368	dev_fscore: 61.396304
+test_precision: 59.498956	test_recall: 62.091503	test_fscore: 60.767591
+
+rank: 474
+dev_precision: 59.91984	dev_recall: 62.947368	dev_fscore: 61.396304
+test_precision: 61.930586	test_recall: 62.200436	test_fscore: 62.065217
+
+rank: 475
+dev_precision: 60.699588	dev_recall: 62.105263	dev_fscore: 61.394381
+test_precision: 61.452514	test_recall: 59.912854	test_fscore: 60.672918
+
+rank: 476
+dev_precision: 58.62069	dev_recall: 64.421053	dev_fscore: 61.384152
+test_precision: 59.006211	test_recall: 62.091503	test_fscore: 60.509554
+
+rank: 477
+dev_precision: 59.332024	dev_recall: 63.578947	dev_fscore: 61.382114
+test_precision: 59.670782	test_recall: 63.180828	test_fscore: 61.375661
+
+rank: 478
+dev_precision: 60.080645	dev_recall: 62.736842	dev_fscore: 61.380021
+test_precision: 60.855615	test_recall: 61.982571	test_fscore: 61.413923
+
+rank: 479
+dev_precision: 60.080645	dev_recall: 62.736842	dev_fscore: 61.380021
+test_precision: 59.6875	test_recall: 62.418301	test_fscore: 61.022364
+
+rank: 480
+dev_precision: 60.080645	dev_recall: 62.736842	dev_fscore: 61.380021
+test_precision: 60.271116	test_recall: 62.962963	test_fscore: 61.58764
+
+rank: 481
+dev_precision: 58.766859	dev_recall: 64.210526	dev_fscore: 61.368209
+test_precision: 58.762887	test_recall: 62.091503	test_fscore: 60.381356
+
+rank: 482
+dev_precision: 59.486166	dev_recall: 63.368421	dev_fscore: 61.365953
+test_precision: 59.309623	test_recall: 61.764706	test_fscore: 60.512273
+
+rank: 483
+dev_precision: 59.486166	dev_recall: 63.368421	dev_fscore: 61.365953
+test_precision: 59.381663	test_recall: 60.675381	test_fscore: 60.021552
+
+rank: 484
+dev_precision: 59.486166	dev_recall: 63.368421	dev_fscore: 61.365953
+test_precision: 59.018143	test_recall: 60.239651	test_fscore: 59.622642
+
+rank: 485
+dev_precision: 58.223062	dev_recall: 64.842105	dev_fscore: 61.354582
+test_precision: 58.966565	test_recall: 63.398693	test_fscore: 61.102362
+
+rank: 486
+dev_precision: 58.914729	dev_recall: 64.0	dev_fscore: 61.35217
+test_precision: 59.086189	test_recall: 61.982571	test_fscore: 60.499734
+
+rank: 487
+dev_precision: 59.642147	dev_recall: 63.157895	dev_fscore: 61.349693
+test_precision: 59.831756	test_recall: 61.982571	test_fscore: 60.888175
+
+rank: 488
+dev_precision: 59.642147	dev_recall: 63.157895	dev_fscore: 61.349693
+test_precision: 60.805085	test_recall: 62.527233	test_fscore: 61.654135
+
+rank: 489
+dev_precision: 59.064327	dev_recall: 63.789474	dev_fscore: 61.336032
+test_precision: 58.979592	test_recall: 62.962963	test_fscore: 60.906217
+
+rank: 490
+dev_precision: 59.064327	dev_recall: 63.789474	dev_fscore: 61.336032
+test_precision: 60.496381	test_recall: 63.72549	test_fscore: 62.068966
+
+rank: 491
+dev_precision: 59.064327	dev_recall: 63.789474	dev_fscore: 61.336032
+test_precision: 59.095581	test_recall: 62.636166	test_fscore: 60.814384
+
+rank: 492
+dev_precision: 59.8	dev_recall: 62.947368	dev_fscore: 61.333333
+test_precision: 61.346363	test_recall: 61.546841	test_fscore: 61.446438
+
+rank: 493
+dev_precision: 59.8	dev_recall: 62.947368	dev_fscore: 61.333333
+test_precision: 59.89418	test_recall: 61.655773	test_fscore: 60.762211
+
+rank: 494
+dev_precision: 59.8	dev_recall: 62.947368	dev_fscore: 61.333333
+test_precision: 59.322034	test_recall: 61.002179	test_fscore: 60.150376
+
+rank: 495
+dev_precision: 59.8	dev_recall: 62.947368	dev_fscore: 61.333333
+test_precision: 58.805031	test_recall: 61.111111	test_fscore: 59.935897
+
+rank: 496
+dev_precision: 59.8	dev_recall: 62.947368	dev_fscore: 61.333333
+test_precision: 59.518828	test_recall: 61.982571	test_fscore: 60.72572
+
+rank: 497
+dev_precision: 58.508604	dev_recall: 64.421053	dev_fscore: 61.322645
+test_precision: 58.666667	test_recall: 62.309368	test_fscore: 60.433175
+
+rank: 498
+dev_precision: 59.215686	dev_recall: 63.578947	dev_fscore: 61.319797
+test_precision: 59.649123	test_recall: 62.962963	test_fscore: 61.261261
+
+rank: 499
+dev_precision: 59.215686	dev_recall: 63.578947	dev_fscore: 61.319797
+test_precision: 58.829676	test_recall: 61.328976	test_fscore: 60.053333
+
+rank: 500
+dev_precision: 59.215686	dev_recall: 63.578947	dev_fscore: 61.319797
+test_precision: 58.969072	test_recall: 62.309368	test_fscore: 60.59322
+
+rank: 501
+dev_precision: 59.215686	dev_recall: 63.578947	dev_fscore: 61.319797
+test_precision: 59.162304	test_recall: 61.546841	test_fscore: 60.33102
+
+rank: 502
+dev_precision: 59.959759	dev_recall: 62.736842	dev_fscore: 61.316872
+test_precision: 61.04034	test_recall: 62.636166	test_fscore: 61.827957
+
+rank: 503
+dev_precision: 59.959759	dev_recall: 62.736842	dev_fscore: 61.316872
+test_precision: 60.551432	test_recall: 62.200436	test_fscore: 61.364858
+
+rank: 504
+dev_precision: 59.959759	dev_recall: 62.736842	dev_fscore: 61.316872
+test_precision: 61.200429	test_recall: 62.200436	test_fscore: 61.69638
+
+rank: 505
+dev_precision: 58.653846	dev_recall: 64.210526	dev_fscore: 61.306533
+test_precision: 58.932238	test_recall: 62.527233	test_fscore: 60.676533
+
+rank: 506
+dev_precision: 58.653846	dev_recall: 64.210526	dev_fscore: 61.306533
+test_precision: 57.747934	test_recall: 60.893246	test_fscore: 59.278897
+
+rank: 507
+dev_precision: 59.368836	dev_recall: 63.368421	dev_fscore: 61.303462
+test_precision: 59.479167	test_recall: 62.200436	test_fscore: 60.809372
+
+rank: 508
+dev_precision: 59.368836	dev_recall: 63.368421	dev_fscore: 61.303462
+test_precision: 58.755274	test_recall: 60.675381	test_fscore: 59.699893
+
+rank: 509
+dev_precision: 59.52381	dev_recall: 63.157895	dev_fscore: 61.287028
+test_precision: 60.170394	test_recall: 61.546841	test_fscore: 60.850835
+
+rank: 510
+dev_precision: 59.52381	dev_recall: 63.157895	dev_fscore: 61.287028
+test_precision: 58.835979	test_recall: 60.566449	test_fscore: 59.688674
+
+rank: 511
+dev_precision: 58.949416	dev_recall: 63.789474	dev_fscore: 61.274014
+test_precision: 58.655804	test_recall: 62.745098	test_fscore: 60.631579
+
+rank: 512
+dev_precision: 58.949416	dev_recall: 63.789474	dev_fscore: 61.274014
+test_precision: 60.227273	test_recall: 63.507625	test_fscore: 61.823966
+
+rank: 513
+dev_precision: 58.949416	dev_recall: 63.789474	dev_fscore: 61.274014
+test_precision: 58.908342	test_recall: 62.309368	test_fscore: 60.561143
+
+rank: 514
+dev_precision: 58.949416	dev_recall: 63.789474	dev_fscore: 61.274014
+test_precision: 59.305994	test_recall: 61.437908	test_fscore: 60.35313
+
+rank: 515
+dev_precision: 58.949416	dev_recall: 63.789474	dev_fscore: 61.274014
+test_precision: 58.854167	test_recall: 61.546841	test_fscore: 60.170394
+
+rank: 516
+dev_precision: 59.680639	dev_recall: 62.947368	dev_fscore: 61.270492
+test_precision: 59.243697	test_recall: 61.437908	test_fscore: 60.320856
+
+rank: 517
+dev_precision: 59.680639	dev_recall: 62.947368	dev_fscore: 61.270492
+test_precision: 59.259259	test_recall: 61.002179	test_fscore: 60.118089
+
+rank: 518
+dev_precision: 58.396947	dev_recall: 64.421053	dev_fscore: 61.261261
+test_precision: 58.634953	test_recall: 61.764706	test_fscore: 60.159151
+
+rank: 519
+dev_precision: 58.396947	dev_recall: 64.421053	dev_fscore: 61.261261
+test_precision: 58.963731	test_recall: 61.982571	test_fscore: 60.435475
+
+rank: 520
+dev_precision: 59.099804	dev_recall: 63.578947	dev_fscore: 61.257606
+test_precision: 58.551941	test_recall: 60.784314	test_fscore: 59.647247
+
+rank: 521
+dev_precision: 59.099804	dev_recall: 63.578947	dev_fscore: 61.257606
+test_precision: 59.518828	test_recall: 61.982571	test_fscore: 60.72572
+
+rank: 522
+dev_precision: 59.099804	dev_recall: 63.578947	dev_fscore: 61.257606
+test_precision: 60.042061	test_recall: 62.200436	test_fscore: 61.102194
+
+rank: 523
+dev_precision: 59.839357	dev_recall: 62.736842	dev_fscore: 61.253854
+test_precision: 60.126582	test_recall: 62.091503	test_fscore: 61.093248
+
+rank: 524
+dev_precision: 59.251969	dev_recall: 63.368421	dev_fscore: 61.241099
+test_precision: 58.95288	test_recall: 61.328976	test_fscore: 60.117459
+
+rank: 525
+dev_precision: 59.251969	dev_recall: 63.368421	dev_fscore: 61.241099
+test_precision: 58.823529	test_recall: 61.002179	test_fscore: 59.893048
+
+rank: 526
+dev_precision: 59.251969	dev_recall: 63.368421	dev_fscore: 61.241099
+test_precision: 58.941799	test_recall: 60.675381	test_fscore: 59.796028
+
+rank: 527
+dev_precision: 59.251969	dev_recall: 63.368421	dev_fscore: 61.241099
+test_precision: 58.498436	test_recall: 61.111111	test_fscore: 59.776239
+
+rank: 528
+dev_precision: 59.405941	dev_recall: 63.157895	dev_fscore: 61.22449
+test_precision: 59.873284	test_recall: 61.764706	test_fscore: 60.80429
+
+rank: 529
+dev_precision: 59.405941	dev_recall: 63.157895	dev_fscore: 61.22449
+test_precision: 59.124088	test_recall: 61.764706	test_fscore: 60.415557
+
+rank: 530
+dev_precision: 60.162602	dev_recall: 62.315789	dev_fscore: 61.220269
+test_precision: 59.518828	test_recall: 61.982571	test_fscore: 60.72572
+
+rank: 531
+dev_precision: 58.834951	dev_recall: 63.789474	dev_fscore: 61.212121
+test_precision: 59.019812	test_recall: 61.655773	test_fscore: 60.309004
+
+rank: 532
+dev_precision: 59.561753	dev_recall: 62.947368	dev_fscore: 61.207779
+test_precision: 60.190074	test_recall: 62.091503	test_fscore: 61.126005
+
+rank: 533
+dev_precision: 59.561753	dev_recall: 62.947368	dev_fscore: 61.207779
+test_precision: 59.82906	test_recall: 61.002179	test_fscore: 60.409924
+
+rank: 534
+dev_precision: 58.984375	dev_recall: 63.578947	dev_fscore: 61.195542
+test_precision: 61.011591	test_recall: 63.071895	test_fscore: 62.024638
+
+rank: 535
+dev_precision: 58.984375	dev_recall: 63.578947	dev_fscore: 61.195542
+test_precision: 59.259259	test_recall: 62.745098	test_fscore: 60.952381
+
+rank: 536
+dev_precision: 58.984375	dev_recall: 63.578947	dev_fscore: 61.195542
+test_precision: 58.376156	test_recall: 61.873638	test_fscore: 60.074035
+
+rank: 537
+dev_precision: 59.719439	dev_recall: 62.736842	dev_fscore: 61.190965
+test_precision: 59.533898	test_recall: 61.220044	test_fscore: 60.365199
+
+rank: 538
+dev_precision: 59.719439	dev_recall: 62.736842	dev_fscore: 61.190965
+test_precision: 58.627859	test_recall: 61.437908	test_fscore: 60.0
+
+rank: 539
+dev_precision: 58.429119	dev_recall: 64.210526	dev_fscore: 61.183551
+test_precision: 60.06192	test_recall: 63.398693	test_fscore: 61.685215
+
+rank: 540
+dev_precision: 59.13556	dev_recall: 63.368421	dev_fscore: 61.178862
+test_precision: 59.135135	test_recall: 59.586057	test_fscore: 59.35974
+
+rank: 541
+dev_precision: 59.879032	dev_recall: 62.526316	dev_fscore: 61.174047
+test_precision: 61.170213	test_recall: 62.636166	test_fscore: 61.89451
+
+rank: 542
+dev_precision: 59.879032	dev_recall: 62.526316	dev_fscore: 61.174047
+test_precision: 61.027837	test_recall: 62.091503	test_fscore: 61.555076
+
+rank: 543
+dev_precision: 58.574181	dev_recall: 64.0	dev_fscore: 61.167002
+test_precision: 59.033613	test_recall: 61.220044	test_fscore: 60.106952
+
+rank: 544
+dev_precision: 59.288538	dev_recall: 63.157895	dev_fscore: 61.16208
+test_precision: 59.937888	test_recall: 63.071895	test_fscore: 61.464968
+
+rank: 545
+dev_precision: 59.288538	dev_recall: 63.157895	dev_fscore: 61.16208
+test_precision: 60.062893	test_recall: 62.418301	test_fscore: 61.217949
+
+rank: 546
+dev_precision: 59.288538	dev_recall: 63.157895	dev_fscore: 61.16208
+test_precision: 59.200841	test_recall: 61.328976	test_fscore: 60.246121
+
+rank: 547
+dev_precision: 58.72093	dev_recall: 63.789474	dev_fscore: 61.150353
+test_precision: 60.062565	test_recall: 62.745098	test_fscore: 61.374534
+
+rank: 548
+dev_precision: 58.72093	dev_recall: 63.789474	dev_fscore: 61.150353
+test_precision: 59.375	test_recall: 62.091503	test_fscore: 60.702875
+
+rank: 549
+dev_precision: 59.44334	dev_recall: 62.947368	dev_fscore: 61.145194
+test_precision: 60.548523	test_recall: 62.527233	test_fscore: 61.521972
+
+rank: 550
+dev_precision: 58.869396	dev_recall: 63.578947	dev_fscore: 61.133603
+test_precision: 57.276507	test_recall: 60.021786	test_fscore: 58.617021
+
+rank: 551
+dev_precision: 59.6	dev_recall: 62.736842	dev_fscore: 61.128205
+test_precision: 61.530287	test_recall: 63.071895	test_fscore: 62.291555
+
+rank: 552
+dev_precision: 59.6	dev_recall: 62.736842	dev_fscore: 61.128205
+test_precision: 59.55414	test_recall: 61.111111	test_fscore: 60.322581
+
+rank: 553
+dev_precision: 59.019608	dev_recall: 63.368421	dev_fscore: 61.116751
+test_precision: 60.587002	test_recall: 62.962963	test_fscore: 61.752137
+
+rank: 554
+dev_precision: 59.758551	dev_recall: 62.526316	dev_fscore: 61.111111
+test_precision: 60.339343	test_recall: 61.982571	test_fscore: 61.149919
+
+rank: 555
+dev_precision: 59.758551	dev_recall: 62.526316	dev_fscore: 61.111111
+test_precision: 59.743041	test_recall: 60.784314	test_fscore: 60.259179
+
+rank: 556
+dev_precision: 58.461538	dev_recall: 64.0	dev_fscore: 61.105528
+test_precision: 58.132214	test_recall: 60.348584	test_fscore: 59.219669
+
+rank: 557
+dev_precision: 59.171598	dev_recall: 63.157895	dev_fscore: 61.099796
+test_precision: 60.896767	test_recall: 63.616558	test_fscore: 62.226958
+
+rank: 558
+dev_precision: 59.919028	dev_recall: 62.315789	dev_fscore: 61.093911
+test_precision: 59.680851	test_recall: 61.111111	test_fscore: 60.387513
+
+rank: 559
+dev_precision: 58.60735	dev_recall: 63.789474	dev_fscore: 61.08871
+test_precision: 59.26305	test_recall: 63.071895	test_fscore: 61.108179
+
+rank: 560
+dev_precision: 58.60735	dev_recall: 63.789474	dev_fscore: 61.08871
+test_precision: 58.805668	test_recall: 63.28976	test_fscore: 60.965373
+
+rank: 561
+dev_precision: 59.325397	dev_recall: 62.947368	dev_fscore: 61.082737
+test_precision: 60.465116	test_recall: 62.309368	test_fscore: 61.373391
+
+rank: 562
+dev_precision: 59.325397	dev_recall: 62.947368	dev_fscore: 61.082737
+test_precision: 58.884298	test_recall: 62.091503	test_fscore: 60.445387
+
+rank: 563
+dev_precision: 59.325397	dev_recall: 62.947368	dev_fscore: 61.082737
+test_precision: 59.066808	test_recall: 60.675381	test_fscore: 59.86029
+
+rank: 564
+dev_precision: 58.754864	dev_recall: 63.578947	dev_fscore: 61.07179
+test_precision: 59.684211	test_recall: 61.764706	test_fscore: 60.706638
+
+rank: 565
+dev_precision: 59.481038	dev_recall: 62.736842	dev_fscore: 61.065574
+test_precision: 61.006289	test_recall: 63.398693	test_fscore: 62.179487
+
+rank: 566
+dev_precision: 59.481038	dev_recall: 62.736842	dev_fscore: 61.065574
+test_precision: 60.897436	test_recall: 62.091503	test_fscore: 61.488673
+
+rank: 567
+dev_precision: 58.206107	dev_recall: 64.210526	dev_fscore: 61.061061
+test_precision: 58.793456	test_recall: 62.636166	test_fscore: 60.654008
+
+rank: 568
+dev_precision: 58.206107	dev_recall: 64.210526	dev_fscore: 61.061061
+test_precision: 57.70424	test_recall: 60.784314	test_fscore: 59.204244
+
+rank: 569
+dev_precision: 60.245902	dev_recall: 61.894737	dev_fscore: 61.05919
+test_precision: 60.063559	test_recall: 61.764706	test_fscore: 60.902256
+
+rank: 570
+dev_precision: 58.90411	dev_recall: 63.368421	dev_fscore: 61.054767
+test_precision: 59.50668	test_recall: 63.071895	test_fscore: 61.237441
+
+rank: 571
+dev_precision: 58.90411	dev_recall: 63.368421	dev_fscore: 61.054767
+test_precision: 59.768908	test_recall: 61.982571	test_fscore: 60.855615
+
+rank: 572
+dev_precision: 58.90411	dev_recall: 63.368421	dev_fscore: 61.054767
+test_precision: 59.647303	test_recall: 62.636166	test_fscore: 61.105207
+
+rank: 573
+dev_precision: 58.349328	dev_recall: 64.0	dev_fscore: 61.044177
+test_precision: 58.865979	test_recall: 62.200436	test_fscore: 60.487288
+
+rank: 574
+dev_precision: 59.055118	dev_recall: 63.157895	dev_fscore: 61.03764
+test_precision: 59.247649	test_recall: 61.764706	test_fscore: 60.48
+
+rank: 575
+dev_precision: 59.055118	dev_recall: 63.157895	dev_fscore: 61.03764
+test_precision: 58.891213	test_recall: 61.328976	test_fscore: 60.085379
+
+rank: 576
+dev_precision: 59.055118	dev_recall: 63.157895	dev_fscore: 61.03764
+test_precision: 58.238342	test_recall: 61.220044	test_fscore: 59.691981
+
+rank: 577
+dev_precision: 58.494208	dev_recall: 63.789474	dev_fscore: 61.02719
+test_precision: 60.227273	test_recall: 63.507625	test_fscore: 61.823966
+
+rank: 578
+dev_precision: 58.494208	dev_recall: 63.789474	dev_fscore: 61.02719
+test_precision: 58.409786	test_recall: 62.418301	test_fscore: 60.347551
+
+rank: 579
+dev_precision: 58.494208	dev_recall: 63.789474	dev_fscore: 61.02719
+test_precision: 58.659794	test_recall: 61.982571	test_fscore: 60.275424
+
+rank: 580
+dev_precision: 59.207921	dev_recall: 62.947368	dev_fscore: 61.020408
+test_precision: 60.0	test_recall: 62.418301	test_fscore: 61.185264
+
+rank: 581
+dev_precision: 59.207921	dev_recall: 62.947368	dev_fscore: 61.020408
+test_precision: 60.470085	test_recall: 61.655773	test_fscore: 61.057174
+
+rank: 582
+dev_precision: 59.207921	dev_recall: 62.947368	dev_fscore: 61.020408
+test_precision: 58.854167	test_recall: 61.546841	test_fscore: 60.170394
+
+rank: 583
+dev_precision: 59.207921	dev_recall: 62.947368	dev_fscore: 61.020408
+test_precision: 58.376156	test_recall: 61.873638	test_fscore: 60.074035
+
+rank: 584
+dev_precision: 58.640777	dev_recall: 63.578947	dev_fscore: 61.010101
+test_precision: 59.541189	test_recall: 62.200436	test_fscore: 60.841769
+
+rank: 585
+dev_precision: 59.36255	dev_recall: 62.736842	dev_fscore: 61.003071
+test_precision: 60.335782	test_recall: 62.636166	test_fscore: 61.464458
+
+rank: 586
+dev_precision: 59.36255	dev_recall: 62.736842	dev_fscore: 61.003071
+test_precision: 59.723698	test_recall: 61.220044	test_fscore: 60.462614
+
+rank: 587
+dev_precision: 58.789062	dev_recall: 63.368421	dev_fscore: 60.992908
+test_precision: 59.384615	test_recall: 63.071895	test_fscore: 61.172742
+
+rank: 588
+dev_precision: 58.789062	dev_recall: 63.368421	dev_fscore: 60.992908
+test_precision: 60.2537	test_recall: 62.091503	test_fscore: 61.158798
+
+rank: 589
+dev_precision: 58.939096	dev_recall: 63.157895	dev_fscore: 60.97561
+test_precision: 60.460251	test_recall: 62.962963	test_fscore: 61.686233
+
+rank: 590
+dev_precision: 59.677419	dev_recall: 62.315789	dev_fscore: 60.968074
+test_precision: 60.443038	test_recall: 62.418301	test_fscore: 61.414791
+
+rank: 591
+dev_precision: 58.381503	dev_recall: 63.789474	dev_fscore: 60.965795
+test_precision: 57.363543	test_recall: 60.675381	test_fscore: 58.973002
+
+rank: 592
+dev_precision: 59.090909	dev_recall: 62.947368	dev_fscore: 60.958206
+test_precision: 61.49789	test_recall: 63.507625	test_fscore: 62.486602
+
+rank: 593
+dev_precision: 59.090909	dev_recall: 62.947368	dev_fscore: 60.958206
+test_precision: 61.49789	test_recall: 63.507625	test_fscore: 62.486602
+
+rank: 594
+dev_precision: 59.090909	dev_recall: 62.947368	dev_fscore: 60.958206
+test_precision: 59.748428	test_recall: 62.091503	test_fscore: 60.897436
+
+rank: 595
+dev_precision: 59.090909	dev_recall: 62.947368	dev_fscore: 60.958206
+test_precision: 60.573858	test_recall: 62.091503	test_fscore: 61.323292
+
+rank: 596
+dev_precision: 59.090909	dev_recall: 62.947368	dev_fscore: 60.958206
+test_precision: 59.2827	test_recall: 61.220044	test_fscore: 60.235798
+
+rank: 597
+dev_precision: 59.244533	dev_recall: 62.736842	dev_fscore: 60.940695
+test_precision: 60.042283	test_recall: 61.873638	test_fscore: 60.944206
+
+rank: 598
+dev_precision: 58.674464	dev_recall: 63.368421	dev_fscore: 60.931174
+test_precision: 59.665622	test_recall: 62.200436	test_fscore: 60.906667
+
+rank: 599
+dev_precision: 58.674464	dev_recall: 63.368421	dev_fscore: 60.931174
+test_precision: 59.309623	test_recall: 61.764706	test_fscore: 60.512273
+
+rank: 600
+dev_precision: 58.674464	dev_recall: 63.368421	dev_fscore: 60.931174
+test_precision: 58.75	test_recall: 61.437908	test_fscore: 60.063898
+
+rank: 601
+dev_precision: 58.823529	dev_recall: 63.157895	dev_fscore: 60.913706
+test_precision: 59.62539	test_recall: 62.418301	test_fscore: 60.989888
+
+rank: 602
+dev_precision: 59.557344	dev_recall: 62.315789	dev_fscore: 60.90535
+test_precision: 59.322034	test_recall: 61.002179	test_fscore: 60.150376
+
+rank: 603
+dev_precision: 59.557344	dev_recall: 62.315789	dev_fscore: 60.90535
+test_precision: 58.848614	test_recall: 60.130719	test_fscore: 59.482759
+
+rank: 604
+dev_precision: 58.974359	dev_recall: 62.947368	dev_fscore: 60.89613
+test_precision: 60.901468	test_recall: 63.28976	test_fscore: 62.07265
+
+rank: 605
+dev_precision: 58.974359	dev_recall: 62.947368	dev_fscore: 60.89613
+test_precision: 58.638743	test_recall: 61.002179	test_fscore: 59.797117
+
+rank: 606
+dev_precision: 58.413926	dev_recall: 63.578947	dev_fscore: 60.887097
+test_precision: 59.833507	test_recall: 62.636166	test_fscore: 61.202767
+
+rank: 607
+dev_precision: 58.413926	dev_recall: 63.578947	dev_fscore: 60.887097
+test_precision: 58.872651	test_recall: 61.437908	test_fscore: 60.127932
+
+rank: 608
+dev_precision: 59.126984	dev_recall: 62.736842	dev_fscore: 60.878447
+test_precision: 60.252366	test_recall: 62.418301	test_fscore: 61.316212
+
+rank: 609
+dev_precision: 59.126984	dev_recall: 62.736842	dev_fscore: 60.878447
+test_precision: 59.578947	test_recall: 61.655773	test_fscore: 60.599572
+
+rank: 610
+dev_precision: 59.126984	dev_recall: 62.736842	dev_fscore: 60.878447
+test_precision: 59.066808	test_recall: 60.675381	test_fscore: 59.86029
+
+rank: 611
+dev_precision: 58.015267	dev_recall: 64.0	dev_fscore: 60.860861
+test_precision: 58.350305	test_recall: 62.418301	test_fscore: 60.315789
+
+rank: 612
+dev_precision: 59.281437	dev_recall: 62.526316	dev_fscore: 60.860656
+test_precision: 59.278897	test_recall: 60.893246	test_fscore: 60.075228
+
+rank: 613
+dev_precision: 58.15739	dev_recall: 63.789474	dev_fscore: 60.843373
+test_precision: 58.110883	test_recall: 61.655773	test_fscore: 59.830867
+
+rank: 614
+dev_precision: 58.858268	dev_recall: 62.947368	dev_fscore: 60.834181
+test_precision: 60.31746	test_recall: 62.091503	test_fscore: 61.191626
+
+rank: 615
+dev_precision: 58.858268	dev_recall: 62.947368	dev_fscore: 60.834181
+test_precision: 58.823529	test_recall: 62.091503	test_fscore: 60.413355
+
+rank: 616
+dev_precision: 58.858268	dev_recall: 62.947368	dev_fscore: 60.834181
+test_precision: 58.516196	test_recall: 61.002179	test_fscore: 59.733333
+
+rank: 617
+dev_precision: 58.301158	dev_recall: 63.578947	dev_fscore: 60.82578
+test_precision: 56.557377	test_recall: 60.130719	test_fscore: 58.289335
+
+rank: 618
+dev_precision: 59.009901	dev_recall: 62.736842	dev_fscore: 60.816327
+test_precision: 60.702875	test_recall: 62.091503	test_fscore: 61.389338
+
+rank: 619
+dev_precision: 59.009901	dev_recall: 62.736842	dev_fscore: 60.816327
+test_precision: 58.755274	test_recall: 60.675381	test_fscore: 59.699893
+
+rank: 620
+dev_precision: 59.009901	dev_recall: 62.736842	dev_fscore: 60.816327
+test_precision: 58.307534	test_recall: 61.546841	test_fscore: 59.883413
+
+rank: 621
+dev_precision: 59.009901	dev_recall: 62.736842	dev_fscore: 60.816327
+test_precision: 58.860759	test_recall: 60.784314	test_fscore: 59.807074
+
+rank: 622
+dev_precision: 57.904762	dev_recall: 64.0	dev_fscore: 60.8
+test_precision: 59.423275	test_recall: 62.854031	test_fscore: 61.090524
+
+rank: 623
+dev_precision: 57.904762	dev_recall: 64.0	dev_fscore: 60.8
+test_precision: 59.836066	test_recall: 63.616558	test_fscore: 61.668427
+
+rank: 624
+dev_precision: 59.163347	dev_recall: 62.526316	dev_fscore: 60.798362
+test_precision: 60.319149	test_recall: 61.764706	test_fscore: 61.033369
+
+rank: 625
+dev_precision: 59.163347	dev_recall: 62.526316	dev_fscore: 60.798362
+test_precision: 59.493671	test_recall: 61.437908	test_fscore: 60.450161
+
+rank: 626
+dev_precision: 58.59375	dev_recall: 63.157895	dev_fscore: 60.790274
+test_precision: 60.460251	test_recall: 62.962963	test_fscore: 61.686233
+
+rank: 627
+dev_precision: 58.59375	dev_recall: 63.157895	dev_fscore: 60.790274
+test_precision: 59.856263	test_recall: 63.507625	test_fscore: 61.627907
+
+rank: 628
+dev_precision: 58.59375	dev_recall: 63.157895	dev_fscore: 60.790274
+test_precision: 58.428128	test_recall: 61.546841	test_fscore: 59.94695
+
+rank: 629
+dev_precision: 58.59375	dev_recall: 63.157895	dev_fscore: 60.790274
+test_precision: 59.830867	test_recall: 61.655773	test_fscore: 60.729614
+
+rank: 630
+dev_precision: 58.59375	dev_recall: 63.157895	dev_fscore: 60.790274
+test_precision: 57.916667	test_recall: 60.566449	test_fscore: 59.211928
+
+rank: 631
+dev_precision: 58.045977	dev_recall: 63.789474	dev_fscore: 60.782347
+test_precision: 57.846154	test_recall: 61.437908	test_fscore: 59.587956
+
+rank: 632
+dev_precision: 59.318637	dev_recall: 62.315789	dev_fscore: 60.780287
+test_precision: 59.611231	test_recall: 60.130719	test_fscore: 59.869848
+
+rank: 633
+dev_precision: 58.742633	dev_recall: 62.947368	dev_fscore: 60.772358
+test_precision: 60.504202	test_recall: 62.745098	test_fscore: 61.604278
+
+rank: 634
+dev_precision: 58.742633	dev_recall: 62.947368	dev_fscore: 60.772358
+test_precision: 58.518519	test_recall: 60.239651	test_fscore: 59.366613
+
+rank: 635
+dev_precision: 58.188825	dev_recall: 63.578947	dev_fscore: 60.764588
+test_precision: 58.751279	test_recall: 62.527233	test_fscore: 60.580475
+
+rank: 636
+dev_precision: 57.655955	dev_recall: 64.210526	dev_fscore: 60.756972
+test_precision: 59.570113	test_recall: 63.398693	test_fscore: 61.424802
+
+rank: 637
+dev_precision: 58.333333	dev_recall: 63.368421	dev_fscore: 60.74672
+test_precision: 58.728557	test_recall: 63.398693	test_fscore: 60.974332
+
+rank: 638
+dev_precision: 58.333333	dev_recall: 63.368421	dev_fscore: 60.74672
+test_precision: 57.971014	test_recall: 61.002179	test_fscore: 59.447983
+
+rank: 639
+dev_precision: 59.045726	dev_recall: 62.526316	dev_fscore: 60.736196
+test_precision: 58.584807	test_recall: 61.328976	test_fscore: 59.925492
+
+rank: 640
+dev_precision: 58.479532	dev_recall: 63.157895	dev_fscore: 60.728745
+test_precision: 59.128631	test_recall: 62.091503	test_fscore: 60.573858
+
+rank: 641
+dev_precision: 58.479532	dev_recall: 63.157895	dev_fscore: 60.728745
+test_precision: 58.854167	test_recall: 61.546841	test_fscore: 60.170394
+
+rank: 642
+dev_precision: 58.479532	dev_recall: 63.157895	dev_fscore: 60.728745
+test_precision: 54.742268	test_recall: 57.843137	test_fscore: 56.25
+
+rank: 643
+dev_precision: 59.2	dev_recall: 62.315789	dev_fscore: 60.717949
+test_precision: 59.78836	test_recall: 61.546841	test_fscore: 60.654858
+
+rank: 644
+dev_precision: 58.627451	dev_recall: 62.947368	dev_fscore: 60.71066
+test_precision: 60.650577	test_recall: 62.962963	test_fscore: 61.785142
+
+rank: 645
+dev_precision: 58.627451	dev_recall: 62.947368	dev_fscore: 60.71066
+test_precision: 59.583333	test_recall: 62.309368	test_fscore: 60.915868
+
+rank: 646
+dev_precision: 59.356137	dev_recall: 62.105263	dev_fscore: 60.699588
+test_precision: 60.828025	test_recall: 62.418301	test_fscore: 61.612903
+
+rank: 647
+dev_precision: 59.356137	dev_recall: 62.105263	dev_fscore: 60.699588
+test_precision: 60.699153	test_recall: 62.418301	test_fscore: 61.546724
+
+rank: 648
+dev_precision: 59.356137	dev_recall: 62.105263	dev_fscore: 60.699588
+test_precision: 59.913793	test_recall: 60.566449	test_fscore: 60.238353
+
+rank: 649
+dev_precision: 58.77712	dev_recall: 62.736842	dev_fscore: 60.692464
+test_precision: 60.438413	test_recall: 63.071895	test_fscore: 61.727079
+
+rank: 650
+dev_precision: 58.77712	dev_recall: 62.736842	dev_fscore: 60.692464
+test_precision: 58.212058	test_recall: 61.002179	test_fscore: 59.574468
+
+rank: 651
+dev_precision: 58.77712	dev_recall: 62.736842	dev_fscore: 60.692464
+test_precision: 57.428872	test_recall: 59.368192	test_fscore: 58.382432
+
+rank: 652
+dev_precision: 58.77712	dev_recall: 62.736842	dev_fscore: 60.692464
+test_precision: 56.589958	test_recall: 58.932462	test_fscore: 57.73746
+
+rank: 653
+dev_precision: 58.77712	dev_recall: 62.736842	dev_fscore: 60.692464
+test_precision: 55.857741	test_recall: 58.169935	test_fscore: 56.990395
+
+rank: 654
+dev_precision: 58.220503	dev_recall: 63.368421	dev_fscore: 60.685484
+test_precision: 58.641975	test_recall: 62.091503	test_fscore: 60.31746
+
+rank: 655
+dev_precision: 58.220503	dev_recall: 63.368421	dev_fscore: 60.685484
+test_precision: 58.444217	test_recall: 62.200436	test_fscore: 60.263852
+
+rank: 656
+dev_precision: 58.220503	dev_recall: 63.368421	dev_fscore: 60.685484
+test_precision: 58.913934	test_recall: 62.636166	test_fscore: 60.718057
+
+rank: 657
+dev_precision: 58.220503	dev_recall: 63.368421	dev_fscore: 60.685484
+test_precision: 58.341863	test_recall: 62.091503	test_fscore: 60.158311
+
+rank: 658
+dev_precision: 59.51417	dev_recall: 61.894737	dev_fscore: 60.681115
+test_precision: 61.165049	test_recall: 61.764706	test_fscore: 61.463415
+
+rank: 659
+dev_precision: 58.365759	dev_recall: 63.157895	dev_fscore: 60.667341
+test_precision: 59.709242	test_recall: 62.636166	test_fscore: 61.137693
+
+rank: 660
+dev_precision: 58.365759	dev_recall: 63.157895	dev_fscore: 60.667341
+test_precision: 59.583333	test_recall: 62.309368	test_fscore: 60.915868
+
+rank: 661
+dev_precision: 58.365759	dev_recall: 63.157895	dev_fscore: 60.667341
+test_precision: 58.928571	test_recall: 61.111111	test_fscore: 60.0
+
+rank: 662
+dev_precision: 57.824427	dev_recall: 63.789474	dev_fscore: 60.660661
+test_precision: 59.545924	test_recall: 62.854031	test_fscore: 61.155273
+
+rank: 663
+dev_precision: 57.965451	dev_recall: 63.578947	dev_fscore: 60.64257
+test_precision: 59.481865	test_recall: 62.527233	test_fscore: 60.966543
+
+rank: 664
+dev_precision: 59.236948	dev_recall: 62.105263	dev_fscore: 60.637205
+test_precision: 59.462254	test_recall: 62.636166	test_fscore: 61.007958
+
+rank: 665
+dev_precision: 58.661417	dev_recall: 62.736842	dev_fscore: 60.630722
+test_precision: 58.70021	test_recall: 61.002179	test_fscore: 59.82906
+
+rank: 666
+dev_precision: 58.661417	dev_recall: 62.736842	dev_fscore: 60.630722
+test_precision: 59.663866	test_recall: 61.873638	test_fscore: 60.748663
+
+rank: 667
+dev_precision: 58.661417	dev_recall: 62.736842	dev_fscore: 60.630722
+test_precision: 60.901468	test_recall: 63.28976	test_fscore: 62.07265
+
+rank: 668
+dev_precision: 58.661417	dev_recall: 62.736842	dev_fscore: 60.630722
+test_precision: 59.0625	test_recall: 61.764706	test_fscore: 60.383387
+
+rank: 669
+dev_precision: 58.108108	dev_recall: 63.368421	dev_fscore: 60.624371
+test_precision: 59.627329	test_recall: 62.745098	test_fscore: 61.146497
+
+rank: 670
+dev_precision: 58.811881	dev_recall: 62.526316	dev_fscore: 60.612245
+test_precision: 59.745763	test_recall: 61.437908	test_fscore: 60.580021
+
+rank: 671
+dev_precision: 58.964143	dev_recall: 62.315789	dev_fscore: 60.593654
+test_precision: 60.021436	test_recall: 61.002179	test_fscore: 60.507834
+
+rank: 672
+dev_precision: 58.964143	dev_recall: 62.315789	dev_fscore: 60.593654
+test_precision: 60.534759	test_recall: 61.655773	test_fscore: 61.090124
+
+rank: 673
+dev_precision: 58.398438	dev_recall: 62.947368	dev_fscore: 60.587639
+test_precision: 59.853249	test_recall: 62.200436	test_fscore: 61.004274
+
+rank: 674
+dev_precision: 58.398438	dev_recall: 62.947368	dev_fscore: 60.587639
+test_precision: 58.682008	test_recall: 61.111111	test_fscore: 59.871932
+
+rank: 675
+dev_precision: 58.398438	dev_recall: 62.947368	dev_fscore: 60.587639
+test_precision: 54.098361	test_recall: 57.51634	test_fscore: 55.755016
+
+rank: 676
+dev_precision: 59.713701	dev_recall: 61.473684	dev_fscore: 60.580913
+test_precision: 60.959651	test_recall: 60.893246	test_fscore: 60.926431
+
+rank: 677
+dev_precision: 59.118236	dev_recall: 62.105263	dev_fscore: 60.574949
+test_precision: 61.022364	test_recall: 62.418301	test_fscore: 61.712439
+
+rank: 678
+dev_precision: 59.118236	dev_recall: 62.105263	dev_fscore: 60.574949
+test_precision: 52.240326	test_recall: 55.882353	test_fscore: 54.0
+
+rank: 679
+dev_precision: 58.546169	dev_recall: 62.736842	dev_fscore: 60.569106
+test_precision: 59.645464	test_recall: 62.309368	test_fscore: 60.948322
+
+rank: 680
+dev_precision: 58.695652	dev_recall: 62.526316	dev_fscore: 60.550459
+test_precision: 59.895288	test_recall: 62.309368	test_fscore: 61.078484
+
+rank: 681
+dev_precision: 58.695652	dev_recall: 62.526316	dev_fscore: 60.550459
+test_precision: 59.726604	test_recall: 61.873638	test_fscore: 60.781166
+
+rank: 682
+dev_precision: 58.139535	dev_recall: 63.157895	dev_fscore: 60.544904
+test_precision: 59.77131	test_recall: 62.636166	test_fscore: 61.170213
+
+rank: 683
+dev_precision: 58.139535	dev_recall: 63.157895	dev_fscore: 60.544904
+test_precision: 59.835221	test_recall: 63.28976	test_fscore: 61.514029
+
+rank: 684
+dev_precision: 58.139535	dev_recall: 63.157895	dev_fscore: 60.544904
+test_precision: 60.564854	test_recall: 63.071895	test_fscore: 61.792956
+
+rank: 685
+dev_precision: 57.604563	dev_recall: 63.789474	dev_fscore: 60.539461
+test_precision: 55.66905	test_recall: 59.368192	test_fscore: 57.459146
+
+rank: 686
+dev_precision: 58.846918	dev_recall: 62.315789	dev_fscore: 60.531697
+test_precision: 60.638298	test_recall: 62.091503	test_fscore: 61.356297
+
+rank: 687
+dev_precision: 58.846918	dev_recall: 62.315789	dev_fscore: 60.531697
+test_precision: 59.978541	test_recall: 60.893246	test_fscore: 60.432432
+
+rank: 688
+dev_precision: 58.2846	dev_recall: 62.947368	dev_fscore: 60.526316
+test_precision: 58.901322	test_recall: 63.071895	test_fscore: 60.915308
+
+rank: 689
+dev_precision: 58.2846	dev_recall: 62.947368	dev_fscore: 60.526316
+test_precision: 59.895833	test_recall: 62.636166	test_fscore: 61.235357
+
+rank: 690
+dev_precision: 59.0	dev_recall: 62.105263	dev_fscore: 60.512821
+test_precision: 60.489883	test_recall: 61.873638	test_fscore: 61.173936
+
+rank: 691
+dev_precision: 59.0	dev_recall: 62.105263	dev_fscore: 60.512821
+test_precision: 59.617428	test_recall: 61.111111	test_fscore: 60.35503
+
+rank: 692
+dev_precision: 57.884615	dev_recall: 63.368421	dev_fscore: 60.502513
+test_precision: 58.995816	test_recall: 61.437908	test_fscore: 60.192102
+
+rank: 693
+dev_precision: 58.579882	dev_recall: 62.526316	dev_fscore: 60.488798
+test_precision: 59.831756	test_recall: 61.982571	test_fscore: 60.888175
+
+rank: 694
+dev_precision: 58.579882	dev_recall: 62.526316	dev_fscore: 60.488798
+test_precision: 58.602711	test_recall: 61.220044	test_fscore: 59.882792
+
+rank: 695
+dev_precision: 58.027079	dev_recall: 63.157895	dev_fscore: 60.483871
+test_precision: 57.581967	test_recall: 61.220044	test_fscore: 59.345301
+
+rank: 696
+dev_precision: 58.730159	dev_recall: 62.315789	dev_fscore: 60.469867
+test_precision: 61.146497	test_recall: 62.745098	test_fscore: 61.935484
+
+rank: 697
+dev_precision: 58.171206	dev_recall: 62.947368	dev_fscore: 60.465116
+test_precision: 59.465021	test_recall: 62.962963	test_fscore: 61.164021
+
+rank: 698
+dev_precision: 58.171206	dev_recall: 62.947368	dev_fscore: 60.465116
+test_precision: 59.090909	test_recall: 60.893246	test_fscore: 59.978541
+
+rank: 699
+dev_precision: 58.317025	dev_recall: 62.736842	dev_fscore: 60.446247
+test_precision: 59.243697	test_recall: 61.437908	test_fscore: 60.320856
+
+rank: 700
+dev_precision: 57.773512	dev_recall: 63.368421	dev_fscore: 60.441767
+test_precision: 59.058342	test_recall: 62.854031	test_fscore: 60.897098
+
+rank: 701
+dev_precision: 57.773512	dev_recall: 63.368421	dev_fscore: 60.441767
+test_precision: 58.40081	test_recall: 62.854031	test_fscore: 60.545645
+
+rank: 702
+dev_precision: 57.773512	dev_recall: 63.368421	dev_fscore: 60.441767
+test_precision: 58.081335	test_recall: 60.675381	test_fscore: 59.350027
+
+rank: 703
+dev_precision: 58.613861	dev_recall: 62.315789	dev_fscore: 60.408163
+test_precision: 60.127932	test_recall: 61.437908	test_fscore: 60.775862
+
+rank: 704
+dev_precision: 57.52381	dev_recall: 63.578947	dev_fscore: 60.4
+test_precision: 59.058342	test_recall: 62.854031	test_fscore: 60.897098
+
+rank: 705
+dev_precision: 57.52381	dev_recall: 63.578947	dev_fscore: 60.4
+test_precision: 58.553971	test_recall: 62.636166	test_fscore: 60.526316
+
+rank: 706
+dev_precision: 59.349593	dev_recall: 61.473684	dev_fscore: 60.392968
+test_precision: 54.592363	test_recall: 57.625272	test_fscore: 56.067833
+
+rank: 707
+dev_precision: 58.203125	dev_recall: 62.736842	dev_fscore: 60.385005
+test_precision: 59.232365	test_recall: 62.200436	test_fscore: 60.680128
+
+rank: 708
+dev_precision: 58.203125	dev_recall: 62.736842	dev_fscore: 60.385005
+test_precision: 59.365404	test_recall: 63.180828	test_fscore: 61.21372
+
+rank: 709
+dev_precision: 58.203125	dev_recall: 62.736842	dev_fscore: 60.385005
+test_precision: 59.267016	test_recall: 61.655773	test_fscore: 60.4378
+
+rank: 710
+dev_precision: 58.203125	dev_recall: 62.736842	dev_fscore: 60.385005
+test_precision: 59.772492	test_recall: 62.962963	test_fscore: 61.32626
+
+rank: 711
+dev_precision: 58.203125	dev_recall: 62.736842	dev_fscore: 60.385005
+test_precision: 54.329897	test_recall: 57.407407	test_fscore: 55.826271
+
+rank: 712
+dev_precision: 56.642066	dev_recall: 64.631579	dev_fscore: 60.373648
+test_precision: 55.189137	test_recall: 61.982571	test_fscore: 58.388917
+
+rank: 713
+dev_precision: 58.349705	dev_recall: 62.526316	dev_fscore: 60.365854
+test_precision: 59.004237	test_recall: 60.675381	test_fscore: 59.828142
+
+rank: 714
+dev_precision: 58.349705	dev_recall: 62.526316	dev_fscore: 60.365854
+test_precision: 58.977035	test_recall: 61.546841	test_fscore: 60.234542
+
+rank: 715
+dev_precision: 58.349705	dev_recall: 62.526316	dev_fscore: 60.365854
+test_precision: 59.143156	test_recall: 61.655773	test_fscore: 60.373333
+
+rank: 716
+dev_precision: 59.072581	dev_recall: 61.684211	dev_fscore: 60.350154
+test_precision: 59.783784	test_recall: 60.239651	test_fscore: 60.010852
+
+rank: 717
+dev_precision: 58.498024	dev_recall: 62.315789	dev_fscore: 60.346585
+test_precision: 54.179567	test_recall: 57.189542	test_fscore: 55.643879
+
+rank: 718
+dev_precision: 57.945736	dev_recall: 62.947368	dev_fscore: 60.343088
+test_precision: 59.647303	test_recall: 62.636166	test_fscore: 61.105207
+
+rank: 719
+dev_precision: 57.414449	dev_recall: 63.578947	dev_fscore: 60.33966
+test_precision: 59.670782	test_recall: 63.180828	test_fscore: 61.375661
+
+rank: 720
+dev_precision: 57.414449	dev_recall: 63.578947	dev_fscore: 60.33966
+test_precision: 58.222676	test_recall: 62.091503	test_fscore: 60.094887
+
+rank: 721
+dev_precision: 57.414449	dev_recall: 63.578947	dev_fscore: 60.33966
+test_precision: 58.137155	test_recall: 61.873638	test_fscore: 59.94723
+
+rank: 722
+dev_precision: 58.648111	dev_recall: 62.105263	dev_fscore: 60.327198
+test_precision: 60.98081	test_recall: 62.309368	test_fscore: 61.637931
+
+rank: 723
+dev_precision: 58.089669	dev_recall: 62.736842	dev_fscore: 60.323887
+test_precision: 60.084034	test_recall: 62.309368	test_fscore: 61.176471
+
+rank: 724
+dev_precision: 57.552581	dev_recall: 63.368421	dev_fscore: 60.320641
+test_precision: 54.361055	test_recall: 58.3878	test_fscore: 56.302521
+
+rank: 725
+dev_precision: 59.387755	dev_recall: 61.263158	dev_fscore: 60.310881
+test_precision: 60.065646	test_recall: 59.803922	test_fscore: 59.934498
+
+rank: 726
+dev_precision: 59.387755	dev_recall: 61.263158	dev_fscore: 60.310881
+test_precision: 55.672269	test_recall: 57.734205	test_fscore: 56.684492
+
+rank: 727
+dev_precision: 58.8	dev_recall: 61.894737	dev_fscore: 60.307692
+test_precision: 53.940635	test_recall: 57.407407	test_fscore: 55.620053
+
+rank: 728
+dev_precision: 58.382643	dev_recall: 62.315789	dev_fscore: 60.285132
+test_precision: 60.615711	test_recall: 62.200436	test_fscore: 61.397849
+
+rank: 729
+dev_precision: 58.382643	dev_recall: 62.315789	dev_fscore: 60.285132
+test_precision: 59.42492	test_recall: 60.784314	test_fscore: 60.096931
+
+rank: 730
+dev_precision: 58.382643	dev_recall: 62.315789	dev_fscore: 60.285132
+test_precision: 59.023355	test_recall: 60.566449	test_fscore: 59.784946
+
+rank: 731
+dev_precision: 58.382643	dev_recall: 62.315789	dev_fscore: 60.285132
+test_precision: 60.887949	test_recall: 62.745098	test_fscore: 61.802575
+
+rank: 732
+dev_precision: 57.833656	dev_recall: 62.947368	dev_fscore: 60.282258
+test_precision: 60.147213	test_recall: 62.309368	test_fscore: 61.209203
+
+rank: 733
+dev_precision: 57.976654	dev_recall: 62.736842	dev_fscore: 60.262892
+test_precision: 59.690722	test_recall: 63.071895	test_fscore: 61.334746
+
+rank: 734
+dev_precision: 57.442748	dev_recall: 63.368421	dev_fscore: 60.26026
+test_precision: 56.866734	test_recall: 60.893246	test_fscore: 58.811152
+
+rank: 735
+dev_precision: 58.121331	dev_recall: 62.526316	dev_fscore: 60.243408
+test_precision: 58.908342	test_recall: 62.309368	test_fscore: 60.561143
+
+rank: 736
+dev_precision: 57.581574	dev_recall: 63.157895	dev_fscore: 60.240964
+test_precision: 60.208333	test_recall: 62.962963	test_fscore: 61.554846
+
+rank: 737
+dev_precision: 58.415842	dev_recall: 62.105263	dev_fscore: 60.204082
+test_precision: 60.020768	test_recall: 62.962963	test_fscore: 61.456672
+
+rank: 738
+dev_precision: 57.864078	dev_recall: 62.736842	dev_fscore: 60.20202
+test_precision: 53.907816	test_recall: 58.605664	test_fscore: 56.158664
+
+rank: 739
+dev_precision: 58.565737	dev_recall: 61.894737	dev_fscore: 60.184237
+test_precision: 60.59322	test_recall: 62.309368	test_fscore: 61.439313
+
+rank: 740
+dev_precision: 57.471264	dev_recall: 63.157895	dev_fscore: 60.180542
+test_precision: 58.680203	test_recall: 62.962963	test_fscore: 60.74619
+
+rank: 741
+dev_precision: 59.304703	dev_recall: 61.052632	dev_fscore: 60.165975
+test_precision: 56.269758	test_recall: 58.169935	test_fscore: 57.204071
+
+rank: 742
+dev_precision: 58.717435	dev_recall: 61.684211	dev_fscore: 60.164271
+test_precision: 60.851064	test_recall: 62.309368	test_fscore: 61.571582
+
+rank: 743
+dev_precision: 58.153242	dev_recall: 62.315789	dev_fscore: 60.162602
+test_precision: 60.210526	test_recall: 62.309368	test_fscore: 61.24197
+
+rank: 744
+dev_precision: 58.449304	dev_recall: 61.894737	dev_fscore: 60.122699
+test_precision: 60.042283	test_recall: 61.873638	test_fscore: 60.944206
+
+rank: 745
+dev_precision: 58.449304	dev_recall: 61.894737	dev_fscore: 60.122699
+test_precision: 60.823654	test_recall: 62.745098	test_fscore: 61.769437
+
+rank: 746
+dev_precision: 58.449304	dev_recall: 61.894737	dev_fscore: 60.122699
+test_precision: 59.172853	test_recall: 60.784314	test_fscore: 59.967759
+
+rank: 747
+dev_precision: 57.894737	dev_recall: 62.526316	dev_fscore: 60.121457
+test_precision: 60.167715	test_recall: 62.527233	test_fscore: 61.324786
+
+rank: 748
+dev_precision: 58.752515	dev_recall: 61.473684	dev_fscore: 60.082305
+test_precision: 60.962567	test_recall: 62.091503	test_fscore: 61.521856
+
+rank: 749
+dev_precision: 57.640232	dev_recall: 62.736842	dev_fscore: 60.080645
+test_precision: 58.130081	test_recall: 62.309368	test_fscore: 60.147213
+
+rank: 750
+dev_precision: 57.640232	dev_recall: 62.736842	dev_fscore: 60.080645
+test_precision: 57.716049	test_recall: 61.111111	test_fscore: 59.365079
+
+rank: 751
+dev_precision: 57.11575	dev_recall: 63.368421	dev_fscore: 60.07984
+test_precision: 59.30824	test_recall: 63.507625	test_fscore: 61.336139
+
+rank: 752
+dev_precision: 57.528958	dev_recall: 62.736842	dev_fscore: 60.020141
+test_precision: 60.0	test_recall: 63.398693	test_fscore: 61.652542
+
+rank: 753
+dev_precision: 57.669903	dev_recall: 62.526316	dev_fscore: 60.0
+test_precision: 58.77551	test_recall: 62.745098	test_fscore: 60.695469
+
+rank: 754
+dev_precision: 57.279693	dev_recall: 62.947368	dev_fscore: 59.97994
+test_precision: 60.103627	test_recall: 63.180828	test_fscore: 61.603824
+
+rank: 755
+dev_precision: 57.8125	dev_recall: 62.315789	dev_fscore: 59.979737
+test_precision: 60.438413	test_recall: 63.071895	test_fscore: 61.727079
+
+rank: 756
+dev_precision: 57.55814	dev_recall: 62.526316	dev_fscore: 59.939455
+test_precision: 59.647303	test_recall: 62.636166	test_fscore: 61.105207
+
+rank: 757
+dev_precision: 58.102767	dev_recall: 61.894737	dev_fscore: 59.938838
+test_precision: 60.418848	test_recall: 62.854031	test_fscore: 61.612387
+
+rank: 758
+dev_precision: 57.699805	dev_recall: 62.315789	dev_fscore: 59.919028
+test_precision: 60.542797	test_recall: 63.180828	test_fscore: 61.833689
+
+rank: 759
+dev_precision: 58.134921	dev_recall: 61.684211	dev_fscore: 59.856997
+test_precision: 53.720693	test_recall: 57.407407	test_fscore: 55.502896
+
+rank: 760
+dev_precision: 58.283433	dev_recall: 61.473684	dev_fscore: 59.836066
+test_precision: 61.266094	test_recall: 62.200436	test_fscore: 61.72973
+
+rank: 761
+dev_precision: 57.475728	dev_recall: 62.315789	dev_fscore: 59.79798
+test_precision: 59.937565	test_recall: 62.745098	test_fscore: 61.309207
+
+rank: 762
+dev_precision: 58.019802	dev_recall: 61.684211	dev_fscore: 59.795918
+test_precision: 53.04878	test_recall: 56.862745	test_fscore: 54.88959
+
+rank: 763
+dev_precision: 57.617188	dev_recall: 62.105263	dev_fscore: 59.777102
+test_precision: 60.188088	test_recall: 62.745098	test_fscore: 61.44
+
+rank: 764
+dev_precision: 57.617188	dev_recall: 62.105263	dev_fscore: 59.777102
+test_precision: 53.651116	test_recall: 57.625272	test_fscore: 55.567227
+
+rank: 765
+dev_precision: 57.364341	dev_recall: 62.315789	dev_fscore: 59.737639
+test_precision: 60.906217	test_recall: 62.962963	test_fscore: 61.917515
+
+rank: 766
+dev_precision: 57.905138	dev_recall: 61.684211	dev_fscore: 59.734964
+test_precision: 53.024194	test_recall: 57.298475	test_fscore: 55.078534
+
+rank: 767
+dev_precision: 59.213251	dev_recall: 60.210526	dev_fscore: 59.707724
+test_precision: 54.153523	test_recall: 56.100218	test_fscore: 55.109684
+
+rank: 768
+dev_precision: 58.691207	dev_recall: 60.421053	dev_fscore: 59.543568
+test_precision: 53.500522	test_recall: 55.77342	test_fscore: 54.613333
+
+rank: 769
+dev_precision: 58.266129	dev_recall: 60.842105	dev_fscore: 59.526262
+test_precision: 53.485952	test_recall: 55.991285	test_fscore: 54.709952
+
+rank: 770
+dev_precision: 57.45098	dev_recall: 61.684211	dev_fscore: 59.492386
+test_precision: 60.210526	test_recall: 62.309368	test_fscore: 61.24197
+
+rank: 771
+dev_precision: 57.593688	dev_recall: 61.473684	dev_fscore: 59.470468
+test_precision: 60.628272	test_recall: 63.071895	test_fscore: 61.825948
+
+rank: 772
+dev_precision: 57.338552	dev_recall: 61.684211	dev_fscore: 59.432049
+test_precision: 52.390641	test_recall: 56.100218	test_fscore: 54.182009
+
+rank: 773
+dev_precision: 57.480315	dev_recall: 61.473684	dev_fscore: 59.409969
+test_precision: 60.551432	test_recall: 62.200436	test_fscore: 61.364858
+
+rank: 774
+dev_precision: 57.087379	dev_recall: 61.894737	dev_fscore: 59.393939
+test_precision: 59.895288	test_recall: 62.309368	test_fscore: 61.078484
+
+rank: 775
+dev_precision: 57.226562	dev_recall: 61.684211	dev_fscore: 59.371834
+test_precision: 60.545645	test_recall: 62.854031	test_fscore: 61.678247
+
+rank: 776
+dev_precision: 57.367387	dev_recall: 61.473684	dev_fscore: 59.349593
+test_precision: 58.730159	test_recall: 60.457516	test_fscore: 59.58132
+
+rank: 777
+dev_precision: 56.621881	dev_recall: 62.105263	dev_fscore: 59.236948
+test_precision: 59.937888	test_recall: 63.071895	test_fscore: 61.464968
+
+rank: 778
+dev_precision: 58.097166	dev_recall: 60.421053	dev_fscore: 59.236326
+test_precision: 53.806584	test_recall: 56.971678	test_fscore: 55.343915
+
+rank: 779
+dev_precision: 56.143667	dev_recall: 62.526316	dev_fscore: 59.163347
+test_precision: 59.794872	test_recall: 63.507625	test_fscore: 61.595351
+
+rank: 780
+dev_precision: 57.170923	dev_recall: 61.263158	dev_fscore: 59.146341
+test_precision: 54.385965	test_recall: 57.407407	test_fscore: 55.855856
+
+rank: 781
+dev_precision: 57.630522	dev_recall: 60.421053	dev_fscore: 58.992806
+test_precision: 61.328976	test_recall: 61.328976	test_fscore: 61.328976
+
+rank: 782
+dev_precision: 57.256461	dev_recall: 60.631579	dev_fscore: 58.895706
+test_precision: 53.524004	test_recall: 57.08061	test_fscore: 55.245124
+
+rank: 783
+dev_precision: 57.171315	dev_recall: 60.421053	dev_fscore: 58.751279
+test_precision: 53.102747	test_recall: 56.862745	test_fscore: 54.918464
+
+rank: 784
+dev_precision: 54.844961	dev_recall: 59.578947	dev_fscore: 57.114026
+test_precision: 51.174668	test_recall: 54.575163	test_fscore: 52.820242
+
+rank: 785
+dev_precision: 54.318618	dev_recall: 59.578947	dev_fscore: 56.827309
+test_precision: 51.668352	test_recall: 55.664488	test_fscore: 53.592029
+
+rank: 786
+dev_precision: 53.6862	dev_recall: 59.789474	dev_fscore: 56.573705
+test_precision: 51.256281	test_recall: 55.555556	test_fscore: 53.319394
+
+rank: 787
+dev_precision: 52.671756	dev_recall: 58.105263	dev_fscore: 55.255255
+test_precision: 50.300601	test_recall: 54.684096	test_fscore: 52.400835
+
+rank: 788
+dev_precision: 51.257253	dev_recall: 55.789474	dev_fscore: 53.427419
+test_precision: 50.101833	test_recall: 53.594771	test_fscore: 51.789474
+
+rank: 789
+dev_precision: 51.473477	dev_recall: 55.157895	dev_fscore: 53.252033
+test_precision: 50.102249	test_recall: 53.376906	test_fscore: 51.687764
+
+rank: 790
+dev_precision: 51.282051	dev_recall: 54.736842	dev_fscore: 52.953157
+test_precision: 49.333333	test_recall: 52.396514	test_fscore: 50.818806
+
+rank: 791
+dev_precision: 50.381679	dev_recall: 55.578947	dev_fscore: 52.852853
+test_precision: 49.545913	test_recall: 53.485839	test_fscore: 51.440545
+
+rank: 792
+dev_precision: 48.134328	dev_recall: 54.315789	dev_fscore: 51.038576
+test_precision: 46.351085	test_recall: 51.198257	test_fscore: 48.654244
+
+rank: 793
+dev_precision: 45.173042	dev_recall: 52.210526	dev_fscore: 48.4375
+test_precision: 44.666667	test_recall: 51.089325	test_fscore: 47.662602
+
+rank: 794
+dev_precision: 44.935543	dev_recall: 51.368421	dev_fscore: 47.937132
+test_precision: 42.418426	test_recall: 48.148148	test_fscore: 45.102041
+
+rank: 795
+dev_precision: 44.506518	dev_recall: 50.315789	dev_fscore: 47.233202
+test_precision: 44.215686	test_recall: 49.12854	test_fscore: 46.542828
+
+rank: 796
+dev_precision: 44.508671	dev_recall: 48.631579	dev_fscore: 46.478873
+test_precision: 40.944882	test_recall: 45.315904	test_fscore: 43.019648
+
+rank: 797
+dev_precision: 40.152964	dev_recall: 44.210526	dev_fscore: 42.084168
+test_precision: 37.730359	test_recall: 42.374728	test_fscore: 39.917907
+
+rank: 798
+dev_precision: 37.549407	dev_recall: 40.0	dev_fscore: 38.735984
+test_precision: 34.2	test_recall: 37.254902	test_fscore: 35.662148
+
+rank: 799
+dev_precision: 29.356061	dev_recall: 32.631579	dev_fscore: 30.907278
+test_precision: 29.669261	test_recall: 33.224401	test_fscore: 31.346351
+
+rank: 800
+dev_precision: 21.864952	dev_recall: 28.631579	dev_fscore: 24.794895
+test_precision: 21.204819	test_recall: 28.75817	test_fscore: 24.410541
+
