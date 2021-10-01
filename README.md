@@ -1,3 +1,14 @@
+# DSNER
+Pytorch implementation to paper "Distantly Supervised NER with Partial Annotation Learning and Reinforcement Learning".
+
+# Train
+see main.py
+
+# Cite
+If you use the code or data, please cite the following paper:
+
+[Yang et al., 2018] Yaosheng Yang, Wenliang Chen, Zhenghua Li, Zhengqiu He and Min Zhang. Distantly Supervised NER with Partial Annotation Learning and Reinforcement Learning, Proceedings of COLING2018, pp.2159–2169, Santa Fe, New Mexico, USA, August 20-26, 2018
+
 # Performance Comparision
 
 Model|Training Data|Dataset|Precision|Recall|F1
